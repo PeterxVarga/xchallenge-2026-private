@@ -1,0 +1,57 @@
+original_id,original_name,historical_status,historical_falsifier,R2_comparison_family,status_note
+01,HŐOTTHON 30,J,30 lakás nem biztosítható; 8–16-os mérési modul és célzott beavatkozás a reálisabb.,housing,Historical gate retained; mapped to comparative family; not individually re-audited
+02,HŐKÖLCSÖN,J,Szezonális eszközpark tényleges használata és logisztikai költsége; ne feltételezzük a BÁRKA szabad kapacitását.,housing,Historical gate retained; mapped to comparative family; not individually re-audited
+03,HŐDEPÓ,T,Meglévő munkavédelmi minimumhoz képest igazolt többlet és munkáltatói hozzájárulás.,worker,Historical gate retained; mapped to comparative family; not individually re-audited
+04,HŐKIT,M,Személyi hűtés munkavédelmi többlete; higiénia és cserék.,worker,Historical gate retained; mapped to comparative family; not individually re-audited
+05,HŐJÁTÉK,J,"Aktív udvar, igazolt, még nem kezelt árnyékhiány; gyermekbiztonság.",camp,Historical gate retained; mapped to comparative family; not individually re-audited
+06,HŐSPORT,T,Sporthelyszín és biztonságos üzemrend; nincs bizonyított jelenlegi hiány.,camp,Historical gate retained; mapped to comparative family; not individually re-audited
+07,ÁRNYÉKFORGÓ,T,"Statika, szélterhelés, telepítési hely, tárolás; normál árnyékolóval összehasonlítás.",camp,Historical gate retained; mapped to comparative family; not individually re-audited
+08,HŐPAJZS / HŐABLAK,J,Szobaszintű túlmelegedés és meglévő hűtési beruházás tisztázása.,housing,Historical gate retained; mapped to comparative family; not individually re-audited
+09,HŐVÁLTÓ,J,Meglévő rendszerek szabályozásának tényleges hibája; energia vagy túlmelegedés mérhető javulása.,housing,Historical gate retained; mapped to comparative family; not individually re-audited
+10,HŐHÍD 16–19,M,Valódi késő délutáni szolgáltatáshiány és kihasználtság.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+11,HŰVÖS 10 PERC+,M,A meglévő hűsölőpontokhoz képest elérhetőségi/kapacitásbeli többlet.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+12,HŐVÁRÓ 3,T,"Közlekedési kezelő, forgalom, fővárosi árnyékolási terv; egy megálló a reális kezdés.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+13,HŐSTOP / SZÉLÁRNYÉK,M,"Meglévő váró tényleges szellőzési vagy sugárzási hibája, szerkezeti jóváhagyás.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+14,HŐSOR,T,"Forró betegvárakozás igazolása, meglévő időpontkezeléshez képesti többlet.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+15,HŐRECEPT,M,"Gyógyszertári elérés, hiteles tájékoztatás; nem önálló fizikai hővédelem.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+16,HŐMOBIL,M,Gondozói kapacitás és el nem ért célcsoport; nincs ingyenes járműfeltételezés.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+17,HŐTÁRS / HŐSZOMSZÉD,T,"Igazolt ellátási rés; önkéntes nem helyettesíti a szakellátást, adatvédelmi korlátok.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+18,HŰVÖS ASZTAL,M,"Tényleges hűvös hely és szolgáltatási rés, élelmiszerbiztonság.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+19,HŐFALAT,M,"Menthető áru, szabályos ellátási lánc; a hűtési főcélhoz mérhető többlet kell.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+20,HŐPIAC+,T,"Ténylegesen kitett árusok, működő árnyék, üzemeltetői engedély; forgalom és hőhatás.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+21,HŐMÉRŐ PIAC,M,Az eltérő nyitvatartás árbevételi és hőkitettségi hatása; csak engedéllyel.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+22,NAPMENTŐ,H,A teljes PV/árnyék/hűtőlánc többmilliós tőkeigénye és igazolatlan szükséglet.,worker,Historical gate retained; mapped to comparative family; not individually re-audited
+23,KŐHŐ LAB,T,"Beszerezhető anyag, tartósság, hagyományos árnyékolással összevetett többlet.",tech,Historical gate retained; mapped to comparative family; not individually re-audited
+24,HŐSZIGET 2.0,H,Hűtött pavilon teljes költsége és korlátozott használata; egyszerű árnyékoló az ellenjelölt.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+25,GYÁRKAPU 300,T,"Valós műszakváltási várakozás, gyalogos hőterhelés, tulajdonos; nincs vállalati vállalás.",worker,Historical gate retained; mapped to comparative family; not individually re-audited
+26,HŐMŰSZAK,M,Meglévő munkaszervezésen túli biztonságos időzítés; üzemi többletköltség.,worker,Historical gate retained; mapped to comparative family; not individually re-audited
+27,HŐFUTAM,T,"Rendezvénynapok, meglévő védelem, szervezői hozzájárulás; korlátozott időbeli elérés.",camp,Historical gate retained; mapped to comparative family; not individually re-audited
+28,HŐMANCS,M,"Ivóvíz és árnyék elérhetősége, állatvédelmi tájékoztatás; szűkebb humán hatás.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+29,HŐZÖLD,H,Jelzőlámpa és útkezelői hatáskör; a tényleges 2027-es módosítás nem biztos.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+30,HŐLÁNC,J,"Egy kezelőhöz tartozó, rövid útvonal; meglévő padok mellett valódi árnyékhiány.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+31,ÁRNYÉKÚT,M,Ne teljes sétány épüljön 3 M Ft-ból; HŐLÁNC egy-két pontja lehet.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+32,HŰVÖS UDVAR,T,Teljes átépítés helyett kis célzott HŐJÁTÉK-pilot; üzemfenntartás.,camp,Historical gate retained; mapped to comparative family; not individually re-audited
+33,ESŐBŐL ÁRNYÉK,T,"Helyi vízmérleg, öntözési felelős, azonnali árnyék külön biztosítva.",camp,Historical gate retained; mapped to comparative family; not individually re-audited
+34,VÍZKÖR,H,"Vízjog, hozam, minőség és infrastruktúra nincs igazolva.",tech,Historical gate retained; mapped to comparative family; not individually re-audited
+35,ÉLŐ FA GARANCIA,T,Meglévő lombkorona megóvásának marginális haszna; új facsemete késleltetett árnyéka.,tech,Historical gate retained; mapped to comparative family; not individually re-audited
+36,COOL ROOF,T,"Tetőkompatibilitás, vízszigetelési garancia, téli energiamérleg, felső emeleti hatás.",housing,Historical gate retained; mapped to comparative family; not individually re-audited
+37,PINCEMAG,H,"Zárt hőcserélő megvalósíthatósága, hőhozam, geotechnika; előtanulmány nem fizikai pilot.",tech,Historical gate retained; mapped to comparative family; not individually re-audited
+38,PINCELEVEGŐ KIFÚJÁSA,N,"Levegőminőségi, radon-, statikai és higiéniai kockázatok, nem megfelelő kis költségű pilot.",tech,Historical gate retained; mapped to comparative family; not individually re-audited
+39,IPARI HŰTŐVÍZMEGOSZTÁS,H,"Hálózati beruházás, tényleges hidegkapacitás és hűtési igény nem igazolt.",tech,Historical gate retained; mapped to comparative family; not individually re-audited
+40,KINCSEM PARK ÉJSZAKAI ÖNTÖZÉSES HŰTÉSE,N,Nem igazolt kerületi hűtőhatás és vízmérleg; sportüzemeltetési kockázat.,tech,Historical gate retained; mapped to comparative family; not individually re-audited
+41,HŰVÖS ESTÉK,M,"Ténylegesen hűvösebb időszak, zaj- és rendezvénykezelés, látogatottság.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+42,COOL ROUTES / HŰVÖSEBB ISKOLAÚT,M,Külföldi működés pozitív; helyi útvonal és mérhető használati/hőhatás kell.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+43,AUMOVIO JÁRMŰSZENZOROS HŐTÉRKÉP,M,Csak konkrét beruházási döntéshez szükséges adatként; adatjog és kalibráció.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+44,HŐÁLLÓ BESZERZÉSI SZABVÁNY,J,"HŐFELÚJÍTÁSba integrálva, fizikai beavatkozással; önálló dokumentum nem hűt.",housing,Historical gate retained; mapped to comparative family; not individually re-audited
+45,HŐSTART,T,"KKV-igény, működési finanszírozás és kiválasztási eljárás ismeretlen.",access,Historical gate retained; mapped to comparative family; not individually re-audited
+46,HŐKULACS,M,Csak igazolt ellátatlan ponton; már létező palacktöltők és ivókutak.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+47,NAPERNYŐKÖR,T,"Olcsó, visszafordítható újraértékelés; kihasználatlanság, szél és eszközvesztés.",camp,Historical gate retained; mapped to comparative family; not individually re-audited
+48,KONDENZKÖR,M,"Biztonságos nem ivóvízcél, tényleges hozam és megtérülés.",tech,Historical gate retained; mapped to comparative family; not individually re-audited
+49,KINETIKUS JÁRDA,N,Hűtési energiaigényhez képest csekély várható fajlagos termelés.,tech,Historical gate retained; mapped to comparative family; not individually re-audited
+50,KIS SZÉLTURBINA,N,"Helyi szélhozam nem igazolt, PV és passzív megoldás jobb ellenjelölt.",tech,Historical gate retained; mapped to comparative family; not individually re-audited
+51,PUSZTA HŐTÉRKÉP / APP,M,Digitális komponens a valódi fizikai vagy szolgáltatási beavatkozás mellé.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+52,ÖNÁLLÓ PÁRAKAPU / VÍZOSZTÁS / LISTA,M,Csak létező szolgáltatás igazolt hiányának javítása; vízbiztonság.,access,Historical gate retained; mapped to comparative family; not individually re-audited
+53,PUSZTA FAÜLTETÉS,H,2027-ben korlátozott lombkorona-hatás; meglévő fák megőrzése erősebb rövid távon.,tech,Historical gate retained; mapped to comparative family; not individually re-audited
+54,COOL PAVEMENT,H,Alacsonyabb felszíni hő nem garantál jobb emberi sugárzási komfortot.,tech,Historical gate retained; mapped to comparative family; not individually re-audited
+55,CARTUJA QANAT,H,"Nagy szerkezet, üzemeltetés és kihasználtság; a 3 M Ft-os keretben nem teljes rendszer.",tech,Historical gate retained; mapped to comparative family; not individually re-audited
+56,ÉTELMENTŐ APP,M,Már működő szolgáltatások mellé csak konkrét ellátási résben; nincs önálló hővédelem.,access,Historical gate retained; mapped to comparative family; not individually re-audited

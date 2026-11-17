@@ -1,0 +1,215 @@
+[
+  {
+    "id": "HOTABOR",
+    "first_year": 2750000,
+    "nonreserve": 2200000,
+    "headroom": 250000,
+    "tco_3y": 3110000,
+    "metric": "incremental safe usable shaded child-hours",
+    "status": "PLANNING_ONLY",
+    "stress": [
+      {
+        "pct": 0,
+        "spend": 2200000,
+        "within_cap": true
+      },
+      {
+        "pct": 10,
+        "spend": 2420000,
+        "within_cap": true
+      },
+      {
+        "pct": 20,
+        "spend": 2640000,
+        "within_cap": true
+      },
+      {
+        "pct": 25,
+        "spend": 2750000,
+        "within_cap": true
+      },
+      {
+        "pct": 30,
+        "spend": 2860000,
+        "within_cap": true
+      },
+      {
+        "pct": 35,
+        "spend": 2970000,
+        "within_cap": true
+      },
+      {
+        "pct": 40,
+        "spend": 3080000,
+        "within_cap": false
+      },
+      {
+        "pct": 50,
+        "spend": 3300000,
+        "within_cap": false
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "low",
+        "season_units": 600,
+        "three_season_units": 1800,
+        "cost_per_unit_3y": 1727.78
+      },
+      {
+        "name": "base",
+        "season_units": 1200,
+        "three_season_units": 3600,
+        "cost_per_unit_3y": 863.89
+      },
+      {
+        "name": "high",
+        "season_units": 2700.0,
+        "three_season_units": 8100.0,
+        "cost_per_unit_3y": 383.95
+      }
+    ]
+  },
+  {
+    "id": "HOFELUJITAS",
+    "first_year": 2700000,
+    "nonreserve": 2170000,
+    "headroom": 300000,
+    "tco_3y": 3140000,
+    "metric": "avoided occupied degree-hours above 26C reference",
+    "status": "PLANNING_ONLY",
+    "stress": [
+      {
+        "pct": 0,
+        "spend": 2170000,
+        "within_cap": true
+      },
+      {
+        "pct": 10,
+        "spend": 2387000,
+        "within_cap": true
+      },
+      {
+        "pct": 20,
+        "spend": 2604000,
+        "within_cap": true
+      },
+      {
+        "pct": 25,
+        "spend": 2712500,
+        "within_cap": true
+      },
+      {
+        "pct": 30,
+        "spend": 2821000,
+        "within_cap": true
+      },
+      {
+        "pct": 35,
+        "spend": 2929500,
+        "within_cap": true
+      },
+      {
+        "pct": 40,
+        "spend": 3038000,
+        "within_cap": false
+      },
+      {
+        "pct": 50,
+        "spend": 3255000,
+        "within_cap": false
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "low",
+        "season_units": 540.0,
+        "three_season_units": 1620.0,
+        "cost_per_unit_3y": 1938.27
+      },
+      {
+        "name": "base",
+        "season_units": 5760.0,
+        "three_season_units": 17280.0,
+        "cost_per_unit_3y": 181.71
+      },
+      {
+        "name": "high",
+        "season_units": 10800.0,
+        "three_season_units": 32400.0,
+        "cost_per_unit_3y": 96.91
+      }
+    ]
+  },
+  {
+    "id": "HODEPO",
+    "first_year": 2400000,
+    "nonreserve": 2000000,
+    "headroom": 600000,
+    "tco_3y": 3400000,
+    "metric": "incremental worker-rest hours in improved cooling conditions",
+    "status": "PLANNING_ONLY",
+    "stress": [
+      {
+        "pct": 0,
+        "spend": 2000000,
+        "within_cap": true
+      },
+      {
+        "pct": 10,
+        "spend": 2200000,
+        "within_cap": true
+      },
+      {
+        "pct": 20,
+        "spend": 2400000,
+        "within_cap": true
+      },
+      {
+        "pct": 25,
+        "spend": 2500000,
+        "within_cap": true
+      },
+      {
+        "pct": 30,
+        "spend": 2600000,
+        "within_cap": true
+      },
+      {
+        "pct": 35,
+        "spend": 2700000,
+        "within_cap": true
+      },
+      {
+        "pct": 40,
+        "spend": 2800000,
+        "within_cap": true
+      },
+      {
+        "pct": 50,
+        "spend": 3000000,
+        "within_cap": true
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "low",
+        "season_units": 50.0,
+        "three_season_units": 150.0,
+        "cost_per_unit_3y": 22666.67
+      },
+      {
+        "name": "base",
+        "season_units": 300.0,
+        "three_season_units": 900.0,
+        "cost_per_unit_3y": 3777.78
+      },
+      {
+        "name": "high",
+        "season_units": 937.5,
+        "three_season_units": 2812.5,
+        "cost_per_unit_3y": 1208.89
+      }
+    ]
+  }
+]

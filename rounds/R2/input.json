@@ -1,0 +1,362 @@
+{
+  "sources": [
+    [
+      "R2-S01",
+      "https://www.xchallenge.hu/",
+      "official contest",
+      "public page/search reviewed",
+      "Nov 20 final; feasible real local solutions; exact brief/rubric/cap/submission time not found"
+    ],
+    [
+      "R2-S02",
+      "https://www.kobanya.hu/?action=getfile&fid=208576&module=news&v=732579334638c8b3898f74d19eca7446",
+      "operator report 2025",
+      "PDF text reviewed; screenshot cache miss",
+      "printed p23: 287 children, daily average 119; unshaded paved yard drives site selection; 2026 plan for mist gate and >=10 umbrellas. Not 2027 reach."
+    ],
+    [
+      "R2-S03",
+      "https://www.kobanya.hu/?action=getfile&fid=209531&module=news&v=4420bcc60bf5f7c8dbd82c3c16de887c",
+      "operator report 2026",
+      "historic archive only; fresh reopen failed",
+      "2027 proposal AC and 4–5 open-sided shelters; residual gap and implementation unconfirmed"
+    ],
+    [
+      "R2-S04",
+      "https://harmat88.hu/kobanyai-tekergok-napkozis-nyari-tabor/",
+      "school operator",
+      "search excerpt",
+      "Kápolna tér 4 gathering location; not 2027 commitment"
+    ],
+    [
+      "R2-S05",
+      "https://www.kobanya.hu/?action=getfile&fid=208589&module=news&v=5d70cc34e42bdd3f0c40a3ab04313d84",
+      "municipal operator 2025",
+      "PDF text reviewed; screenshot cache miss",
+      "printed pp16–17: KŐKERT new site containers including warming/rest and sanitary facilities; 32 and 12 housing window replacements in stated programs; 2027 worklist and hot rooms unknown"
+    ],
+    [
+      "R2-S06",
+      "https://doi.org/10.1016/j.buildenv.2026.114702",
+      "systematic review",
+      "abstract/search reviewed",
+      "external adjustable shading generally outperforms internal; five real occupant field studies; no universal delta"
+    ],
+    [
+      "R2-S07",
+      "https://doi.org/10.35784/bud-arch.8002",
+      "dual chamber experiment",
+      "abstract/search reviewed",
+      "Poznan external shading best; internal blinds about 1C warmer; not occupied Hungarian flats"
+    ],
+    [
+      "R2-S08",
+      "https://uia.urban-initiative.eu/en/operational-challenges/paris-oasis",
+      "urban implementation programme",
+      "search reviewed",
+      "microclimate + use evaluation; not 3m full yard renovation"
+    ],
+    [
+      "R2-S09",
+      "https://challengeworks.org/challenge-prizes/million-cool-roofs-challenge/",
+      "challenge organizer",
+      "search reviewed",
+      "70 buildings in 15 cities; some pilots report >10C reduction; no Hungary transfer; simpler roof first"
+    ],
+    [
+      "R2-S10",
+      "https://aber.apacsci.com/index.php/SSD/article/view/2461",
+      "exploratory research",
+      "abstract/search reviewed",
+      "Ahmedabad 1–1.5C indoor difference, building-dependent; contrasts promotional maxima"
+    ],
+    [
+      "R2-S11",
+      "https://www.sciencedirect.com/science/article/pii/S0360132324010680",
+      "field experiment",
+      "abstract/search reviewed",
+      "Phoenix film shelter surfaces average 7C cooler, mean radiant temp >3C lower; not ambient air"
+    ],
+    [
+      "R2-S12",
+      "https://authoring.jamesdysonaward.org/en-US/2026/project/silica-shield",
+      "entrant project",
+      "self-reported/search reviewed",
+      "bio-silica sheet; reported tests; no confirmed procurement/durability/certification or award win"
+    ],
+    [
+      "R2-S13",
+      "https://www.jamesdysonaward.org/en-US/2025/project/bloc-a-modular-cooling-system-for-public-spaces",
+      "entrant project",
+      "self-reported/search reviewed",
+      "terracotta evaporative structure; full-scale field validation next; water/hygiene constraints"
+    ],
+    [
+      "R2-S14",
+      "https://preparecenter.org/site/heat-adaptive-architecture-design-competition/haad-meet-the-winners/",
+      "IFRC award organizer",
+      "search reviewed",
+      "low-cost locally sourced heat adaptive structures; no verified Hungarian permission/cost"
+    ],
+    [
+      "R2-S15",
+      "https://www.indigoaward.com/winners/10377",
+      "award organizer",
+      "search reviewed",
+      "RaHut portable resting shelter design award; not field efficacy proof"
+    ],
+    [
+      "R2-S16",
+      "https://oem.bmj.com/content/73/6/409.full",
+      "occupational field intervention",
+      "search/abstract reviewed",
+      "El Salvador water-rest-shade + mobile canopy; very different work context"
+    ],
+    [
+      "R2-S17",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7487490/",
+      "umbrella review",
+      "abstract/search reviewed",
+      "multi-component heat mitigation, context dependent; field evidence gaps"
+    ],
+    [
+      "R2-S18",
+      "https://njt.jog.gov.hu/jogszabaly/2002-3-20-85",
+      "law",
+      "search text reviewed",
+      "mandatory rest and drinking provisions for hot work; project cannot claim legal minimum as innovation; exact application with professional"
+    ],
+    [
+      "R2-S19",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12273142/",
+      "systematic review",
+      "abstract/search reviewed",
+      "141 studies reported across landscape/building/individual interventions; heterogeneous, not local causal result"
+    ],
+    [
+      "R2-S20",
+      "https://xgain.hu/x-challenge/",
+      "historical contest",
+      "search reviewed",
+      "2023 micromobility pitch max 5 min; not 2026 rule"
+    ],
+    [
+      "R2-S21",
+      "https://geraldbyte.github.io/coolstop-pcm-shelter/",
+      "entrant prototype",
+      "self-reported/search reviewed",
+      "PCM roof bench, regeneration and lifecycle unknown"
+    ],
+    [
+      "R2-S22",
+      "https://www.sciencedirect.com/science/article/pii/S0360132324012356",
+      "occupational PCM research",
+      "abstract/search reviewed",
+      "personal vest mechanism; work intensity and regeneration not validated locally"
+    ],
+    [
+      "R2-S23",
+      "https://ifdesign.com/en/winner-ranking/project/subambient-the-planet-centric-cooling-material/653232",
+      "design award",
+      "search reviewed",
+      "radiative roof material design; procurement vs ordinary white roof unverified"
+    ],
+    [
+      "R2-S24",
+      "https://www.nature.com/articles/s42949-025-00271-3",
+      "economic study",
+      "abstract/search reviewed",
+      "benefit cost depends on local baseline, building type and intervention; no Hungarian avoided-loss transfer"
+    ],
+    [
+      "R2-S25",
+      "https://mete.hu/tetoablak-arnyekolas/",
+      "vendor price guide",
+      "search reviewed",
+      "roof-window exterior shade 74–81k installed vs motorized 330–360k; different window type, not local quote"
+    ]
+  ],
+  "models": [
+    {
+      "id": "HOTABOR",
+      "name": "HŐTÁBOR 2.0",
+      "items": {
+        "site_design_safety": 250000,
+        "shade_if_gap": 800000,
+        "installation_approval": 450000,
+        "monitoring": 220000,
+        "operation_training": 280000,
+        "storage": 200000,
+        "reserve": 550000
+      },
+      "annual_followup": 180000,
+      "metric": "incremental safe usable shaded child-hours",
+      "scenarios": [
+        {
+          "name": "low",
+          "people": 20,
+          "days": 30,
+          "hours": 1,
+          "delta": 1
+        },
+        {
+          "name": "base",
+          "people": 40,
+          "days": 30,
+          "hours": 1,
+          "delta": 1
+        },
+        {
+          "name": "high",
+          "people": 60,
+          "days": 30,
+          "hours": 1.5,
+          "delta": 1
+        }
+      ]
+    },
+    {
+      "id": "HOFELUJITAS",
+      "name": "HŐFELÚJÍTÁS",
+      "items": {
+        "installed_shading_12_units": 1440000,
+        "diagnosis": 220000,
+        "monitoring": 240000,
+        "coordination": 150000,
+        "operation_maintenance": 120000,
+        "reserve": 530000
+      },
+      "annual_followup": 220000,
+      "metric": "avoided occupied degree-hours above 26C reference",
+      "scenarios": [
+        {
+          "name": "low",
+          "people": 6,
+          "days": 30,
+          "hours": 6,
+          "delta": 0.5
+        },
+        {
+          "name": "base",
+          "people": 12,
+          "days": 40,
+          "hours": 10,
+          "delta": 1.2
+        },
+        {
+          "name": "high",
+          "people": 12,
+          "days": 50,
+          "hours": 12,
+          "delta": 1.5
+        }
+      ]
+    },
+    {
+      "id": "HODEPO",
+      "name": "HŐDEPÓ–1",
+      "items": {
+        "qualified_mobile_shade": 650000,
+        "additional_cooling_equipment": 400000,
+        "monitoring": 300000,
+        "logistics_safety": 200000,
+        "operation": 250000,
+        "training": 200000,
+        "reserve": 400000
+      },
+      "annual_followup": 500000,
+      "metric": "incremental worker-rest hours in improved cooling conditions",
+      "scenarios": [
+        {
+          "name": "low",
+          "people": 8,
+          "days": 25,
+          "hours": 0.25,
+          "delta": 1
+        },
+        {
+          "name": "base",
+          "people": 15,
+          "days": 40,
+          "hours": 0.5,
+          "delta": 1
+        },
+        {
+          "name": "high",
+          "people": 25,
+          "days": 50,
+          "hours": 0.75,
+          "delta": 1
+        }
+      ]
+    }
+  ],
+  "crossGroups": {
+    "housing": [
+      1,
+      2,
+      8,
+      9,
+      36,
+      44
+    ],
+    "worker": [
+      3,
+      4,
+      22,
+      25,
+      26
+    ],
+    "camp": [
+      5,
+      6,
+      7,
+      27,
+      32,
+      33,
+      47
+    ],
+    "access": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      24,
+      28,
+      29,
+      30,
+      31,
+      41,
+      42,
+      43,
+      45,
+      46,
+      51,
+      52,
+      56
+    ],
+    "tech": [
+      23,
+      34,
+      35,
+      37,
+      38,
+      39,
+      40,
+      48,
+      49,
+      50,
+      53,
+      54,
+      55
+    ]
+  }
+}
