@@ -1,9 +1,11 @@
 # X-Challenge 2026 — Unified Research, Innovation & Project Development
 
 ## Current competition decision — 2026-11-17
-**HŐTÁBOR PLUSZ — Hőségálló tanulási és gyermekellátási környezet Kőbányán. Topic and concept FROZEN / COMPLETED; field implementation PARTIAL. NO_SEND, NO_PROTOTYPE, NO_PRESENTATION.**
+**Concept selection REOPENED / PARTIAL by explicit user request; HŐTÁBOR PLUSZ is the benchmark, HŐHÁLÓ distributed reuse-first challenger is not a final selection. NO_SEND, NO_PROTOTYPE, NO_PRESENTATION.**
 
-- [R116 final approved concept](rounds/R116/FINAL_CONCEPT.md): single canonical topic and concept decision. HŐTÉR ventilated two-skin microclimate classroom is the leading conditional physical candidate, HŐROUTIN coordinated care is the operating innovation, HŐSZOBA safe indoor fallback with new investment only if justified. No approved material, structure, spending or construction. Freeze further speculative tournaments; retain evidence and use real decision-changing facts.
+- [R119 competitive advantage](rounds/R119/COMPETITIVE_ADVANTAGE.md): original 2026 camp report re-opened and visually checked, school-by-week distribution reconciled, district and international evidence, conditional 1/5/10-season allocation comparison. No approved second site or measured advantage. Concept selection remains OPEN.
+
+- [R116 final approved concept](rounds/R116/FINAL_CONCEPT.md): previous frozen reference, superseded as a lock by R119. HŐTÉR ventilated two-skin microclimate classroom is the leading conditional physical candidate, HŐROUTIN coordinated care is the operating innovation, HŐSZOBA safe indoor fallback with new investment only if justified. No approved material, structure, spending or construction. Retain supporting evidence; no mandatory architecture.
 
 - [R118 jury red team](rounds/R118/JURY_RED_TEAM.md): internal adversarial review, concrete small-group physical scope, newly reverified historical drainage/staffing constraints, distinct service/physical outcomes and like-for-like incremental cost. R116 concept unchanged; R118 governs claim limits and pilot gates, not independent jury approval.
 - [R117 feasibility and investment plan](rounds/R117/FEASIBILITY_INVESTMENT.md): conditional line-item 1/5/10-season economics, reuse vs new single/double/PDRC canopy, local contract evidence and financing eligibility, site/approval gates and 1/3/5-site sensitivity. No secured funds or supplier quote. Real 2027 scope, M2 costs, installed price and outcome remain UNKNOWN; no change to R116 concept. 
@@ -13,7 +15,7 @@
 - [R81](rounds/R81/FINAL_COMPETITIVE_CONCEPT.md), [R34–45](rounds/R34-R45/FINAL_MASTER_CONCEPT.md), [R47](rounds/R47/DECISION.md), [R48](rounds/R48/DECISION.md), [R49–65](rounds/R49-R65/DECISION.md), [R66–80 HŐOTTHON alternative](rounds/R66-R80/MASTER_CONCEPT_AND_FINAL_CHALLENGER.md): prior research and counterevidence, not additional submissions.
 - [R82 presentation](rounds/R82/DECISION.md): historical, deliberately not updated. Not current technical authority.
 
-[R11 official brief record](rounds/R11/DECISION.md): five equal criteria; no numerical budget ceiling. 2027 actual remaining need, permissions, geometry, contract, prices and field outcomes UNKNOWN. No partner commitment, spending, outreach or presentation work authorized. No further speculative development recommended without decision-changing evidence.
+[R11 official brief record](rounds/R11/DECISION.md): five equal criteria; no numerical budget ceiling. 2027 actual remaining need, permissions, geometry, contract, prices and field outcomes UNKNOWN. No partner commitment, spending, outreach or presentation work authorized. Compare hypotheses only within X-Challenge; real implementation not authorized.
 
 ---
 
