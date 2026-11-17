@@ -1,14 +1,14 @@
 # X-Challenge 2026 — Unified Research, Innovation & Project Development
 
 ## Current competition decision — 2026-11-17
-**HŐTÁBOR — Hőségálló gyermekellátás. Desk concept COMPLETED; implementation PARTIAL. NO_SEND. No presentation development.**
+**HŐTÁBOR — Hőségálló gyermekellátás. Desk concept and documentation COMPLETED; field implementation PARTIAL. NO_SEND, NO_PRESENTATION.**
 
-- [R85 final integrated technical and social master](rounds/R85/FINAL_MASTER_CONCEPT.md): current authority, integrates R83 and R84 with reconstructed 2026 meal-day evidence and child, household, staff and school-year impact/acceptance. 210–230k lean and 390–410k conservative D/B1 five-day scenarios are assumptions, not quotations. Physical modules require separate confirmed need, design and costs.
-- [R83 operating and cost master](rounds/R83/MASTER_CONCEPT.md), [R84 engineering annex](rounds/R84/ENGINEERING_ANNEX.md), [reproducible model](rounds/R84/model.mjs): preserved source records, integrated in R85.
-- [R81](rounds/R81/FINAL_COMPETITIVE_CONCEPT.md), [R34–45](rounds/R34-R45/FINAL_MASTER_CONCEPT.md), [R47](rounds/R47/DECISION.md), [R48](rounds/R48/DECISION.md), [R49–65](rounds/R49-R65/DECISION.md), [R66–80 HŐOTTHON alternative](rounds/R66-R80/MASTER_CONCEPT_AND_FINAL_CHALLENGER.md): supporting historical evidence, not competing submissions.
+- [R86–R100 final professional project plan](rounds/R86-R100/FINAL_PROJECT.md): current single narrative authority. Local service continuity, engineering, social impact, full costs and measurement; additional standby/cancellation and incremental-effect decision rules. D/B1 pilot estimates are conditional models, not offers or secured savings. No approved hardware budget; actual engineering design is required.
+- [R85 integrated evidence dossier](rounds/R85/FINAL_MASTER_CONCEPT.md), [R83 operating and financial source](rounds/R83/MASTER_CONCEPT.md), [R84 engineering calculations](rounds/R84/ENGINEERING_ANNEX.md), [reproducible model](rounds/R84/model.mjs): unchanged audit sources. Their historical cost examples and status statements do not override the current project plan.
+- [R81](rounds/R81/FINAL_COMPETITIVE_CONCEPT.md), [R34–45](rounds/R34-R45/FINAL_MASTER_CONCEPT.md), [R47](rounds/R47/DECISION.md), [R48](rounds/R48/DECISION.md), [R49–65](rounds/R49-R65/DECISION.md), [R66–80 HŐOTTHON alternative](rounds/R66-R80/MASTER_CONCEPT_AND_FINAL_CHALLENGER.md): prior research and counterevidence, not additional submissions.
 - [R82 presentation](rounds/R82/DECISION.md): historical, deliberately not updated. Not current technical authority.
 
-[R11 official brief record](rounds/R11/DECISION.md): five equally weighted criteria; no numeric budget ceiling. Actual 2027 remaining need, permissions, current contract annexes, geometry, approved costs and field effect UNKNOWN. No approved partner commitments or spending. No external outreach or presentation work authorized.
+[R11 official brief record](rounds/R11/DECISION.md): five equal criteria; no numerical budget ceiling. 2027 actual remaining need, permissions, geometry, contract, prices and field outcomes UNKNOWN. No partner commitment, spending, outreach or presentation work authorized. No further speculative development recommended without decision-changing evidence.
 
 ---
 
