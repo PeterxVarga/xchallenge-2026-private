@@ -1,0 +1,52 @@
+{
+  "budget_cap": 3000000,
+  "working_only": true,
+  "capex": {
+    "survey_calibration": 200000,
+    "sensors_24_x_23500": 564000,
+    "volume_logging": 180000,
+    "install_protect": 240000,
+    "operator_measurement": 420000,
+    "route_workflow": 100000,
+    "evaluation": 200000,
+    "reserve": 296000
+  },
+  "stage_one": {
+    "survey": 120000,
+    "four_sensors": 94000,
+    "baseline_logs": 80000,
+    "training": 56000
+  },
+  "year2_3_opex_each": 350000,
+  "trees": {
+    "treatment": 60,
+    "comparison": 60,
+    "clusters": 12
+  },
+  "scenario": [
+    {
+      "name": "low",
+      "cycles": 15,
+      "litres": 40,
+      "saving_share": 0.1
+    },
+    {
+      "name": "base",
+      "cycles": 24,
+      "litres": 60,
+      "saving_share": 0.2
+    },
+    {
+      "name": "high",
+      "cycles": 30,
+      "litres": 80,
+      "saving_share": 0.3
+    }
+  ],
+  "scale_examples": [
+    60,
+    500,
+    1500
+  ],
+  "hypothetical_delivery_huf_per_m3": 1000
+}

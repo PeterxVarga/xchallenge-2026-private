@@ -1,0 +1,80 @@
+{
+  "status": "PLANNING_ONLY",
+  "first_year": 2200000,
+  "stage_A": 350000,
+  "stage_B_max": 1850000,
+  "headroom": 800000,
+  "nonreserve": 1904000,
+  "tco_3y": 2900000,
+  "annualized_pilot_cost": 966666.67,
+  "scenarios": [
+    {
+      "name": "low",
+      "baseline_m3": 36.0,
+      "hypothetical_saved_m3": 3.6,
+      "avoided_water_cost_at_assumed_marginal_cost": 3600.0,
+      "status": "SCENARIO_ONLY"
+    },
+    {
+      "name": "base",
+      "baseline_m3": 86.4,
+      "hypothetical_saved_m3": 17.28,
+      "avoided_water_cost_at_assumed_marginal_cost": 17280.0,
+      "status": "SCENARIO_ONLY"
+    },
+    {
+      "name": "high",
+      "baseline_m3": 144.0,
+      "hypothetical_saved_m3": 43.2,
+      "avoided_water_cost_at_assumed_marginal_cost": 43200.0,
+      "status": "SCENARIO_ONLY"
+    }
+  ],
+  "scales": [
+    {
+      "trees": 60,
+      "baseline_m3": 86.4,
+      "saved_m3": 17.28,
+      "status": "SENSITIVITY_NOT_VERIFIED_OR_SCALING_COST"
+    },
+    {
+      "trees": 500,
+      "baseline_m3": 720.0,
+      "saved_m3": 144.0,
+      "status": "SENSITIVITY_NOT_VERIFIED_OR_SCALING_COST"
+    },
+    {
+      "trees": 1500,
+      "baseline_m3": 2160.0,
+      "saved_m3": 432.0,
+      "status": "SENSITIVITY_NOT_VERIFIED_OR_SCALING_COST"
+    }
+  ],
+  "stress": [
+    {
+      "pct": 10,
+      "spend": 2094400,
+      "within_cap": true
+    },
+    {
+      "pct": 25,
+      "spend": 2380000,
+      "within_cap": true
+    },
+    {
+      "pct": 40,
+      "spend": 2665600,
+      "within_cap": true
+    },
+    {
+      "pct": 50,
+      "spend": 2856000,
+      "within_cap": true
+    },
+    {
+      "pct": 60,
+      "spend": 3046400,
+      "within_cap": false
+    }
+  ]
+}
