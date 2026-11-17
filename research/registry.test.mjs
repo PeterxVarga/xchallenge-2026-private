@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {validate,select} from './registry.mjs';
+const original=JSON.parse(fs.readFileSync(new URL('./findings.json',import.meta.url),'utf8'));
+const copy=()=>structuredClone(original);
+test('registry structure',()=>assert.deepEqual(validate(original),[]));
+test('duplicate ID rejected',()=>{const d=copy();d.findings.push(d.findings[0]);assert.ok(validate(d).some(e=>e.includes('duplicate')));});
+test('missing source rejected',()=>{const d=copy();d.findings[0].source='missing';assert.ok(validate(d).some(e=>e.includes('unresolved source')));});
+test('invalid evidence rejected',()=>{const d=copy();d.findings[0].kind='PROVEN_PRODUCTION';assert.ok(validate(d).some(e=>e.includes('classification')));});
+test('locator checked',()=>{const d=copy();const docs=Object.fromEntries(Object.keys(d.sources).map(id=>[id,d.findings.filter(f=>f.source===id).map(f=>f.locator).join('\n')]));assert.deepEqual(validate(d,docs),[]);d.findings[0].locator='not in synthetic document';assert.ok(validate(d,docs).some(e=>e.includes('unresolved locator')));});
+test('water decision gate available',()=>assert.ok(select(original,'WATER','UNKNOWN').some(f=>f.id==='water-gap')));
+test('Hungarian search',()=>assert.ok(select(original,'HOME','','újhegyi').some(f=>f.id==='housing-noise')));
