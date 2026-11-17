@@ -10,7 +10,7 @@ No topic selected. R11 controls eligibility/rubric (five equal factors, no numer
 - TRANSIT and SCHOOL reserve; avoid duplicating funded or planned projects; actual service gap needed.
 No numeric score or invented readiness percentage. Qualitative decision aid, not jury verdict.
 ## Query the machine-readable findings
-`findings.json` is a curated subset: 36 decision-critical findings from 12 repository documents at the recorded baseline. It includes counterevidence, assumptions and unresolved gates, not just supporting evidence. External source verification is inherited from the cited report, not repeated in this consolidation. The ID names are stable; a finding is not a round, citation count or unique external source. Every item has source ID, locator, claim, limit and consequence. Source map pins a commit and blob. Original URLs and evidence accessibility are in the referenced research document; do not promote a search abstract/model to verified outcome. Existing 78 historical observations are not counted as newly imported, and all prior 56 ideas are not individually indexed here.
+`findings.json` is a curated subset: 40 decision-critical findings from 13 repository documents at the recorded baseline plus explicitly admitted later reports. It includes counterevidence, assumptions and unresolved gates, not just supporting evidence. External source verification is inherited from the cited report, not repeated in this consolidation. The ID names are stable; a finding is not a round, citation count or unique external source. Every item has source ID, locator, claim, limit and consequence. Source map pins a commit and blob. Original URLs and evidence accessibility are in the referenced research document; do not promote a search abstract/model to verified outcome. Existing 78 historical observations are not counted as newly imported, and all prior 56 ideas are not individually indexed here.
 Node 18+ in repo checkout (no external package/network necessary):
 ```sh
 node research/registry.mjs check
@@ -20,12 +20,12 @@ node research/registry.mjs blockers WATER
 node research/registry.mjs blockers
 node --test research/registry.test.mjs
 ```
-Check verifies schema, duplicate IDs, evidence-type classification, document availability, locator presence, and repo-local Git blob hashes; these are **integrity** checks, not factual certification or field tests. Use pinned original via GitHub when checkout differs. Query returns matching records, not physical feasibility or completeness. UNKNOWN is not zero. LOCAL_HISTORICAL means historical report/event, not current site proof; LOCAL_PLAN is not delivery; UPSTREAM is precedent not local proof; MODEL is a hypothetical calculation; RULE is governance. 
+Check verifies schema, duplicate IDs, evidence-type classification, document availability, locator presence, and repo-local Git blob hashes; these are **integrity** checks, not factual certification or field tests. Use pinned original via GitHub when checkout differs. Query returns matching records, not physical feasibility or completeness. UNKNOWN is not zero. LOCAL_HISTORICAL means historical report/event, not current site proof; LOCAL_PLAN is not delivery; UPSTREAM is precedent not local proof; MODEL is a hypothetical calculation; RULE is governance.
 ## Research cycle (one vertical slice, not more admin)
 1. Load registry, relevant blockers and R11; consult the full source records before acting. Search only for new facts that can change the decision; consider at least three real paths and an independent simpler counterexample. Avoid duplicated source audits.
 2. Research and optimize the physical, economic and adoption alternative with traced evidence, date and scope; compare ordinary baseline and do not mix impact units. Document anything that falsifies the favorite.
 3. Write one consolidated report in rounds/ with new noncolliding PATH, not a claim of many rounds by numbering. Preserve original source URLs, observed state, acquisition limits, contradictory evidence, model vs local measurement and permission limits.
-4. Register actionable new facts in findings.json using stable IDs; use the source map with path, immutable commit ref and blob (commit the report first, then capture exact blob). Append new correction IDs rather than silently editing earlier facts; put explicit supersedes references in claim/decision and reconcile related blockers. If resolved, replace the UNKNOWN classification only with evidence and document the change in the report; don't delete the historical report. Run check and regression tests and query affected family after update. A check failure is not approval to repin blindly. Keep README current decision pointer, never overwrite historical material with a new claim.
+4. Register actionable findings using reviewed finding-json cards and workbench admission below; commit the report first, then capture exact blob. Append correction IDs rather than silently editing earlier facts. Put explicit correction references in claim/decision and reconcile blockers with new evidence. Old UNKNOWN entries remain visible until a separately reviewed supersession mechanism exists; no automatic resolution. Do not delete the historical report. Run check and regression tests and query affected family after update. A check failure is not approval to repin blindly. Keep README current decision pointer, never overwrite historical material with a new claim.
 5. Close with demonstrated change, unresolved decision, and next best ROI; final topic OPEN unless user explicitly chooses. No automatic fieldwork, presentation, outreach, external deployment or buying. Local read-only tool only; no cron, cloud pipeline or automatic extraction enabled.
 ## Entry references (full source reports, independent variants preserved)
 - [Official brief record](../rounds/R11/DECISION.md)
@@ -33,3 +33,21 @@ Check verifies schema, duplicate IDs, evidence-type classification, document ava
 - [R151 three finalists](../rounds/R151/THREE_FINALISTS.md) and [R151 breakthrough](../rounds/R151/GLOBAL_BREAKTHROUGH_INNOVATION.md)
 - [R152–200 integrated alternate study](../rounds/R152-R200/ULTIMATE_CONCEPT_OPTIMIZATION.md), [R152 geometry](../rounds/R152/MAXIMUM_WINNING_CONCEPT_ENGINEERING.md)
 - [R153 local plans](../rounds/R153/MAXIMUM_WINNING_POTENTIAL.md), [R154 cross-sector](../rounds/R154/CONCEPT_BREAKTHROUGH.md), [R155 engineering](../rounds/R155/ULTIMATE_CONCEPT_OPTIMIZATION.md), [R156 silent cooling](../rounds/R156/LOCAL_EVIDENCE_AND_SILENT_COOLING.md)
+
+
+## R157 — native source-to-decision workbench
+Use a full Git history checkout (pinned ancestor refs must be available). The workbench uses the existing JSON registry and standard Node/Git; no external packages or services.
+```sh
+node research/workbench.mjs coverage
+node research/workbench.mjs search "zajvedelmi nyilaszaro" 12
+node research/workbench.mjs packet HOME
+node research/workbench.mjs packet WATER
+node research/workbench.mjs admit rounds/R157/SOURCE_TO_DECISION.md r157
+node research/workbench.mjs admit rounds/R157/SOURCE_TO_DECISION.md r157 --apply
+node research/registry.mjs check
+node --test research/registry.test.mjs research/workbench.test.mjs
+```
+Search covers tracked textual reports, archives, historical observation export and methodology; accent-insensitive lexical matching in line context, NOT semantic search. Hits are unreviewed, with line, path, content hash and commit if clean. Historical snippets do not gain present-day validity. A decision packet returns curated findings, source provenance and explicit unknowns; no empty-list readiness claim.
+Admission requires author-reviewed, explicitly delimited finding-json blocks as in R157, exact Markdown heading locator, stable ID, family, kind, claim, limit and decision. Preview does not write. --apply appends the cards atomically after checking both current and pinned source hashes; unchanged rerun adds nothing; collisions are rejected. It does not interpret unrestricted prose, certify external sources, automatically retire blockers, call an LLM or run on a schedule. Use a new report path/ID for a correction. Source report must already be committed and unchanged. Keep workbench writes serialized by a single operator.
+Baseline measured in native checkout: 81 eligible textual files (61 round Markdown), 78 legacy observation rows, 36 curated findings / 12 sources. R157 adds one report and four curated cards, two are confirmation/interpretation of existing context rather than new independent events. The original PDF evidence is linked, not embedded. No site/field acceptance.
+[R157 source and decision record](../rounds/R157/SOURCE_TO_DECISION.md).

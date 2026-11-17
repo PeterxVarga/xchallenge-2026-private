@@ -72,6 +72,11 @@
       "path": "rounds/R66-R80/MASTER_CONCEPT_AND_FINAL_CHALLENGER.md",
       "blob": "27c353499679e6d4fec50e9cd952573a170d5920",
       "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "r157": {
+      "path": "rounds/R157/SOURCE_TO_DECISION.md",
+      "ref": "869783b21963fd8c0cb45fc6b014a0df1653a5a7",
+      "blob": "f1b75055234a259fdaa4f84318d83321c18b6513"
     }
   },
   "findings": [
@@ -434,6 +439,46 @@
       "claim": "100kg ×180kJ/kg PCM ideálisan 5kWh; regeneráció és teljesítmény korlátozza.",
       "limit": "Hipotetikus kapacitás, nem beszerzés.",
       "decision": "Nem automatikus high-tech előny."
+    },
+    {
+      "id": "r157-noise-budget",
+      "family": "HOME",
+      "kind": "LOCAL_PLAN",
+      "locator": "## Lakhatási költségvetési csatorna",
+      "claim": "A 2026. június 30-i előirányzati mellékletben a Budapest Airport zajvédelmi nyílászárócserére 36 553 410 Ft szerepel az ÁFA nélküli ingatlanfelújítási szekcióban.",
+      "limit": "Kinyert táblázat; a pontos sor oldalképe nem ellenőrzött. Nem szabad maradvány, nem tényleges kiadás és nem hővédelmi keret.",
+      "decision": "HŐOTTHON CSEND bevezetési csatornáját erősíti, új hővédelmi finanszírozást nem igazol.",
+      "source": "r157"
+    },
+    {
+      "id": "r157-gezenguz-progress",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## Óvodai felújítás és névkorrekció",
+      "claim": "A 2026 első félévi beszámoló eredeti 13. oldala a Gézengúz hűtési és villamos/fűtési korszerűsítéséhez lezajlott közbeszerzést és június végén indult kivitelezést rögzít.",
+      "limit": "A beszámoló történeti státusza, nem átadás vagy működő szobahűtés; R153–155 előzmény újraellenőrzése, nem új független beruházás.",
+      "decision": "A normál beruházás lefedettségét kell előbb ismerni; a hűtési pilot nem számolható ezen munka helyett.",
+      "source": "r157"
+    },
+    {
+      "id": "r157-napsugar-heading",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_PLAN",
+      "locator": "## Óvodai felújítás és névkorrekció",
+      "claim": "Az eredeti 13. oldalkép a Napsugár Bölcsőde és Csodapók Óvoda teljes felújítását nevezi meg, 4 milliárd Ft 2026-os jóváhagyott fedezettel; a kinyert szöveg ettől eltérő óvodanevet tartalmaz.",
+      "limit": "A dokumentum előző oldala is eltérő bölcsődenevezést használ. Nem bizonyított telephelyi útvonal, elkészült beruházás, hűtési részkeret vagy új projektforrás.",
+      "decision": "Oldalkép az elsődleges, de az intézményi névellentmondást nem oldjuk fel feltételezéssel. 2027-es ellátási hely és kivitelezés egyeztetése szükséges.",
+      "source": "r157"
+    },
+    {
+      "id": "r157-unallocated-ac",
+      "family": "ALL",
+      "kind": "LOCAL_PLAN",
+      "locator": "## Lakhatási költségvetési csatorna",
+      "claim": "A 2026. június 30-i általános tartalék felhasználásának táblája 3 154 000 Ft klímabeszerzést mutat a módosítások között.",
+      "limit": "A sor nem nevezi meg a fogadó intézményt, egységszámot vagy beszerelést. Nem hozzáférhető új keret és nem a Tekergő/KEÓ átadási bizonyítéka.",
+      "decision": "Ne tulajdonítsuk a döntősöknek; további konkrét beruházásazonosító szükséges.",
+      "source": "r157"
     }
   ]
 }
