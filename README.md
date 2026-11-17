@@ -1,14 +1,14 @@
 # X-Challenge 2026 — Unified Research, Innovation & Project Development
 
 ## Current competition decision — 2026-11-17
-**HŐTÁBOR — Hőségálló gyermekellátás. Desk concept COMPLETED; field implementation PARTIAL. NO_SEND.**
+**HŐTÁBOR — Hőségálló gyermekellátás. Desk concept COMPLETED; field implementation PARTIAL. NO_SEND. Concept and documentation only.**
 
-- [R81 current decision and competitive concept](rounds/R81/FINAL_COMPETITIVE_CONCEPT.md): the selected concept is one conditional service-continuity pilot, first reference 410k HUF for five qualifying days, not a mandatory three-module investment. Physical capacity interventions only for independent verified residual needs; technology-neutral selection.
-- [R34–45 underlying master concept](rounds/R34-R45/FINAL_MASTER_CONCEPT.md): retained, with R81 superseding conflicting technical preferences, scope priority and budget narrative.
+- [R83 current standalone technical master](rounds/R83/MASTER_CONCEPT.md): documented local catering network and Szent László school serving kitchen as conditional alternative, staged authorization, lean and conservative economics, technical modules and acceptance. The 210–230k HUF lean five-day examples and the 390–410k conservative examples for D/B1 are conditional estimates, not quotations or secured savings. Select actual approved, effective and affordable branch; no automatic physical investment.
+- [R81 prior competitive concept](rounds/R81/FINAL_COMPETITIVE_CONCEPT.md), [R34–45 foundational master](rounds/R34-R45/FINAL_MASTER_CONCEPT.md): preserved, R83 supersedes conflicting technical priorities and cost narrative.
 - [R47 HVAC comparison](rounds/R47/DECISION.md), [R48 local plans](rounds/R48/DECISION.md), [R49–65 technology challengers](rounds/R49-R65/DECISION.md), [R66–80 HŐOTTHON alternative](rounds/R66-R80/MASTER_CONCEPT_AND_FINAL_CHALLENGER.md): supporting evidence and alternative, not parallel competition submissions.
-- [R82 revised presentation and jury challenge](rounds/R82/DECISION.md): locally verified 10 main +5 backup slides, speaker notes and 15 jury questions aligned with R81. Human timed rehearsal still required; binaries are chat attachments, not stored here. [R46](rounds/R46/DECISION.md) is superseded; no external submission authorized.
+- [R82 presentation package](rounds/R82/DECISION.md): historical alignment with R81; deliberately not updated per owner direction. Do not treat as current technical authority. No further presentation work or external outreach authorized.
 
-The original [R11 finalist brief](rounds/R11/DECISION.md) has five equally weighted criteria and no numeric budget ceiling. 2027 actual site condition, permissions, prices and field effect are UNKNOWN. No approved spending or partner commitments. Historic sources are preserved.
+[R11 finalist brief](rounds/R11/DECISION.md): five equally weighted criteria; no numerical budget ceiling. 2027 actual site, residual need, current contract annexes, permissions, staffing, prices, route and field effect UNKNOWN. No approved spending or partner commitments. Historical sources retained.
 
 ---
 
