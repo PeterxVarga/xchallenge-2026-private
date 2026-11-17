@@ -1,15 +1,14 @@
 # X-Challenge 2026 — Unified Research, Innovation & Project Development
 
 ## Current competition decision — 2026-11-17
-**HŐTÁBOR — Hőségálló gyermekellátás. Desk concept COMPLETED; field implementation PARTIAL. NO_SEND. Concept and documentation only.**
+**HŐTÁBOR — Hőségálló gyermekellátás. Desk concept COMPLETED; implementation PARTIAL. NO_SEND. No presentation development.**
 
-- [R83 current standalone technical master](rounds/R83/MASTER_CONCEPT.md): documented local catering network and Szent László school serving kitchen as conditional alternative, staged authorization, lean and conservative economics, technical modules and acceptance. The 210–230k HUF lean five-day examples and the 390–410k conservative examples for D/B1 are conditional estimates, not quotations or secured savings. Select actual approved, effective and affordable branch; no automatic physical investment.
-- [R84 engineering annex](rounds/R84/ENGINEERING_ANNEX.md) and [reproducible model](rounds/R84/model.mjs): local heritage constraint, solar/shade geometry and sensible/latent classroom load scenarios. Supersedes automatic inference of equipment size or classroom price from R47; R83 service pilot remains the current proposal. Actual geometry, certified design and hardware budget UNKNOWN.
-- [R81 prior competitive concept](rounds/R81/FINAL_COMPETITIVE_CONCEPT.md), [R34–45 foundational master](rounds/R34-R45/FINAL_MASTER_CONCEPT.md): preserved, R83 supersedes conflicting technical priorities and cost narrative.
-- [R47 HVAC comparison](rounds/R47/DECISION.md), [R48 local plans](rounds/R48/DECISION.md), [R49–65 technology challengers](rounds/R49-R65/DECISION.md), [R66–80 HŐOTTHON alternative](rounds/R66-R80/MASTER_CONCEPT_AND_FINAL_CHALLENGER.md): supporting evidence and alternative, not parallel competition submissions.
-- [R82 presentation package](rounds/R82/DECISION.md): historical alignment with R81; deliberately not updated per owner direction. Do not treat as current technical authority. No further presentation work or external outreach authorized.
+- [R85 final integrated technical and social master](rounds/R85/FINAL_MASTER_CONCEPT.md): current authority, integrates R83 and R84 with reconstructed 2026 meal-day evidence and child, household, staff and school-year impact/acceptance. 210–230k lean and 390–410k conservative D/B1 five-day scenarios are assumptions, not quotations. Physical modules require separate confirmed need, design and costs.
+- [R83 operating and cost master](rounds/R83/MASTER_CONCEPT.md), [R84 engineering annex](rounds/R84/ENGINEERING_ANNEX.md), [reproducible model](rounds/R84/model.mjs): preserved source records, integrated in R85.
+- [R81](rounds/R81/FINAL_COMPETITIVE_CONCEPT.md), [R34–45](rounds/R34-R45/FINAL_MASTER_CONCEPT.md), [R47](rounds/R47/DECISION.md), [R48](rounds/R48/DECISION.md), [R49–65](rounds/R49-R65/DECISION.md), [R66–80 HŐOTTHON alternative](rounds/R66-R80/MASTER_CONCEPT_AND_FINAL_CHALLENGER.md): supporting historical evidence, not competing submissions.
+- [R82 presentation](rounds/R82/DECISION.md): historical, deliberately not updated. Not current technical authority.
 
-[R11 finalist brief](rounds/R11/DECISION.md): five equally weighted criteria; no numerical budget ceiling. 2027 actual site, residual need, current contract annexes, permissions, staffing, prices, route and field effect UNKNOWN. No approved spending or partner commitments. Historical sources retained.
+[R11 official brief record](rounds/R11/DECISION.md): five equally weighted criteria; no numeric budget ceiling. Actual 2027 remaining need, permissions, current contract annexes, geometry, approved costs and field effect UNKNOWN. No approved partner commitments or spending. No external outreach or presentation work authorized.
 
 ---
 
