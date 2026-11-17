@@ -1,11 +1,14 @@
 # X-Challenge 2026 — Unified Research, Innovation & Project Development
 
-## Current canonical decision — 2026-11-17
-**HŐTÁBOR — Hőségálló gyermekellátás. Desk concept COMPLETED; implementation PARTIAL. NO_SEND, NO_PRESENTATION.**
+## Current competition decision — 2026-11-17
+**HŐTÁBOR — Hőségálló gyermekellátás. Desk concept COMPLETED; field implementation PARTIAL. NO_SEND.**
 
-[Final Hungarian master concept (R34–R45)](rounds/R34-R45/FINAL_MASTER_CONCEPT.md) is the single current proposal and supersedes earlier budget-cap assumptions, rankings and pilot descriptions for this contest. The original brief as recorded in [R11](rounds/R11/DECISION.md) has five equally weighted criteria and no numerical budget ceiling. The 2027 site condition, permissions and field outcome are UNKNOWN. The 3.93M HUF first-season reference is conditional, not a commitment. Historical documents below are retained as evidence, not current instructions.
+- [R81 current decision and competitive concept](rounds/R81/FINAL_COMPETITIVE_CONCEPT.md): the selected concept is one conditional service-continuity pilot, first reference 410k HUF for five qualifying days, not a mandatory three-module investment. Physical capacity interventions only for independent verified residual needs; technology-neutral selection.
+- [R34–45 underlying master concept](rounds/R34-R45/FINAL_MASTER_CONCEPT.md): retained, with R81 superseding conflicting technical preferences, scope priority and budget narrative.
+- [R47 HVAC comparison](rounds/R47/DECISION.md), [R48 local plans](rounds/R48/DECISION.md), [R49–65 technology challengers](rounds/R49-R65/DECISION.md), [R66–80 HŐOTTHON alternative](rounds/R66-R80/MASTER_CONCEPT_AND_FINAL_CHALLENGER.md): supporting evidence and alternative, not parallel competition submissions.
+- [R46 presentation package](rounds/R46/DECISION.md): prior locally generated slides; **revision required before final use** to align with R81. Files are not stored here. No outreach or submission authorized.
 
-Latest research: [R31](rounds/R31/MASTER_CONCEPT.md), [R32](rounds/R32/DECISION.md), [R33](rounds/R33/DECISION.md). No other lane changes.
+The original [R11 finalist brief](rounds/R11/DECISION.md) has five equally weighted criteria and no numeric budget ceiling. 2027 actual site condition, permissions, prices and field effect are UNKNOWN. No approved spending or partner commitments. Historic sources are preserved.
 
 ---
 
