@@ -3,6 +3,7 @@
 ## Current competition decision — 2026-11-17
 **Concept selection REOPENED / PARTIAL by explicit user request; HŐTÁBOR PLUSZ is the benchmark, HŐHÁLÓ and HŐTÉR MINTA reuse-first challengers are not final selections. NO_SEND, NO_PROTOTYPE, NO_PRESENTATION.**
 
+- [R121 social impact](rounds/R121/SOCIAL_IMPACT.md): HŐOVI independent early-childhood challenger, visually checked 2026/27 enrollment and existing parent/sponsor-supported cooling and planned improvements, explicit access and staffing gates. Preschool residual heat need and costs UNKNOWN; camp MINTA still strongest concrete historical problem. No final choice.
 - [R120 architecture challenge](rounds/R120/ARCHITECTURE_CHALLENGE.md): HŐTÉR MINTA (one conditional engineered pilot and up to two existing-infrastructure adoption sites) is a new challenger, not final. Verified municipal Fekete school completed shade/yard works and district-to-tankerkület funding precedent; current residual, suitability, actual prices and extra outcomes unknown. R119 remains comparator. OPEN, no prototype or presentation.
 - [R119 competitive advantage](rounds/R119/COMPETITIVE_ADVANTAGE.md): original 2026 camp report re-opened and visually checked, school-by-week distribution reconciled, district and international evidence, conditional 1/5/10-season allocation comparison. No approved second site or measured advantage. Concept selection remains OPEN.
 
