@@ -1,5 +1,9 @@
 # X-Challenge 2026 — Unified Research, Innovation & Project Development
 
+## Current evidence and decision entrypoint — 2026-11-18
+**Topic OPEN / PARTIAL.** [Research registry and operating workflow](research/README.md) is the current navigation/decision entrypoint. [Machine-readable findings](research/findings.json) contain 36 curated decision-critical records with source, limits and implications; [registry CLI](research/registry.mjs) supports check, query and blockers. [R156](rounds/R156/LOCAL_EVIDENCE_AND_SILENT_COOLING.md) is the latest concept research in this sequence. No implementation or final topic selection. Both R151 reports and the overlapping R152–R200 and R152–R156 reports are separate historical paths; do not resolve authority by round number alone. Historical summaries below are preserved, not current decisions. R11 supersedes the historical R1 budget and rubric assumptions.
+
+
 ## Current competition decision — 2026-11-17
 **Concept selection REOPENED / PARTIAL by explicit user request; HŐTÁBOR PLUSZ is the benchmark, HŐHÁLÓ and HŐTÉR MINTA reuse-first challengers are not final selections. NO_SEND, NO_PROTOTYPE, NO_PRESENTATION.**
 
