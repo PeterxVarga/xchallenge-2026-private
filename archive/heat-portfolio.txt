@@ -1,0 +1,141 @@
+# X-Challenge 2026 – teljes portfóliószűrés és ellenpróba
+2026. november 17. | döntő: november 20. | NO_SEND
+
+## Döntés és módszer
+
+A cél a 2027 nyarán elindítható, tényleges helyi hővédelmet nyújtó pilot. A 3 M Ft első éves bruttó keret munkafeltételezés, nem igazolt versenyszabály. Az eredeti döntős rubrika nem áll rendelkezésre. Külföldi alkalmazás pozitív előzmény; meglévő helyi program csak akkor ellenérv, ha az érdemi többlet hiányzik. Egyetlen forrás hiánya nem bizonyít hiányt a helyi működésben. A katalógus 56 tételét egyenként, de eltérő mélységben szűrtem; ez nem 56 független műszaki átvilágítás. A döntős jelöltek összehasonlítását az új HŐFELÚJÍTÁS és a már korábban felmerült HŐGARANCIA egészíti ki. A becslések nem ajánlatok, mért hatások vagy partneri vállalások.
+
+**Munkasorrend:** HŐGARANCIA (önálló, célzott opció), HŐFELÚJÍTÁS (feltételesen erősebb integráció), HŐPAJZS 2.0 / HŐVÁLTÓ (egy intézményben), HŐKÖLCSÖN, HŐJÁTÉK, HŐLÁNC. Több mint egy végleges projektet nem érdemes a döntőn bemutatni. Az integráció a 2027-es munkalista ismeretében előzheti meg a HŐGARANCIÁT; az idősotthon a tényleges hőterhelés, jelenlét és műszaki állapot alapján mindkettőt megelőzheti.
+
+## Az 56 katalógustétel egyedi szűrése
+
+**J** = főjelölt vagy annak közvetlen változata; **T** = tartalék, feltételes fizikai pilot; **M** = beépíthető modul; **H** = hátrasorolt a jelenlegi keretben; **N** = eredeti formában nem javasolt. Az indokok analitikus döntések, nem minden helyszínre újra igazolt tények.
+
+| # | Koncepció | Minősítés | Döntő ellenpróba vagy feltétel |
+|---:|---|---|---|
+| 01 | HŐOTTHON 30 | J | 30 lakás nem biztosítható; 8–16-os mérési modul és célzott beavatkozás a reálisabb. |
+| 02 | HŐKÖLCSÖN | J | Szezonális eszközpark tényleges használata és logisztikai költsége; ne feltételezzük a BÁRKA szabad kapacitását. |
+| 03 | HŐDEPÓ | T | Meglévő munkavédelmi minimumhoz képest igazolt többlet és munkáltatói hozzájárulás. |
+| 04 | HŐKIT | M | Személyi hűtés munkavédelmi többlete; higiénia és cserék. |
+| 05 | HŐJÁTÉK | J | Aktív udvar, igazolt, még nem kezelt árnyékhiány; gyermekbiztonság. |
+| 06 | HŐSPORT | T | Sporthelyszín és biztonságos üzemrend; nincs bizonyított jelenlegi hiány. |
+| 07 | ÁRNYÉKFORGÓ | T | Statika, szélterhelés, telepítési hely, tárolás; normál árnyékolóval összehasonlítás. |
+| 08 | HŐPAJZS / HŐABLAK | J | Szobaszintű túlmelegedés és meglévő hűtési beruházás tisztázása. |
+| 09 | HŐVÁLTÓ | J | Meglévő rendszerek szabályozásának tényleges hibája; energia vagy túlmelegedés mérhető javulása. |
+| 10 | HŐHÍD 16–19 | M | Valódi késő délutáni szolgáltatáshiány és kihasználtság. |
+| 11 | HŰVÖS 10 PERC+ | M | A meglévő hűsölőpontokhoz képest elérhetőségi/kapacitásbeli többlet. |
+| 12 | HŐVÁRÓ 3 | T | Közlekedési kezelő, forgalom, fővárosi árnyékolási terv; egy megálló a reális kezdés. |
+| 13 | HŐSTOP / SZÉLÁRNYÉK | M | Meglévő váró tényleges szellőzési vagy sugárzási hibája, szerkezeti jóváhagyás. |
+| 14 | HŐSOR | T | Forró betegvárakozás igazolása, meglévő időpontkezeléshez képesti többlet. |
+| 15 | HŐRECEPT | M | Gyógyszertári elérés, hiteles tájékoztatás; nem önálló fizikai hővédelem. |
+| 16 | HŐMOBIL | M | Gondozói kapacitás és el nem ért célcsoport; nincs ingyenes járműfeltételezés. |
+| 17 | HŐTÁRS / HŐSZOMSZÉD | T | Igazolt ellátási rés; önkéntes nem helyettesíti a szakellátást, adatvédelmi korlátok. |
+| 18 | HŰVÖS ASZTAL | M | Tényleges hűvös hely és szolgáltatási rés, élelmiszerbiztonság. |
+| 19 | HŐFALAT | M | Menthető áru, szabályos ellátási lánc; a hűtési főcélhoz mérhető többlet kell. |
+| 20 | HŐPIAC+ | T | Ténylegesen kitett árusok, működő árnyék, üzemeltetői engedély; forgalom és hőhatás. |
+| 21 | HŐMÉRŐ PIAC | M | Az eltérő nyitvatartás árbevételi és hőkitettségi hatása; csak engedéllyel. |
+| 22 | NAPMENTŐ | H | A teljes PV/árnyék/hűtőlánc többmilliós tőkeigénye és igazolatlan szükséglet. |
+| 23 | KŐHŐ LAB | T | Beszerezhető anyag, tartósság, hagyományos árnyékolással összevetett többlet. |
+| 24 | HŐSZIGET 2.0 | H | Hűtött pavilon teljes költsége és korlátozott használata; egyszerű árnyékoló az ellenjelölt. |
+| 25 | GYÁRKAPU 300 | T | Valós műszakváltási várakozás, gyalogos hőterhelés, tulajdonos; nincs vállalati vállalás. |
+| 26 | HŐMŰSZAK | M | Meglévő munkaszervezésen túli biztonságos időzítés; üzemi többletköltség. |
+| 27 | HŐFUTAM | T | Rendezvénynapok, meglévő védelem, szervezői hozzájárulás; korlátozott időbeli elérés. |
+| 28 | HŐMANCS | M | Ivóvíz és árnyék elérhetősége, állatvédelmi tájékoztatás; szűkebb humán hatás. |
+| 29 | HŐZÖLD | H | Jelzőlámpa és útkezelői hatáskör; a tényleges 2027-es módosítás nem biztos. |
+| 30 | HŐLÁNC | J | Egy kezelőhöz tartozó, rövid útvonal; meglévő padok mellett valódi árnyékhiány. |
+| 31 | ÁRNYÉKÚT | M | Ne teljes sétány épüljön 3 M Ft-ból; HŐLÁNC egy-két pontja lehet. |
+| 32 | HŰVÖS UDVAR | T | Teljes átépítés helyett kis célzott HŐJÁTÉK-pilot; üzemfenntartás. |
+| 33 | ESŐBŐL ÁRNYÉK | T | Helyi vízmérleg, öntözési felelős, azonnali árnyék külön biztosítva. |
+| 34 | VÍZKÖR | H | Vízjog, hozam, minőség és infrastruktúra nincs igazolva. |
+| 35 | ÉLŐ FA GARANCIA | T | Meglévő lombkorona megóvásának marginális haszna; új facsemete késleltetett árnyéka. |
+| 36 | COOL ROOF | T | Tetőkompatibilitás, vízszigetelési garancia, téli energiamérleg, felső emeleti hatás. |
+| 37 | PINCEMAG | H | Zárt hőcserélő megvalósíthatósága, hőhozam, geotechnika; előtanulmány nem fizikai pilot. |
+| 38 | PINCELEVEGŐ KIFÚJÁSA | N | Levegőminőségi, radon-, statikai és higiéniai kockázatok, nem megfelelő kis költségű pilot. |
+| 39 | IPARI HŰTŐVÍZMEGOSZTÁS | H | Hálózati beruházás, tényleges hidegkapacitás és hűtési igény nem igazolt. |
+| 40 | KINCSEM PARK ÉJSZAKAI ÖNTÖZÉSES HŰTÉSE | N | Nem igazolt kerületi hűtőhatás és vízmérleg; sportüzemeltetési kockázat. |
+| 41 | HŰVÖS ESTÉK | M | Ténylegesen hűvösebb időszak, zaj- és rendezvénykezelés, látogatottság. |
+| 42 | COOL ROUTES / HŰVÖSEBB ISKOLAÚT | M | Külföldi működés pozitív; helyi útvonal és mérhető használati/hőhatás kell. |
+| 43 | AUMOVIO JÁRMŰSZENZOROS HŐTÉRKÉP | M | Csak konkrét beruházási döntéshez szükséges adatként; adatjog és kalibráció. |
+| 44 | HŐÁLLÓ BESZERZÉSI SZABVÁNY | J | HŐFELÚJÍTÁSba integrálva, fizikai beavatkozással; önálló dokumentum nem hűt. |
+| 45 | HŐSTART | T | KKV-igény, működési finanszírozás és kiválasztási eljárás ismeretlen. |
+| 46 | HŐKULACS | M | Csak igazolt ellátatlan ponton; már létező palacktöltők és ivókutak. |
+| 47 | NAPERNYŐKÖR | T | Olcsó, visszafordítható újraértékelés; kihasználatlanság, szél és eszközvesztés. |
+| 48 | KONDENZKÖR | M | Biztonságos nem ivóvízcél, tényleges hozam és megtérülés. |
+| 49 | KINETIKUS JÁRDA | N | Hűtési energiaigényhez képest csekély várható fajlagos termelés. |
+| 50 | KIS SZÉLTURBINA | N | Helyi szélhozam nem igazolt, PV és passzív megoldás jobb ellenjelölt. |
+| 51 | PUSZTA HŐTÉRKÉP / APP | M | Digitális komponens a valódi fizikai vagy szolgáltatási beavatkozás mellé. |
+| 52 | ÖNÁLLÓ PÁRAKAPU / VÍZOSZTÁS / LISTA | M | Csak létező szolgáltatás igazolt hiányának javítása; vízbiztonság. |
+| 53 | PUSZTA FAÜLTETÉS | H | 2027-ben korlátozott lombkorona-hatás; meglévő fák megőrzése erősebb rövid távon. |
+| 54 | COOL PAVEMENT | H | Alacsonyabb felszíni hő nem garantál jobb emberi sugárzási komfortot. |
+| 55 | CARTUJA QANAT | H | Nagy szerkezet, üzemeltetés és kihasználtság; a 3 M Ft-os keretben nem teljes rendszer. |
+| 56 | ÉTELMENTŐ APP | M | Már működő szolgáltatások mellé csak konkrét ellátási résben; nincs önálló hővédelem. |
+
+## Új első tier és pénzügyi összevetés
+
+Az összegek forgatókönyv-becslések millió Ft-ban (bruttó, azonos árszinten, diszkontálás nélkül). A későbbi évek összege pótlás, karbantartás, koordináció és releváns rezsi tervezési helye. A fizikai TCO csak egyeztetés után hitelesíthető. A költségek nem tartalmaznak közös, egyébként is elvégzendő alapfelújítást a HŐFELÚJÍTÁS esetében: a teljes alapberuházás külön feltétel. A hároméves stressz a teljes költség +25%-a; nem előrejelzés.
+
+| Jelölt | 2027 | 2028 | 2029 | TCO | Stressz | Közvetlen pilotcél | Legfontosabb megállítási feltétel |
+|---|---:|---:|---:|---:|---:|---|---|
+| HŐGARANCIA | 3,00 | 0,48 | 0,48 | 3,96 | 4,95 | 16 háztartás, köztük példa szerint 4 aktív hűtés | Nincs műszakilag alkalmas és finanszírozható aktív opció |
+| HŐFELÚJÍTÁS | 2,70 | 0,22 | 0,22 | 3,14 | 3,93 | 12 lakás a felújítási folyamatban | 2027-ben nincs önkéntes, alkalmas, már tervezett felújítás |
+| HŐPAJZS 2.0 | 3,00 | 0,25 | 0,25 | 3,50 | 4,38 | 12–24 lakó érdemben érintett helyiségekben | Árnyékolt/klimatizált vagy nem összevethető helyiség |
+| HŐKÖLCSÖN | 3,00 | 0,75 | 0,75 | 4,50 | 5,62 | 20 készlet, példában 16 aktív háztartás | A kezelés költsége vagy kihasználatlanság túl magas |
+| HŐVÁLTÓ | 1,50 | 0,25 | 0,25 | 2,00 | 2,50 | 1 intézmény, 2–3 helyiség | A meglévő szabályozás érdemben nem javítható |
+| HŐOTTHON 8→16 | 2,86 | 0,20 | 0,20 | 3,26 | 4,08 | 8–16 lakás mérési pilot | Nincs összevethető csoport és időszak |
+| HŐJÁTÉK | 2,20 | 0,20 | 0,20 | 2,60 | 3,25 | 1 aktív, problémás udvar | Nincs valódi hővédelmi rés / nyári használat |
+| HŐLÁNC | 3,00 | 0,45 | 0,45 | 3,90 | 4,88 | 1 rövid útvonal, 1–2 pihenőpont | Több kezelő, vagy nincs forgalommal igazolt hiány |
+| HŐVÁRÓ | 3,00 | 0,40 | 0,40 | 3,80 | 4,75 | 1 megálló, mérhető várakozói kitettség | Kezelő vagy fővárosi program nem teszi lehetővé |
+| HŐTÁRS | 1,80 | 1,20 | 1,20 | 4,20 | 5,25 | 20–50 önkéntesen bevont lakó – célérték | Nincs szolgáltatási többlet vagy szakmai felügyelet |
+| HŐPIAC+ | 2,00 | 0,45 | 0,45 | 2,90 | 3,63 | 1 piaci zóna, árusok és vásárlók | A forgalom vagy a hőhiány nem igazolható |
+| COOL ROOF | 3,00 | 0,25 | 0,25 | 3,50 | 4,38 | 1 kis tetőfelület és érintett felső szint | Tetőhiba vagy kedvezőtlen éves energiamérleg |
+| ESŐBŐL ÁRNYÉK | 3,00 | 0,50 | 0,50 | 4,00 | 5,00 | 1 vízgyűjtő és célzott árnyékmodul | Aszályban elégtelen vízhozam / gondozás |
+| HŐDEPÓ | 2,10 | 0,50 | 0,50 | 3,10 | 3,88 | 1 szabadtéri munkacsoport | Már megfelelő munkavédelmi működés |
+
+## Hatásmodell és sorrendfordulás
+
+Kizárólag beltéri, hőmérsékleti hatásra: D = ∑ személy × érintett nap × ott töltött óra × az adott órában elkerült 26 °C feletti fokóra. Az elkerült fokóra max(0,T0−26)−max(0,T1−26), a 26 °C technikai referencia, nem egészségügyi biztonsági határ. A modellben szereplő Δ már az elkerült többlethő, nem a nyers hőmérsékletváltozás. A személyes jelenlétet, átfedést, használatot és tényleges hatást mérni kell. Kültéri PET/UTCI vagy árnyékos személyóra külön mérőszám, nem konvertálható beltéri fokórává.
+
+| Forgatókönyv | 3 év személy-fokóra | Ft/személy-fokóra |
+|---|---:|---:|
+| HŐGARANCIA | 21120 | 188 |
+| HŐFELÚJÍTÁS | 17280 | 182 |
+| HŐPAJZS (12 lakó) | 17280 | 203 |
+| HŐPAJZS (24 lakó) | 34560 | 101 |
+| HŐKÖLCSÖN | 15360 | 293 |
+
+Nem előrejelzés: csupán az érzékenységet bemutató, nem helyben mért paraméterek. HŐGARANCIA 4 aktív lakó 2,0 elkerült fok/óra és 12 passzív 0,8; HŐFELÚJÍTÁS 12 lakó 1,2; HŐPAJZS 12 vagy 24 lakó 1,2; HŐKÖLCSÖN 16 lakó 0,8. Mindenhol egy fő/lakás, 40 nap, 10 ténylegesen érintett óra, három azonos szezon. Egyik feltételezés sem igazolt helyi tény. A HŐPAJZS 3,5 M Ft költséggel már kb. 13 átlagos, valóban elért lakónál megveri a példabeli HŐGARANCIÁT; 5 órára csökkenő jelenlét esetén 26 fő kell. Ha HŐFELÚJÍTÁS 12 lakásában a felújítás önállóan is eléri ugyanazt a hatást, az inkrementális hatás nulla, a projekt nem igazolt.
+
+## Kockázatok és döntési kapuk
+
+- HŐFELÚJÍTÁS: a már jóváhagyott alapmunkán felüli, térben/időben elválasztható hővédelmi beavatkozás; a bérleti ellenőrzési adatok nem újrahasznosíthatók automatikusan. Önkéntes, külön adatkezelés; az elutasítás nem hat a bérleti viszonyra.
+- HŐGARANCIA: egy hűtött helyiség, szakszerű telepítés, villamos hálózat, zaj, kondenzvíz, homlokzati és tulajdonosi megfelelés; rezsitámogatás külön finanszírozása.
+- HŐPAJZS: 2027-es munkaterv és tényleges hűtési hiány; lakókat nem tesszük ki szándékosan nagyobb hőterhelésnek.
+- HŐKÖLCSÖN: teljes szezonra kiadott készlet; nincs indokolatlan visszavétel kánikulában.
+- Kültéri jelöltek: területhasználati engedély, biztonsági méretezés, gyalogos forgalom, mikroklíma, hozzáférhetőség és gondozás.
+
+## Elsődleges és szakmai források (2026. november 17-i ellenőrzés)
+
+1. X-Challenge 2026: https://www.xchallenge.hu/
+2. Kőbányai Vagyonkezelő 2025-ös beszámoló, különösen nyomtatott 17. és 37. oldal (32+12 nyílászárócsere, 2113 lakás, 1823 lakott, 97%): https://www.kobanya.hu/?action=getfile&fid=208589&module=news&v=eada2bf32d1e8d31ca97c0b633617bfb
+3. Önkormányzati költségvetési dokumentum, 2026 (nettó előirányzatok, nem új pilotpénz): https://www.kobanya.hu/?action=getfile&fid=209314&module=news&v=20c222419387960182f5671f2b254fe5
+4. Településképi rendelet 15/2019: https://net.jogtar.hu/rendelet?council=x-kerulet&docid=A1900015.10R
+5. Kőbányai lakhatási támogatás: https://www.kobanya.hu/?action=show&module=news&nid=182158
+6. Közösségi költségvetés: https://kozossegikoltsegvetes.kobanya.hu/ és https://kozossegikoltsegvetes.kobanya.hu/javaslatok
+7. Liget tér zöldítése: https://otlet.budapest.hu/projektek/329
+8. Helyi padok kihelyezése: https://kozossegikoltsegvetes.kobanya.hu/javaslat/219
+9. Fővárosi idősellátási kutatás: https://budapest.hu/hirek/2026/09/07/a-20252026-evi-budapest-osztondijprogram-soran-szuletett-tanulmanyok
+10. Kőbányai környezetvédelmi program: https://www.kobanya.hu/docs/kobanya/hu/news_attach/6045.pdf
+11. Gazdasági szisztematikus áttekintés: https://doi.org/10.1186/s13561-026-00840-x
+12. Közösségi beavatkozások: https://doi.org/10.1136/BMJPH-2024-002332
+13. Idősotthoni gazdasági modellezés: https://pmc.ncbi.nlm.nih.gov/articles/PMC12696519/
+14. NYC klímaprogram: https://pmc.ncbi.nlm.nih.gov/articles/PMC9910776/
+15. COOLTORISE: https://cordis.europa.eu/project/id/101032823/reporting
+16. Szociális lakások nyári felújítása: https://www.sciencedirect.com/science/article/pii/S0378778826007334
+17. Düsseldorfi téli-nyári kompromisszum: https://www.sciencedirect.com/science/article/pii/S0378778826002239
+18. Árnyékolási áttekintés: https://doi.org/10.1016/j.buildenv.2026.114702
+19. Római közösségi program: https://pubmed.ncbi.nlm.nih.gov/29641436/
+20. Közép-európai játszótéri hőterhelés: https://doi.org/10.1016/j.uclim.2024.101873
+21. Barcelonai iskolaudvarok: https://doi.org/10.1016/j.landurbplan.2024.105206
+22. 2026-os szerelési tájékoztató (nem ajánlat): https://mete.hu/klima-szerelessel-arak/
+
+Belső alap: X_Challenge_2026_Kobanya_teljes_otletkatalogus.md, 2026. november 14-i állapot. A konkrét 2027. évi munkalista, a helyi hőségmérés, a partneri kapacitás és a finanszírozás nem igazolt; a hőségriadóterv közvetlen letöltése ebben a körben sikertelen volt, az elfogadás ténye más hivatalos beszámolóból ellenőrzött. A dosszié nem igazol sem lezárt engedélyezést, sem helyi eredményt.

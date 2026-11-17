@@ -1,0 +1,87 @@
+{
+  "id": "xchallenge-2026",
+  "location": "Budapest X. kerület, Kőbánya",
+  "budget_huf": 3000000,
+  "implementation_year": 2027,
+  "final_date": "2026-11-20",
+  "budget_provenance": "owner-provided constraint; not confirmed in public contest rules",
+  "official_final_rubric": "UNKNOWN",
+  "candidates": [
+    {
+      "id": "hooptimum",
+      "name": "HŐOPTIMUM",
+      "concept": "Mérésalapú, költségoptimalizált intézményi hőségvédelem",
+      "estimate": 3000000,
+      "estimate_kind": "planning_only",
+      "kill": "A már futó óvodai fejlesztés lefedi az igényt, vagy nincs mérhető többlet.",
+      "budget_items_huf": {
+        "film": 1800000,
+        "monitoring": 250000,
+        "survey": 220000,
+        "shade_optimisation": 150000,
+        "coordination": 180000,
+        "reserve": 400000
+      }
+    },
+    {
+      "id": "hohej",
+      "name": "HŐHÉJ",
+      "concept": "Mobil, szellőztetett kettős árnyékolás meglévő sátrakhoz/pihenőhelyekhez",
+      "estimate": 3000000,
+      "estimate_kind": "planning_only",
+      "kill": "A normál árnyékoláshoz képest nincs jelentős többlethatás vagy rögzítési biztonság.",
+      "budget_items_huf": {
+        "structure": 1320000,
+        "layer": 480000,
+        "fixing_design": 450000,
+        "measurement": 180000,
+        "logistics": 200000,
+        "reserve": 370000
+      }
+    },
+    {
+      "id": "hootthon",
+      "name": "HŐOTTHON 3.0",
+      "concept": "Lakóépületi hőségvédelmi pilot",
+      "estimate": null,
+      "estimate_kind": "unknown",
+      "kill": "A már tervezett energetikai fejlesztés lefedi a résigényt vagy nincs igazolt túlmelegedés és lakói együttműködés."
+    },
+    {
+      "id": "hotabor",
+      "name": "HŐTÁBOR",
+      "concept": "Mobil árnyékolás és hőségvédelmi működés nyári táborban",
+      "estimate": 2810000,
+      "estimate_kind": "planning_only",
+      "kill": "A 2027-es meglévő árnyékolás/klimatizálás megoldja a hiányt vagy a helyszín megváltozik."
+    },
+    {
+      "id": "zoldkor",
+      "name": "ZÖLDKÖR",
+      "concept": "Korábbi, hőségvédelmen kívüli körforgásos jelölt; pontos specifikáció visszaellenőrzendő",
+      "estimate": null,
+      "estimate_kind": "unknown",
+      "kill": "A fogadó szervezetnél nincs igazolt fennmaradó probléma, vagy jogi/átvevői feltételek nem teljesülnek."
+    }
+  ],
+  "criteria": [
+    "local_problem",
+    "residual_gap",
+    "transferable_effect",
+    "cost_quote",
+    "timeline",
+    "operator_consent",
+    "safety_permissions",
+    "measurable_outcome"
+  ],
+  "routes": {
+    "local_problem": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+    "residual_gap": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+    "transferable_effect": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+    "cost_quote": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+    "timeline": "2027-es beszerzés, függőség, megvalósíthatóság",
+    "operator_consent": "szervezeti együttműködés és helyszíni hozzáférés",
+    "safety_permissions": "jogi és műszaki feltételek",
+    "measurable_outcome": "kiinduló mérés, kontroll, célmutató, fenntarthatóság"
+  }
+}

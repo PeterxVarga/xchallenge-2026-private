@@ -1,0 +1,52 @@
+[
+  {
+    "candidate": "xchallenge-global",
+    "dimension": "contest_rules",
+    "url": "https://www.kobanya.hu/?action=show&module=news&nid=209687",
+    "claim": "Az önkormányzati közlemény szerint az élő döntő 2026. november 20., valós kőbányai kihívással.",
+    "source_kind": "official",
+    "status": "SEARCH_EXCERPT_REVIEWED",
+    "observed": "2026-11-17",
+    "polarity": "support"
+  },
+  {
+    "candidate": "hooptimum",
+    "dimension": "transferable_effect",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2212095524000695",
+    "claim": "Közép-európai játszótéri terepvizsgálat árnyékolás mellett alacsonyabb hőstresszt jelez; nem igazol intézményi beltéri fóliahatást.",
+    "source_kind": "research",
+    "status": "SEARCH_EXCERPT_REVIEWED",
+    "observed": "2026-11-17",
+    "polarity": "context"
+  },
+  {
+    "candidate": "hohej",
+    "dimension": "transferable_effect",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2212095524000695",
+    "claim": "Árnyékolók kedvező hőstresszhatása, nem a kettős réteg többlethatásának igazolása.",
+    "source_kind": "research",
+    "status": "SEARCH_EXCERPT_REVIEWED",
+    "observed": "2026-11-17",
+    "polarity": "context"
+  },
+  {
+    "candidate": "hotabor",
+    "dimension": "transferable_effect",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19223344/",
+    "claim": "Iskolai árnyékvitorlákat vizsgáló klaszter-randomizált vizsgálat; eredeti oldal megnyitása CAPTCHA, helyi hatás nem igazolt.",
+    "source_kind": "research",
+    "status": "SEARCH_EXCERPT_REVIEWED",
+    "observed": "2026-11-17",
+    "polarity": "context"
+  },
+  {
+    "candidate": "hootthon",
+    "dimension": "residual_gap",
+    "url": "https://www.kobanya.hu/?action=getfile&fid=208621&module=news&v=2e961f2b47d279b42bdc7b52ca7cecd1",
+    "claim": "Az Állomás utca 1–25. (640 lakás) szerepel a 2026. március 31-ig beérkezett Zöld Panelprogram-pályázatok között. A tényleges nyertes státusz, túlmelegedés és fennmaradó igény ismeretlen.",
+    "source_kind": "official",
+    "status": "PDF_TEXT_REVIEWED_VISUAL_UNAVAILABLE",
+    "observed": "2026-11-17",
+    "polarity": "challenge"
+  }
+]

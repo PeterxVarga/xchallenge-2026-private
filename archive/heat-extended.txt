@@ -1,0 +1,98 @@
+# X-Challenge 2026 – kiterjesztett technológiai ellenpróba
+
+Dátum: 2026-11-17. Döntő: 2026-11-20. NO_SEND. Kiegészíti az eredeti 56 ötletet szűrő dossziét; nem helyettesíti azt. A 3 millió Ft bruttó tervezési referencia, nem igazolt pályázati költségplafon. Nincs partneri vállalás, helyszíni mérés, kivitelezési ajánlat vagy ellenőrzött eredeti döntős rubrika. Az alábbi megállapítások a most elért nyilvános dokumentumok és a korábbi koncepciók összevetései, nem teljes szakirodalmi szisztematikus áttekintés.
+
+## Döntési javaslat
+
+HŐTÁBOR: marad az első számú feltételes jelölt, de a már tervezett klimatizálás és négy-öt árnyékoló sátor a viszonyítási alap, ha tényleg finanszírozzák és megvalósítják. Külön kell kimutatni az azon felüli, ténylegesen használt árnyékos foglalkozási időt és a hőkitettség csökkenését. Első körben a meglévő intézményi eszközpark, elhelyezés és hiányzó zónák optimalizálása; csak szükség esetén új eszköz. A HŐGARANCIA független tartalék. Az ÁRNYÉKKÖR beszerzési/működési változat, nem külön automatikus első helyezett; nem építhet feltételezett szponzorra.
+
+## 24 megoldás, konkrét ellenpróbával
+
+| Hipotézis | Helyi támpont / ellenbizonyíték | Megállító feltétel vagy döntés |
+|---|---|---|
+| HŐTÁBOR – optimalizált foglalkozási zónák | S2–S3: ismétlődő, működést akadályozó hőterhelés; már tervezett sátrak és hűtés | Nincs fennmaradó, használattal igazolt hőkitettség -> kiesik |
+| HŐTÁBOR – további mobil árnyékoló | S2, S9, S10 | Az alapból tervezett sátrak elegendők vagy nincs biztonságos rögzítés -> nincs plusz beszerzés |
+| HŐTÁBOR – tartós, árnyékos tanulóhely | S2–S4, S11–S13 | Nincs szabad, megfelelő hely vagy túllépi a keretet -> mobil alternatíva |
+| Fedett sportpálya | S11: 897 m²-es külföldi pavilon, nem azonos kis sátorral | Nincs statika, árajánlat és határidő -> nem főprojekt |
+| ÁRNYÉKKÖR – visszagyűjtött eszköz | S5: dokumentált anyagában hasznosítás, nem igazolt javítható készlet; S14–S15 | Biztonsági vizsgálat, semleges kivitel, jogszerű átadás, élettartam és költség nem kedvező -> új eszköz |
+| Közös intézményi mobil eszközpark | S2: létező tábori üzemeltető; S16: meglévő intézményi használati megállapodások precedense | Egyidejű igény, szállítás vagy biztosítás elviszi az értéket -> helyben tartás |
+| Kék-zöld iskolaudvar | S3: 2025-ös csatornavíz-átfolyás; S17–S19 nemzetközi analógiák | Szennyvíz vagy közműhiba esetén külön szakszerű elhárítás, nem esőkertbe vezetés; drága építést elhalasztani |
+| Délben helyi étkeztetés / átjárás csökkentése | S2: dokumentált visszagyaloglás hőségben | Helyi hűtés megoldja vagy étkeztetési engedély nincs -> nincs önálló projekt |
+| HŐGARANCIA – célzott lakásklíma és passzív hővédelem | S6: korábbi eszközprogram; S20: meglévő lakhatási támogatás; S21: településképi korlát | Nem finanszírozható a használat vagy nincs igazolt célcsoport/hozzájárulás -> visszasorolás |
+| HŐFELÚJÍTÁS | S7: 21 áthúzódó csere, 13 új lakás megkezdett munkája 2026-ban; S22: nyári felújítási szakirodalom | 2027-es állomány vagy kiírás már teljesen lefedi a hővédelmet -> csak mért többlet |
+| HŐKÖLCSÖN | S6: helyi eszközátadási precedens | Munkaidő és eszközveszteség nagyobb mint állandó megoldásnál -> egyszerű átadás/telepítés |
+| HŐCSEND | Korábbi reptéri zajvédelmi hipotézis; S23: szellőzés–zaj konfliktus a szakirodalomban | Nincs igazolt kettős terhelés vagy a meglévő szellőztetési program elég -> hátrasorolás |
+| HŐPAJZS | S7: konkrét intézményi hűtési beruházások; S24: idősotthonok épületfüggő eredménye | A kiválasztott helyiség már megfelelően hűtött vagy nem áll rendelkezésre -> kiesik |
+| HŐVÁLTÓ | S24: épületfüggő szellőzési hatás | Nincs mérhető üzemeltetési többlet a meglévő szabályozáshoz képest -> nincs új rendszer |
+| ÉLŐ ÁRNYÉK/HŐVÍZ | S8: vízkorlátozás és pincevíz; S25: FŐKERT prioritás; S26: már működő önkéntes faöntözés | Létező prioritási rend jobb; nincs mérhető faállapot-, víz- vagy munkamegtakarítás -> nem skálázni |
+| HŐVÁRÓ/HŐLÁNC | S27: fővárosi árnyékolási előkészítés; S1: kőbányai döntési fókusz | BKK/útkezelő/beruházás átfedése, nem igazolt helyi forgalom -> feltételes |
+| HŐJÁTÉK-HÁLÓ | S28: készülő játszótérkoncepció; S29: Kékvirág napvitorla előterjesztés | Nincs megoldatlan használati rés -> csak integráció |
+| HŐRECEPT – gyógyszerbiztonság | S30–S31: tárolási előírások jelentősége | Helyi igény és gyógyszerészi partner nem igazolt; nincs „univerzális” hűtőtáska -> kiegészítő, nem terápia |
+| HŐMENEDÉK – célzott elérés | S32: általános egészségvédelmi ajánlás, S33: szolgáltatás meglevősége | Kihasználtsági vagy hozzáférési rés nem igazolt -> nem új lista vagy app |
+| COOL ROOF | S34: szakirodalmi potenciál, épületfüggő hatás | Nincs alkalmas tető és garanciális jóváhagyás, a téli következmények ismeretlenek -> feltételes |
+| Napelemes árnyékoló | Többcélú, de a szabadon álló struktúra, villamos kivitelezés és hálózat külön költség | Nincs konkrét bruttó ajánlat és 2027-es üzembe helyezési út -> hosszabb távú változat |
+| PCM/hőtároló épületelem | S35: kutatási lehetőség, anyag- és tartóssági kockázat | Nem tud éjszaka regenerálódni vagy drágább egyszerű árnyékolásnál/hűtésnél -> nem főprojekt |
+| Ipari hulladékhőből hűtés | S36–S38: ipari körforgás és modellezés léte, de helyi szabad kapacitás nincs igazolva | Nincs hiteles hőmérséklet/hozam, költség és fogadóoldal -> 2027-re nem főprojekt |
+| HŐRIADÓ+ – célzott beavatkozás, nem új riasztás | S39: kedvező gazdaságossági eredmények, többségében modellek; S32: létező hatósági útmutatás | A jelenlegi riadótervhez képest nincs új szereplő/elérés/fizikai lépés -> csak modul |
+
+## Számszerű ellenpróbák (nem helyi mért adatok)
+
+1. Négy 4×6 m-es sátor névleges tetőterülete 96 m²; öt esetén 120 m². A tényleges árnyék a napállás/telepítés függvénye, nem azonos a tetőterülettel. 2–3 m²/fő szemléltető, nem jogi és nem sportbiztonsági helyigény esetén 4 sátor 32–48 fő, 5 sátor 40–60 fő egyidejű ülő/nyugodt foglalkozását szemlélteti, a valós kapacitást szakember határozza meg. Nem lehet 100–140 gyerek sportolásának biztosítását ígérni.
+2. Két hazai 4×6 m-es nyilvános termékár: 326 900 Ft és 507 100 Ft (eltérő specifikáció, S9–S10). Négy darab 1 307 600–2 028 400 Ft; öt darab 1 634 500–2 535 500 Ft. Eszközár, nem gyermekintézményi jóváhagyás vagy teljes kivitelezési költség. 3 M Ft-ból önmagában nem következik a teljes állomány biztonságos telepíthetősége.
+3. Újrahasználati ellenpróba: azonos hasznosság és évi fenntartás esetén 326 900 Ft új referencia 5 év feltételezett élettartammal 65 380 Ft/év. Két évre alkalmas használt egységnél a teljes átvétel–vizsgálat–javítás–reklámmentesítés–szállítás költségküszöbe 130 760 Ft. A két élettartam feltevés; eltérő méretű ernyő és sátor csak árnyékos m²-óra alapján hasonlítható össze. Biztonság minimumfeltétel, nem árfüggő kompromisszum.
+4. Inkrementális kihasználtság: 30 meleg napon 20 gyerek napi egy többlet árnyékos órája 600 gyermekóra/év. Három azonos szezonban 1800 óra. Az 1,2 M Ft induló + 2×150 ezer Ft fenntartási modell 833 Ft/többlet gyermekóra; ha 60 gyerek és napi 1,5 óra, 8100 óra / három év, 185 Ft/óra. Nem egészségügyi eredmény. Valódi összevetés a már tervezett intézkedések utáni állapottal, nem a 2025-ös árnyék nélküli udvarral.
+5. Ipari hőtechnikai ellenpróba: feltételezett 10 kW hővel hajtott hűtés, 0,6 termikus COP -> kb. 6 kW hűtés, 16 kW leadandó hő (segédenergia nélkül). Nem helyi megmért kapacitás. A hulladékhő önmagában nem ingyenes hűtés, infrastruktúra és hőleadó kell.
+
+## Kis költségű elfogadási terv HŐTÁBOR-hoz
+
+- A0: már vállalt beruházások és sátorleltár ellenőrzése; 2027-es helyszín és felelős. Nem állítható, hogy biztosított.
+- A1: zónák napjárása, foglalkozástípus, létszám, szabad terület, vízelvezetés és veszélyes kötöttségek dokumentálása.
+- A2: két összehasonlítható, szakmailag jóváhagyott zónában párhuzamos üres helyszíni mikroklíma-mérés; WBGT, sugárzás, szél és árnyék; biztonságos próba.
+- A3: tényleges használat összesített, nem személyhez kötött jelenléti adata, hőség miatt módosított foglalkozások és üzemeltető munkaideje; minden meglévő védelmet fenn kell tartani. Gyermekeket nem teszünk ki veszélyes kontrollkörülményeknek.
+- A4: csak igazolt többlet és műszaki jóváhagyás alapján terjesztés. Az árnyék nem tesz automatikusan biztonságossá egy hőségnapot.
+
+## Forrásjegyzék – megnyitott oldalak vagy keresési találatok
+
+S1 https://www.xchallenge.hu/ – hivatalos versenyoldal, döntő és cél. A részletes döntős rubrikát nem azonosítja.
+S2 https://www.kobanya.hu/?action=getfile&fid=209531&module=news&v=4420bcc60bf5f7c8dbd82c3c16de887c – 370. előterjesztés 2026; PDF 3–5. oldal képe ellenőrizve.
+S3 https://www.kobanya.hu/?action=getfile&fid=208576&module=news&v=732579334638c8b3898f74d19eca7446 – 2025. tábori beszámoló, nyomtatott 23. oldal képe ellenőrizve.
+S4 https://www.kobanya.hu/index.php?action=getfile&fid=204666&module=news – 2024. tervezett udvarfejlesztés, szöveges kivonat; nem kivitelezési igazolás.
+S5 https://www.kobanya.hu/docs/kobanya/hu/news_attach/6045.pdf – Környezetvédelmi Program 2025–2029, 55–56. oldalképek; vállalati anyagáramok.
+S6 https://www.kobanya.hu/?action=getfile&fid=208589&module=news – Vagyonkezelő 2025, keresési kivonat + korábbi audit.
+S7 https://www.kobanya.hu/?action=getfile&fid=209283&module=news&v=394e9a50bf3a27edd3cde2e398cc96bd – 2026. első félév, 12–13. oldalképek.
+S8 https://www.kobanya.hu/zoldkobanya/?action=show&module=news&nid=209110 – 2026.08.02. vízkorlátozás.
+S9 https://www.satorpavilon.hu/rendezveny-sator-4x6m – eszközár, nem ajánlat.
+S10 https://www.maldivi.hu/4x6x2m-professional – másik eszközár, eltérő specifikáció.
+S11 https://pmc.ncbi.nlm.nih.gov/articles/PMC13719781/ – 309 páros megfigyelés, hét nap, 23×39 m-es pavilon; nem sátor.
+S12 https://doi.org/10.1016/j.uclim.2024.101873 – közép-európai játszóterek hőkomfortja.
+S13 https://interreg-danube.eu/news/hevizs-pilot-a-reversible-shading-solution-to-cool-a-high-use-public-square – hévízi megvalósítás, nem fajlagos hatásmérés.
+S14 https://www.sbid.org/shadescape-a-participatory-research-project-in-collaboration-with-lsbu/ – javítási és újrahasználati analógia.
+S15 https://circulareconomy.europa.eu/platform/en/good-practices/raytent-high-quality-yarns-and-fabrics-made-solar-tents-industry-cut-offs – textilipari maradékhasznosítás.
+S16 https://www.kobanya.hu/?action=list&fname=kmb_eloterj_20251&module=news – intézményi használatba adási előterjesztés, nem eszközpark.
+S17 https://doi.org/10.3390/ENVIRONMENTS13040188 – kilenc iskolaudvar-program áttekintése.
+S18 https://ecoservices.hu/budapest-xix-kerulet-gyongyvirag-utcai-iskola-csapadekviz-helyben-torteno-kezelese/ – kivitelezői hazai esettanulmány, nem független hatásmérés.
+S19 https://climate-adapt.eea.europa.eu/en/metadata/case-studies/paris-oasis-schoolyard-programme-france – többfunkciós iskolaudvar és üzemeltetési költség.
+S20 https://www.kobanya.hu/?action=show&module=news&nid=182158 – meglévő lakhatási támogatás, nem külön hűtési támogatás.
+S21 https://net.jogtar.hu/rendelet?council=x-kerulet&dbnum=553&docid=A1900015.10R – településkép, címspecifikus ellenőrzés kell.
+S22 https://www.sciencedirect.com/science/article/pii/S0378778826007334 – 2026. augusztusi lakásfelújítási vizsgálat.
+S23 https://doi.org/10.1016/j.rineng.2026.112105 – 197 lakáshűtési tanulmány bizonyítéktérképe.
+S24 https://pmc.ncbi.nlm.nih.gov/articles/PMC12696519/ – idősotthon költség-haszon modellezés.
+S25 https://budapest.hu/hirek/2026/08/04/budapest-ugy-takarekoskodik-a-vizzel-hogy-kozben-megovja-zoldfeluleteit – FŐKERT öntözési prioritás, nem KŐKERT-protokoll igazolása.
+S26 https://fokert.budapestikozmuvek.hu/hirek/ontozzuk-a-jovonket – Beeco önkéntes vízadói program.
+S27 https://einfoszab.budapest.hu/Session/SSDC_Item/131782?key=fovarosi-kozgyules-bizottsagainak-nyilvanos-ulesei&organizationtype=2&parentId=18590&parenttype=2&sessionType=4&type=3 – 2026.10.27. bizottsági javaslat, nem a végleges közgyűlési döntés.
+S28 https://www.kobanya.hu/index.php?action=show&module=news&nid=209335 – készülő játszótérkoncepció.
+S29 https://www.kobanya.hu/?action=list&fname=kmb_eloterj_202609&module=news – Kékvirág napvitorla előterjesztés.
+S30 https://www.ogyei.gov.hu/helyes_gyogyszertarolas__kulonos_tekintettel_a_nyarra – gyógyszer tárolás, termékspecifikus.
+S31 https://sps.nhs.uk/articles/heatwaves-and-medicines-assessing-and-managing-patient-risk/ – gyógyszerészi szakmai útmutató.
+S32 https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health – hőség egészségügyi háttér.
+S33 https://www.bmszki.hu/hu/ejjeli-menedekhelyek – létező szociális ellátás.
+S34 https://www.nature.com/articles/s44359-026-00177-y – passzív hűtés technológiai áttekintés.
+S35 https://www.sciencedirect.com/science/article/pii/S2352710225002992 – PCM kihívások.
+S36 https://www.dreherzrt.hu/fenntarthatosag/kornyezetvedelem/ – Dreher meglévő víz/energia beruházás.
+S37 https://doi.org/10.1016/j.energy.2025.136583 – ipari hőszimbiózis modellezése.
+S38 https://www.mdpi.com/1996-1073/14/8/2190 – ipari hőből fűtés/hűtés esettanulmány.
+S39 https://doi.org/10.1186/s13561-026-00840-x – 17 gazdasági értékelés, főleg modellek; 2026.09.17.
+
+## Zárás
+
+A 24 tétel között koncepciók és megvalósítási változatok is vannak, nem 24 új önálló projekt. A forrásjegyzék teljes szöveggel megnyitott anyagokat és keresésből elért releváns kivonatokat egyaránt tartalmaz. A korábbi 56 ötlet teljes újraauditálása nem történt meg. A HŐTÁBOR első helye továbbra is feltételes. A fő blokkoló tényező a 2027-es helyszín, a finanszírozott alapállapot, a valós használat és a műszaki hatás ismeretlensége. Külső megkeresés nem történt.

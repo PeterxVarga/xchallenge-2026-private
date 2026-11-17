@@ -1,0 +1,26 @@
+[
+  {
+    "name": "heat-extended",
+    "source_name": "XChallenge_2026_kiterjesztett_ellenproba_20261117.md",
+    "sha256": "e9956408864e04e8b5cbb074ee7e551563722f950431219c02ad7b5455da233f",
+    "bytes": 15027,
+    "numbered_catalog_items": 0,
+    "complete_text_window": true
+  },
+  {
+    "name": "heat-portfolio",
+    "source_name": "XChallenge_2026_teljes_portfolio_falszifikacio_20261117.md",
+    "sha256": "6fb6a8e91ad6cd5c3b4149fbc12d25cc89a7359fa0a5bdee0b1e27551d9c642c",
+    "bytes": 16340,
+    "numbered_catalog_items": 56,
+    "complete_text_window": true
+  },
+  {
+    "name": "zoldkor-slides-text",
+    "source_name": "ZOLDKOR_donto.pptx",
+    "sha256": "f17660841e52eb74bcd020b79da20c5aeeb2f539e7d8320b4aac8009ac331f5d",
+    "bytes": 7854,
+    "numbered_catalog_items": 0,
+    "complete_text_window": true
+  }
+]

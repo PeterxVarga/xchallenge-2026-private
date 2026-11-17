@@ -1,0 +1,1307 @@
+{
+  "before": {
+    "saas-wedge": 18,
+    "xchallenge-2026": 22
+  },
+  "after": {
+    "saas-wedge": 18,
+    "xchallenge-2026": 45
+  },
+  "inserted": 23,
+  "repeat_inserted": 0,
+  "commercial_unchanged": true,
+  "audit": [
+    {
+      "id": "r6-hannover",
+      "candidate": "ho-viz",
+      "url": "https://research.uni-hannover.de/en/publications/targeted-irrigation-to-improve-the-cooling-potential-of-urban-tre/",
+      "literal": "0.67",
+      "kind": "RESEARCH",
+      "actor": "Leibniz University Hannover",
+      "status": "ROBOTS_DENY",
+      "sha256": null,
+      "observed_at": "2026-11-17T13:05:27.616940+00:00",
+      "cache_hit": false,
+      "commercial_evidence_admitted": false,
+      "buyer_pain_proven": false
+    },
+    {
+      "id": "r6-club",
+      "candidate": "ho-hid",
+      "url": "https://bkhk.hu/szolgaltatasaink/idosek-klubja/",
+      "literal": "napközbeni tartózkodásra",
+      "kind": "LOCAL_CONTEXT",
+      "actor": "Bárka",
+      "status": "ROBOTS_DENY",
+      "sha256": null,
+      "observed_at": "2026-11-17T13:05:27.615452+00:00",
+      "cache_hit": false,
+      "commercial_evidence_admitted": false,
+      "buyer_pain_proven": false
+    },
+    {
+      "id": "r6-bkk",
+      "candidate": "ho-megallo",
+      "url": "https://bkk.hu/hirek/2026/09/nagy-lepes-a-gyalogosbarat-budapest-fele.17322/",
+      "literal": "Gyaloglás Akadálymentesen Budapesten",
+      "kind": "POLICY",
+      "actor": "BKK",
+      "status": "LITERAL_PRESENT",
+      "sha256": "646b0831fc69bd63a080e336b05abb22319e6c7f1e3b8776fcb415bcddbba435",
+      "observed_at": "2026-11-17T13:05:27.616230+00:00",
+      "cache_hit": false,
+      "commercial_evidence_admitted": false,
+      "buyer_pain_proven": false
+    }
+  ],
+  "audit_stats": {
+    "unique_urls": 3,
+    "cache_hits": 0,
+    "url_attempts": 3,
+    "successful_html": 1,
+    "literal_matches": 1
+  },
+  "previous_ledger": {
+    "provenance": "Reconstructed chat summaries, not original full ledger; no independent ranking or admission",
+    "heat_R4": [
+      "HŐOPTIMUM",
+      "HŐHÉJ",
+      "HŐOTTHON 3.0",
+      "HŐTÁBOR 2.0",
+      "HŐRESET",
+      "HŐTRANSZFER",
+      "ÁRNYÉKKÖR",
+      "HŐREFLEX",
+      "HŐTETŐ",
+      "HŐKÖR"
+    ],
+    "other_heat": [
+      "HŐDEPÓ–1/KŐKERT",
+      "HŐJÁTÉK",
+      "HŐGARANCIA",
+      "HŐFELÚJÍTÁS",
+      "ÉLŐ ÁRNYÉK",
+      "HŐPAJZS",
+      "HŐCSEND",
+      "HŐKÖLCSÖN",
+      "HŐVÁLTÓ",
+      "HŐLÁNC"
+    ],
+    "conditional_nonheat": [
+      "ZÖLDKÖR 2.0",
+      "KŐŐR 2.0",
+      "ÖNTÖZÉSOPTIMUM",
+      "GONDOZÓPLUSZ",
+      "OTTHONBIZTOS",
+      "HULLADÉKSTOP",
+      "MENZAMÉRLEG"
+    ],
+    "new_variant": {
+      "id": "ho-ejszaka",
+      "name": "HŐÉJSZAKA",
+      "concept": "HŐOTTHON célzott változata: éjszakai beltéri hőterhelés mérése és biztonságos passzív beavatkozás sérülékeny lakóknál",
+      "estimate": null,
+      "estimate_kind": "unknown",
+      "kill": "Nincs helyi éjszakai többlethő; a megvalósítható passzív csomag nem csökkenti vagy a kezelő nem engedi."
+    },
+    "scope": "Heat primary; nonheat contingent on official task sheet. No parallel lane writes."
+  },
+  "profile_overlay": {
+    "id": "xchallenge-2026",
+    "location": "Budapest X. kerület, Kőbánya",
+    "budget_huf": 3000000,
+    "implementation_year": 2027,
+    "final_date": "2026-11-20",
+    "budget_provenance": "owner-provided constraint; not confirmed in public contest rules",
+    "official_final_rubric": "UNKNOWN",
+    "candidates": [
+      {
+        "id": "hooptimum",
+        "name": "HŐOPTIMUM",
+        "concept": "Mérésalapú, költségoptimalizált intézményi hőségvédelem",
+        "estimate": 3000000,
+        "estimate_kind": "planning_only",
+        "kill": "A már futó óvodai fejlesztés lefedi az igényt, vagy nincs mérhető többlet.",
+        "budget_items_huf": {
+          "film": 1800000,
+          "monitoring": 250000,
+          "survey": 220000,
+          "shade_optimisation": 150000,
+          "coordination": 180000,
+          "reserve": 400000
+        }
+      },
+      {
+        "id": "hohej",
+        "name": "HŐHÉJ",
+        "concept": "Mobil, szellőztetett kettős árnyékolás meglévő sátrakhoz/pihenőhelyekhez",
+        "estimate": 3000000,
+        "estimate_kind": "planning_only",
+        "kill": "A normál árnyékoláshoz képest nincs jelentős többlethatás vagy rögzítési biztonság.",
+        "budget_items_huf": {
+          "structure": 1320000,
+          "layer": 480000,
+          "fixing_design": 450000,
+          "measurement": 180000,
+          "logistics": 200000,
+          "reserve": 370000
+        }
+      },
+      {
+        "id": "hootthon",
+        "name": "HŐOTTHON 3.0",
+        "concept": "Lakóépületi hőségvédelmi pilot",
+        "estimate": null,
+        "estimate_kind": "unknown",
+        "kill": "A már tervezett energetikai fejlesztés lefedi a résigényt vagy nincs igazolt túlmelegedés és lakói együttműködés."
+      },
+      {
+        "id": "hotabor",
+        "name": "HŐTÁBOR",
+        "concept": "Mobil árnyékolás és hőségvédelmi működés nyári táborban",
+        "estimate": 2810000,
+        "estimate_kind": "planning_only",
+        "kill": "A 2027-es meglévő árnyékolás/klimatizálás megoldja a hiányt vagy a helyszín megváltozik."
+      },
+      {
+        "id": "zoldkor",
+        "name": "ZÖLDKÖR",
+        "concept": "Korábbi, hőségvédelmen kívüli körforgásos jelölt; pontos specifikáció visszaellenőrzendő",
+        "estimate": null,
+        "estimate_kind": "unknown",
+        "kill": "A fogadó szervezetnél nincs igazolt fennmaradó probléma, vagy jogi/átvevői feltételek nem teljesülnek."
+      },
+      {
+        "id": "ho-ejszaka",
+        "name": "HŐÉJSZAKA",
+        "concept": "HŐOTTHON célzott változata: éjszakai beltéri hőterhelés mérése és biztonságos passzív beavatkozás sérülékeny lakóknál",
+        "estimate": null,
+        "estimate_kind": "unknown",
+        "kill": "Nincs helyi éjszakai többlethő; a megvalósítható passzív csomag nem csökkenti vagy a kezelő nem engedi."
+      },
+      {
+        "id": "ho-ablak",
+        "name": "HŐABLAK – bérlakáskezelői változat",
+        "concept": "Célzott külső árnyékolás beépítése a meglévő lakásellenőrzési/átadási folyamatba",
+        "kill": "Nincs dokumentált hőterhelés vagy engedély, illetve a felújítás már lefedi.",
+        "estimate": null,
+        "estimate_kind": "unknown"
+      },
+      {
+        "id": "ho-hid",
+        "name": "HŐHÍD",
+        "concept": "Sérülékeny lakók hozzáférése meglévő hűtött helyiségekhez a tényleges időbeli és mobilitási résekben",
+        "kill": "A riadóterv már lefedi, nincs használati igény vagy szállítási/nyitvatartási kapacitás.",
+        "estimate": null,
+        "estimate_kind": "unknown"
+      },
+      {
+        "id": "ho-piheno",
+        "name": "HŐPIHENŐ",
+        "concept": "Meglévő munkavédelmi pihenőhely kiegészítése célzott regenerációval",
+        "kill": "Nincs fennmaradó hőterhelés a jelenlegi munkavédelmi folyamat mellett.",
+        "estimate": null,
+        "estimate_kind": "unknown"
+      },
+      {
+        "id": "ho-viz",
+        "name": "HŐVÍZ – célzott öntözés",
+        "concept": "Meglévő KŐKERT öntözés differenciált talajnedvesség- és időjárásalapú optimalizálása, összehasonlító facsoportokkal",
+        "kill": "Már optimalizált a jelenlegi protokoll, nincs víz- vagy munkaidő megtakarítás azonos faállapot mellett.",
+        "estimate": null,
+        "estimate_kind": "unknown"
+      },
+      {
+        "id": "ho-megallo",
+        "name": "HŐMEGÁLLÓ",
+        "concept": "Meglévő megállók tényleges utas-hőterhelésének célzott retrofitje",
+        "kill": "Helyszín már fejlesztés alatt, BKK/kezelő nem engedi, nincs mérhető többlet.",
+        "estimate": null,
+        "estimate_kind": "unknown"
+      }
+    ],
+    "criteria": [
+      "local_problem",
+      "residual_gap",
+      "transferable_effect",
+      "cost_quote",
+      "timeline",
+      "operator_consent",
+      "safety_permissions",
+      "measurable_outcome"
+    ],
+    "routes": {
+      "local_problem": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+      "residual_gap": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+      "transferable_effect": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+      "cost_quote": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+      "timeline": "2027-es beszerzés, függőség, megvalósíthatóság",
+      "operator_consent": "szervezeti együttműködés és helyszíni hozzáférés",
+      "safety_permissions": "jogi és műszaki feltételek",
+      "measurable_outcome": "kiinduló mérés, kontroll, célmutató, fenntarthatóság"
+    }
+  },
+  "assessment": {
+    "profile": "xchallenge-2026",
+    "budget_huf": 3000000,
+    "year": 2027,
+    "official_final_rubric": "UNKNOWN",
+    "candidates": [
+      {
+        "id": "hooptimum",
+        "name": "HŐOPTIMUM",
+        "decision": "HOLD",
+        "estimate_huf": 3000000,
+        "budget_arithmetic_within_cap": true,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 7,
+        "counterexamples": [
+          "227/2026, PDF p1: két Rece-fice csoportszobában 2025-ös határozat alapján már telepítettek klímát; további kettőre 2026. júniusi előterjesztés. A további telepítés nem igazolt.",
+          "193/2026 KÖKT határozat végrehajtási jelentése: Rece-fice két további csoportszobájában 2026-07-30 elkészült a klímabeszerelés. PDF szöveg ellenőrizve; képi ellenőrzés cache miss."
+        ],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 2
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 2
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          }
+        ],
+        "kill": "A már futó óvodai fejlesztés lefedi az igényt, vagy nincs mérhető többlet.",
+        "budget_stress": {
+          "status": "PLANNING_ONLY",
+          "reserve_huf": 400000,
+          "nonreserve_huf": 2600000,
+          "scenarios": [
+            {
+              "overrun_percent": 0,
+              "estimated_spend_huf": 2600000,
+              "within_cap": true
+            },
+            {
+              "overrun_percent": 10,
+              "estimated_spend_huf": 2860000,
+              "within_cap": true
+            },
+            {
+              "overrun_percent": 20,
+              "estimated_spend_huf": 3120000,
+              "within_cap": false
+            },
+            {
+              "overrun_percent": 30,
+              "estimated_spend_huf": 3380000,
+              "within_cap": false
+            }
+          ]
+        },
+        "risk": {
+          "status": "COUNTEREVIDENCE_REVIEW",
+          "items": [
+            {
+              "claim": "227/2026, PDF p1: két Rece-fice csoportszobában 2025-ös határozat alapján már telepítettek klímát; további kettőre 2026. júniusi előterjesztés. A további telepítés nem igazolt.",
+              "url": "https://www.kobanya.hu/?action=getfile&fid=208900&module=news&v=6b7d2dfc752e1f30c9df1fa71ba1671f",
+              "status": "PDF_PAGE_VISUAL_REVIEWED"
+            },
+            {
+              "claim": "193/2026 KÖKT határozat végrehajtási jelentése: Rece-fice két további csoportszobájában 2026-07-30 elkészült a klímabeszerelés. PDF szöveg ellenőrizve; képi ellenőrzés cache miss.",
+              "url": "https://www.kobanya.hu/?action=getfile&fid=209581&module=news&v=d51a9aa7452efcb28a2570b55f7c1e7b",
+              "status": "PDF_TEXT_REVIEWED_VISUAL_UNAVAILABLE"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hohej",
+        "name": "HŐHÉJ",
+        "decision": "HOLD",
+        "estimate_huf": 3000000,
+        "budget_arithmetic_within_cap": true,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 3,
+        "counterexamples": [
+          "313/2026, PDF p1: intézményvezető napvitorlát kért; már van hagyományos fejlesztési javaslat, megvalósulás ismeretlen."
+        ],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          }
+        ],
+        "kill": "A normál árnyékoláshoz képest nincs jelentős többlethatás vagy rögzítési biztonság.",
+        "budget_stress": {
+          "status": "PLANNING_ONLY",
+          "reserve_huf": 370000,
+          "nonreserve_huf": 2630000,
+          "scenarios": [
+            {
+              "overrun_percent": 0,
+              "estimated_spend_huf": 2630000,
+              "within_cap": true
+            },
+            {
+              "overrun_percent": 10,
+              "estimated_spend_huf": 2893000,
+              "within_cap": true
+            },
+            {
+              "overrun_percent": 20,
+              "estimated_spend_huf": 3156000,
+              "within_cap": false
+            },
+            {
+              "overrun_percent": 30,
+              "estimated_spend_huf": 3419000,
+              "within_cap": false
+            }
+          ]
+        },
+        "risk": {
+          "status": "COUNTEREVIDENCE_REVIEW",
+          "items": [
+            {
+              "claim": "313/2026, PDF p1: intézményvezető napvitorlát kért; már van hagyományos fejlesztési javaslat, megvalósulás ismeretlen.",
+              "url": "https://www.kobanya.hu/?action=getfile&fid=209267&module=news&v=09eb7720ab17d6355297f91faa818c30",
+              "status": "PDF_PAGE_VISUAL_REVIEWED"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hootthon",
+        "name": "HŐOTTHON 3.0",
+        "decision": "HOLD",
+        "estimate_huf": null,
+        "budget_arithmetic_within_cap": null,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 2,
+        "counterexamples": [
+          "Az Állomás utca 1–25. (640 lakás) szerepel a 2026. március 31-ig beérkezett Zöld Panelprogram-pályázatok között. A tényleges nyertes státusz, túlmelegedés és fennmaradó igény ismeretlen."
+        ],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          }
+        ],
+        "kill": "A már tervezett energetikai fejlesztés lefedi a résigényt vagy nincs igazolt túlmelegedés és lakói együttműködés.",
+        "budget_stress": {
+          "status": "NO_ITEMIZED_PLAN",
+          "scenarios": []
+        },
+        "risk": {
+          "status": "COUNTEREVIDENCE_REVIEW",
+          "items": [
+            {
+              "claim": "Az Állomás utca 1–25. (640 lakás) szerepel a 2026. március 31-ig beérkezett Zöld Panelprogram-pályázatok között. A tényleges nyertes státusz, túlmelegedés és fennmaradó igény ismeretlen.",
+              "url": "https://www.kobanya.hu/?action=getfile&fid=208621&module=news&v=2e961f2b47d279b42bdc7b52ca7cecd1",
+              "status": "PDF_TEXT_REVIEWED_VISUAL_UNAVAILABLE"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hotabor",
+        "name": "HŐTÁBOR",
+        "decision": "HOLD",
+        "estimate_huf": 2810000,
+        "budget_arithmetic_within_cap": true,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 4,
+        "counterexamples": [
+          "370/2026, PDF p5: már 2025-ben bevezetett udvari karbantartó, locsolás és párakapu kezelése; 2026-ban is működött. Nem igazolja a teljes hővédelmi hiány megszűnését."
+        ],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          }
+        ],
+        "kill": "A 2027-es meglévő árnyékolás/klimatizálás megoldja a hiányt vagy a helyszín megváltozik.",
+        "budget_stress": {
+          "status": "NO_ITEMIZED_PLAN",
+          "scenarios": []
+        },
+        "risk": {
+          "status": "COUNTEREVIDENCE_REVIEW",
+          "items": [
+            {
+              "claim": "370/2026, PDF p5: már 2025-ben bevezetett udvari karbantartó, locsolás és párakapu kezelése; 2026-ban is működött. Nem igazolja a teljes hővédelmi hiány megszűnését.",
+              "url": "https://www.kobanya.hu/?action=getfile&fid=209531&module=news&v=4420bcc60bf5f7c8dbd82c3c16de887c",
+              "status": "PDF_PAGE_VISUAL_REVIEWED"
+            }
+          ]
+        }
+      },
+      {
+        "id": "zoldkor",
+        "name": "ZÖLDKÖR",
+        "decision": "HOLD",
+        "estimate_huf": null,
+        "budget_arithmetic_within_cap": null,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 3,
+        "counterexamples": [
+          "2026-11-09–12-11 helyszíni ágdarálási program már meghirdetve a jogosult ingatlanoknak; mulcs/komposzt cél, új darálási szolgáltatás átfed.",
+          "PDF p15: 2024 októbere óta új ágaprító, 2025 második félévtől új telephely és már van válogatás; új gép vagy egyszerű darálás nem igazolt többlet."
+        ],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 2
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          }
+        ],
+        "kill": "A fogadó szervezetnél nincs igazolt fennmaradó probléma, vagy jogi/átvevői feltételek nem teljesülnek.",
+        "budget_stress": {
+          "status": "NO_ITEMIZED_PLAN",
+          "scenarios": []
+        },
+        "risk": {
+          "status": "COUNTEREVIDENCE_REVIEW",
+          "items": [
+            {
+              "claim": "2026-11-09–12-11 helyszíni ágdarálási program már meghirdetve a jogosult ingatlanoknak; mulcs/komposzt cél, új darálási szolgáltatás átfed.",
+              "url": "https://www.kobanya.hu/zoldkobanya/index.php?action=show&module=news&nid=209691",
+              "status": "SEARCH_EXCERPT_REVIEWED"
+            },
+            {
+              "claim": "PDF p15: 2024 októbere óta új ágaprító, 2025 második félévtől új telephely és már van válogatás; új gép vagy egyszerű darálás nem igazolt többlet.",
+              "url": "https://www.kobanya.hu/?action=getfile&fid=208581&module=news&v=732579334638c8b3898f74d19eca7446",
+              "status": "PDF_PAGE_VISUAL_REVIEWED"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ho-ejszaka",
+        "name": "HŐÉJSZAKA",
+        "decision": "HOLD",
+        "estimate_huf": null,
+        "budget_arithmetic_within_cap": null,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 7,
+        "counterexamples": [
+          "Időseken végzett kontrollált nagyon forró száraz 47 C/15% RH vizsgálat; ventilátoros stratégia hatása körülményfüggő, nem univerzális védelem.",
+          "Randomizált 31 C, 45% RH, 8 órás idős felnőtt vizsgálat; mennyezeti ventilátor részleges védelem, önmagában elégtelen. Kivonat, CAPTCHA miatt eredeti oldal nem olvasható."
+        ],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 2
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 4
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          }
+        ],
+        "kill": "Nincs helyi éjszakai többlethő; a megvalósítható passzív csomag nem csökkenti vagy a kezelő nem engedi.",
+        "budget_stress": {
+          "status": "NO_ITEMIZED_PLAN",
+          "scenarios": []
+        },
+        "risk": {
+          "status": "COUNTEREVIDENCE_REVIEW",
+          "items": [
+            {
+              "claim": "Időseken végzett kontrollált nagyon forró száraz 47 C/15% RH vizsgálat; ventilátoros stratégia hatása körülményfüggő, nem univerzális védelem.",
+              "url": "https://doi.org/10.1152/japplphysiol.00390.2025",
+              "status": "SEARCH_EXCERPT_REVIEWED"
+            },
+            {
+              "claim": "Randomizált 31 C, 45% RH, 8 órás idős felnőtt vizsgálat; mennyezeti ventilátor részleges védelem, önmagában elégtelen. Kivonat, CAPTCHA miatt eredeti oldal nem olvasható.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41014079/",
+              "status": "SEARCH_EXCERPT_REVIEWED"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ho-ablak",
+        "name": "HŐABLAK – bérlakáskezelői változat",
+        "decision": "HOLD",
+        "estimate_huf": null,
+        "budget_arithmetic_within_cap": null,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 1,
+        "counterexamples": [],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          }
+        ],
+        "kill": "Nincs dokumentált hőterhelés vagy engedély, illetve a felújítás már lefedi.",
+        "budget_stress": {
+          "status": "NO_ITEMIZED_PLAN",
+          "scenarios": []
+        },
+        "risk": {
+          "status": "NO_REVIEWED_COUNTEREXAMPLE_NOT_PROOF",
+          "items": []
+        }
+      },
+      {
+        "id": "ho-hid",
+        "name": "HŐHÍD",
+        "decision": "HOLD",
+        "estimate_huf": null,
+        "budget_arithmetic_within_cap": null,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 2,
+        "counterexamples": [],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          }
+        ],
+        "kill": "A riadóterv már lefedi, nincs használati igény vagy szállítási/nyitvatartási kapacitás.",
+        "budget_stress": {
+          "status": "NO_ITEMIZED_PLAN",
+          "scenarios": []
+        },
+        "risk": {
+          "status": "NO_REVIEWED_COUNTEREXAMPLE_NOT_PROOF",
+          "items": []
+        }
+      },
+      {
+        "id": "ho-piheno",
+        "name": "HŐPIHENŐ",
+        "decision": "HOLD",
+        "estimate_huf": null,
+        "budget_arithmetic_within_cap": null,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 2,
+        "counterexamples": [],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 2
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          }
+        ],
+        "kill": "Nincs fennmaradó hőterhelés a jelenlegi munkavédelmi folyamat mellett.",
+        "budget_stress": {
+          "status": "NO_ITEMIZED_PLAN",
+          "scenarios": []
+        },
+        "risk": {
+          "status": "NO_REVIEWED_COUNTEREXAMPLE_NOT_PROOF",
+          "items": []
+        }
+      },
+      {
+        "id": "ho-viz",
+        "name": "HŐVÍZ – célzott öntözés",
+        "decision": "HOLD",
+        "estimate_huf": null,
+        "budget_arithmetic_within_cap": null,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 8,
+        "counterexamples": [
+          "Pincei szürkevíz már használatban; újrahasznosítása önmagában nem innováció. Öntözés mérési/optimalizációs többlete UNKNOWN.",
+          "2026 faörökbefogadás és heti kétszeri locsolás már létezik; új önkéntes öntözési program duplikálhat.",
+          "300 literes csapadékvízgyűjtők használatba adása 2026-ban már meghirdetve; kivitelezés és lefedettség ismeretlen.",
+          "Helyi ingatlanok számára már helyszíni ágdarálás és aprítékhasznosítás; mulcsozás önmagában nem új, közterületi minősített anyagáram és többlethatás UNKNOWN."
+        ],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 4
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 2
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          }
+        ],
+        "kill": "Már optimalizált a jelenlegi protokoll, nincs víz- vagy munkaidő megtakarítás azonos faállapot mellett.",
+        "budget_stress": {
+          "status": "NO_ITEMIZED_PLAN",
+          "scenarios": []
+        },
+        "risk": {
+          "status": "COUNTEREVIDENCE_REVIEW",
+          "items": [
+            {
+              "claim": "Pincei szürkevíz már használatban; újrahasznosítása önmagában nem innováció. Öntözés mérési/optimalizációs többlete UNKNOWN.",
+              "url": "https://www.kobanya.hu/?action=show&module=news&nid=209110",
+              "status": "ORIGINAL_WEB_REVIEWED"
+            },
+            {
+              "claim": "2026 faörökbefogadás és heti kétszeri locsolás már létezik; új önkéntes öntözési program duplikálhat.",
+              "url": "https://www.kobanya.hu/?action=print&module=news&nid=208625",
+              "status": "SEARCH_EXCERPT_REVIEWED"
+            },
+            {
+              "claim": "300 literes csapadékvízgyűjtők használatba adása 2026-ban már meghirdetve; kivitelezés és lefedettség ismeretlen.",
+              "url": "https://www.kobanya.hu/zoldkobanya/?action=show&module=news&nid=209336",
+              "status": "SEARCH_EXCERPT_REVIEWED_FULLTEXT_UNAVAILABLE"
+            },
+            {
+              "claim": "Helyi ingatlanok számára már helyszíni ágdarálás és aprítékhasznosítás; mulcsozás önmagában nem új, közterületi minősített anyagáram és többlethatás UNKNOWN.",
+              "url": "https://www.kobanya.hu/zoldkobanya/index.php?action=show&module=news&nid=209691",
+              "status": "SEARCH_EXCERPT_REVIEWED"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ho-megallo",
+        "name": "HŐMEGÁLLÓ",
+        "decision": "HOLD",
+        "estimate_huf": null,
+        "budget_arithmetic_within_cap": null,
+        "cost_verified": false,
+        "missing": [
+          "local_problem",
+          "residual_gap",
+          "transferable_effect",
+          "cost_quote",
+          "timeline",
+          "operator_consent",
+          "safety_permissions",
+          "measurable_outcome"
+        ],
+        "evidence_context_count": 3,
+        "counterexamples": [
+          "2025 Houston 17 megálló, WBGT terepmérés: rosszul kialakított menedék káros is lehet; egyszerű tető nem garantált előny."
+        ],
+        "next_tasks": [
+          {
+            "dimension": "residual_gap",
+            "route": "2026/2027 fejlesztési terv, szerződés, meglévő megoldás és ellenpélda",
+            "status": "UNKNOWN",
+            "observed_context": 1
+          },
+          {
+            "dimension": "local_problem",
+            "route": "Kőbányai intézményi és önkormányzati elsődleges forrás; helyi eset",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "cost_quote",
+            "route": "tételes bruttó árak, tartalék, telepítés és üzemeltetés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "transferable_effect",
+            "route": "szisztematikus áttekintés / terepmérés / kontrollált vizsgálat, azonos mechanizmus",
+            "status": "UNKNOWN",
+            "observed_context": 2
+          },
+          {
+            "dimension": "timeline",
+            "route": "2027-es beszerzés, függőség, megvalósíthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "operator_consent",
+            "route": "szervezeti együttműködés és helyszíni hozzáférés",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "safety_permissions",
+            "route": "jogi és műszaki feltételek",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          },
+          {
+            "dimension": "measurable_outcome",
+            "route": "kiinduló mérés, kontroll, célmutató, fenntarthatóság",
+            "status": "UNKNOWN",
+            "observed_context": 0
+          }
+        ],
+        "kill": "Helyszín már fejlesztés alatt, BKK/kezelő nem engedi, nincs mérhető többlet.",
+        "budget_stress": {
+          "status": "NO_ITEMIZED_PLAN",
+          "scenarios": []
+        },
+        "risk": {
+          "status": "COUNTEREVIDENCE_REVIEW",
+          "items": [
+            {
+              "claim": "2025 Houston 17 megálló, WBGT terepmérés: rosszul kialakított menedék káros is lehet; egyszerű tető nem garantált előny.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S136192092500063X",
+              "status": "SEARCH_EXCERPT_REVIEWED"
+            }
+          ]
+        }
+      }
+    ],
+    "winner": "UNDETERMINED",
+    "divergent_discovery_routes": [
+      {
+        "family": "urban heat",
+        "query": "Kőbánya 2026 2027 hőség intézményi intézkedési terv meglévő fejlesztés",
+        "test": "local excess heat + unmet baseline"
+      },
+      {
+        "family": "circular material",
+        "query": "Kőbánya 2026 2027 KŐKERT zöldhulladék ágnyesedék újrahasznosítás",
+        "test": "material quantity plus current destination and permitted receiver"
+      },
+      {
+        "family": "food waste",
+        "query": "Kőbánya közétkeztetés 2026 ételmaradék mérés",
+        "test": "local waste baseline and operator feasibility"
+      },
+      {
+        "family": "mobility",
+        "query": "Kőbánya BKK 2027 megálló akadálymentesítés árnyékolás forgalom",
+        "test": "documented rider issue and no already planned fix"
+      },
+      {
+        "family": "housing energy",
+        "query": "Kőbánya Zöld Panelprogram 2026 eredmény 2027 energetika",
+        "test": "funded scope versus uncovered need"
+      },
+      {
+        "family": "water resilience",
+        "query": "Kőbánya 2026 csapadékvíz öntözés vízmegtartás intézményi helyszín",
+        "test": "local loss, safe maintenance and budget"
+      }
+    ],
+    "production": "NO_GO"
+  },
+  "limitations": [
+    "PDF screenshots unavailable",
+    "no validated winner",
+    "official final topic and rubric unverified",
+    "source literals are not semantic proof"
+  ]
+}

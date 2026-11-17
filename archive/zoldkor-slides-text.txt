@@ -1,0 +1,230 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+X-CHALLENGE 2026  /  ZÖLDKÖR
+ZÖLDKÖR
+Kevesebb hulladék. Több helyi érték.
+
+Koncepció • 2026. november 17. • tervezett pilot
+01
+A meglévő kőbányai ágaprításból
+megbízható minőségű anyagáram.
+2027-es, lépcsőzetes pilot • 2,4 M Ft tervezési keret
+
+
+Nyitás: Nem új gépet kérünk, hanem meglévő gép jobb kihasználását. A projekt feltételes, a konkrét döntős feladatlap még nem ismert.
+Red team: 2026-os fennmaradás, jogi út, átvevői specifikáció és költségadat nem igazolt. A 3 éves küszöb 75% első éves felfutással 1 090 909 Ft/év, 8 000 Ft/t esetén 137 t/év; alapeset 3,36 év.
+
+
+
+X-CHALLENGE 2026  /  ZÖLDKÖR
+A probléma már dokumentált
+2025-ben elutasított tételek; a 2026-os fennmaradás még nem igazolt.
+
+Forrás: KŐKERT 2025-ös beszámoló, PDF 15. oldal; 2024. beszerzési melléklet.
+02
+
+
+7 958 m³
+2025-ben feldolgozott zöldhulladék. Nem eladható aprítékvolumen.
+
+
+41,37 M Ft
+A 2024-ben beszerzett R640 nettó ára. Már meglévő eszköz.
+
+
+8–10 M Ft
+Korábbi szállítási megtakarítás; a feldolgozás költsége nőtt. Nem projekt-ROI.
+
+
+A beszámoló a feldolgozási költségek emelkedését is jelzi. Nem tudjuk, hogy 2026-ban is fennáll-e az elutasítás. A válogatás már létezik; nem állítjuk, hogy új találmány.
+Red team: 2026-os fennmaradás, jogi út, átvevői specifikáció és költségadat nem igazolt. A 3 éves küszöb 75% első éves felfutással 1 090 909 Ft/év, 8 000 Ft/t esetén 137 t/év; alapeset 3,36 év.
+
+
+
+X-CHALLENGE 2026  /  ZÖLDKÖR
+A minőség legyen a döntési pont
+A meglévő válogatás és aprítás kiegészítése célhoz igazított minőségbiztosítással.
+
+Forrás: KŐKERT beszámoló; Negri R640 gyártói termékoldal; ISO 17827-1:2024.
+03
+
+
+01 / Minta
+Forrás, tételazonosító, szemcseméret, nedvesség, szennyező.
+
+
+02 / Próba
+Előbb másik jogszerű átvevő, majd párosított gépi próba; bérrostálás csak indokoltan.
+
+
+03 / Kapu
+Átvevői követelmény + jogi útvonal + ellenőrzött tétel. Hibánál HOLD.
+
+
+A gyártó kivehető finomítórostát kínál, de a helyi gép konfigurációja ismeretlen. A demo nem szabványos vizsgálat. A már működő szociális tűzifaáramot nem tereljük el.
+Red team: 2026-os fennmaradás, jogi út, átvevői specifikáció és költségadat nem igazolt. A 3 éves küszöb 75% első éves felfutással 1 090 909 Ft/év, 8 000 Ft/t esetén 137 t/év; alapeset 3,36 év.
+
+
+
+X-CHALLENGE 2026  /  ZÖLDKÖR
+Élő demonstráció: egy tétel útja
+Szintetikus adatokkal, internet nélkül: mérés → ajánlás → blokkolás → export.
+
+Koncepció • 2026. november 17. • tervezett pilot
+04
+
+
+Mérés
+Frakciótömegek, nedvesség és idegenanyag. A tömegszázalékok automatikusan számolódnak.
+
+
+Döntés
+Átvevői mintaküszöbök szerinti előszűrés. A specifikációk csak szemléltetők.
+
+
+Biztonság
+Jogi feltétel nélkül HOLD. Adatmódosítás törli a jóváhagyásokat. CSV-export.
+
+
+Nyisd meg a demo.html-t. Először a blokkolt tételt, majd a megfelelőt mutasd. A checkboxok csak modelleznek, nem igazolnak engedélyt. Készíts képernyőképet tartalékként.
+Red team: 2026-os fennmaradás, jogi út, átvevői specifikáció és költségadat nem igazolt. A 3 éves küszöb 75% első éves felfutással 1 090 909 Ft/év, 8 000 Ft/t esetén 137 t/év; alapeset 3,36 év.
+
+
+
+X-CHALLENGE 2026  /  ZÖLDKÖR
+2,4 millió Ft – szakaszos finanszírozás
+Az első kapu után a maradék forrás csak igazolt lehetőségre költhető.
+
+Koncepció • 2026. november 17. • tervezett pilot
+05
+
+300 ezer Ft
+Felmérés és jogi / partneri kapu
+
+600 ezer Ft
+Mintavétel és gépi próba
+
+700 ezer Ft
+Opcionális bérrostálás és logisztika
+
+500 ezer Ft
+Digitális kiértékelés és éves többletüzem
+
+300 ezer Ft
+Tartalék
+
+
+A keret becslés, nem ajánlat. 2,1 M egyszeri keret és 300 ezer éves fix többlet. Az opcionális bérrostálás költsége az egyszeri próba; folyamatos bérrostálás a változó költségben számolandó.
+Red team: 2026-os fennmaradás, jogi út, átvevői specifikáció és költségadat nem igazolt. A 3 éves küszöb 75% első éves felfutással 1 090 909 Ft/év, 8 000 Ft/t esetén 137 t/év; alapeset 3,36 év.
+
+
+
+X-CHALLENGE 2026  /  ZÖLDKÖR
+A megtérülés mérhető küszöb
+Nem ígérünk garantált bevételt. A pilot feladata a feltételezések igazolása.
+
+Koncepció • 2026. november 17. • tervezett pilot
+06
+
+
+125 t/év
+Feltételezett többlethasznosítás, mért tömeg alapján. Nem m³-ből becsülve.
+
+
+8 000 Ft/t
+Feltételezett többletfedezet változó költségekkel csökkentve.
+
+
+3,36 év
+2,1 M Ft egyszeri + 0,3 M Ft/év fix; 75% első év. 3 évhez 137 t/év kell.
+
+
+50 t × 4000 – 300000 = −100000; 125 t × 8000 – 300000 = 700000; 250 t × 12000 – 300000 = 2700000. A megtakarítást és az értékesítést nem számoljuk duplán. Első év teljes üzem esetén; felfutás késleltetheti.
+Red team: 2026-os fennmaradás, jogi út, átvevői specifikáció és költségadat nem igazolt. A 3 éves küszöb 75% első éves felfutással 1 090 909 Ft/év, 8 000 Ft/t esetén 137 t/év; alapeset 3,36 év.
+
+
+
+X-CHALLENGE 2026  /  ZÖLDKÖR
+2027: először bizonyítani, utána bővíteni
+A megvalósítás az üzemeltető, a jogi felelős és az átvevő együttműködését igényli.
+
+Koncepció • 2026. november 17. • tervezett pilot
+07
+
+Jan. – febr.
+Aktuális elutasítás, jogi út, átvevőváltás ellenpróba
+
+Márc. – ápr.
+Párosított kontroll/próba, mérés és költségkövetés
+
+Máj. – jún.
+Átvevői próbák és GO / STOP döntés
+
+Júl. – nov.
+Korlátozott üzem, tételkövetés, hatásmérés
+
+December
+Kiterjesztés vagy lezárás a mért eredmény alapján
+
+
+Első kapu: dokumentált aktuális probléma + jogszerű próbaút + partner + gép. Második: azonos bemenet mellett elfogadási arány javulása és reális pozitív többletfedezet. Nincs jóváhagyás nélküli értékesítés.
+Red team: 2026-os fennmaradás, jogi út, átvevői specifikáció és költségadat nem igazolt. A 3 éves küszöb 75% első éves felfutással 1 090 909 Ft/év, 8 000 Ft/t esetén 137 t/év; alapeset 3,36 év.
+
+
+
+X-CHALLENGE 2026  /  ZÖLDKÖR
+A döntés, amit kérünk
+Nem új gépet. Egy bizonyítékokra épülő, leállítható pilotot.
+
+Koncepció • 2026. november 17. • tervezett pilot
+08
+300 000 Ft első vizsgálati kapu
+Ha az akadály igazoltan kezelhető: legfeljebb 2,4 M Ft teljes tervezési keret. Ha nem: STOP.
+
+
+Zárás: ugyanabból a helyi erőforrásból több hasznos értéket. A zsűritől támogatást kérünk a validációhoz, nem előre garantált megtérüléshez.
+Red team: 2026-os fennmaradás, jogi út, átvevői specifikáció és költségadat nem igazolt. A 3 éves küszöb 75% első éves felfutással 1 090 909 Ft/év, 8 000 Ft/t esetén 137 t/év; alapeset 3,36 év.
+
+
+
+X-CHALLENGE 2026  /  ZÖLDKÖR
+Források és bizonyítéki határok
+Ellenőrzés: 2026. november 17. • A teljes döntős feladatlap és a partneri adatok nem állnak rendelkezésre.
+
+Koncepció • 2026. november 17. • tervezett pilot
+09
+KŐKERT 2025 beszámoló és eszközlista
+https://www.kobanya.hu/?action=getfile&fid=208581&module=news&v=732579334638c8b3898f74d19eca7446
+Negri R640 – gyártói műszaki leírás
+https://negri-bio.com/en/shredders-chippers/cutting-system-hammers-R640.html
+Hulladéktörvény és engedélyezési rendelet
+https://njt.jog.gov.hu/jogszabaly/2012-185-00-00.57
+439/2012. Korm. rendelet
+https://njt.hu/jogszabaly/2012-439-20-22
+ISO 17827-1:2024 – módszertani referencia
+https://www.iso.org/standard/85081.html?browse=tc
+Már futó lakossági ágdarálás – elkülönítendő
+https://www.kobanya.hu/index_vak.php?action=show&module=news&nid=209691
+
+

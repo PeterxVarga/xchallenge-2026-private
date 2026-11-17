@@ -1,0 +1,175 @@
+{
+  "schema": "tredven.research.optional-handoff.v1",
+  "profile": "xchallenge-2026",
+  "observations": [
+    {
+      "candidate": "hootthon",
+      "claim": "Az Állomás utca 1–25. (640 lakás) szerepel a 2026. március 31-ig beérkezett Zöld Panelprogram-pályázatok között. A tényleges nyertes státusz, túlmelegedés és fennmaradó igény ismeretlen.",
+      "dimension": "residual_gap",
+      "observed": "2026-11-17",
+      "polarity": "challenge",
+      "source_kind": "official",
+      "status": "PDF_TEXT_REVIEWED_VISUAL_UNAVAILABLE",
+      "url": "https://www.kobanya.hu/?action=getfile&fid=208621&module=news&v=2e961f2b47d279b42bdc7b52ca7cecd1"
+    },
+    {
+      "candidate": "hotabor",
+      "claim": "A korábbi archivált dosszié ismétlődő hőterhelést ír le a táborban; a 2027 alapállapotot külön kell megismerni. Most nem tudtam újranyitni a PDF-et.",
+      "dimension": "local_problem",
+      "observed": "2026-11-17",
+      "polarity": "context",
+      "source_kind": "official",
+      "status": "HISTORICAL_ARCHIVE_REVIEW_NO_FRESH_READ",
+      "url": "https://www.kobanya.hu/?action=getfile&fid=209531&module=news&v=4420bcc60bf5f7c8dbd82c3c16de887c"
+    },
+    {
+      "candidate": "xchallenge-global",
+      "claim": "Az egyetemi közlemény valós kőbányai témát ismertet az élő döntőhöz.",
+      "dimension": "contest_rules",
+      "observed": "2026-11-17",
+      "polarity": "context",
+      "sha256": "c8dbd334e7149f4417b69892faff54daff7dcabbccd8170650522cd219a45977",
+      "source_kind": "official_or_operator",
+      "status": "LITERAL_PRESENT",
+      "url": "https://www.gtk.uni-pannon.hu/hu/x-challenge-2026/"
+    },
+    {
+      "candidate": "hooptimum",
+      "claim": "Közép-európai játszótéri terepvizsgálat árnyékolás mellett alacsonyabb hőstresszt jelez; nem igazol intézményi beltéri fóliahatást.",
+      "dimension": "transferable_effect",
+      "observed": "2026-11-17",
+      "polarity": "context",
+      "source_kind": "research",
+      "status": "SEARCH_EXCERPT_REVIEWED",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2212095524000695"
+    },
+    {
+      "candidate": "hotabor",
+      "claim": "A tábor gyülekezőhelye Kápolna tér 4.; nem igazolja az aktuális árnyékhiányt.",
+      "dimension": "local_context",
+      "observed": "2026-11-17",
+      "polarity": "context",
+      "sha256": "cad5025548058e69a8f596b602ecbeea96b6993130d64ef246e00c196e044947",
+      "source_kind": "official_or_operator",
+      "status": "LITERAL_PRESENT",
+      "url": "https://harmat88.hu/kobanyai-tekergok-napkozis-nyari-tabor/"
+    },
+    {
+      "candidate": "hohej",
+      "claim": "Árnyékolók kedvező hőstresszhatása, nem a kettős réteg többlethatásának igazolása.",
+      "dimension": "transferable_effect",
+      "observed": "2026-11-17",
+      "polarity": "context",
+      "source_kind": "research",
+      "status": "SEARCH_EXCERPT_REVIEWED",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2212095524000695"
+    },
+    {
+      "candidate": "menzamerleg",
+      "claim": "A Menza Pure szülői modulban már működik az étkezések lemondása; új lemondó app nem indokolt önmagában. Helyi tálalási és tányérmaradék mennyisége ismeretlen.",
+      "dimension": "residual_gap",
+      "observed": "2026-11-17",
+      "polarity": "challenge",
+      "source_kind": "official",
+      "status": "ORIGINAL_HTML_REVIEWED",
+      "url": "https://www.kobanya.hu/?fname=isk_et_2022&module=news"
+    },
+    {
+      "candidate": "xchallenge-global",
+      "claim": "Az önkormányzati közlemény szerint az élő döntő 2026. november 20., valós kőbányai kihívással.",
+      "dimension": "contest_rules",
+      "observed": "2026-11-17",
+      "polarity": "support",
+      "source_kind": "official",
+      "status": "SEARCH_EXCERPT_REVIEWED",
+      "url": "https://www.kobanya.hu/?action=show&module=news&nid=209687"
+    },
+    {
+      "candidate": "zoldkor",
+      "claim": "Külföldi kísérlet a rostálás és szárítás hatását vizsgálta kis gázosítóüzemi faapríték alkalmasságán; más átvevői specifikáció és anyagösszetétel mellett a hatás nem átvihető automatikusan.",
+      "dimension": "transferable_effect",
+      "observed": "2026-11-17",
+      "polarity": "context",
+      "source_kind": "research",
+      "status": "SEARCH_EXCERPT_REVIEWED",
+      "url": "https://doi.org/10.1002/ceat.202000034"
+    },
+    {
+      "candidate": "zoldkor",
+      "claim": "KŐKERT 2025 beszámoló: 7958 m³ feldolgozott zöldhulladék; a nem homogén aprítékot a korábbi átvevők ismételten visszautasították. A 2026-os fennmaradás és érintett tonna nem igazolt.",
+      "dimension": "local_problem",
+      "observed": "2026-11-17",
+      "polarity": "support",
+      "source_kind": "operator_primary",
+      "status": "ORIGINAL_PDF_TEXT_REVIEWED_VISUAL_UNAVAILABLE",
+      "url": "https://www.kobanya.hu/?action=getfile&fid=208581&module=news&v=732579334638c8b3898f74d19eca7446"
+    },
+    {
+      "candidate": "hooptimum",
+      "claim": "Budapest klímastratégiája hősziget-mérséklést jelöl; nincs intézményi mérés.",
+      "dimension": "policy_context",
+      "observed": "2026-11-17",
+      "polarity": "context",
+      "sha256": "0667e0dd6b1aae1019aeca49d160ae4948b2226caa1ae2b49a26a50c78b928ac",
+      "source_kind": "official_or_operator",
+      "status": "LITERAL_PRESENT",
+      "url": "https://budapest.hu/zold-budapest/klima-es-kornyezetvedelem/klimastrategia"
+    },
+    {
+      "candidate": "hotabor",
+      "claim": "A korábbi vizuálisan ellenőrzött kutatási dosszié 2027-re klimatizálást és 4–5 árnyékoló sátrat említ. Most az eredeti PDF újranyitása sikertelen; nem friss attestáció.",
+      "dimension": "residual_gap",
+      "observed": "2026-11-17",
+      "polarity": "challenge",
+      "source_kind": "official",
+      "status": "HISTORICAL_ARCHIVE_REVIEW_NO_FRESH_READ",
+      "url": "https://www.kobanya.hu/?action=getfile&fid=209531&module=news&v=4420bcc60bf5f7c8dbd82c3c16de887c"
+    },
+    {
+      "candidate": "xchallenge-global",
+      "claim": "A hivatalos versenyoldal megvalósítható javaslatokat kér; a 26 online pont nem igazolt döntős rubrika.",
+      "dimension": "contest_rules",
+      "observed": "2026-11-17",
+      "polarity": "context",
+      "sha256": "a4a29081e06af2d76133966220802f8e4ebbe79c7579545ac3fc3d90f2d2f5b9",
+      "source_kind": "official_or_operator",
+      "status": "LITERAL_PRESENT",
+      "url": "https://www.xchallenge.hu/"
+    },
+    {
+      "candidate": "hotabor",
+      "claim": "Iskolai árnyékvitorlákat vizsgáló klaszter-randomizált vizsgálat; eredeti oldal megnyitása CAPTCHA, helyi hatás nem igazolt.",
+      "dimension": "transferable_effect",
+      "observed": "2026-11-17",
+      "polarity": "context",
+      "source_kind": "research",
+      "status": "SEARCH_EXCERPT_REVIEWED",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19223344/"
+    },
+    {
+      "candidate": "zoldkor",
+      "claim": "2026. november 9–december 11. lakossági helyszíni ágaprítási program; külön anyagáram, nem bizonyítja az üzemi átvevői hiány megszűnését.",
+      "dimension": "residual_gap",
+      "observed": "2026-11-17",
+      "polarity": "challenge",
+      "source_kind": "official",
+      "status": "SEARCH_EXCERPT_REVIEWED",
+      "url": "https://www.kobanya.hu/zoldkobanya/index.php?action=show&module=news&nid=209691"
+    },
+    {
+      "candidate": "menzamerleg",
+      "claim": "Svéd vizsgálatban a referencia csoport is javult; az előrejelzési beavatkozás 34 g/adag tálalási hulladékcsökkenése a referencia 11 g/adag csökkenéséhez viszonyítandó. Helyi hatás és pénzügyi realizálhatóság ismeretlen.",
+      "dimension": "transferable_effect",
+      "observed": "2026-11-17",
+      "polarity": "context",
+      "source_kind": "research",
+      "status": "ORIGINAL_INSTITUTIONAL_ABSTRACT_REVIEWED",
+      "url": "https://research.slu.se/en/publications/testing-interventions-to-reduce-food-waste-in-school-catering/"
+    }
+  ],
+  "research_archive_available": true,
+  "decision_owner": "separate X-Challenge lane",
+  "fresh_research": false,
+  "new_contest_decision": false,
+  "business_evidence_exported": false
+}

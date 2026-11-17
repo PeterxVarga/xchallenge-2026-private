@@ -1,0 +1,67 @@
+{
+  "audit": [
+    {
+      "id": "xc-official",
+      "candidate": "xchallenge-global",
+      "url": "https://www.xchallenge.hu/",
+      "literal": "megvalósítható",
+      "kind": "RULES",
+      "actor": "X-Challenge",
+      "status": "LITERAL_PRESENT",
+      "sha256": "a4a29081e06af2d76133966220802f8e4ebbe79c7579545ac3fc3d90f2d2f5b9",
+      "observed_at": "2026-11-17T12:18:45.290227+00:00",
+      "cache_hit": false,
+      "commercial_evidence_admitted": false,
+      "buyer_pain_proven": false
+    },
+    {
+      "id": "xc-uni",
+      "candidate": "xchallenge-global",
+      "url": "https://www.gtk.uni-pannon.hu/hu/x-challenge-2026/",
+      "literal": "valós kőbányai",
+      "kind": "RULES",
+      "actor": "Pannon Egyetem",
+      "status": "LITERAL_PRESENT",
+      "sha256": "c8dbd334e7149f4417b69892faff54daff7dcabbccd8170650522cd219a45977",
+      "observed_at": "2026-11-17T12:18:45.289927+00:00",
+      "cache_hit": false,
+      "commercial_evidence_admitted": false,
+      "buyer_pain_proven": false
+    },
+    {
+      "id": "xc-camp",
+      "candidate": "hotabor",
+      "url": "https://harmat88.hu/kobanyai-tekergok-napkozis-nyari-tabor/",
+      "literal": "Kápolna tér 4.",
+      "kind": "LOCAL_CONTEXT",
+      "actor": "Harmat iskola",
+      "status": "LITERAL_PRESENT",
+      "sha256": "cad5025548058e69a8f596b602ecbeea96b6993130d64ef246e00c196e044947",
+      "observed_at": "2026-11-17T12:18:45.289073+00:00",
+      "cache_hit": false,
+      "commercial_evidence_admitted": false,
+      "buyer_pain_proven": false
+    },
+    {
+      "id": "xc-climate",
+      "candidate": "hooptimum",
+      "url": "https://budapest.hu/zold-budapest/klima-es-kornyezetvedelem/klimastrategia",
+      "literal": "hősziget-hatás",
+      "kind": "POLICY",
+      "actor": "Budapest",
+      "status": "LITERAL_PRESENT",
+      "sha256": "0667e0dd6b1aae1019aeca49d160ae4948b2226caa1ae2b49a26a50c78b928ac",
+      "observed_at": "2026-11-17T12:18:45.288236+00:00",
+      "cache_hit": false,
+      "commercial_evidence_admitted": false,
+      "buyer_pain_proven": false
+    }
+  ],
+  "metrics": {
+    "unique_urls": 4,
+    "cache_hits": 0,
+    "url_attempts": 4,
+    "successful_html": 4,
+    "literal_matches": 4
+  }
+}
