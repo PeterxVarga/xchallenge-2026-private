@@ -1,0 +1,439 @@
+{
+  "schema": 1,
+  "baseline": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0",
+  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification.",
+  "families": [
+    "ALL",
+    "CAMP",
+    "PRESCHOOL",
+    "HOME",
+    "CARE",
+    "WATER",
+    "TRANSIT",
+    "SCHOOL"
+  ],
+  "sources": {
+    "brief": {
+      "path": "rounds/R11/DECISION.md",
+      "blob": "a5f57e44e82a327e91e99abc2f6282888d4ba2f7",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "tournament": {
+      "path": "rounds/R122-R150/INTEGRATED_CONCEPT_TOURNAMENT.md",
+      "blob": "39cca0b0419f74c93c60779282a9f1fa55f048bf",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "three": {
+      "path": "rounds/R151/THREE_FINALISTS.md",
+      "blob": "b5864285787947aee3b0b64195c7cfd8e45825e2",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "global": {
+      "path": "rounds/R151/GLOBAL_BREAKTHROUGH_INNOVATION.md",
+      "blob": "64037d0fad25770d515549186f5cd5bcb88e1bf4",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "catalog": {
+      "path": "rounds/R152-R200/ULTIMATE_CONCEPT_OPTIMIZATION.md",
+      "blob": "bde1802d23737f2773c892339830bc0b59935d9f",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "geometry": {
+      "path": "rounds/R152/MAXIMUM_WINNING_CONCEPT_ENGINEERING.md",
+      "blob": "d7d6dd67e3e7bb2ec6d937e4573afeec87de97a5",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "local": {
+      "path": "rounds/R153/MAXIMUM_WINNING_POTENTIAL.md",
+      "blob": "d543108fd6fabdadb4b069ec470a3e1d71262302",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "transfer": {
+      "path": "rounds/R154/CONCEPT_BREAKTHROUGH.md",
+      "blob": "b21098a2b950fd4f5a49e3f696c52723e9b24836",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "ultimate": {
+      "path": "rounds/R155/ULTIMATE_CONCEPT_OPTIMIZATION.md",
+      "blob": "4e0949ee32817a9cdff178bc356b7977cfeb3cb1",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "silent": {
+      "path": "rounds/R156/LOCAL_EVIDENCE_AND_SILENT_COOLING.md",
+      "blob": "ca04c2af07467fec1ad3de63a229897ebc17959a",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "pavilion": {
+      "path": "rounds/R103-R115/PAVILION_CONCEPT.md",
+      "blob": "b92507709f386507950eea06e05951df55c7257c",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    },
+    "home": {
+      "path": "rounds/R66-R80/MASTER_CONCEPT_AND_FINAL_CHALLENGER.md",
+      "blob": "27c353499679e6d4fec50e9cd952573a170d5920",
+      "ref": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0"
+    }
+  },
+  "findings": [
+    {
+      "id": "rules",
+      "family": "ALL",
+      "kind": "RULE",
+      "source": "brief",
+      "locator": "## Primary authority",
+      "claim": "Öt egyenlő szempont; nincs számszerű költségplafon; 2027 nyári hatás, hat hónapon belüli indítás/próba.",
+      "limit": "Felhasználói kiírás korábbi feldolgozása, nem új hitelesítés.",
+      "decision": "R1 3M munkakerete és hiányzó rubric nem irányadó."
+    },
+    {
+      "id": "camp-repeat",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "ultimate",
+      "locator": "## 5. Three existing leaders",
+      "claim": "2025-ben 287 résztvevő, a jelentés napi 119-es átlagot ír; 2025/26 dokumentált hőség miatti működési nehézség.",
+      "limit": "Nem 2027-es hatás vagy egyidejű jelenlét.",
+      "decision": "Első validálási prioritás."
+    },
+    {
+      "id": "camp-baseline",
+      "family": "CAMP",
+      "kind": "LOCAL_PLAN",
+      "source": "local",
+      "locator": "### 3.2. Nyári napközi",
+      "claim": "2027-re 4–5 nyitott sátor javasolt; klímaprogram és étkezési útvonal része a baseline-nak.",
+      "limit": "Terv nem jóváhagyás vagy teljesítés.",
+      "decision": "Az extra sátor és szervezés csak fennmaradó hiánynál érték."
+    },
+    {
+      "id": "camp-lean",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "ultimate",
+      "locator": "## 5. Three existing leaders",
+      "claim": "60 gyermek ×20 nap ×5/10/20 perc: 100/200/400 elkerült kitettségi gyermekóra; 410k Ft feltételes lean keret.",
+      "limit": "Nem helyi mérés vagy ajánlat.",
+      "decision": "Összehasonlítás csak azonos szolgáltatás esetén."
+    },
+    {
+      "id": "camp-gap",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "silent",
+      "locator": "## 7. A többi döntős",
+      "claim": "A 2027-es pontos tábori ellátás, működő klíma, árnyékkészlet és maradó kitettség nincs igazolva.",
+      "limit": "Keresési hiány nem elmaradt beruházás.",
+      "decision": "Döntésfordító input: jóváhagyott 2027-es terv és tényleges hiány."
+    },
+    {
+      "id": "low-e",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "pavilion",
+      "locator": "## 2. New direct evidence",
+      "claim": "Milánói kísérletben ventilált kéthéjú low-e membrán kb. 3°C átlagos MRT előny a fehér referenciához képest.",
+      "limit": "MRT, nem levegőhőmérséklet, nem Kőbánya.",
+      "decision": "Csak jó normál árnyék ellen mért többlet."
+    },
+    {
+      "id": "shade-geometry",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "geometry",
+      "locator": "### 4.1. Árnyékgeometria",
+      "claim": "25° napmagasságnál 4m középre tett tető 2,29%, 6m 35,63%, eltolva 4m 55,63% az illusztratív célsíkban.",
+      "limit": "Egydimenziós modell, nem beépítési terv.",
+      "decision": "Geometria és tényleges használati idő az anyag előtt."
+    },
+    {
+      "id": "municipal-77",
+      "family": "TRANSIT",
+      "kind": "LOCAL_PLAN",
+      "source": "local",
+      "locator": "### 3.1. Mobil árnyék",
+      "claim": "755–757/2026 végleges fővárosi határozatok: helyszínvizsgálat, mobil árnyékolás, műszaki és költségrangsor.",
+      "limit": "Nem megrendelés vagy biztos fedezet.",
+      "decision": "Generikus ÁRNYÉKHÍD duplikációs kockázata."
+    },
+    {
+      "id": "liget",
+      "family": "TRANSIT",
+      "kind": "LOCAL_PLAN",
+      "source": "local",
+      "locator": "### 3.1. Mobil árnyék",
+      "claim": "Liget tér átcsoportosítással érintett; többéves elköteleződés és előkészítés dokumentált.",
+      "limit": "Nem bizonyított törlés vagy tényleges 2027-es hiány.",
+      "decision": "Csak megmaradó, elkülönülő rés."
+    },
+    {
+      "id": "kindergarten-count",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "local",
+      "locator": "### 3.3. KEÓ",
+      "claim": "15 tagóvoda, 73 csoport, 1575 gyermek a szeptemberi jelentésben.",
+      "limit": "Nem nyári elérés és nem hűtési lefedettség.",
+      "decision": "Tényleges nyári foglaltság kell."
+    },
+    {
+      "id": "kindergarten-correction",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "transfer",
+      "locator": "### Bölcsődék",
+      "claim": "Hárslevelű split, Mocorgó felülvilágító fólia; a korábbi hiányos műszaki jelző 533-ról 339 gyermekre változik.",
+      "limit": "Forrás szerinti kategória, nem hővédett létszám; szöveges forrás.",
+      "decision": "Előzményben meglévő beavatkozások leválasztása."
+    },
+    {
+      "id": "summer-closure",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_PLAN",
+      "source": "silent",
+      "locator": "## 7. A többi döntős",
+      "claim": "Csodapók és Napsugár eredeti épülete várhatóan 2027 augusztus végéig zárva; külön szolgáltatások.",
+      "limit": "Nem végleges nyári beosztás.",
+      "decision": "Ne jelöljünk ki automatikusan fix helyet."
+    },
+    {
+      "id": "nursery-cooling",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "transfer",
+      "locator": "### Bölcsődék",
+      "claim": "Gyermeksziget fan-coil és Manóvár minden csoportszobát érintő klímája a beszámoló szerint; további hűtési fejlesztések.",
+      "limit": "Nem független komfortmérés.",
+      "decision": "Új klímát csak igazolt residual esetén."
+    },
+    {
+      "id": "preschool-gap",
+      "family": "PRESCHOOL",
+      "kind": "UNKNOWN",
+      "source": "silent",
+      "locator": "## 7. A többi döntős",
+      "claim": "2027 ügyeleti rend, foglalt helyiségek, meglévő hűtés és maradó hőhiány nem igazolt.",
+      "limit": "Nem nulla igény.",
+      "decision": "Tényleges helyiség és nyári kapacitás szükséges."
+    },
+    {
+      "id": "school-channel",
+      "family": "SCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "local",
+      "locator": "### 3.5. Iskolai",
+      "claim": "2026-os 296,255M Ft szerződéses felújítási összeg, 5821 tanulói létszám.",
+      "limit": "Nem hővédelmi keret és nem nyári jelenlét.",
+      "decision": "Feltételes HŐSULI, nyári használat előfeltétel."
+    },
+    {
+      "id": "housing-stock",
+      "family": "HOME",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "home",
+      "locator": "## 2. Új evidencia",
+      "claim": "2025 végén 2113 önkormányzati lakás; 487 CO-érzékelő átadása történeti csatorna.",
+      "limit": "Nem mért túlmelegedés, CO nem CO2.",
+      "decision": "Meglévő önkéntes átadási út; különítsük el a bérleti ellenőrzést."
+    },
+    {
+      "id": "housing-retrofit",
+      "family": "HOME",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "catalog",
+      "locator": "## 2. Új helyi",
+      "claim": "2024-ben 23 méltányossági nyílászárócsere, a jelentés sorában 39 921 858 Ft.",
+      "limit": "Eltérő scope, nem hővédelmi egységár vagy 2027 keret.",
+      "decision": "Valós felújítási csatorna."
+    },
+    {
+      "id": "housing-study",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "three",
+      "locator": "## 2. Újonnan",
+      "claim": "Budapesti panel kalibrált modellje kombinált passzív stratégiával akár 66,6% modellezett túlhevülés-csökkenést mutat.",
+      "limit": "Nem mért retrofit-hatás vagy helyi lakás.",
+      "decision": "Éjszakai szellőzés és hőtömeg feltételes."
+    },
+    {
+      "id": "housing-portasplit",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "catalog",
+      "locator": "## 3. Technológiatranszfer",
+      "claim": "Díjnyertes hordozható split és hagyományos telepített fix split árreferencia szerepel.",
+      "limit": "Nem aktuális ajánlat vagy zajvédett helyszínre jóváhagyás.",
+      "decision": "Normál fix split a valós ellenjelölt."
+    },
+    {
+      "id": "housing-noise",
+      "family": "HOME",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "silent",
+      "locator": "## 2. HŐOTTHON CSEND",
+      "claim": "2025 Újhegyi úti zajvédelmi kivitelezés, további épületek előkészítése.",
+      "limit": "Nem minden lakás teljesítése vagy túlmelegedés.",
+      "decision": "CSEND meglévő felújítási útja."
+    },
+    {
+      "id": "housing-noise-plan",
+      "family": "HOME",
+      "kind": "LOCAL_PLAN",
+      "source": "silent",
+      "locator": "## 2. HŐOTTHON CSEND",
+      "claim": "2023 együttes 132 lakás, 13 önkormányzati listázva, 12 pályázat javasolt; a jelentés aránya eltér a listától.",
+      "limit": "Nem résztvevőszám; belső arányellentmondás megőrizve.",
+      "decision": "Jogosultság és konkrét szoba ellenőrzendő."
+    },
+    {
+      "id": "housing-vent",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "silent",
+      "locator": "## 4. Számszerű falsifier",
+      "claim": "60m³/h 5K különbségnél 100,5W érzékelhető hőelvonás; 3m² árnyékolási példa 540W elkerült hőnyereség.",
+      "limit": "Eltérő időszak, nem napi mérleg vagy termékméret.",
+      "decision": "Zajvédelem mellett kis légáram nem garantál hűtést."
+    },
+    {
+      "id": "housing-gap",
+      "family": "HOME",
+      "kind": "UNKNOWN",
+      "source": "silent",
+      "locator": "## 8. Öt egyenlő",
+      "claim": "Konkrét önkéntes lakott túlmelegedő szoba, egyidejű zajkonfliktus, tulajdonosi hozzájárulás és ajánlat hiányzik.",
+      "limit": "Nem bizonyítja, hogy nincs igény.",
+      "decision": "CSEND csak igazolt kettős konfliktusnál."
+    },
+    {
+      "id": "portland",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "ultimate",
+      "locator": "## 5. Three existing leaders",
+      "claim": "Portland 2025 végéig 20 311 telepítés; összesített $20 691 489 kiadás, kb. $1019/telepítés.",
+      "limit": "Nem marginális ár, magyar költség vagy igazolt egészséghatás.",
+      "decision": "Logisztika és fenntartás külön költség."
+    },
+    {
+      "id": "loan-rotation",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "transfer",
+      "locator": "## 5. Innovációs portfólió",
+      "claim": "8 eszköz ×40 éjszaka =320 eszköz-éjszaka; egyidejű hőhullámban a forgatás nem növeli a kapacitást.",
+      "limit": "Ideális felső határ, veszteség nélkül.",
+      "decision": "Stabil szezonális hozzáférés."
+    },
+    {
+      "id": "care-occupancy",
+      "family": "CARE",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "silent",
+      "locator": "## 5. HŐMENEDÉK 24",
+      "claim": "14 férőhely, 2588 éves és 569 nyári gondozási nap (2025); részadat-eltérés dokumentált.",
+      "limit": "Nem nyári egyidejű vagy hőnek kitett létszám.",
+      "decision": "Valós foglalt szobák, nem maximális férőhely."
+    },
+    {
+      "id": "care-workload",
+      "family": "CARE",
+      "kind": "MODEL",
+      "source": "silent",
+      "locator": "## 6. HŐKÖLCSÖN",
+      "claim": "3412 nyári szolgáltatási egység ×10 perc ≈569 plusz óra, a 3529,5 jelentett óra kb.16,1%-a.",
+      "limit": "Nem mért új feladat vagy szabad kapacitás.",
+      "decision": "Külön finanszírozott telepítő; ne terheljük a gondozókat."
+    },
+    {
+      "id": "care-gap",
+      "family": "CARE",
+      "kind": "UNKNOWN",
+      "source": "silent",
+      "locator": "## 5. HŐMENEDÉK 24",
+      "claim": "Tényleges nyári hőhiány, szoba, működő HVAC, jogosultság nem igazolt.",
+      "limit": "Nincs helyszín vagy ellátott kiválasztva.",
+      "decision": "Egy meglévő bentlakásos szoba feltételes javítása."
+    },
+    {
+      "id": "water-point",
+      "family": "WATER",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "ultimate",
+      "locator": "## 2. Primary-source",
+      "claim": "S1 vízvételi pont, 2020 szivattyú; öntözési használat dokumentált.",
+      "limit": "Nem folyamatos vízhozam, hőfok vagy hűtési engedély.",
+      "decision": "KŐHŰTŐ valós erőforrás-hipotézis."
+    },
+    {
+      "id": "water-time",
+      "family": "WATER",
+      "kind": "MODEL",
+      "source": "ultimate",
+      "locator": "## 4. Engineering",
+      "claim": "4kW ×6h =24kWh; 5K mellett kb.4,13m³; 0,5l/s egyetlen órája csak 10,465kWh.",
+      "limit": "Elméleti primer, veszteség nélkül.",
+      "decision": "Időbeli egybeesés kritikus."
+    },
+    {
+      "id": "water-dew",
+      "family": "WATER",
+      "kind": "MODEL",
+      "source": "ultimate",
+      "locator": "## 4. Engineering",
+      "claim": "30°C/60% RH mellett kb.21,39°C harmatpont; 20°C felület kondenzálhat.",
+      "limit": "Közelítő modell, nem épület- vagy egészségügyi terv.",
+      "decision": "Kondenzáció és látens teher külön."
+    },
+    {
+      "id": "water-payback",
+      "family": "WATER",
+      "kind": "MODEL",
+      "source": "ultimate",
+      "locator": "## 4. Engineering",
+      "claim": "4kW, COP3, 0,4kW segédenergia, 180h/év, 100Ft/kWh: 16,8k Ft/év, öt év 84k Ft maximális extra beruházás karbantartás nélkül.",
+      "limit": "Feltételes többletköltség-határ, nem ajánlat.",
+      "decision": "Normál klíma az ellenjelölt."
+    },
+    {
+      "id": "water-gap",
+      "family": "WATER",
+      "kind": "UNKNOWN",
+      "source": "silent",
+      "locator": "## 7. A többi döntős",
+      "claim": "Üzemi vízhozam, T, vízkémia, időprofil, csatlakozás, hűtési igény és engedély nem igazolt.",
+      "limit": "Nem nulla kapacitás.",
+      "decision": "HOLD; új hipotetikus méretezés nem oldja fel."
+    },
+    {
+      "id": "vacant-housing",
+      "family": "HOME",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "global",
+      "locator": "## 4. Új közvetlen",
+      "claim": "Hét üres felújítandó lakás pályázati csatornája; max.9 hónapos plusz hosszabbítható felújítási út.",
+      "limit": "Nem nyári lakott szoba vagy hőigény.",
+      "decision": "Nem első 2027-es pilot."
+    },
+    {
+      "id": "governance",
+      "family": "ALL",
+      "kind": "RULE",
+      "source": "silent",
+      "locator": "## 10. Státusz",
+      "claim": "Téma OPEN, nincs prototípus, prezentáció, beszerzés, kapcsolatfelvétel; döntés helyi residual után.",
+      "limit": "Nem végleges zsűri vagy implementáció.",
+      "decision": "Ne számoljunk kitalált készültséget."
+    },
+    {
+      "id": "pcm",
+      "family": "ALL",
+      "kind": "MODEL",
+      "source": "global",
+      "locator": "## 3. Technológiai falsifikáció",
+      "claim": "100kg ×180kJ/kg PCM ideálisan 5kWh; regeneráció és teljesítmény korlátozza.",
+      "limit": "Hipotetikus kapacitás, nem beszerzés.",
+      "decision": "Nem automatikus high-tech előny."
+    }
+  ]
+}
