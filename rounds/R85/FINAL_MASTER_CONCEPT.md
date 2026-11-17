@@ -46,7 +46,7 @@ ROI: új teljes kerületi vagy családi program (nem igazolt önálló igény); 
 ---
 
 ## II. Integrált működési és gazdasági alap (R83, történeti szöveg)
-##### HŐTÁBOR — Hőségálló gyermekellátás
+### HŐTÁBOR — Hőségálló gyermekellátás
 #### Integrált szakmai és megvalósítási mesterdokumentum, R83
 2026. november 17. | X-Challenge 2026 — Hőségállóbb Kőbánya | Koncepciószintű javaslat, nem jóváhagyott beruházás. NO_SEND. Nincs prezentációmódosítás. 
 Ez a dokumentum önállóan olvasható aktuális szakmai döntés; a korábbi R34–45 mesterdokumentum, R47–48, R49–65, R66–80 és R81 részletei és bizonyítékai megőrzendők. Az eltérő fókusz és költségváltozat esetén R83 az irányadó. Bázis main 67966d93808ecec112fd7c596368d269a1094e8b. R81 blob 6d690884aa24677b2751ac7d9a34b7fb96f76d17; R82 d405af991e481ef27762683b5e14b074590399b4.
@@ -157,8 +157,8 @@ Következő szakmai ROI kontakt nélkül: konkrét helyszíni geometriára és h
 
 ## III. Integrált műszaki melléklet (R84, történeti szöveg)
 
-##### HŐTÁBOR — R84 mérnöki melléklet
-2026. november 17. | X-Challenge 2026 | NO_SEND | nincs prezentációfejlesztés, beszerzés, kivitelezés vagy valós gyermekpróba. R83 továbbra is szakmai fődokumentum (blob a1fb6ffd148bad7eaa4ac556ad31cd016cf77648); ez a melléklet aktualizálja M2/M3 műszaki döntését. Main bázis 4df23c26e50f729ba45df7fa319fc241ef5c8da2; számítási forrás [model.mjs](model.mjs), 1fc03be499a03f296676de47e149343902116b9b, exact readback. Nem kiviteli terv, energetikai tanúsítás, statikai számítás, egészségügyi biztonsági határ, berendezésméretezési jogosultság.
+### HŐTÁBOR — R84 mérnöki melléklet
+2026. november 17. | X-Challenge 2026 | NO_SEND | nincs prezentációfejlesztés, beszerzés, kivitelezés vagy valós gyermekpróba. R83 továbbra is szakmai fődokumentum (blob a1fb6ffd148bad7eaa4ac556ad31cd016cf77648); ez a melléklet aktualizálja M2/M3 műszaki döntését. Main bázis 4df23c26e50f729ba45df7fa319fc241ef5c8da2; számítási forrás [model.mjs](../R84/model.mjs), 1fc03be499a03f296676de47e149343902116b9b, exact readback. Nem kiviteli terv, energetikai tanúsítás, statikai számítás, egészségügyi biztonsági határ, berendezésméretezési jogosultság.
 
 #### 1. Döntés és ROI
 A három valós ellenjelölt: (A) új árnyékszerkezet a korábbi 1,5M példa alapján; (B) új split klíma a helyi óvodai történeti költségpélda alapján; (C) meglévő helyiségek, meglévő/tervezett árnyékolók és szolgáltatási ágak optimalizálása, a hiány igazolása után helyspecifikus mérnöki terv (választott). D) új high-tech párologtatás vagy radiatív pavilon: a normál árnyékhoz képest többlethatás, költség, víz, higiénia, fenntartás és műszaki megbízhatóság nem igazolt. C a legkisebb kockázatú, de nem követelmény az új hardver kerülése, ha a valódi hőmérleg és szolgáltatási szükséglet megköveteli. A legfontosabb új ellenbizonyíték a védett építészeti státusz és a 3,5kW benchmark méretezési átvihetetlensége. M1 (R83, D/B1/C, tényleges kapuk) marad a fő pilot. M2/M3 külön szükséglet és döntés. Nem egyesítünk lakóház vagy teljes kerületi projektet.
