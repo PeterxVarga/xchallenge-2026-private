@@ -127,6 +127,11 @@
       "path": "rounds/R167/OUTCOME_FIRST_PORTFOLIO_CHALLENGER.md",
       "ref": "4b1b8982e6edc56b404f35b4bf19986683f1d265",
       "blob": "9535f823b4227520cb581b9840cfd45c17dbe35f"
+    },
+    "r168": {
+      "path": "rounds/R168/GLOBAL_BREAKTHROUGH_CONCEPT_TOURNAMENT.md",
+      "ref": "42f872e8c4332024fb7d5999a6b92d42573d0f43",
+      "blob": "69be49538d67986855fe2c71591f4b37b7963a51"
     }
   },
   "findings": [
@@ -1719,6 +1724,176 @@
       "limit": "Nincs megkeresés/terepmunka, a források csak történeti és tervezési adatok.",
       "decision": "Feltételes döntési csomag, nincs végleges téma.",
       "source": "r167"
+    },
+    {
+      "id": "r168-award-modular",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "Governors Island 2026 április23 hét nyertes közt KlimaKover moduláris hűsölő, Sunphade dinamikus fólia és ThermoShade sugárzó árnyékoló.",
+      "limit": "Díjazott pilot, nem kontrollált hatásmérés vagy magyar ár; a 20°F érzet állítás nem mért helyi levegőhő.",
+      "decision": "HŐVÁLTÓ azonos funkciójú hagyományos árnyékhoz mérve; fólia opcionális.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-award-brick",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "Erich Mendelsohn 2026 student gold Leipzig Cooling Tower, téglából hűsölő és buszmegálló funkció kombinálása.",
+      "limit": "Díjazott építészeti terv, nem igazolt megvalósítás/hatás.",
+      "decision": "A társadalmi funkció és fizikai szerkezet kombinálása; nem új általános megálló.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-award-earth",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "MIT 2026 augusztus26 nyertes Earthen Comforts földanyagú, textil árnyékos, megépített múzeumi pavilon.",
+      "limit": "Nem mennyiségi hatásmérés, nincs helyi ár vagy szerkezeti specifikáció.",
+      "decision": "Kis reprodukálható zónák, mérhető mikroklíma.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-ptuj",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "2026 ARCADIA Climathon Ptuj Green Flow városi zöldterv első; Terracotta Walls, Cool Spots és Modular Urban Coolers döntős.",
+      "limit": "Tervverseny, nem tényleges nyári hatás; víz/engedély/határidő helyi.",
+      "decision": "Városi terv helyett konkrét hővédelmi egység.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-film-case",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "Sunphade 2026 június2–augusztus31 gyártói helyszíni esettanulmány: átlag190 vs390 lux, 1000 lux felett15 vs145 óra.",
+      "limit": "Megvilágítás, nem hőmérsékletcsökkenés; számszerű termikus hatás nincs közölve az eredményszakaszban.",
+      "decision": "Illuminancia és hőhatás külön; külső árnyékkal versenyeztetni.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-film-counter",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "Lisbon NOVA 2024 két iroda absztraktja: kisebb hűtési idénybeli hatás; HKUST 2026 négy napos három kisméretű tesztrig: PC dinamikus fényáteresztés, hasonló beltéri levegőhő a sima üveghez.",
+      "limit": "Eltérő klíma, geometria és üveg; intézeti absztraktok, nem helyi hatás.",
+      "decision": "HŐABLAK csak bizonyított teljes g és nappali/téli működés mellett.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-worker-rct",
+      "family": "CARE",
+      "kind": "UPSTREAM",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "2026 thai 12 dolgozós keresztváltásos pilot absztrakt: kontrollhoz képest kombinált pihenő maghőmérséklet −0,24°C, PCM mellény −0,17°C.",
+      "limit": "Absztrakt, nem head-to-head szignifikancia, helyi munkabiztonsági vagy termelékenységi hatás; a natív corpusban korábban szerepelt.",
+      "decision": "Pihenő és PPE külön, mellény csak opcionális.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-garment-counter",
+      "family": "CARE",
+      "kind": "UPSTREAM",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "2026 passzív reflektív és szellőző ruházat terepkísérlete szerint az energiaegyensúly eredménye kedvezőbb, de a szubjektív érzet nem kellően javult.",
+      "limit": "Nem magyar munkakör, nem PPE-minősítés.",
+      "decision": "Külön felhasználói komfort és termikus követelmény.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-parking-cancel",
+      "family": "CARE",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "2026 október5 önkormányzati tájékoztató: a december1-jei fizető parkolási bővítés elmarad; 338/2026 korábbi pihenőterv ehhez kapcsolódott.",
+      "limit": "Pihenőhely sorsa és 2027 aktuális dolgozói kör ismeretlen; nincs bizonyított megszüntetés.",
+      "decision": "Parkolóhely-specifikus pilot HOLD, HŐMŰSZAK inkább KŐKERT.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-kokert-staff",
+      "family": "CARE",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "KŐKERT 2025 év végi jelentés:134 dolgozó,108 fizikai,26 nem fizikai,36 fő 61 év felett; állandó létszámhiány.",
+      "limit": "Eredeti PDF index5,8; nem minden fizikai dolgozó kültéri, kor és munkatípus metszete hiányzik; táppénz oka nem igazolt hőség.",
+      "decision": "Valós operator és célcsoport, nem 108 automatikus pilot résztvevő.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-kokert-maintenance",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "KŐKERT 2025 jelentés: >1M m² parkfenntartás,54 játszótér külön napi fenntartó csapattal.",
+      "limit": "PDF index10,11; nem mind árnyékhiányos vagy 2027 jóváhagyott pilot.",
+      "decision": "HŐJÁTÉK terjesztési csatorna, egy igazolt hotspottal indul.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-kokert-trees",
+      "family": "WATER",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "KŐKERT 2025 jelentés:376 facsemete ültetése, napi fenntartás tavasztól; 674 fakivágás.",
+      "limit": "PDF index10,11; nem azonos kohorsz, nem hőség miatti halál, nem nettó lombkoronaveszteség.",
+      "decision": "Átmeneti árnyék csak igazolt emberi használat és faállomány-védelem, öntözés baseline.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-work-law",
+      "family": "CARE",
+      "kind": "RULE",
+      "locator": "## 2. New public source evidence and falsification",
+      "claim": "2026 minisztériumi munkavédelmi útmutató a meleg munkahely kockázatértékelését, vízellátását és pihenőjét rögzíti, 5–10 perc óránként, védőital igény szerint de legalább félóránként.",
+      "limit": "Nem önálló jogi vélemény, tényleges 2027 hatály és munkatípus szakmai vizsgálata szükséges.",
+      "decision": "Kötelező munkavédelem baseline; nincs rövidített pihenő vagy hő miatt növelt munka.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-worker-capacity",
+      "family": "CARE",
+      "kind": "MODEL",
+      "locator": "## 4. HŐMŰSZAK — operational heat recovery for mobile outdoor crews",
+      "claim": "12 hipotetikus dolgozó,4 választott 10 perces pihenő x30 nap=240 bruttó pihenőóra; 6 perc oda-vissza útcsökkenés=144 feltételes elkerült útóra. 1,05M csomag +15%=1,2075M.",
+      "limit": "Nem teljes jogi pihenőszükséglet, tényleges dolgozószám vagy ár; nem munkaidő- vagy egészségnyereség. Normál pihenő nem szűnik meg.",
+      "decision": "Korábban meglévő megfelelő hely és szervezés az első; beruházás csak valós hozzáférési rés esetén.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-shade-extra",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "locator": "## 5. HŐVÁLTÓ and HŐABLAK — hardware radical alternatives",
+      "claim": "Korábbi 5 szezonos prémium árnyék többletköltség764k; 100/200/400 valóban nettó többlet gyermekóra évente esetén 1528/764/382 Ft/óra.",
+      "limit": "Korábbi feltételes modellek, nem piaci sugárzó panel ára vagy helyi hatás; 0 többletnél elvetendő.",
+      "decision": "Prémium modul csak azonos geometria és szükség esetén.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-film-balance",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 5. HŐVÁLTÓ and HŐABLAK — hardware radical alternatives",
+      "claim": "12m²,500W/m², g .50/.30/.15 példa 1,2/2,1kW elkerült hő; 4h és COP3 dinamikus fólia1,6kWh,120W extra beltéri világítás és hűtése után0,96kWh nettó.",
+      "limit": "Hipotetikus optikai és energiaadatok, nem mért termék vagy helyiség; külső árnyék világítását is azonos módon számolni kell.",
+      "decision": "Fizikai hő és fény mérlege szükséges, nem lux=°C.",
+      "source": "r168"
+    },
+    {
+      "id": "r168-scope-gap",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "locator": "## 6. Five-criterion outcome comparison and decision",
+      "claim": "Hat független koncepciócsalád mellett sincs megerősített helyi 2027 maradó hőhiány, konkrét engedély vagy aktuális teljes ár.",
+      "limit": "A 20 változat szűrés, részben történeti recombination; 78 közös natív rekord ugyanaz a digest, nem új live engine.",
+      "decision": "HŐTÉR/HŐOTTHON/HŐMŰSZAK feltételes első három validációs prioritás.",
+      "source": "r168"
     }
   ]
 }
