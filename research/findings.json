@@ -177,6 +177,11 @@
       "path": "rounds/R207/DIFFERENTIATED_PASSIVE_RETROFIT_AND_ROOM_ADEQUACY.md",
       "ref": "727e61efd2be9edc1eed3be4d8e5a2a97727c068",
       "blob": "ec35e46676fea5dd6abc6f0bd44bbbe1f9b69e6c"
+    },
+    "r208": {
+      "path": "rounds/R208/STRATEGIC_DECISION_DUAL_FINALIST.md",
+      "ref": "525456f69b811a2b3ed587d32b48d7cc86be6272",
+      "blob": "0cfd5e1ab765c763b82200cfdd7b3e7e14ef1b7b"
     }
   },
   "findings": [
@@ -2709,6 +2714,36 @@
       "claim": "HŐTÉR PLUSZ meglévő alkalmas árnyékolók teljesítményalapú jóváhagyott feljavítása, HŐSZOBA mért szobai megfelelőség és működési fedezet; egyik sem globális újdonság. HŐTÉR feltételes első.",
       "limit": "2027-es helyi igény, alkalmas szerkezet/lakás, jóváhagyás, ajánlat és tényleges hatás nem igazolt; részleges forráselérés; nem véglegesítés.",
       "decision": "Újabb ismétlődő modellezés helyett döntésre alkalmas két önálló csomag; nincs megkeresés/prototípus."
+    },
+    {
+      "id": "r208-camp-confirmed-context",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r208",
+      "locator": "## 1. Decision scope and evidence",
+      "claim": "370/2026 eredeti 3,6,7,8,9. indexű oldalképe: tényleges hőség miatti programátszervezés és ebédidős mozgás,4–5 sátor javaslat,127 heti átlag,164 csúcshét,3807 étkezési jelenléti nap,477 teljes és1215 félkedvezményes. A beszámoló az ingyenes programok esélyteremtő szerepét és összességében eredményes működést is rögzíti.",
+      "limit": "Korábbi forrás friss vizuális ellenőrzése, nem önálló új megfigyelés; nem egyidejű vagy egyedi létszám, bezárás, 2027 szükséglet vagy egészségkimenet.",
+      "decision": "A tényleges helyi ellátás folytonossága legyen a cél, az egyébként megfelelő programot ne minősítsük sikertelennek."
+    },
+    {
+      "id": "r208-eu-need",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "r208",
+      "locator": "## 1. Decision scope and evidence",
+      "claim": "JRC 2026 január23 jelentés hivatalos kivonata: 2023 EU-SILC adatok szerint a háztartások26%-a nem tudta kellően hűvösen tartani otthonát 2022 nyarán, a legalacsonyabb jövedelmű csoportban közel35%.",
+      "limit": "EU-s önbeszámolós adat, nem kizárólag anyagi ok, nem kőbányai vagy magyar helyi gyakoriság; teljes PDF nem vizsgálva.",
+      "decision": "A HŐSZOBA társadalmi szükségletének tágabb kontextusa, helyi jogosult és túlmelegedő lakás külön igazolandó."
+    },
+    {
+      "id": "r208-strategic-order",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r208",
+      "locator": "## 4. Official five-criterion qualitative review",
+      "claim": "Öt egyenként20%-os hivatalos kritérium kvalitatív összevetése: HŐTÉR előnye a közvetlen történeti helyi probléma és konkrét műszaki megkülönböztetési hipotézis; HŐSZOBA tartós lakhatási alternatíva. Megvalósíthatóság, teljes költség és helyi mérhetőség nem eldöntött.",
+      "limit": "Nem zsűripontszám vagy nyerési valószínűség; a 2027-es tényleges kapacitás, igény, jóváhagyás, teljes árajánlat és hatás továbbra is UNKNOWN. Nem végleges téma.",
+      "decision": "Feltételes HŐTÉR vezető, HŐSZOBA első ellenjelölt. A szokásos fejlesztések elégségessége vagy a valódi többlet hiánya az A beruházási stopja. További ismételt modellezés helyett döntés."
     }
   ]
 }
