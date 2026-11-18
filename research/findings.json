@@ -132,6 +132,11 @@
       "path": "rounds/R168/GLOBAL_BREAKTHROUGH_CONCEPT_TOURNAMENT.md",
       "ref": "42f872e8c4332024fb7d5999a6b92d42573d0f43",
       "blob": "69be49538d67986855fe2c71591f4b37b7963a51"
+    },
+    "r169": {
+      "path": "rounds/R169/THREE_FINALIST_DELIVERY_DOSSIERS.md",
+      "ref": "c4726a4694588e23d7852f3c1cb45af27e284596",
+      "blob": "6084c549331d856653e176bcdf184656fe463922"
     }
   },
   "findings": [
@@ -1894,6 +1899,116 @@
       "limit": "A 20 változat szűrés, részben történeti recombination; 78 közös natív rekord ugyanaz a digest, nem új live engine.",
       "decision": "HŐTÉR/HŐOTTHON/HŐMŰSZAK feltételes első három validációs prioritás.",
       "source": "r168"
+    },
+    {
+      "id": "r169-camp-conditional",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r169",
+      "locator": "## 2. HŐTÉR FLEX/VÁLTÓ — service continuity, staged engineering",
+      "claim": "410 ezer Ft korábbi szezonmodell mellett 60×10×5/60=50, 120×20×15/60=600, 140×20×20/60≈933 elkerült gyaloglási gyermekóra, rendre 8200/683/439 Ft/óra.",
+      "limit": "Nem helyi előrejelzés vagy tényleges árajánlat, 410k állandó éves keret; az eltérő hővédett foglalkozási idő külön mérendő.",
+      "decision": "Csak fennmaradó és ténylegesen elkerülhető út esetén M1."
+    },
+    {
+      "id": "r169-camp-tco",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r169",
+      "locator": "## 2. HŐTÉR FLEX/VÁLTÓ — service continuity, staged engineering",
+      "claim": "R117 teljes 5 szezon M1+M3 reuse/hagyományos/kéthéjú 3,098/4,170/4,934M Ft; első szezon 1,338/2,330/2,934M.",
+      "limit": "Korábbi scope-specifikus modell, külön szükséges M2 és rendkívüli szerelési költségek kizárva; nem új árajánlat.",
+      "decision": "Azonos használható zóna, jóváhagyott normál és szükséges beltéri kapacitás az első."
+    },
+    {
+      "id": "r169-mvm-tariff",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "r169",
+      "locator": "## 3. HŐOTTHON ACCESS — durable affordable room service, not device count",
+      "claim": "MVM FAQ 2523kWh kedvezményes év/mérő időarányos, A1/A2 efeletti egységár 70,104 Ft/kWh.",
+      "limit": "2026.11.18 elérhető tájékoztatás, nem 2027-es garancia, egyedi számla vagy intézményi tarifa.",
+      "decision": "Lakásonként működési fedezet és tarifastressz."
+    },
+    {
+      "id": "r169-home-updated-allowance",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "r169",
+      "locator": "## 3. HŐOTTHON ACCESS — durable affordable room service, not device count",
+      "claim": "396kWh/aktív lakás idényenként 70,104Ft/kWh mellett kb27761 Ft, négy lakás 111045 Ft; R161 8 lakásos alapban 108k energia tétele cserélve +15% tartalék: 2,864701M Ft.",
+      "limit": "Feltételezett fogyasztás, egységár-proxy, tervezési költség, nem ajánlat vagy jogosultság; 150 Ft/kWh külön stressz.",
+      "decision": "Energiafedezet explicit és nem duplán számolva."
+    },
+    {
+      "id": "r169-home-adequacy",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "r169",
+      "locator": "## 3. HŐOTTHON ACCESS — durable affordable room service, not device count",
+      "claim": "Hipotetikus 29→27°C, 8 foglalt éjszakai óra×30, elemzési 26°C referencia: 720→240 K·h, 480 K·h javulás, de marad túlmelegedés.",
+      "limit": "Nem egészségügyi küszöb, nem mért hatás, nem azonos elfogadhatóság; tényleges választott protokoll szükséges.",
+      "decision": "A javulás és az elégséges komfort külön elfogadási kapu."
+    },
+    {
+      "id": "r169-retrofit-summer",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "r169",
+      "locator": "## 3. HŐOTTHON ACCESS — durable affordable room service, not device count",
+      "claim": "2026 szabályozás-alapú szociális lakás retrofit modell szerint a téli teljesítményre fókuszáló első beavatkozás mellett romolhatnak a nyári viszonyok.",
+      "limit": "Keresési absztrakt, nem Kőbánya és nem minden szigetelésre állítás; korábbi Bolzano vizsgálat nem új, független adat.",
+      "decision": "Nyári foglalt helyiség eredmény külön követelmény."
+    },
+    {
+      "id": "r169-rent-reference",
+      "family": "CARE",
+      "kind": "UPSTREAM",
+      "source": "r169",
+      "locator": "## 4. HŐMŰSZAK — existing rest, rental, or purchase",
+      "claim": "2026 magyar tájékoztató 20 lábas irodakonténer bruttó 38–65k Ft/hó orientáció; külön kereskedő a fuvar/daru/telepítés/elszállítás kizárását közli, hűtött-fűtött típusok más kínálatban léteznek.",
+      "limit": "Nem összehasonlítható klimatizált egység ár vagy helyi ajánlat; feltételes szcenárió input.",
+      "decision": "Bérlet teljes telepített költségét versenyeztetni, nem puszta havidíjat."
+    },
+    {
+      "id": "r169-rent-scenario",
+      "family": "CARE",
+      "kind": "MODEL",
+      "source": "r169",
+      "locator": "## 4. HŐMŰSZAK — existing rest, rental, or purchase",
+      "claim": "3 hónap 114–195k feltételes rent, egyéb 910k modellköltség, 15% tartalékkal 1,1776–1,27075M; négy +60k költözés 1,4536–1,54675M.",
+      "limit": "Nem ajánlat, saját helyszíni fizikai kapacitás és feltételek nem igazoltak; nem azonos automatikusan a meglévő hely fejlesztésével.",
+      "decision": "Mobil állomás csak valódi helyszíni elérési réshez."
+    },
+    {
+      "id": "r169-crew-thermal",
+      "family": "CARE",
+      "kind": "MODEL",
+      "source": "r169",
+      "locator": "## 4. HŐMŰSZAK — existing rest, rental, or purchase",
+      "claim": "6 fős 20m² hipotetikus hűtött tér,180m³/h légcsere,10K/4g/kg, modellösszeg 3,271kW termikus csúcs; 180 terhelési órán COP2,5 és0,1kW aux mellett 253,512kWh.",
+      "limit": "Nem készülékméretezés, jogszabályi légcsere, valódi konténer vagy üzemi energia; ajtó, infiltráció és feltöltési profil hiányzik.",
+      "decision": "Külső árnyék, szakszerű légcsere és megfelelő hűtőteljesítmény együtt."
+    },
+    {
+      "id": "r169-worker-evidence-map",
+      "family": "CARE",
+      "kind": "UPSTREAM",
+      "source": "r169",
+      "locator": "## 4. HŐMŰSZAK — existing rest, rental, or purchase",
+      "claim": "2026 occupational scoping review absztrakt:90 tanulmány,68% labor,4 engineering kontroll; a 2025 TEMP vizsgálat 528 kültéri villamoshálózati dolgozóról számol be.",
+      "limit": "TEMP full CAPTCHA, effect size nem felhasználva; eltérő populáció, kevés terepi/költség adat, nem helyi egészséghatás.",
+      "decision": "Valós munkavállalói pihenőelérés és környezetmérés, meglévő munkavédelem változatlan."
+    },
+    {
+      "id": "r169-decision-gates",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r169",
+      "locator": "## 5. Alternatives tournament and operational gates",
+      "claim": "Három önálló koncepció eltérő eredménykapuja definiálva, de 2027 konkrét helyszíni hiány, engedély, teljes beszerzési költség és valódi hatás egyiknél sem igazolt.",
+      "limit": "Relay aktuális natív megismétlés sikertelen, R168 78 rekord korábbi; nincs kontakt vagy terepmunka; nincs téma véglegesítve.",
+      "decision": "A: tábori szolgáltatási rés, B: lakott forró szoba, C: munkavédelmi alap feletti valós elérési rés."
     }
   ]
 }
