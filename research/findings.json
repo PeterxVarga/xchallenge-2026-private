@@ -202,6 +202,11 @@
       "path": "rounds/R212/HOTER_INTEGRATED_PASSIVE_PLATFORM.md",
       "ref": "85ff24f4422d4a797aec61df4eda45d484616d94",
       "blob": "696948e064e246e3cf636889928421671b4acb4e"
+    },
+    "r213": {
+      "path": "rounds/R213/HOTER_HYBRID_COOLING_TOURNAMENT.md",
+      "ref": "a2cb3701263d174c8469242981f159f73110be69",
+      "blob": "75eb42d049df6171dcc5df154e822bde733ecb4e"
     }
   },
   "findings": [
@@ -3004,6 +3009,76 @@
       "claim": "HŐTÉR passzív, vízmentes alapmodulja, gyártható jóváhagyott rendszerből, egységes megjelenés, valós megtartott foglalkozási kapacitás és párosított fizikai mérés; meglévő fejlesztések feletti többlet nélkül stop.",
       "limit": "Nem validált esztétikai optimum, tulajdonosi helyszín, ajánlat, engedély, helyi hatás vagy biztonság; nincs prototípus, külső megkeresés vagy új Intelligence-futtatás.",
       "decision": "Következő érdemi lépés a szolgáltatási és mérési specifikáció; nem további hasonló modellek."
+    },
+    {
+      "id": "r213-airflow-evidence",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r213",
+      "locator": "## 2. Current source evidence and explicit non-novelty",
+      "claim": "WHO nyilvános útmutató szerint nagy melegben ventilátor nem feltétlen előz meg hőártalmat; 2025 felnőtt időseken 47°C/15% RH kísérletben ventilátor fokozta a maghő-emelkedést. 2026 PV-árnyékolás-ventiláció kutatás ismert.",
+      "limit": "Eltérő felnőtt kísérletek és általános útmutató; nem gyermek kültéri biztonsági határ. PV-cikk teljes403.",
+      "decision": "Csak szakmailag egyébként is megfelelő kültéri feltételnél jóváhagyott légmozgatás; nem helyettesíti beltéri alternatívát."
+    },
+    {
+      "id": "r213-indirect-evaporation",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r213",
+      "locator": "## 2. Current source evidence and explicit non-novelty",
+      "claim": "ASHRAE kézikönyv: indirekt hűtőben külön szekunder nedves légáram, primer levegő közvetlen párásítása nélkül; példában35°C száraz/24°C nedves,60% hatásosság ->28,4°C kifújt levegő.",
+      "limit": "Kézikönyvi példa, nem nyitott foglalkozási tér teljesítménye. Helyi víz, higiénia, karbantartás és engedély ismeretlen.",
+      "decision": "Közvetett párologtatás csak külön jövőbeli vizsgálat; nincs aerosol a javasolt alapmodulban."
+    },
+    {
+      "id": "r213-convection-sign",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r213",
+      "locator": "## 4. Executed separate physics challengers",
+      "claim": "Hipotetikus34°C száraz felület és .2→1.2m/s légsebesség, h=8.3v^.6:32°C levegőn +12,20W/m²,38°C-on −24,40W/m² kifelé irányuló érzékelhető hőfluxus-változás.",
+      "limit": "Nem testhő, párolgás, tényleges bőr vagy egészségügyi küszöb; nem ventilátor-méretezés.",
+      "decision": "A légmozgás nettó hővédelmét nem szabad feltétel nélkül garantálni."
+    },
+    {
+      "id": "r213-evaporation-mixing",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r213",
+      "locator": "## 4. Executed separate physics challengers",
+      "claim": "60% hatásosság és .5m³/s feltételezés:35°C/40% RH esetén28,29°C kifúvás,25% hideg légáramrész keverék33,32°C;35°C/65% esetén31,44 illetve34,11°C. Párolgási energiaegyenérték6,04/3,20L/h.",
+      "limit": "Közelítő pszichrometria és feltételezett keveredés; nem tényleges tér, vízfogyasztás, időjárás, biztonság vagy berendezésválasztás.",
+      "decision": "Hűtött lokalizált zóna külön ellenjelölt; magas páránál és nyitott térben korlátozott."
+    },
+    {
+      "id": "r213-radiant-and-dry",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r213",
+      "locator": "## 4. Executed separate physics challengers",
+      "claim": "6m² hipotetikus sugárzó panel30/28/25/20°C esetén .323/.374/.450/.573kW villamos proxy;40°C háttér és0,2 látótényező mellett38,27/37,94/37,46/36,68°C LW-only. 0,5m³/s×6K száraz spot hűtés3,6kW érzékelhető,1,59kW villamos proxy.",
+      "limit": "Nem teljes gépészeti terhelés, komfort, méretezés, hűtőgépár; harmatpont és hőleadás ellenőrzendő.",
+      "decision": "Sugárzó és kompresszoros rendszer csak valós szükségletnél, meglévő beltéri alternatívával versenyeztetve."
+    },
+    {
+      "id": "r213-air-cost-and-pv",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r213",
+      "locator": "## 5. Equal-function cost and resource sensitivity",
+      "claim": "150W×160h=24kWh,150Ft/kWh hipotetikus ár mellett3600Ft/idény.180k telepített tétel +20% és25k/év szerviz feltételezése: AIR többlet244600/359000Ft első/öt szezon; energia-only PV öt szezonos bruttó értéke18k.",
+      "limit": "Nem ajánlat, tényleges tarifa, villamos kapacitás vagy teljes költség; nem bizonyított társadalmi eredmény.",
+      "decision": "Hálózat meglétekor PV nem indokolt pusztán ezen energia megtakarítása miatt; megfelelő önálló feltételek külön."
+    },
+    {
+      "id": "r213-hybrid-gate",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r213",
+      "locator": "## 6. Acceptance, social benefit and decision",
+      "claim": "HŐTÉR passzív + opcionális AIR az első vizsgálandó hibrid; COOL CORE közvetett vagy más valódi lokális hűtési technológia külön későbbi ellenjelölt. A megfelelő beltéri helyszín és a jó standard árnyék+légmozgatás erős kontroll.",
+      "limit": "2027 tényleges helyi rés, site, engedély, ár, hőkomfort és elfogadás UNKNOWN. Nincs új Intelligence run, terep vagy prototípus.",
+      "decision": "Csak helyi szakmai jóváhagyás és igazolt funkcionális többlet; nem újabb automatikus technológiastack."
     }
   ]
 }
