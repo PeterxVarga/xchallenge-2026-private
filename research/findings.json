@@ -197,6 +197,11 @@
       "path": "rounds/R211/HOTER_THERMAL_BUFFER_HYBRID.md",
       "ref": "897f048b644013ec950604abe1ebe44effd9a08c",
       "blob": "02b5d26b2557022c66cdf9f472a76dd0976c42e5"
+    },
+    "r212": {
+      "path": "rounds/R212/HOTER_INTEGRATED_PASSIVE_PLATFORM.md",
+      "ref": "85ff24f4422d4a797aec61df4eda45d484616d94",
+      "blob": "696948e064e246e3cf636889928421671b4acb4e"
     }
   },
   "findings": [
@@ -2949,6 +2954,56 @@
       "claim": "HŐTÉR HŐPUFFER munkanév: jó tető + használat előtti talaj/környezet árnyékolás + szükség szerinti szárny + nyitott légmozgás. Vízmentes alap, tároló és aktív rendszer tartalék.",
       "limit": "Koncepció nem kiviteli terv; helyi maradó rés, jóváhagyás, ár és tényleges mikroklíma/használati többlet UNKNOWN. Nincs terep vagy prototípus; új engine nem futott.",
       "decision": "Csak megfelelő standard kontrollnál igazolt többlet; alapmechanizmus továbbfejlesztése, nem újabb öncélú számítás."
+    },
+    {
+      "id": "r212-integrated-dry-platform",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r212",
+      "locator": "## 3. Consolidated design: HŐTÉR, a modular dry microclimate platform",
+      "claim": "HŐTÉR integrált alapkoncepció: megfelelő előzetesen árnyékos hely, jó felső fedés, célzott kompatibilis oldalszárny csak szükség esetén, szabad légmozgás és tényleges foglalkozási szolgáltatás; víz és aktív hűtés nem kötelező a kültéri modulhoz.",
+      "limit": "Koncepció, nem jóváhagyott kiviteli terv, valós termék vagy helyi eredmény; független megfelelő beltéri alternatíva szükséges.",
+      "decision": "Egyszerű jó standard fedés, helyszínválasztás és teljes használat legyen a referencia; ne halmozzunk technológiát."
+    },
+    {
+      "id": "r212-integrated-geometry-ground",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r212",
+      "locator": "## 4. Executed integrated geometry-plus-ground challenger",
+      "claim": "60 szintetikus geometria-időjárás-dátum eset két felbontáson. Finom rács napos délután: 36m² tető40,551°C talaj/75,500W/m² direkt vízszintes sugárzási proxy1,1m-en;42m² tető39,839/68,778;36+6m² .15 áteresztésű szárny39,821/69,297.",
+      "limit": "Kalibrálatlan geometria+talajmodell; diffúz és hosszúhullámú környezeti peremfeltétel közös, légáramlás/reflexió nincs csatolva. Nem emberi hőkomfort, valós talajmérés vagy biztonság. Előzetes és kanonikus futás kis eltérése nem izolált.",
+      "decision": "Nagyobb jó standard tető erős ellenjelölt; alacsony napálláshoz szárny csak valós helyszíni előnynél."
+    },
+    {
+      "id": "r212-hot-wall-placement",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r212",
+      "locator": "## 5. New hot-surroundings placement calculation",
+      "claim": "Ideális 4×2,5m 55°C fal,38°C egyéb felület, középen izotróp vevő:1,5m távolságnál21,57W/m²,4m-nél5,37W/m² többlet hosszúhullámú sugárzás;1,1m magasságon6×4m terület körüli 1m sáv55→38°C feltételezett változása6,66W/m².",
+      "limit": "Fekete test, geometriai térszög, nincs személyes vagy helyi sugárzásmérés, nap, tényleges fal, szél vagy hőmérséklet-csökkenés. Nem adható össze más modellhatással.",
+      "decision": "Meleg homlokzattól távolabb megfelelő már árnyékos hely keresése extra gépészet előtt."
+    },
+    {
+      "id": "r212-modular-lifecycle-challenger",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r212",
+      "locator": "## 6. Explicit five-goal design tradeoffs and lifecycle",
+      "claim": "Korábbi feltételezések alapján36m² tető1,920/2,400M Ft első/öt szezon; szárny2,180/2,740M;42m² tető hipotetikus szerkezeti/telepítési többlet80/205/350k mellett2,070/2,220/2,394M első és2,590/2,740/2,914M öt szezon.",
+      "limit": "Nem ajánlat, azonos jóváhagyott funkció vagy teljes költség; új beltéri kapacitás és rendkívüli helyi munkák külön; 205k csak feltételes ötéves egyenlőség.",
+      "decision": "Helyszínhez illesztett legkisebb megfelelő megoldás; moduláris gyárthatóság csak teljes jóváhagyott rendszerben."
+    },
+    {
+      "id": "r212-five-goal-acceptance",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r212",
+      "locator": "## 7. Actual implementation path (future, not executed)",
+      "claim": "HŐTÉR passzív, vízmentes alapmodulja, gyártható jóváhagyott rendszerből, egységes megjelenés, valós megtartott foglalkozási kapacitás és párosított fizikai mérés; meglévő fejlesztések feletti többlet nélkül stop.",
+      "limit": "Nem validált esztétikai optimum, tulajdonosi helyszín, ajánlat, engedély, helyi hatás vagy biztonság; nincs prototípus, külső megkeresés vagy új Intelligence-futtatás.",
+      "decision": "Következő érdemi lépés a szolgáltatási és mérési specifikáció; nem további hasonló modellek."
     }
   ]
 }
