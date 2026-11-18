@@ -207,6 +207,11 @@
       "path": "rounds/R213/HOTER_HYBRID_COOLING_TOURNAMENT.md",
       "ref": "a2cb3701263d174c8469242981f159f73110be69",
       "blob": "75eb42d049df6171dcc5df154e822bde733ecb4e"
+    },
+    "r214": {
+      "path": "rounds/R214/HOTER_CORE_PERSON_FOCUSED_COOLING.md",
+      "ref": "efa9e98996ef916aedc0233fd0b3f8e96b62de0b",
+      "blob": "df920b7cb2e2df0e9a981d1417be884335134426"
     }
   },
   "findings": [
@@ -3079,6 +3084,76 @@
       "claim": "HŐTÉR passzív + opcionális AIR az első vizsgálandó hibrid; COOL CORE közvetett vagy más valódi lokális hűtési technológia külön későbbi ellenjelölt. A megfelelő beltéri helyszín és a jó standard árnyék+légmozgatás erős kontroll.",
       "limit": "2027 tényleges helyi rés, site, engedély, ár, hőkomfort és elfogadás UNKNOWN. Nincs új Intelligence run, terep vagy prototípus.",
       "decision": "Csak helyi szakmai jóváhagyás és igazolt funkcionális többlet; nem újabb automatikus technológiastack."
+    },
+    {
+      "id": "r214-tenopy-precedent",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r214",
+      "locator": "## 2. Strong precedent and differentiation falsification",
+      "claim": "UPenn 2026 Tenopy összefoglaló: árnyékolt, napelemes hűtött pad és sugárzófelület; ITS index35–45% csökkenés a NEM árnyékos külső referenciához képest.20 közösségi válaszadó,80/90% semleges vagy hűvösebb érzet a két megoldásnál.",
+      "limit": "Kiadói teljes szöveg403; szerzői beszámoló, nem jó árnyék feletti mért többlet, gyermekbiztonság vagy független replikáció.",
+      "decision": "Közvetlen emberközeli hőelvonás valós precedens, nem világújdonság."
+    },
+    {
+      "id": "r214-radiant-precedents",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r214",
+      "locator": "## 2. Strong precedent and differentiation falsification",
+      "claim": "UCLA 2025 intézményi beszámoló IR-reflektív fal és aktív hűtött panel kombinációjáról; KlimaKover 2025 moduláris pavilon és KlimaStol zárt hűtőkörös szék.",
+      "limit": "Nem helyi összehasonlítás vagy árajánlat; Nature teljes500, a többi tervezői beszámoló.",
+      "decision": "Meglévő megoldások és teljes jóváhagyott szerelvény legyen az első, nem saját hűtőgép."
+    },
+    {
+      "id": "r214-upstream-raytrace",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r214",
+      "locator": "## 2. Strong precedent and differentiation falsification",
+      "claim": "Raman-Lab-UCLA/Radiant_Cooling_Ray_Tracing_Model publikus MATLAB repo elérhető, API license:null, gyökérben nincs listázott licencfájl.",
+      "limit": "Jog és függőségek nincsenek kvalifikálva, kód nem futott, semmi nem került átvételre.",
+      "decision": "Későbbi kutatási referencia; engedély és validáció nélkül nincs kódintegráció."
+    },
+    {
+      "id": "r214-local-radiation",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r214",
+      "locator": "## 4. Executed geometry and energy proxy (reproducible)",
+      "claim": "4m² hipotetikus hűtőpanel: szimmetrikus négy pontnál mennyezeti2×2 F=.070815, két oldalsó2×1 F=.138178.35°C/40% RH esetén0,838 vs1,641K LW-only háttérdiagnosztika.",
+      "limit": "Nem emberi MRT, tényleges elhelyezés vagy szerkezeti/komfortterv; nincs reflexió, testtakarás, szél, nap. Script pin és szimmetriaellenőrzés.",
+      "decision": "Közeli célzott panelek előnye vizsgálandó azonos területen, nyitottság/felügyelet megtartásával."
+    },
+    {
+      "id": "r214-contact-dew-energy",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r214",
+      "locator": "## 4. Executed geometry and energy proxy (reproducible)",
+      "claim": "Négy hipotetikus ülőhely,35°C/40% vagy65% RH-nál24/18,31W feltételezett kontaktusonkénti hőfluxus, bench-only132/117W villamos proxy, hibrid436/346W.40°C/75% RH modellben kontaktus0, ülés kikapcsolva.",
+      "limit": "Nem emberi hőegyensúly, készülékméret, biztonságos hőmérséklet, energiaelőrejelzés vagy valós pad; kontaktus, harmatpont, részterhelés és hőveszteség feltételezett.",
+      "decision": "Pad önálló ellenjelölt, panel csak többlet esetén, magas páránál és szélsőséges melegnél megfelelő beltéri alternatíva."
+    },
+    {
+      "id": "r214-core-lifecycle",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r214",
+      "locator": "## 5. Whole-cost and social value gate",
+      "claim": "0,45kW×160h=72kWh;150Ft/kWh proxy;300/600/1000k CAPEX +20% és60k/év service ->430800/790800/1270800Ft első,714000/1074000/1554000Ft öt szezonos többlet.",
+      "limit": "Nem árajánlat, teljes scope, tényleges használat vagy tarifa; szükséges pótlás, civil és beltéri kapacitás külön.",
+      "decision": "Egyenértékű szolgáltatás és valós többlet alapján versenyeztetni, nem az áramköltségből ítélni."
+    },
+    {
+      "id": "r214-core-next-gate",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r214",
+      "locator": "## 6. Acceptance and next decision",
+      "claim": "HŐTÉR CORE kisméretű hűtött pihenősziget zárt hűtőkörű ülőfelülettel, opcionális lokális sugárzóhűtéssel; standard passzív/AIR, meglévő beltéri pihenő és indirekt alternatíva külön.",
+      "limit": "2027 helyi szükséglet, gyermekintézményi jóváhagyás, teljes ajánlat, teljesítmény és elfogadás UNKNOWN; nincs prototípus, outreach vagy Intelligence újrafuttatás.",
+      "decision": "Konkrét beszerezhető/engedélyezhető rendszer és teljes költség falszifikációja, nem újabb öncélú hőmodell."
     }
   ]
 }
