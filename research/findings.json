@@ -142,6 +142,11 @@
       "path": "rounds/R170-R200/WINNING_CONCEPT_SYSTEM_TOURNAMENT.md",
       "ref": "e3cd2fba62d68d523e14750ca020ef072d928666",
       "blob": "c156ec4b10babf5a9a9abd531fec2add93a9a794"
+    },
+    "r201": {
+      "path": "rounds/R201/LOCAL_DECISION_FALSIFICATION.md",
+      "ref": "c20c2a2fd77dd3bceaa5bd788e3f58feee673070",
+      "blob": "5347a9bd672acaaec9d56c3f79ced4bd8596d00a"
     }
   },
   "findings": [
@@ -2144,6 +2149,106 @@
       "claim": "HŐTÉR MAX feltételes validációs vezető, HŐOTTHON és HŐMŰSZAK független ellenjelöltek. Mindnél tényleges 2027 maradó rés, jóváhagyott helyszín, ajánlat és eredmény UNKNOWN.",
       "limit": "Négy szimulált zsűriszerep nem tényleges bíró vagy pontszám; régi natív engine 78 változatlan rekord, új scoped live hozzáférés nem igazolt.",
       "decision": "Nem további általános brainstorming; következő döntéshez tényleges baseline/engedély, téma továbbra is OPEN."
+    },
+    {
+      "id": "r201-camp-minutes",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r201",
+      "locator": "## 2. Primary evidence — actual problem and ordinary planned response",
+      "claim": "2026 október13 Közjóléti Bizottság jegyzőkönyv 3–5. o.: szervező hőség miatt ismételt átvonulást, ebéd miatti visszatérést, iskolai klíma hiányát mondta el.",
+      "limit": "Azonos szervező mint a beszámolóban, nem független instrumentális mérés vagy 2027 szükséglet.",
+      "decision": "A helyi történeti zavar erősebb dokumentációja, a maradó hiányt külön igazolni."
+    },
+    {
+      "id": "r201-camp-ordinary-response",
+      "family": "CAMP",
+      "kind": "LOCAL_PLAN",
+      "source": "r201",
+      "locator": "## 2. Primary evidence — actual problem and ordinary planned response",
+      "claim": "Ugyanezen a napirenden 2027 árnyékolási/klíma szándék és uszodahasználat lehetősége merült fel, 370/2026 tájékoztató, szavazás nem történt.",
+      "limit": "Nem bizonyítja, hogy más határozat vagy későbbi klímaszerelés nem volt; nincs igazolt 2027 készlet.",
+      "decision": "Normál fejlesztések elsőbbsége, új pavilon csak tényleges többlethiánynál."
+    },
+    {
+      "id": "r201-attendance",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r201",
+      "locator": "## 3. Actual historical service denominator and decision-sensitive value",
+      "claim": "2026 hivatalos beszámoló 4503 tervezett étkezési jelenléti nap, 696 hiányzás, 3807 tényleges jelenléti étkezési nap nyolc hétben.",
+      "limit": "Nem egyedi gyerekek, hőségnapok vagy érintett gyaloglások száma, nem 2027.",
+      "decision": "Reálisabb modell-denominátor."
+    },
+    {
+      "id": "r201-meal-equity",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r201",
+      "locator": "## 3. Actual historical service denominator and decision-sensitive value",
+      "claim": "Teljes kedvezmény512−35=477, félkedvezmény1267−52=1215 étkezési jelenléti nap, azonos populáció és diszjunkt csoport mellett 1692/3807=44,44%.",
+      "limit": "Nem egyedi gyermekek/szegénység/egyéni hőérzékenység; feltételes hányad.",
+      "decision": "A szolgáltatás hozzáférhetőségét megtartani, nem személyes adat."
+    },
+    {
+      "id": "r201-cost-scope",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r201",
+      "locator": "## 3. Actual historical service denominator and decision-sensitive value",
+      "claim": "Beszámoló egyszerűsített foglalkoztatás9707320Ft, megbízási költség1374141Ft, összesen11081461Ft.",
+      "limit": "Kizárólag közölt személyi és megbízási tételek, nem teljes tábori büdzsé vagy rendelkezésre álló 2027 keret.",
+      "decision": "Költségskála kontextus, eltérő scope nem megtakarítás."
+    },
+    {
+      "id": "r201-meal-sensitivity",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r201",
+      "locator": "## 3. Actual historical service denominator and decision-sensitive value",
+      "claim": "3807 történeti étkezési nap ×10/25/50% feltételezett érintettség ×15 perc =95,175/237,9375/475,875 gyermekóra; 410k feltételezett keret 4308/1723/862Ft/óra.",
+      "limit": "Csak kiválasztott beavatkozási napokon tényleg elkerült kitettség esetén; nem megfigyelt, 600 órához 63,04% kell.",
+      "decision": "Érintettségi hányad döntő, nulla többlethatásnál stop."
+    },
+    {
+      "id": "r201-existing-sport",
+      "family": "SCHOOL",
+      "kind": "LOCAL_PLAN",
+      "source": "r201",
+      "locator": "## 4. Material independent ordinary countercandidate: existing pool/gym service",
+      "claim": "235/2026 IX.10. KÖKT 2026/27 tanévre Újhegyi27 és Előd utcai24 uszodaóra/hét, Ihász10 tornatermi óra/hét; 347/2026 eltérő díjproxyk 12573Ft/sávóra,15000Ft/óra,6000Ft/óra.",
+      "limit": "Nem nyári tábori foglalás, elérhető kapacitás, hűtés vagy teljes ár.",
+      "decision": "Már létező, engedélyezett alternatív programkapacitás ellenjelölt új infrastruktúrával szemben."
+    },
+    {
+      "id": "r201-swim-scenario",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r201",
+      "locator": "## 4. Material independent ordinary countercandidate: existing pool/gym service",
+      "claim": "Feltételezett120 gyermek,20 fős jóváhagyott csoport,8 alkalom,6 egyórás turnus:48 helyszínóra,960 bruttó program-gyermekóra,720k tanuszoda vagy288k tornaterem díjproxy.",
+      "limit": "Nem árajánlat, igazolt kapacitás, hővédelem vagy új szolgáltatás, személyzet/utazás külön; úszás nem helyettesít biztonságos menedéket.",
+      "decision": "Csak ténylegesen elérhető, biztonságos, inkluzív és többletprogram esetén."
+    },
+    {
+      "id": "r201-existing-heat-plan",
+      "family": "ALL",
+      "kind": "RULE",
+      "source": "r201",
+      "locator": "## 5. Existing heat plan prevents false novelty",
+      "claim": "133/2025 IV.17. KÖKT elfogadott kerületi hőség- és UV-riadóterv; már szerepel intézményi árnyékolás/hűtés/szellőztetés, beltéri hőmérséklet, hidratálás és szociális/munkavállalói teendők.",
+      "limit": "Terv és ajánlások, nem bizonyított teljesítés vagy mért jelenlegi kapacitás.",
+      "decision": "Nem adható el önálló innovációként a normál feladatok vagy egy újabb riasztás."
+    },
+    {
+      "id": "r201-residual-stop",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r201",
+      "locator": "## 6. Decision branches and comparison",
+      "claim": "2027 tényleges jóváhagyott tábori hely, működő klimatizált helyiségek, árnyék, étkezés útvonala és fennmaradó hiány még nem igazolt; másik két jelöltnél konkrét helyi rés sem.",
+      "limit": "Célzott nyilvános keresés nem teljeskörű, nem bizonyíték a hiányra; nincs megkeresés vagy terepi mérés.",
+      "decision": "Ha a normál terv elegendő, tábori beruházás stop; ha beltéri fallback hiányzik, azt kell előbb megoldani; különben csak maradó rés."
     }
   ]
 }
