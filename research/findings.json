@@ -87,6 +87,11 @@
       "path": "rounds/R159/INNOVATION_AND_PANEL_HEAT_RESILIENCE.md",
       "ref": "b75bef4b2f51012273809a385a584562b145250a",
       "blob": "fb74e63fa17ff02d09cb9d847edad3dd1c535349"
+    },
+    "r160": {
+      "path": "rounds/R160/THERMAL_ACCESS_AND_RECOVERY_TOURNAMENT.md",
+      "ref": "a9252456f75e103e122d361e6bf4b91b5029d4ed",
+      "blob": "d33c53b28ed6e6477d9c63a3a491b5e03976cbab"
     }
   },
   "findings": [
@@ -709,6 +714,126 @@
       "limit": "Nincs kiválasztott konyha vagy bentlakásos helyiség; nem helyettesíti a rendes szellőzést.",
       "decision": "HŐCSERE műszaki tartalék, nem kötelező hibrid komponens.",
       "source": "r159"
+    },
+    {
+      "id": "r160-healthy-streets-waitlist",
+      "family": "TRANSIT",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Helyi új bizonyíték",
+      "claim": "A 339/2024 (IX.19.) határozat végrehajtási beszámolója szerint Állomás, Füzér, Vásárló utcai Egészséges utcák támogatási kérelmei 2025.09.05-én forráshiány miatt tartaléklistára kerültek.",
+      "limit": "Eredeti 2. oldalkép; történeti státusz, nem aktuális forrásmegvonás, későbbi döntés is lehetséges.",
+      "decision": "A korábban megtervezett utcákban önálló, valóban fennmaradó 2027-es hővédelmi rés lehet, nem bizonyított.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-healthy-streets-design",
+      "family": "TRANSIT",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Helyi új bizonyíték",
+      "claim": "A 200/2026 beszámoló szerint a Füzér, Állomás és Vásárló utcák koncepciótervezése megtörtént; a főváros közzétett 30 milliárdos Egészséges utcák listáján nem szerepel X. kerületi projekt.",
+      "limit": "Nem mindhárom részletes terv vagy jelenlegi finanszírozás, a teljes 30 milliárd nem helyi keret.",
+      "decision": "Meglévő tervek vizsgálata előbb, nem új általános utcakoncepció.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-korosi-stage1",
+      "family": "TRANSIT",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Helyi új bizonyíték",
+      "claim": "A 2026 novemberi kerületi újság a Kőrösi sétány első szakaszának megújulását, a szökőkút, burkolat, utcabútor, zöldterület és fasor változásait közli.",
+      "limit": "Eredeti lap oldalképe; nem műszaki átadás-átvételi irat, teljes árnyékfelmérés vagy az egész sétány elkészülte.",
+      "decision": "A 2025/26 tábori gyaloglás és közterületi hőhatás 2027-es baseline-ját frissíteni kell.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-szentlaszlo-design",
+      "family": "TRANSIT",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Helyi új bizonyíték",
+      "claim": "A novemberi kerületi lap szerint öt Szent László téri tájépítészeti pályamű megvásárlása után koncepcióterv és társadalmi egyeztetés következik.",
+      "limit": "A pihenőhely, átkelő és zöldtető ötletek, nem elfogadott végleges műszaki tervek vagy finanszírozott kivitelezés.",
+      "decision": "A tér önálló újratervezése átfedhet; célzott, időben különálló hővédelmi rés szükséges.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-sidewalk-furniture",
+      "family": "TRANSIT",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Helyi új bizonyíték",
+      "claim": "A Vagyonkezelő 2026 I. félévi jelentése 12, mintegy2200m² közút melletti járdaszakasz felújítását, külön 860m² parki járdát és négy helyhez kapcsolt pad/pihenőszék-kihelyezést rögzít.",
+      "limit": "Eltérő munkacsomagok, nem jelenlegi teljesítés, hővédett gyalogos útvonal vagy teljes padleltár.",
+      "decision": "Tényleges gyalogos pihenéshez célzott árnyék/hozzáférés, nem újabb közönséges pad.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-worker-rest",
+      "family": "CARE",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 5. HŐPIHENŐ — dolgozói ellenjelölt",
+      "claim": "A 2026 I. félévi Vagyonkezelői jelentés a Bajcsy-kórház környezetében dolgozó parkolóellenőrök pihenőhelyiségének előkészített pályáztatását rögzíti.",
+      "limit": "Nem a helyiség elkészülte, hűtése, műszaklétszám vagy mért hőstressz; korábbi R155 említés konkrétabb ellenőrzése.",
+      "decision": "Csak a munkáltató által biztosítandó rendes védelem fölötti igazolt hővédelmi rés vizsgálható.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-bkk-preference",
+      "family": "TRANSIT",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Helyi új bizonyíték",
+      "claim": "A BKK 2025-ös önkéntes kérdőíves egyeztetésében 1706 válaszadó 81%-a árnyékolást/zöldfelület-bővítést prioritásnak jelölt; 2026.09.25 elfogadott stratégia.",
+      "limit": "Nem reprezentatív kőbányai hőigény, a stratégia nem konkrét 2027-es kivitelezés.",
+      "decision": "A gyalogos funkció, árnyék és akadálymentesség együtt, de helyi használatot kell bizonyítani.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-climate-walk",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Nemzetközi mechanizmusverseny",
+      "claim": "2026 áprilisi open-access climate-walk módszertani közlemény útvonalhoz kötött mikroklímát és időbeli hőérzetet vizsgál, kitér szenzorválaszra és előző expozícióra.",
+      "limit": "Módszertani közlemény, nem hatásvizsgálat, nem helyi mérés.",
+      "decision": "A hűvös pontok száma helyett útvonal és megszakítás nélküli terhelés, mérési bizonytalansággal.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-cool-route-error",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Nemzetközi mechanizmusverseny",
+      "claim": "A 2026 Cool Routes kutatás absztraktja 500 OD-pár, 12 derült nap; MRT szenzoros/szimulációs összevetésben MAE6,2°C és RMSE8,4°C; rövidebb átlagos kerülő, bizonyos időszakban akár 3,8°C modell-MRT előny.",
+      "limit": "Kiadói oldal403, keresési kivonat; arizonai campus, nem magyar hatás vagy validált univerzális algoritmus.",
+      "decision": "Ne adjunk biztonsági útvonalgaranciát puszta térképből; helyszíni mérés és útvonalhossz kell.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-route-tradeoff",
+      "family": "TRANSIT",
+      "kind": "MODEL",
+      "locator": "## 4. HŐÚT — összefüggő szolgáltatási út",
+      "claim": "Hipotetikus 600m út 480m napos +3 perc napos várakozás, 0,7m/s: 14,43 perc direkt nap; helyben javított 300m napos és árnyékos várakozás 7,14 perc; 780m kerülő 5,24 perc, de összesen 21,57 vs17,29 perc.",
+      "limit": "Saját szemléltető modell, nincs konkrét hely vagy hőmérés; nem egészségügyi biztonságküszöb.",
+      "decision": "Azonos akadálymentes út javítása gyakran jobb a hosszú kerülőnél, eltérő tényleges hőterhelést külön mérni.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-route-gap",
+      "family": "TRANSIT",
+      "kind": "UNKNOWN",
+      "locator": "## 6. Döntősök és döntési feltételek",
+      "claim": "Nincs igazolt konkrét rendszeresen használt, hőség miatt nehezen elérhető alapvető szolgáltatási útvonal, tényleges árnyékrés és utasgyalogos szám.",
+      "limit": "A három tartaléklistás utca nem bizonyít önmagában hőproblémát.",
+      "decision": "HŐÚT feltételes challenger; a mostani városi felújítások és szolgáltatások baseline nélkül nem nyerhet.",
+      "source": "r160"
+    },
+    {
+      "id": "r160-worker-gap",
+      "family": "CARE",
+      "kind": "UNKNOWN",
+      "locator": "## 6. Döntősök és döntési feltételek",
+      "claim": "A konkrét parkolóellenőri pihenőhely működése, hűtése, tényleges műszakok és maradó hőterhelés nincsenek igazolva.",
+      "limit": "Nem ígért munkáltatói partner és nem munkavédelmi hiány megállapítása.",
+      "decision": "HŐPIHENŐ tartalék; meglévő megfelelő pihenő esetén nem új eszközprojekt.",
+      "source": "r160"
     }
   ]
 }
