@@ -162,6 +162,11 @@
       "path": "rounds/R204/RADICAL_INNOVATION_AND_ROBUST_WINNING_CONCEPT.md",
       "ref": "d421fd43313785d1f3e2bb7e4691e11b4f0cdc7b",
       "blob": "13cd0231e2f82346ecec681711009c2dbd6e1793"
+    },
+    "r205": {
+      "path": "rounds/R205/MINIMUM_SUFFICIENT_WINNING_CONCEPTS.md",
+      "ref": "73700a352f3581263bd5045abc97f6ce69690f21",
+      "blob": "9bb8b75db3fb829358cbbc5c98c2d7cbe00ab880"
     }
   },
   "findings": [
@@ -2474,6 +2479,56 @@
       "claim": "30 mechanizmus:5 önálló továbbvitt szolgáltatási csomag,19 modul,4 halasztott R&D,2 tartalék. HŐTÉR FLOW/MAX feltételes vezető, HŐOTTHON, HŐMŰSZAK, HŐJÁTÉK SAFE és HŐKAPU független ellenjelölt.",
       "limit": "Nem30 teljes terv, nem új találmányok; jelenlegi helyi rés, engedély, ár és hatás UNKNOWN. Nincs új natív futás, nincs külső megkeresés.",
       "decision": "A valós szükséglet felszámolása az első, nem hardver vagy további findingok számának maximalizálása; téma OPEN."
+    },
+    {
+      "id": "r205-established-shade-design",
+      "family": "SCHOOL",
+      "kind": "UPSTREAM",
+      "source": "r205",
+      "locator": "## 2. Novelty counterevidence",
+      "claim": "Cancer Council NSW és Victoria iskolaépítési kézikönyv meglévő árnyék, használati idő, tevékenység, napállás és árnyékdiagram alapján tervezést ír le.",
+      "limit": "Ausztrál útmutatók, nem magyar jog; nem helyi teljesítmény vagy új független terepkísérlet.",
+      "decision": "A geometria vagy az audit önmagában nem találmány; helyi tényleges többletszolgáltatás a lényeg."
+    },
+    {
+      "id": "r205-distributed-shade",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r205",
+      "locator": "## 4. Executed shade comparison",
+      "claim": "36m² azonos névleges fedőfelület, két 4×3m célzóna, 22 491 geometriai konfiguráció: 4m középtávnál egy/két tető 67,35/29,17%, 6m-nél 48,39/48,39%, 9 és12m-nél0/48,39% azon nyári minták aránya, amikor mindkét zóna mindkét vizsgált síkon legalább80%-ban geometriailag árnyékos.",
+      "limit": "Idealizált modell; 80% nem hőbiztonsági határ. Nincs helyszíni terv, szél, sugárzás, ár vagy befogadóképesség. Nem minden lehetséges elhelyezés.",
+      "decision": "A közeli zónakiosztás és egy fedés, illetve távoli zónák elkülönített fedése helyszínfüggően versenyezzen."
+    },
+    {
+      "id": "r205-geometry-robustness",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r205",
+      "locator": "## 4. Executed shade comparison",
+      "claim": "75 külön ellenőrző időminta 9m-nél 0/41,33% egy/két tető; 3,5m magasságon rögzített konfiguráció0/30%. 6m-nél geometriai egyezés az egybefüggő tető és két érintkező modul között.",
+      "limit": "Nem empirikus validáció; feltételezett tetőmagasság, árnyék nem termikus komfort; nincs egész napos biztos védelem.",
+      "decision": "Feladatnak megfelelő célfüggvény és fizikai szakmai ellenőrzés; valódi szükséges beltéri alternatíva."
+    },
+    {
+      "id": "r205-four-home-minimum",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "r205",
+      "locator": "## 5. Residential staging and other challengers",
+      "claim": "Négy lakás korábbi költségparaméterekkel, teljes480k megosztott csomag és15% tartalék:4 passzív1,288M,2+2 vegyes1,708351M,4 aktív2,128701M;150Ft/kWh stressz1,288/1,78112/2,27424M.",
+      "limit": "Nem azonos hővédelmi eredmény, valós ajánlat vagy résztvevő; helyi engedély, extra árnyék és villamos scope külön. 70,104Ft/kWh korábbi proxy, nem 2027 tarifa.",
+      "decision": "Kisebb kohorsz csak megfelelő tényleges hővédelem mellett; működtetést nem szabad elhagyni."
+    },
+    {
+      "id": "r205-minimum-concept-decision",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r205",
+      "locator": "## 6. Jury countertests and decision",
+      "claim": "Öt egyszerűsített, külön szolgáltatás; HŐTÉR feltételes első, HŐSZOBA független második. Új hardver kizárólag maradó funkcionális hiányra.",
+      "limit": "2027 valós kapacitás, helyi újdonság, teljes költség, engedély, hatás továbbra is igazolatlan. Nem zsűripontszám vagy véglegesítés.",
+      "decision": "Nincs ismételt outreach vagy általános keresés; döntési szintű összevetés, nem technológiaszám."
     }
   ]
 }
