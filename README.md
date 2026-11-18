@@ -1,7 +1,7 @@
 # X-Challenge 2026 — Unified Research, Innovation & Project Development
 
 ## Current evidence and decision entrypoint — 2026-11-18
-**Topic OPEN / PARTIAL.** [Research registry and operating workflow](research/README.md) is the current navigation/decision entrypoint. [Machine-readable findings](research/findings.json) contain 40 curated decision-critical records with source, limits and implications; [registry CLI](research/registry.mjs) supports check, query and blockers. [R157](rounds/R157/SOURCE_TO_DECISION.md) is the latest source-to-decision round; [workbench](research/workbench.mjs) searches the tracked corpus and admits explicitly reviewed findings. [R156](rounds/R156/LOCAL_EVIDENCE_AND_SILENT_COOLING.md) remains the silent-cooling concept record. No implementation or final topic selection. Both R151 reports and the overlapping R152–R200 and R152–R156 reports are separate historical paths; do not resolve authority by round number alone. Historical summaries below are preserved, not current decisions. R11 supersedes the historical R1 budget and rubric assumptions.
+**Topic OPEN / PARTIAL.** [Research registry and operating workflow](research/README.md) is the current navigation/decision entrypoint. [Machine-readable findings](research/findings.json) contain 49 curated decision-critical records with source, limits and implications; [registry CLI](research/registry.mjs) supports check, query and blockers. [R158](rounds/R158/HEAT_SAFE_PLAY_AND_FINALIST_CHALLENGE.md) is the latest concept tournament; [R157](rounds/R157/SOURCE_TO_DECISION.md) records the previous source-to-decision round; [workbench](research/workbench.mjs) searches the tracked corpus and admits explicitly reviewed findings. [R156](rounds/R156/LOCAL_EVIDENCE_AND_SILENT_COOLING.md) remains the silent-cooling concept record. No implementation or final topic selection. Both R151 reports and the overlapping R152–R200 and R152–R156 reports are separate historical paths; do not resolve authority by round number alone. Historical summaries below are preserved, not current decisions. R11 supersedes the historical R1 budget and rubric assumptions.
 
 
 ## Current competition decision — 2026-11-17
@@ -42,3 +42,5 @@
 - `SOURCE_SHA256SUMS`: checksums for 12 byte-identical handoff files, not original external documents.
 
 No merge into other repositories, no external outreach, no payments or deployments. The source database is read-only; export only the xchallenge-2026 profile. Do not treat historical source matches as proof of local outcomes. Preserve counterevidence and superseded concepts.
+
+R158 scope: reuse the central research engine; engine development belongs to its owning lane. When live relay access is unavailable, use the pinned X-only export and direct sources, disclose fallback, and keep new evidence in the registry. Native runtime validation remains pending for R158.
