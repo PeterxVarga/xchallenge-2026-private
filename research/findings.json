@@ -172,6 +172,11 @@
       "path": "rounds/R206/DUAL_FINALIST_OUTCOME_AND_RESILIENCE_TOURNAMENT.md",
       "ref": "3e3e97b8941f927671a6474570589ef53451f36c",
       "blob": "58f8da6248a30fad96f7fbf03572c2e0f7ade476"
+    },
+    "r207": {
+      "path": "rounds/R207/DIFFERENTIATED_PASSIVE_RETROFIT_AND_ROOM_ADEQUACY.md",
+      "ref": "727e61efd2be9edc1eed3be4d8e5a2a97727c068",
+      "blob": "ec35e46676fea5dd6abc6f0bd44bbbe1f9b69e6c"
     }
   },
   "findings": [
@@ -2624,6 +2629,86 @@
       "claim": "HŐTÉR feltételes történeti bizonyítékvezető, HŐSZOBA erős független többidényes szolgáltatási alternatíva. Ha normál tábori terv elegendő, A leáll; ha B igazolt helyi helyiség/fedezet/jogosultság mellett többletet ad, élre kerülhet.",
       "limit": "Nincs valós 2027 helyszín/partner/ajánlat/mért eredmény egyiknél sem. Nem zsűripontszám vagy végleges téma.",
       "decision": "További általános körök helyett egész koncepció döntési összevetése; külső megkeresés nélkül, téma OPEN."
+    },
+    {
+      "id": "r207-milan-qualified",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r207",
+      "locator": "## 2. HŐTÉR PLUSZ — a retrofit challenger, rather than another tent",
+      "claim": "TensiNet 2023 két kb25m² próbaárnyékoló szeptemberi milánói összehasonlításában két reprezentatív nap átlagos MRT előnye3,1/2,5°C, maximum4,6/5,4°C. Alsó membrán nem volt önállóan feszítve, szél/esővíz kockázatot jeleztek.",
+      "limit": "Azonos korábbi low-e forrás pontosítása; nem helyi gyermekpróba, nem hűvösebb levegő; rétegszám és emisszió külön hatása nincs izolálva. Képi hozzáférés részleges.",
+      "decision": "Nem függesztünk improvizált réteget gyerekek fölé; csak mérnökileg jóváhagyott kompatibilis szerkezet."
+    },
+    {
+      "id": "r207-phoenix-film",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r207",
+      "locator": "## 2. HŐTÉR PLUSZ — a retrofit challenger, rather than another tent",
+      "claim": "2025 Phoenix terepi tanulmány intézményi absztraktja vékony fém árnyékolótetőkön passzív sugárzásos fóliával átlag7°C-kal hűvösebb tetőfelületet és3°C feletti MRT-csökkenést közöl.",
+      "limit": "Eltérő klíma és tető, teljes kiadói szöveg403;3M termék/finanszírozás és társszerzői érdekeltség a kivonatban. Nem bizonyított többlet minden jó fehér kontrollhoz képest.",
+      "decision": "Meglévő merev tető szakmailag jóváhagyott felső felületének javítása önálló ellenjelölt a kéthéjú membránnal szemben."
+    },
+    {
+      "id": "r207-shortwave-counter",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r207",
+      "locator": "## 2. HŐTÉR PLUSZ — a retrofit challenger, rather than another tent",
+      "claim": "Két idealizált párhuzamos membrán tau .10/.06 és rho .76/.68 feltételezéssel többszörös reflexió mellett tau_eff .012417;800W/m²-nél kb70,07W/m² elkerült átmenő rövidhullám a10%-os egyrétegűhöz képest.",
+      "limit": "Diffúz, szimmetrikus skalároptika, nem valós beépített emisszió/UV/komfort; opak jó hagyományos kontrollhoz nem feltétlen előny.",
+      "decision": "Azonos használható árnyékolási funkció, teljes szerkezet és tényleges mérés."
+    },
+    {
+      "id": "r207-lowe-reversal",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r207",
+      "locator": "## 2. HŐTÉR PLUSZ — a retrofit challenger, rather than another tent",
+      "claim": "35°C környezet,0,30 tető-látási tényező,emisszió .9→.35 esetén25/35/45/55°C azonos tetőhő mellett hosszúhullámú effektív sugárzási hőmérséklet változás előjele megfordul: előny −1,60/0/1,70/3,50K.",
+      "limit": "Egyszerűsített diffúz szürke felület, nincs napsugárzás vagy tető energiamérleg, nem mért egésztest-hatás.",
+      "decision": "Alacsony emissziót és hidegebb sugárzó tetőt nem automatikusan kombinálni; jó hagyományos kontroll."
+    },
+    {
+      "id": "r207-portland-bill",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "r207",
+      "locator": "## 3. HŐSZOBA — adequate occupied room at affordable running cost",
+      "claim": "Portland hivatalos jogosultsági oldalán célzott alacsony jövedelmű lakók és szolgáltatói energiaszámla-kedvezményhez irányítás szerepel.",
+      "limit": "Nem magyar jogosultság, finanszírozás vagy egészségkimenet; MVM korábbi tarifa ismét ellenőrizve,2027 UNKNOWN.",
+      "decision": "A HŐSZOBA nem állíthatja újnak a klíma és rezsisegítség kombinációját; tényleges szobai megfelelőség."
+    },
+    {
+      "id": "r207-room-capacity-paired",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "r207",
+      "locator": "## 3. HŐSZOBA — adequate occupied room at affordable running cost",
+      "claim": "Azonos száraz RC szoba/27°C analitikai cél,28–38°C kültér,1kW feltételezett hűtőkapacitás: aktív önmagában25h>27,1°C,árnyékkal0h a végső48h-ban. .8kW-nál mindkettő elmarad;1.8kW mindkettő teljesíti,12,43→9,95kWh.",
+      "limit": "Nem készülékméretezés, helyi hőmérés, klinikai határ vagy éves prognózis; nedvesség, légminőség és valós berendezés hiányzik.",
+      "decision": "Az árnyékolás szelektív kapacitásjavító eszköz, nem kötelező minden aktív szobában."
+    },
+    {
+      "id": "r207-shade-energy-economics",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "r207",
+      "locator": "## 3. HŐSZOBA — adequate occupied room at affordable running cost",
+      "claim": ".65kW peak szoláris,75% elkerült,4 ekvivalens óra/nap×60nap,COP3:39kWh megtakarítás feltételezett azonos komfortnál;70,104/150Ft-kWh mellett2734/5850Ft/idény;160k árnyékolási allowance egyszerű58,5/27,35 idény.",
+      "limit": "Szűk hipotetikus szoláris forgatókönyv; nem valós megtérülés, nem teljes energia- vagy komfortelőny, külön a48órás modelltől.",
+      "decision": "Passzív kiegészítés indoka tényleges kapacitás/komfort/funkció; nem kitalált gyors energetikai megtérülés."
+    },
+    {
+      "id": "r207-differentiation-decision",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r207",
+      "locator": "## 4. Jury comparison and explicit recommendation",
+      "claim": "HŐTÉR PLUSZ meglévő alkalmas árnyékolók teljesítményalapú jóváhagyott feljavítása, HŐSZOBA mért szobai megfelelőség és működési fedezet; egyik sem globális újdonság. HŐTÉR feltételes első.",
+      "limit": "2027-es helyi igény, alkalmas szerkezet/lakás, jóváhagyás, ajánlat és tényleges hatás nem igazolt; részleges forráselérés; nem véglegesítés.",
+      "decision": "Újabb ismétlődő modellezés helyett döntésre alkalmas két önálló csomag; nincs megkeresés/prototípus."
     }
   ]
 }
