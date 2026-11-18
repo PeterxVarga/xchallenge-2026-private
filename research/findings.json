@@ -157,6 +157,11 @@
       "path": "rounds/R203/OPERATOR_BASELINE_HANDOFF.md",
       "ref": "ef22d017c4f958c3852d7a707765c87831d3928a",
       "blob": "85a7d88afef0af1ca052fefe0b543c2a0c500a65"
+    },
+    "r204": {
+      "path": "rounds/R204/RADICAL_INNOVATION_AND_ROBUST_WINNING_CONCEPT.md",
+      "ref": "d421fd43313785d1f3e2bb7e4691e11b4f0cdc7b",
+      "blob": "13cd0231e2f82346ecec681711009c2dbd6e1793"
     }
   },
   "findings": [
@@ -2369,6 +2374,106 @@
       "claim": "Az aktuális célzott nyilvános ellenőrzés nem igazolta a 2027-es tábori helyszín, kész klimatizált férőhely, árnyékolóleltár és étkezési útvonal jóváhagyott állapotát.",
       "limit": "Nem bizonyíték a fejlesztés hiányára; nincs szervezői válasz vagy megkeresés.",
       "decision": "A HŐTÉR csak maradó hiányra javasolhat beruházást; válasz nélkül feltételes koncepció, nincs téma véglegesítés."
+    },
+    {
+      "id": "r204-english-heat-plan",
+      "family": "SCHOOL",
+      "kind": "UPSTREAM",
+      "source": "r204",
+      "locator": "## 2. Targeted technology transfer; source and evidence levels",
+      "claim": "2026. november17 angliai DfE útmutató: előzetes hőkockázat, hűvösebb terek, megerőltető aktivitás átszervezése, árnyékolás és szellőzés, szükség esetén megfelelő klíma vagy alternatív helyszín.",
+      "limit": "Angliai ajánlás, nem magyar jog vagy gyermekbiztonsági hőmérsékleti határ.",
+      "decision": "A szervezési és általános árnyékolási feladat önmagában nem új találmány; helyi többletprogram-kapacitás szükséges."
+    },
+    {
+      "id": "r204-turf-contact",
+      "family": "PRESCHOOL",
+      "kind": "UPSTREAM",
+      "source": "r204",
+      "locator": "## 2. Targeted technology transfer; source and evidence levels",
+      "claim": "2025 melbourne-i kutatás kivonata a mesterséges gyep felszínén 71,6°C maximális órás átlagot közöl.",
+      "limit": "Teljes oldal403; más éghajlat, felület és mérés, nem kőbányai adat, levegőhő vagy égési küszöb.",
+      "decision": "Érintkezési hő külön vizsgálandó, a levegő és árnyék önmagában nem elég."
+    },
+    {
+      "id": "r204-umbrella-walk",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "source": "r204",
+      "locator": "## 2. Targeted technology transfer; source and evidence levels",
+      "claim": "2026 egyetemi terepkísérlet kivonata: erős hőségben az esernyős árnyékolás mellett kb0,6°C-kal alacsonyabb bőrhőmérsékleti csúcs,12 percben fülhőmérsékleti különbség elhanyagolható.",
+      "limit": "Teljes oldal500, nem gyermekcsoport vagy biztonsági bizonyíték; helyi használat nem ismert.",
+      "decision": "Útvonalakon valódi kitettséget mérni, nem gyermekhővédelmet garantálni napernyővel."
+    },
+    {
+      "id": "r204-shelter-complexity",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "source": "r204",
+      "locator": "## 2. Targeted technology transfer; source and evidence levels",
+      "claim": "2025 buszmegálló-vizsgálat kivonata szerint egyes rosszul kialakított várók növelhetik a hőterhelést; 2026 sevillai Cartuja Qanat nagy léptékben kombinál árnyékot, talaj/víz hőcserét, sugárzó hűtést és éjszakai regenerációt.",
+      "limit": "Mindkét teljes oldal403; nem magyar teljesítmény, ár, vagy egyszerűen átvehető termék.",
+      "decision": "Jól szellőző fizikai védelem első; komplex víz/sugárzó rendszert nem a gyors 2027-es alapmodulba."
+    },
+    {
+      "id": "r204-radiant-storage",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "r204",
+      "locator": "## 2. Targeted technology transfer; source and evidence levels",
+      "claim": "2026 teljes méretű tesztcellák sugárzó-víztárolós hűtésének kivonata derült időszakban94/100% adaptív komfortidőt közöl bevonat nélküli/bevonatos radiátorral.",
+      "limit": "Teljes403; jól szigetelt tesztcellák, nem lakott kőbányai szoba vagy nyitott pavilon, borult időben nem igazolt.",
+      "decision": "Hosszabb távú műszaki tartalék, nem automatikus első pilot."
+    },
+    {
+      "id": "r204-flow-capacity",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r204",
+      "locator": "## 4. A — HŐTÉR FLOW/MAX (conditional leader; improved service architecture)",
+      "claim": "Négy30 fős csoport,3×1h,egy aktív és két nyugodt idősáv/csoport. 4 beltéri zóna/2 aktívra megfelelő mellett fix300→optimalizált360 kiosztható gyermekóra;3/1 beltéri+1 megfelelő kültéri mellett ugyanígy; kültér kiesésével csak270 kiosztható.",
+      "limit": "15 diszkrét beosztás, feltételezett kapacitás, nem valódi tábori órarend vagy biztonság: kimaradó csoportoknak is megfelelő hely kell; nincs tényleges hatás.",
+      "decision": "Idő- és térkiosztás első, új fizikai elem csak igazolt hiányban; szélsőséges hőségben beltéri alternatíva kötelező."
+    },
+    {
+      "id": "r204-room-hot-night",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "r204",
+      "locator": "## 5. B — HŐOTTHON HŐSZOBA / ACCESS",
+      "claim": "72 órás egyszerű RC szobamodell két időjárásgörbével:22–34°C mellett kombinált passzív éjszakai többlethő37,2 vs alap84 K·h;28–38°C mellett109,9 vs145,8 K·h; ideális aktív kiegészítéssel utóbbi16 K·h és9,95 kWh az utolsó48h-ban.",
+      "limit": "Kalibrálatlan száraz modell,26°C analitikai küszöb, nem egészségügyi határ;27°C cél és1,8kW hűtés nem készülékjavaslat; hiányzó nedvesség/légminőség.",
+      "decision": "A passzív intézkedés és a tényleges elégséges hővédelem külön kapu, forró éjjelen szükség lehet aktív hűtésre."
+    },
+    {
+      "id": "r204-play-surface-balance",
+      "family": "PRESCHOOL",
+      "kind": "MODEL",
+      "source": "r204",
+      "locator": "## 7. D — HŐJÁTÉK SAFE, stronger than generic playground shade",
+      "claim": "15m² felület,800W/m² és elnyelés.8→.5 mellett3,6kW kisebb elnyelt rövidhullámú teljesítmény, opak felületnél3,6kW többlet visszaverődés. 0,1 áteresztésű idealizált árnyék esetén eredeti9,6→0,96kW elnyelt direkt komponens.",
+      "limit": "Nem felület- vagy levegőhőmérséklet, kontaktbiztonság vagy emberi sugárzási mérleg; diffúz és hosszúhullámú komponens hiányzik.",
+      "decision": "Árnyék és célzott felületcsere külön versenyeztetve; játszótéri megfelelés és valódi aktív használat."
+    },
+    {
+      "id": "r204-route-net-hours",
+      "family": "TRANSIT",
+      "kind": "MODEL",
+      "source": "r204",
+      "locator": "## 8. E — HŐKAPU ACCESS (independent route/stop)",
+      "claim": "60/150/300 látogatás naponta,5/8/10perc,20 releváns nap=100/400/1000 bruttó várakozóóra,30% modellezett nettó többletfaktor=30/120/300;900k tervezési tétellel30000/7500/3000Ft/óra.",
+      "limit": "Nem valós utasforgalom, ajánlat, teljes utazási nyereség vagy egészséghatás; helyszíni szükséglet és meglévő beruházás ismeretlen.",
+      "decision": "HŐKAPU csak ténylegesen használt, lefedetlen hozzáférési pontnál."
+    },
+    {
+      "id": "r204-tournament-gate",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r204",
+      "locator": "## 9. Five-criterion jury challenge and robust decision",
+      "claim": "30 mechanizmus:5 önálló továbbvitt szolgáltatási csomag,19 modul,4 halasztott R&D,2 tartalék. HŐTÉR FLOW/MAX feltételes vezető, HŐOTTHON, HŐMŰSZAK, HŐJÁTÉK SAFE és HŐKAPU független ellenjelölt.",
+      "limit": "Nem30 teljes terv, nem új találmányok; jelenlegi helyi rés, engedély, ár és hatás UNKNOWN. Nincs új natív futás, nincs külső megkeresés.",
+      "decision": "A valós szükséglet felszámolása az első, nem hardver vagy további findingok számának maximalizálása; téma OPEN."
     }
   ]
 }
