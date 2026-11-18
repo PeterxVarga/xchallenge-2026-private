@@ -212,6 +212,11 @@
       "path": "rounds/R214/HOTER_CORE_PERSON_FOCUSED_COOLING.md",
       "ref": "efa9e98996ef916aedc0233fd0b3f8e96b62de0b",
       "blob": "df920b7cb2e2df0e9a981d1417be884335134426"
+    },
+    "r215": {
+      "path": "rounds/R215/HOTER_CORE_COMPONENT_AND_MANUFACTURING_FEASIBILITY.md",
+      "ref": "ad4427e55c10ee0ea53c6891c44ec006449ad708",
+      "blob": "703d992069697ff4709b245e38a46c3143bd12f7"
     }
   },
   "findings": [
@@ -3154,6 +3159,86 @@
       "claim": "HŐTÉR CORE kisméretű hűtött pihenősziget zárt hűtőkörű ülőfelülettel, opcionális lokális sugárzóhűtéssel; standard passzív/AIR, meglévő beltéri pihenő és indirekt alternatíva külön.",
       "limit": "2027 helyi szükséglet, gyermekintézményi jóváhagyás, teljes ajánlat, teljesítmény és elfogadás UNKNOWN; nincs prototípus, outreach vagy Intelligence újrafuttatás.",
       "decision": "Konkrét beszerezhető/engedélyezhető rendszer és teljes költség falszifikációja, nem újabb öncélú hőmodell."
+    },
+    {
+      "id": "r215-budget-device-counter",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r215",
+      "locator": "## 2. Actual catalogues, price and evidence limits (observed 2026-11-19)",
+      "claim": "Hailea HC300 bruttó188128Ft,395W névleges; Phobya 1/2HP bruttó313388Ft,1300W marketing. HE család kézikönyv 2–4. oldal vizuális ellenőrzése:30°C teszt, időjárásvédelem szükséges, esőt ábrán tiltják.",
+      "limit": "Nem teljesített rendelés, állandósult35–40°C-os munkapont, minősített zárt kör vagy gyermekintézményi alkalmasság. HC300 két eltérő input érték, HE táblázat pontos modellmegfeleltetés UNKNOWN.",
+      "decision": "Árreferencia, nem kiválasztott eszköz. Előző600k hibrid feltételezés újravizsgálandó."
+    },
+    {
+      "id": "r215-industrial-chiller-duty",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r215",
+      "locator": "## 2. Actual catalogues, price and evidence limits (observed 2026-11-19)",
+      "claim": "AMS mRC-C-450 300W20°C víz/40°C környezet és500W20/20; mRC-C-1000 1kW25/35,5.5L/min0.5bar, CE folyamatban a listán. AquaZero1.2kW3475EUR nettó,15°C előremenő/32°C környezet, kültéri opció külön.",
+      "limit": "Eltérő munkapont, alkalmazási kör, ár és megfelelőség; nincs alkalmas teljes CORE-rendszer vagy ajánlat.",
+      "decision": "Kompakt üzemszerű hűtő létezik, de az integrált előírást és teljes költséget igazolni kell."
+    },
+    {
+      "id": "r215-panel-manufacturing",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r215",
+      "locator": "## 2. Actual catalogues, price and evidence limits (observed 2026-11-19)",
+      "claim": "TROX WK-D-KS beltéri EN14240 panel104–120W/m² 8K-nél; Rubanox egyedi roll-bond hőcserélők/kis sorozat; PCM Products27°C zárt épületi modul és egyedi kapszulázás.",
+      "limit": "Beltéri panel nem egyenértékű kültéri; gyártói képesség, nem kész hűtött pad vagy ajánlat; ARaymond403, Talum timeout.",
+      "decision": "Egyszerű minősített hőátadó ülőelem elsőként, roll-bond ismételt gyártáshoz vizsgálandó."
+    },
+    {
+      "id": "r215-heatload-flow",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r215",
+      "locator": "## 4. Executed boundary checks (JS arithmetic, R214 preserved thermal loads)",
+      "claim": "R214 35/40 példa ×1.3 terhelési érzékenység: pad179.9W, panel660.7W, együtt840.6W;2/4K vízoldali különbségnél pad1.29/.65 és hibrid6.03/3.02L/min.",
+      "limit": "Nem méretezés, valós csúcs, pumpa munkapont vagy berendezésigazolás; névleges hűtőteljesítmények nem azonos feltételeken.",
+      "decision": "Pad külön ellenjelölt, teljes hibrid nem automatikusan indokolt."
+    },
+    {
+      "id": "r215-internal-dew-resistance",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r215",
+      "locator": "## 4. Executed boundary checks (JS arithmetic, R214 preserved thermal loads)",
+      "claim": "35°C/65% RH,29.42°C hipotetikus panel,90.91W/m² és R=.03m²K/W esetén átlagfolyadék26.70°C, harmatpont27.42°C alatt;10L víz3K0.0348kWh,180/840W terhelésre11.6/2.49 perc aktív elvonás nélkül.",
+      "limit": "Idealizált érzékenység, nem valós rétegrend, kondenzációs szabályozás, puffer- vagy készülékméretezés.",
+      "decision": "Belső kondenzáció és minimumterhelés önálló szakmai kapu."
+    },
+    {
+      "id": "r215-cartridge-operations",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r215",
+      "locator": "## 4. Executed boundary checks (JS arithmetic, R214 preserved thermal loads)",
+      "claim": "180W négyhelyes modellterhelés,180kJ/kg és60% használható PCM feltételezés:2/4/8h szolgáltatáshoz12/24/48kg aktív anyag, tartó és duplikátum nélkül.",
+      "limit": "Nem konkrét termék vagy tényleges hűtés; újratöltés, kontaktus, higiénia és munkaigény ismeretlen.",
+      "decision": "Rövid használatra versenyképes lehet, teljes napi logisztika és tömeg erős korlát."
+    },
+    {
+      "id": "r215-catalogue-cost-stress",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r215",
+      "locator": "## 5. Procurement-aware financial sensitivity, not approved budgets",
+      "claim": "Tételes feltételezett fennmaradó scope-pal pad 642–792k, hibrid1227k első szezonos többlet a két nem kvalifikált árhorgony alapján; ipari 1.4M forrásár érzékenységnél2538k, új standard tetővel4458k.",
+      "limit": "Nem megvalósítható árajánlat, forrás árhorgonyok alkalmassága UNKNOWN, többi feltételezés; ez nem költségplafon, tartalék nem statisztikai.",
+      "decision": "Hibrid csak valós funkcionális többlettel, pad-first vagy meglévő megfelelő beltéri helyszín ellenpróbája."
+    },
+    {
+      "id": "r215-bench-first-gate",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r215",
+      "locator": "## 6. Decision, acceptance and remaining gate",
+      "claim": "CORE Bench önálló hűtött pihenőelem, gyártói jóváhagyású hűtőegység vagy igazolt meglévő hűtési forrás, külön opcionális sugárzópanel. Nincs kiválasztott SKU.",
+      "limit": "2027 igény, teljes rendszer, engedély, teljes költség, elfogadás ismeretlen; nincs új Intelligence futás, prototípus vagy beszerzés.",
+      "decision": "Teljes foglalkozási zóna vs rövid ülő pihenőhely felhasználói értékének visszaversenyeztetése."
     }
   ]
 }
