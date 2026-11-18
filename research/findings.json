@@ -192,6 +192,11 @@
       "path": "rounds/R210/HOTER_WING_MODULAR_PHYSICAL_CONCEPT.md",
       "ref": "a316d9d1ece2b89c8e59eb7f90a76f5b7667b7cc",
       "blob": "d544cec18540638923a0667fef563618aaa99ec0"
+    },
+    "r211": {
+      "path": "rounds/R211/HOTER_THERMAL_BUFFER_HYBRID.md",
+      "ref": "897f048b644013ec950604abe1ebe44effd9a08c",
+      "blob": "02b5d26b2557022c66cdf9f472a76dd0976c42e5"
     }
   },
   "findings": [
@@ -2874,6 +2879,76 @@
       "claim": "Elsődleges HŐTÉR továbbfejlesztés konkrét nyitott modul és irányított kiegészítőként; egyszerű standard kontroll, nagyobb tető, jóváhagyott retrofit versenyben.",
       "limit": "Nincs helyszíni mérés, engedély, ajánlat, valós többlet; nincs prototípus vagy új engine futtatás.",
       "decision": "Következő kör csak érdemben más használati/innovációs mechanizmus vagy konkrét specifikáció, nem ismételt geometria."
+    },
+    {
+      "id": "r211-schoolyard-surface",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r211",
+      "locator": "## 2. Fresh evidence and transfer limits",
+      "claim": "2026 USDA intézményi absztrakt: 8 kaliforniai általános iskola kb0,7m magasságú megfigyeléseiben árnyék mellett medián1,2°C levegő és1,4°C hőindex különbség.",
+      "limit": "Megfigyelés, nem HŐTÉR vagy helyi összehasonlítás; egyes felületeknél egyetlen iskolai szenzor, nincs általános anyagrangsor.",
+      "decision": "Teljes használati környezet és talaj vizsgálata, nem csak fedés."
+    },
+    {
+      "id": "r211-pavement-thermal-lag",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r211",
+      "locator": "## 2. Fresh evidence and transfer limits",
+      "claim": "2025 terepi betonburkolat vizsgálat teljes HTML: nappali napsugárzás/felülethő késleltetés és12–16 óra között10,7/15,1/10,5°C átlagos árnyékhoz társuló felületi különbség 3 burkolatnál, kiválasztott időszakokban.",
+      "limit": "Nem levegőhő, helyi mérés vagy korai-késői árnyékolás kísérlete; kumulatív árnyék időbelisége ismert kutatási irány.",
+      "decision": "A használat előtti felmelegedés megelőzését vizsgálni."
+    },
+    {
+      "id": "r211-ground-history-model",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r211",
+      "locator": "## 4. Executed transient ground model — same afternoon shade, different earlier heat storage",
+      "claim": "Azonos 14–19 óra közti árnyékú szintetikus talajmodell, árnyékolás kezdete14 vs09: 15–17 átlagos talaj44,94→37,02°C, effektív LW-only40,59→38,17°C; melegebb éjszakai stressz48,57→40,88 és44,48→42,13.",
+      "limit": "Kalibrálatlan lumped modell, feltételezett forszírozás; nem teljes MRT/levego, helyi komfort, egészség vagy valós árnyéktörténet. Azonos korai árnyékú jó kontroll esetén előny eltűnik.",
+      "decision": "Korai árnyék, megfelelő meglévő hely, tető/szárny/airflow együtt."
+    },
+    {
+      "id": "r211-ground-sensitivity",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r211",
+      "locator": "## 4. Executed transient ground model — same afternoon shade, different earlier heat storage",
+      "claim": "108 páros szintetikus talaj/hőátadási/napsugárzási/áteresztési eset: 09 vs14 kezdés átlag talajelőnye0,294–14,581K, LW-only0,087–4,527K;26 esetben>=2K LW-only. 60s időlépés az alapmodell eredményét megközelítőleg megismétli.",
+      "limit": "Nem időjárási valószínűség, helyi kalibráció vagy emberi MRT; geometria nem garantálja korai árnyékot.",
+      "decision": "Előny erősen feltételfüggő; valós, illesztett jó standard kontroll és mérés."
+    },
+    {
+      "id": "r211-storage-charging",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r211",
+      "locator": "## 5. Passive heat storage and air-flow adversarial checks",
+      "claim": "100kg hipotetikus180kJ/kg PCM5kWh ideális teljes tárolás;6h 40W/m² nettó regenerációhoz20,83m²;100kg .84kJ/kgK száraz szilárd6K érzékelhető hőtárolása.14kWh. Mérnöki folyadékos PCM rendszer ismert, de szivattyús.",
+      "limit": "Nem tényleges anyag/ár, teljes töltés, nettó hűtési hatás vagy biztonság; forró éjjelen nincs garantált hőelnyelő közeg.",
+      "decision": "PCM és folyadékos sugárzó rendszert nem az első 2027 alapba."
+    },
+    {
+      "id": "r211-flow-tradeoff",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r211",
+      "locator": "## 5. Passive heat storage and air-flow adversarial checks",
+      "claim": "1kW többlet érzékelhető hő, jól kevert hipotetikus kontrolltérben .3/.6/1.2m³/s átáramlás mellett2,76/1,38/.69K levegőhő többlet; oldalszárny csökkentheti az áramlást.",
+      "limit": "Nem CFD, valós pavilon, tényleges szárny-áramlás, emberi hőkomfort vagy határérték.",
+      "decision": "Oldalsó napvédelem és légmozgás valós együttmérése."
+    },
+    {
+      "id": "r211-hybrid-decision",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r211",
+      "locator": "## 7. Closeout",
+      "claim": "HŐTÉR HŐPUFFER munkanév: jó tető + használat előtti talaj/környezet árnyékolás + szükség szerinti szárny + nyitott légmozgás. Vízmentes alap, tároló és aktív rendszer tartalék.",
+      "limit": "Koncepció nem kiviteli terv; helyi maradó rés, jóváhagyás, ár és tényleges mikroklíma/használati többlet UNKNOWN. Nincs terep vagy prototípus; új engine nem futott.",
+      "decision": "Csak megfelelő standard kontrollnál igazolt többlet; alapmechanizmus továbbfejlesztése, nem újabb öncélú számítás."
     }
   ]
 }
