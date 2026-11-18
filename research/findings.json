@@ -167,6 +167,11 @@
       "path": "rounds/R205/MINIMUM_SUFFICIENT_WINNING_CONCEPTS.md",
       "ref": "73700a352f3581263bd5045abc97f6ce69690f21",
       "blob": "9bb8b75db3fb829358cbbc5c98c2d7cbe00ab880"
+    },
+    "r206": {
+      "path": "rounds/R206/DUAL_FINALIST_OUTCOME_AND_RESILIENCE_TOURNAMENT.md",
+      "ref": "3e3e97b8941f927671a6474570589ef53451f36c",
+      "blob": "58f8da6248a30fad96f7fbf03572c2e0f7ade476"
     }
   },
   "findings": [
@@ -2529,6 +2534,96 @@
       "claim": "Öt egyszerűsített, külön szolgáltatás; HŐTÉR feltételes első, HŐSZOBA független második. Új hardver kizárólag maradó funkcionális hiányra.",
       "limit": "2027 valós kapacitás, helyi újdonság, teljes költség, engedély, hatás továbbra is igazolatlan. Nem zsűripontszám vagy véglegesítés.",
       "decision": "Nincs ismételt outreach vagy általános keresés; döntési szintű összevetés, nem technológiaszám."
+    },
+    {
+      "id": "r206-camp-source-refresh",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r206",
+      "locator": "## 2. Primary evidence, freshly verified this round",
+      "claim": "370/2026 önkormányzati napirend élő linkje megnyitható, eredeti3/8/9 index képei újra ellenőrizve: hőség miatti déli gyaloglás, elégtelen komfort,2027-re 4–5 sátor javaslat,3807 étkezési jelenléti nap.",
+      "limit": "Azonos történeti forrás, nem független új megfigyelés; a 2027-es teljesítés és kapacitás változatlanul UNKNOWN.",
+      "decision": "A valós múltbeli helyi probléma megtartása, a 2027-es normál tervek fölötti többlet külön feltétel."
+    },
+    {
+      "id": "r206-portland-expansion",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "r206",
+      "locator": "## 2. Primary evidence, freshly verified this round",
+      "claim": "Portland hivatalos 2026 május1 közlemény: több mint20500 berendezés telepítve, majd átfogóbb lakáskorszerűsítési programokra váltás tervezett.",
+      "limit": "Telepítési volumen, nem egészségkimenet, nem magyar helyi szükséglet vagy költség.",
+      "decision": "A teljes beszerzés–telepítés–fenntartás szolgáltatási modell precedense."
+    },
+    {
+      "id": "r206-portland-operating-model",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "r206",
+      "locator": "## 2. Primary evidence, freshly verified this round",
+      "claim": "Cooling Portland 2025 jelentés eredeti4/6/10. oldal:16% készülékár-többlet az ajánlathoz képest vámok miatt; képzett helyi telepítők, közüzemi segítséghez irányítás;2025 áprilisig1000 feletti telepítés.",
+      "limit": "USA beszerzés, nem magyar árváltozási előrejelzés; telepítések nem mért helyi komfort.",
+      "decision": "Tartalék és megfizethető működés, képzett szerelők és előidényes szervezés."
+    },
+    {
+      "id": "r206-cooltorise",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "source": "r206",
+      "locator": "## 2. Primary evidence, freshly verified this round",
+      "claim": "EU CORDIS COOLTORISE négy tagállamban passzív hűtésre is kiterjedő útmutatás, háztartási eszközcsomagok, gyakorlati segítség és udvari intézkedések.",
+      "limit": "Projektbeszámoló, nem magyar finanszírozás vagy lokális retrofit okozati hatás.",
+      "decision": "A hővédelem megkülönböztető értéke a tényleges tartósan megfizethető szobai eredmény, nem eszközosztás."
+    },
+    {
+      "id": "r206-camp-failure-tournament",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r206",
+      "locator": "## 3. HŐTÉR — continuity rather than installed shade",
+      "claim": "81 beosztás×8 feltételezett elérhetőségi eset;4 beltéri zóna/2 aktív:360 gyermekóra; egy egész blokkban kieső aktív zóna:270;5 beltéri/2 aktív egy aktív kiesése330;5 beltéri/3 aktív kiesése360; közös HVAC-kiesés után2 alkalmas zóna180.",
+      "limit": "4×30 csoport és3×1 óra szintetikus, nem valós helyi termek, nincs egészség/safety bizonyíték. Kiesés előre ismert, nem valós idejű üzem. Kimaradó programhoz is megfelelő alternatíva kell.",
+      "decision": "Funkcionális kapacitás és független tartalék ellenőrzése; nincs szükségszerű új építés, kültér nem helyettesíti a biztonságos beltéri lehetőséget."
+    },
+    {
+      "id": "r206-home-five-season",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "r206",
+      "locator": "## 4. HŐSZOBA — affordable use throughout summer, not distribution",
+      "claim": "R205 4 vegyes lakás első1,708351M Ft; további szezononként teljes160k szolgáltatás +2×396kWh energia +15% tartalék: öt szezon2,699754M Ft70,104 és3,0636M Ft150Ft/kWh esetén; egyszeri két készülék220k/db +15% csereérzékenység506k.",
+      "limit": "Nominális modell, nem ajánlat, 2027 tarifa, élettartam, áramfogyasztási előrejelzés; további install/árnyék scope és infláció külön UNKNOWN.",
+      "decision": "Ötéves üzemeltethetőség és aktív védelem megfizethetősége marad a csomagban."
+    },
+    {
+      "id": "r206-home-price-stress",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "r206",
+      "locator": "## 4. HŐSZOBA — affordable use throughout summer, not distribution",
+      "claim": "R205 két aktív 220k/db berendezési tétele +16/30% stresszben 80 960/151 800 Ft-tal növeli a tartalékos első szezonos költséget:1,789311/1,860151M Ft.",
+      "limit": "Portland16% történeti másik piac; stressz nem magyar előrejelzés, nem teljes helyi ajánlat.",
+      "decision": "Nem szabad a valódi működési tételeket a költségsokk miatt elhagyni."
+    },
+    {
+      "id": "r206-home-occupied-opportunity",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "r206",
+      "locator": "## 4. HŐSZOBA — affordable use throughout summer, not distribution",
+      "claim": "4 lakott szoba×60 releváns éj×8h=1920 person-hour bruttó lehetőség egy lakóval;25/50/75% valóban többlet megfelelő használati arány mellett480/960/1440 nettó óra.",
+      "limit": "Feltételezett helyi lakók, éjszakák, tényleges többlet és megfelelőség; nem mért, nem egészséghatás, nem a tábori gyermekórával közös egység.",
+      "decision": "Valódi használat, termikus megfelelőség, energia és üzemidő külön mérése."
+    },
+    {
+      "id": "r206-dual-reversal",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r206",
+      "locator": "## 5. Two finalists and adversarial five-criterion review",
+      "claim": "HŐTÉR feltételes történeti bizonyítékvezető, HŐSZOBA erős független többidényes szolgáltatási alternatíva. Ha normál tábori terv elegendő, A leáll; ha B igazolt helyi helyiség/fedezet/jogosultság mellett többletet ad, élre kerülhet.",
+      "limit": "Nincs valós 2027 helyszín/partner/ajánlat/mért eredmény egyiknél sem. Nem zsűripontszám vagy végleges téma.",
+      "decision": "További általános körök helyett egész koncepció döntési összevetése; külső megkeresés nélkül, téma OPEN."
     }
   ]
 }
