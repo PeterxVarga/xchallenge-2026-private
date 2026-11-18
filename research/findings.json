@@ -137,6 +137,11 @@
       "path": "rounds/R169/THREE_FINALIST_DELIVERY_DOSSIERS.md",
       "ref": "c4726a4694588e23d7852f3c1cb45af27e284596",
       "blob": "6084c549331d856653e176bcdf184656fe463922"
+    },
+    "r170-r200": {
+      "path": "rounds/R170-R200/WINNING_CONCEPT_SYSTEM_TOURNAMENT.md",
+      "ref": "e3cd2fba62d68d523e14750ca020ef072d928666",
+      "blob": "c156ec4b10babf5a9a9abd531fec2add93a9a794"
     }
   },
   "findings": [
@@ -2009,6 +2014,136 @@
       "claim": "Három önálló koncepció eltérő eredménykapuja definiálva, de 2027 konkrét helyszíni hiány, engedély, teljes beszerzési költség és valódi hatás egyiknél sem igazolt.",
       "limit": "Relay aktuális natív megismétlés sikertelen, R168 78 rekord korábbi; nincs kontakt vagy terepmunka; nincs téma véglegesítve.",
       "decision": "A: tábori szolgáltatási rés, B: lakott forró szoba, C: munkavédelmi alap feletti valós elérési rés."
+    },
+    {
+      "id": "r170-summer-national",
+      "family": "ALL",
+      "kind": "UPSTREAM",
+      "source": "r170-r200",
+      "locator": "## 2. Evidence that changes the concept",
+      "claim": "HungaroMet 2026 nyár országosan 2,6°C-kal melegebb a 1991–2020-as normálnál, 1901 óta második legmelegebb és legszárazabb; július1 Lágymányos minimum26,8°C.",
+      "limit": "Országos aggregátum és konkrét állomás, nem kőbányai foglalt hely mérés vagy 2027 előrejelzés.",
+      "decision": "Száraz alapmegoldás, éjszakai hőterhelés külön."
+    },
+    {
+      "id": "r170-barcelona",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r170-r200",
+      "locator": "## 2. Evidence that changes the concept",
+      "claim": "Barcelona 11 iskola hűsölőtérré alakítása, 2024 közegészségügyi előtte-utána összehasonlító értékelés javuló hőérzetet, közérzetet és játéklehetőséget közölt; nem minden átalakítás volt elégséges.",
+      "limit": "Kombinált intézkedés, eltérő időjárás, nincs átvitt fokérték vagy magyar kiadások; folyóiratok teljes elérése részleges.",
+      "decision": "Árnyék és hűsölő iskola önmagában nem új; tényleges szolgáltatás és aktív használat."
+    },
+    {
+      "id": "r170-public-access",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r170-r200",
+      "locator": "## 2. Evidence that changes the concept",
+      "claim": "Barcelona 2025 teljes kvalitatív tanulmány 22 megfigyelés,76 használói és18 gondnoki interjú 11 udvarban; sportzónák megfigyelői komfortértékelése4,6, pihenő7,5, játszó8,4.",
+      "limit": "Kvalitatív megfigyelés, nem termikus fok vagy egészségügyi küszöb, nem egyedi elérési szám; idősek ritkábban megfigyelve.",
+      "decision": "Aktív funkció árnyéka és opcionális nyitvatartás csak igény és felügyelet esetén."
+    },
+    {
+      "id": "r170-paris",
+      "family": "SCHOOL",
+      "kind": "UPSTREAM",
+      "source": "r170-r200",
+      "locator": "## 2. Evidence that changes the concept",
+      "claim": "Párizs hivatalos oldal szerint 2026-ban több mint240 nevelési/iskolai udvart alakítottak oázissá, 2027 nyarára több mint40 további tervezett.",
+      "limit": "Nem mind nyitott vagy külön mért eredmény; nem kőbányai projekt.",
+      "decision": "Skálázás precedens, nem globális újdonság."
+    },
+    {
+      "id": "r170-local-sharing",
+      "family": "SCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r170-r200",
+      "locator": "## 2. Evidence that changes the concept",
+      "claim": "Kőbánya önkormányzati közlemény Harmat és Kada iskolai csarnokok időben megosztott használatát írja: iskola délelőtt, sportegyesület délután/hétvégén.",
+      "limit": "Történeti, nem szabad kapacitás, aktuális HVAC vagy nyitott udvar engedély.",
+      "decision": "Időben szeparált megosztás lehetősége, nem kötelező lakossági nyitás."
+    },
+    {
+      "id": "r170-coldtube",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "source": "r170-r200",
+      "locator": "## 2. Evidence that changes the concept",
+      "claim": "Szingapúri Cold Tube 37 résztvevő, 79% elfogadható hőérzet,29,6°C levegő,23,9°C átlagos sugárzási hőmérséklet és17°C hűtöttvíz ellátás; IR-áteresztő membrán, külső kondenzáció nem észlelt.",
+      "limit": "Felnőtt rövid idejű demonstrátor aktív hűtöttvízzel, nem zero-energy vagy gyermekbiztonsági bizonyíték; nem azonos low-e reflektív membránnal.",
+      "decision": "Aktív sugárzó elv külön opcionális fejlesztési ág, nem első gyerekpilot."
+    },
+    {
+      "id": "r170-geometry-optimized",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r170-r200",
+      "locator": "## 3. A — HŐTÉR MAX (one primary service with optional engineering modules)",
+      "claim": "36m² fedés,6×4m célzóna,2,7m magasság,3125 alak/eltolás kombináció: 6×6 középen vs9×4,0,25m nyugatra és1,25m délre tolva. 92 nyári nap 2300 időmintájában átlagos talajárnyék71,80→90,03%, minimum31,11→58,52%.",
+      "limit": "Saját idealizált offline geometria, nem helyszíni sugárzás/komfort, nem azonos telepítési ár; 9–18 minimum0% mindkettő, valódi jó optimalizált hagyományos kontroll kell.",
+      "decision": "Fedés elhelyezését és tényleges használatot azonos funkcióra optimalizálni prémium anyag előtt."
+    },
+    {
+      "id": "r170-geometry-dual-plane",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r170-r200",
+      "locator": "## 3. A — HŐTÉR MAX (one primary service with optional engineering modules)",
+      "claim": "8×4,5 eltolva teljes nyári talaj89,87%, 1,1m magassági sík92,39%; 9×4 ugyanezek90,03/88,14%.",
+      "limit": "Geometria-only, nem tényleges test/UV védelem vagy kapacitás; eltérő forma és rögzítés.",
+      "decision": "Több sík és releváns napszak alapján tervezés, nem egyetlen árnyékfotó."
+    },
+    {
+      "id": "r170-longwave",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r170-r200",
+      "locator": "## 3. A — HŐTÉR MAX (one primary service with optional engineering modules)",
+      "claim": "35°C egyéb környezet,50→35°C hipotetikus tetősík, .15/.30/.50 látási tényező: 2,39/4,73/7,77°C egyszerűsített hosszúhullámú MRT különbség.",
+      "limit": "Nem mért tetőhőmérséklet vagy teljes MRT: direkt nap, konvekció, páratartalom, emisszivitás nincs külön; hatás nem adható össze geometriával.",
+      "decision": "Prémium réteg valódi mért termikus többlete azonos jó árnyék ellen."
+    },
+    {
+      "id": "r170-shared-hours",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r170-r200",
+      "locator": "## 3. A — HŐTÉR MAX (one primary service with optional engineering modules)",
+      "claim": "12 ténylegesen használt hely×2h×20nap=480 bruttó; 60% normál hővédett baseline esetén192 nettó óra; 2 felügyelő×2h×20nap×4000=320k, 1667Ft/óra kizárólag személyzet.",
+      "limit": "Hipotetikus nem tényleges helyi bér vagy használat; tisztítás, biztosítás/hozzáférés külön; nincs dupla számolás.",
+      "decision": "Közösségi megosztás csak többletigény, költség és engedély után."
+    },
+    {
+      "id": "r170-home-price-stress",
+      "family": "HOME",
+      "kind": "MODEL",
+      "source": "r170-r200",
+      "locator": "## 4. B — HŐOTTHON ACCESS stronger independent challenge",
+      "claim": "R169 8 lakás 2,864701M Ft energia és tartalék modell. 4 aktív régi315k telepített tételt 348165Ft fix szereléses listaárra cserélve 3,017260M, 299720Ft mobil split +95k hipotetikus szerelésre 3,231413M.",
+      "limit": "Listaár, nem összehasonlítható komplett ajánlat; villamos bővítés/extra árnyék külön, nem 3M hivatalos limit.",
+      "decision": "A konkrét helyszíni eszköz és teljes költség alapján 4→6/8 lépcső."
+    },
+    {
+      "id": "r170-crew-rent-break",
+      "family": "CARE",
+      "kind": "MODEL",
+      "source": "r170-r200",
+      "locator": "## 5. C — HŐMŰSZAK strongest independent challenge",
+      "claim": "R169 910k egyéb szezonköltség, azonos szolgáltatás esetén 1,05M meglévő hely fejlesztéshez 3 havi bérlet havi töréspont46667Ft; egy/további két60k áthelyezéssel26667/6667Ft.",
+      "limit": "Hipotetikus költözési és telepítési ár, nem klimatizált konténer tényleges ajánlat vagy egyenértékű hely; azonos tartalék kiesik.",
+      "decision": "A hozzáférési hiány dönt a mobil/fix szolgáltatásról, nem önmagában havidíj."
+    },
+    {
+      "id": "r170-decision-stop",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r170-r200",
+      "locator": "## 6. Four adversarial jury perspectives and decision gates",
+      "claim": "HŐTÉR MAX feltételes validációs vezető, HŐOTTHON és HŐMŰSZAK független ellenjelöltek. Mindnél tényleges 2027 maradó rés, jóváhagyott helyszín, ajánlat és eredmény UNKNOWN.",
+      "limit": "Négy szimulált zsűriszerep nem tényleges bíró vagy pontszám; régi natív engine 78 változatlan rekord, új scoped live hozzáférés nem igazolt.",
+      "decision": "Nem további általános brainstorming; következő döntéshez tényleges baseline/engedély, téma továbbra is OPEN."
     }
   ]
 }
