@@ -187,6 +187,11 @@
       "path": "rounds/R209/HOTER_THERMAL_ZONE_ARCHITECTURE.md",
       "ref": "7b919e011ee21727fe720bc3f457c30d5a8dcfd0",
       "blob": "f5a009b3410fe9d5feb5ab1f84f419e65cec9562"
+    },
+    "r210": {
+      "path": "rounds/R210/HOTER_WING_MODULAR_PHYSICAL_CONCEPT.md",
+      "ref": "a316d9d1ece2b89c8e59eb7f90a76f5b7667b7cc",
+      "blob": "d544cec18540638923a0667fef563618aaa99ec0"
     }
   },
   "findings": [
@@ -2809,6 +2814,66 @@
       "claim": "Egy pilot használati zóna, megfelelő minden gyermeknek elérhető beltéri alternatíva, illesztett standard referencia, párhuzamos fizikai mérés és valós foglalkozási teljesítmény; opcionális prémium csak tényleges többlet esetén.",
       "limit": "Nem elfogadott pilot, építési engedély, árajánlat vagy eredmény; 2K példa kutatási cél nem biztonsági küszöb.",
       "decision": "Műszaki specifikáció azonos funkciójú változatokkal és teljes költséggel; NO_SEND, nincs prototípus."
+    },
+    {
+      "id": "r210-architecture-precedent",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r210",
+      "locator": "## 2. Existing real-world architecture and falsification",
+      "claim": "Temporary Tiger megvalósult kültéri tanterem korai napszakra keleti függőleges és felső árnyékolót kombinált; Cotham School és NEBourhoods további megépült vagy prototípus építészeti megoldások.",
+      "limit": "Tervezői/beszállítói leírás, nem helyi hatás, szerkezeti jóváhagyás vagy árajánlat; a kombináció nem világújdonság.",
+      "decision": "Célzott árnyék és moduláris gyártás ismert elveinek helyi alkalmazása, erős standard kontroll."
+    },
+    {
+      "id": "r210-directional-wing-concept",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r210",
+      "locator": "## 3. Recommended architecture",
+      "claim": "HŐTÉR SZÁRNY: nyitott, szakmailag jóváhagyott alapmodul, szükség esetén megfelelő irányú kompatibilis árnyékolószárnnyal, mozgatható berendezéssel.",
+      "limit": "Koncepció és javasolt név, nem kiviteli terv, jóváhagyott telephely vagy tényleges 2027 igény; lásd szerkezeti és felügyeleti kapuk.",
+      "decision": "Egyszerű jó minőségű tető az alap, szárny és extra anyag kizárólag valós maradó igénynél."
+    },
+    {
+      "id": "r210-equal-area-challenger",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r210",
+      "locator": "## 4. Executed geometry experiment and exact reproduction parameters",
+      "claim": "4147 alak/eltolás/irány-választás két mintarácson; 3036 nyári időminta finom rácsán 36m² tető61,00%,30+6 nyugati61,23%;42m² tető74,84%,36+6 nyugati77,08% a két síkon egyidejű legalább80% geometriai árnyékoltság gyakorisága.",
+      "limit": "Szintetikus opak sugárgeometria, nem bizonyított komfort, biztonság, befogadóképesség vagy azonos ár; rács/objektív érzékeny.",
+      "decision": "Nagyobb hagyományos tető erős ellenjelölt, szárny nem automatikus nyertes azonos anyagfelületnél."
+    },
+    {
+      "id": "r210-fixed-west-retrofit",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r210",
+      "locator": "## 4. Executed geometry experiment and exact reproduction parameters",
+      "claim": "Változatlan 9x4m tető (-.5,-1) mellett idealizált6m² nyugati panel 15–17 órás mintákban46,74→94,32%, teljes09–17-ben61,00→73,98% két síkon >=80% árnyék. Három külön ellenőrző napon .125m mintarács délután37,04→92,59%.",
+      "limit": "Nem tényleges tető, opak sík idealizáció, sugárzási/hőérzeti vagy biztonsági eredmény nem igazolt; szerkezeti, szél, átláthatóság és valós adott anyag ismeretlen.",
+      "decision": "Meglévő alkalmas fedés délutáni hiányánál célzott árnyékoló elem; más napszakhoz más irány vagy tető."
+    },
+    {
+      "id": "r210-lifecycle-wing",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r210",
+      "locator": "## 5. Lifecycle and equal-function decision",
+      "claim": "Korábbi standard1,920/2,400M Ft modellhez hipotetikus200k telepített szárny +20% tartalék +20k/év:2,180/2,740M Ft első/öt szezon; nagyobb tető 36,667k lineáris fedés plusz X szerkezet/telepítés,10k/év feltételezés mellett X=205k öt szezonos költségegyenlőség.",
+      "limit": "Nem valós ár, azonos szolgáltatás vagy teljes szerkezeti scope, nem retrofit ajánlat; új beltéri kapacitás külön.",
+      "decision": "Csak egyenértékű használati funkciójú teljes ajánlatok és mért többlet alapján dönteni."
+    },
+    {
+      "id": "r210-physical-design-gate",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r210",
+      "locator": "## 6. Decision and closeout",
+      "claim": "Elsődleges HŐTÉR továbbfejlesztés konkrét nyitott modul és irányított kiegészítőként; egyszerű standard kontroll, nagyobb tető, jóváhagyott retrofit versenyben.",
+      "limit": "Nincs helyszíni mérés, engedély, ajánlat, valós többlet; nincs prototípus vagy új engine futtatás.",
+      "decision": "Következő kör csak érdemben más használati/innovációs mechanizmus vagy konkrét specifikáció, nem ismételt geometria."
     }
   ]
 }
