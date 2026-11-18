@@ -97,6 +97,11 @@
       "path": "rounds/R161/CREATIVE_ENGINEERING_THREE_FINALISTS.md",
       "ref": "43b4de8882a78ea14ab78e83ccc138df5309214a",
       "blob": "cc224ab0499d65b2734a308c3d4a1c7fb0a1ef99"
+    },
+    "r162": {
+      "path": "rounds/R162/COMPETITIVE_ADVANTAGE_AND_PERFORMANCE_CONTRACT.md",
+      "ref": "00092f8af860843e0b0afc0bc5c31b048547b3d1",
+      "blob": "d183a80ebede29f86d1feff46506f8a8f628d111"
     }
   },
   "findings": [
@@ -979,6 +984,136 @@
       "limit": "A helyi történeti probléma/terv nem azonos a jövőbeni tényleges többlettel.",
       "decision": "Nyitott koncepcióválasztás; nem építünk prototípust vagy megosztott kutatómotort ebben a lane-ben.",
       "source": "r161"
+    },
+    {
+      "id": "r162-recefice-visual",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Közeli versenytársak és helyi baseline",
+      "claim": "193/2026 végrehajtási jelentés eredeti 11. oldala igazolja a két Rece-fice csoportszoba klímájának 2026. július 30-i elkészültét; a jóváhagyott klíma és villamos kiépítés 1 430 050 Ft.",
+      "limit": "Korábbi szöveges finding vizuális megerősítése, nem új telepítés vagy igazolt teljesítmény/végszámla.",
+      "decision": "Egyszerű intézményi klíma valós helyi ellenjelölt, csak maradó hiányra új projekt.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-havanna",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "locator": "## 2. Közeli versenytársak és helyi baseline",
+      "claim": "A XVIII. kerületi Cooling Havens a Havanna-lakótelepen 2027-re tervez fizikai pilotot: árnyék, zöld-kék infrastruktúra, mérés, több használati funkció és közösségi tervezés.",
+      "limit": "Projektgazdai tervezési állapot, nem megépült vagy mért magyar hatás; másik kerület. A teljes athéni konzorcium költségvetése nem a budapesti pilot ára.",
+      "decision": "A generikus szenzoros hűsítő oázis nem önálló helyi versenyelőny Magyarországon; fókuszált szolgáltatási vagy kontakt fizikai teljesítmény kell.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-obuda-delivery",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 2. Közeli versenytársak és helyi baseline",
+      "claim": "A 2025 januári óbudai WELLBASED beszámoló 130 bevont lakost, 83 energetikai felmérést és 40 lakás beltéri monitorozását közli; 2024 februárban klímák és ajtók beszerelését is bejelentették.",
+      "limit": "Eltérő nevezők; klímák darabszáma, hűtési hatás és végszámla nem igazolt. Nem X. kerületi program.",
+      "decision": "Budapesti háztartási szolgáltatás és monitorozás már létezik; one-room teljesítmény, tényleges elérhetőség és külön hőhiány legyen a megkülönböztetés.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-aha",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 2. Közeli versenytársak és helyi baseline",
+      "claim": "EUI AHA Budapest integrált lakhatási szolgáltatásában korai jelzőrendszer és energiahatékonysági felújításokhoz forgó alap tesztelése szerepel.",
+      "limit": "Programleírás, nem működő hűtési finanszírozás vagy helyi jogosultság; nincs saját forgóalap megtérülés igazolva.",
+      "decision": "Ne építsünk párhuzamos szociális jelzőrendszert vagy feltételezett grant/loan finance modellt.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-wellbased-results",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 3. A hatás bizonyítékainak erősítése",
+      "claim": "2026.10.27 Nature Energy WELLBASED elemzés, hat város közt Óbuda, 1094 elemzésbe bevont résztvevő. A szerkezeti beavatkozás kategóriában 31% számolt be elért nyári hőkomfortról, 39% csökkentette vagy abbahagyta a fűtés/hűtés költség miatti kikapcsolását.",
+      "limit": "Önbeszámolós kényelmi minta, eltérő kiinduló állapotú csoportok, nem randomizált hűtési összehasonlítás; a regressziók elsődlegesen télre vonatkoznak. Nem szobafok vagy Kőbánya hatás.",
+      "decision": "Tartós fizikai beavatkozás és stabil megfizethetőség; ne ígérjünk oksági egészséghatást kis pilotból.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-cool-room",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 3. A hatás bizonyítékainak erősítése",
+      "claim": "2026 LBNL kaliforniai cool-room épületmodell: passzív intézkedésekkel 64%-kal kevesebb, választott effektív hőmérsékleti kritériumot nem teljesítő óra; akkumulátoros kis teljesítményű aktív kombinációval 86%; hosszú kiesésnél elégtelen.",
+      "limit": "Intézeti absztrakt, kiadói 403; szimuláció meleg tengeri klímára, nem mért magyar hőbiztonság vagy arány.",
+      "decision": "Szobaszintű védelem ismert mechanizmus; biztosítandó a szükséges egész lakáshasználat és rendes energiaellátás.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-cost-review",
+      "family": "ALL",
+      "kind": "UPSTREAM",
+      "locator": "## 3. A hatás bizonyítékainak erősítése",
+      "claim": "2026 Health Economics Review 17 teljes gazdasági értékelés szintézise: hőségriasztás és mechanikai hűtés általában kedvezőbb, zöldítés és reflektív felület vegyes, négy a hatból legalább egy kedvezőtlen centrális becsléssel.",
+      "limit": "Többnyire modell/szimuláció, jelentős eltérő kontextus és halálozás-monetizálás; nem közös projekt-ROI vagy helyi egészségnyereség.",
+      "decision": "Nem feltételezzük automatikusan zöld vagy high-tech prémium megtérülését; meglévő riasztás baseline.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-play-adoption",
+      "family": "PRESCHOOL",
+      "kind": "UPSTREAM",
+      "locator": "## 3. A hatás bizonyítékainak erősítése",
+      "claim": "Vancouver 2023 22 óvodás, három leszerelhető napvitorla; a vizsgált napokon UV-expozíció 50%-kal és fizikai aktivitási mutató 20%-kal csökkent.",
+      "limit": "Kis, egyhelyszínes minta; UV és mozgás, nem helyi WBGT, nem általános oksági gyermekegészségi eredmény.",
+      "decision": "Ne csökkentsük a játékot az árnyékmutató javításáért; a védett aktív játéktér funkcióját is vizsgálni.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-play-rct",
+      "family": "PRESCHOOL",
+      "kind": "UPSTREAM",
+      "locator": "## 3. A hatás bizonyítékainak erősítése",
+      "claim": "2009 ausztrál 51 középiskolás cluster RCT, csoportok közötti becsült változáskülönbség +2,67 diák az elsődleges megfigyelt zónában (95% CI 0,65–4,68).",
+      "limit": "Egyetemi absztrakt, BMJ403; idősebb diákok, ebédszüneti megfigyelés, nem személyóra vagy hőbiztonság; a régi exportban már szereplő trial.",
+      "decision": "Az egyszerű árnyék tényleges használata igazolható, de nem számolható teljes névleges férőhelynek.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-camp-failure",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "locator": "## 4. Három megkülönböztetett teljesítménycsomag",
+      "claim": "120 példabeli gyermek és 25 használható hely/szoba: 5 szoba125 hely, egy nem elérhető szobánál100; 6 szoba150, egy kiesés után125.",
+      "limit": "Nem valós helyiségleltár vagy új előírás; közös HVAC/áram/hőség több helyiséget érinthet; a normál biztonságos alternatíva az operátor felelőssége.",
+      "decision": "Férőhely × tényleges idő × rendelkezésre állás, nem eszközszám vagy statikus névleges kapacitás.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-home-energy-stress",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 4. Három megkülönböztetett teljesítménycsomag",
+      "claim": "Négy aktív háztartás, 6h/nap, 1,1kW, 60nap és 150Ft/kWh feltételezett egységár mellett 237600Ft első idényi villamos költség; R161 108000Ft allowance-hoz képest 129600Ft több.",
+      "limit": "Stresszforgatókönyv, nem tarifa, nem átlagos fogyasztás vagy támogatási jogosultság.",
+      "decision": "A telepítés csak ténylegesen megfizethető használattal ad teljes szolgáltatást; lakónkénti finanszírozás és hibakezelés kapu.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-play-net",
+      "family": "PRESCHOOL",
+      "kind": "MODEL",
+      "locator": "## 4. Három megkülönböztetett teljesítménycsomag",
+      "claim": "24 gyermek×30nap×1,5h =1080 gross gyermekóra; 30% rendes védett használat mellett 40/60/80% eredmény 108/324/540 nettó többletóra; 897555Ft feltételes költség 8311/2770/1662Ft/nettó óra.",
+      "limit": "Összes tényező hipotetikus, ugyanaz a szolgáltatás és időablak, nincs randomizált hatás vagy helyi árajánlat; nem garantált kapacitás.",
+      "decision": "A nettó használt többlet alapján rangsorolni a műszaki csomagokat, nem fedett négyzetméter alapján.",
+      "source": "r162"
+    },
+    {
+      "id": "r162-outcome-gate",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "locator": "## 5. Döntés és kritikusút",
+      "claim": "A három finalistához továbbra sincs megerősített konkrét 2027-es normál baseline és mérhető, engedélyezhető maradó hővédelmi hiány.",
+      "limit": "Közeli hazai precedens nem Kőbánya pilot vagy partneri hozzájárulás. 2027 terv keresés nem teljes adatlefedettség.",
+      "decision": "HŐTÉR FLEX első ellenőrzési prioritás; HOME és PLAY független alternatíva. Az általános újranév/irodalom-körök nem oldják fel a kaput.",
+      "source": "r162"
     }
   ]
 }
