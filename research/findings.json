@@ -147,6 +147,11 @@
       "path": "rounds/R201/LOCAL_DECISION_FALSIFICATION.md",
       "ref": "c20c2a2fd77dd3bceaa5bd788e3f58feee673070",
       "blob": "5347a9bd672acaaec9d56c3f79ced4bd8596d00a"
+    },
+    "r202": {
+      "path": "rounds/R202/BASELINE_STOCK_AND_FINANCE_CHALLENGER.md",
+      "ref": "32d845a6d87db492f209240aa5fa4d372427ef98",
+      "blob": "513bd5d8cefdf6dc4b801be9338632962fe5b261"
     }
   },
   "findings": [
@@ -2249,6 +2254,96 @@
       "claim": "2027 tényleges jóváhagyott tábori hely, működő klimatizált helyiségek, árnyék, étkezés útvonala és fennmaradó hiány még nem igazolt; másik két jelöltnél konkrét helyi rés sem.",
       "limit": "Célzott nyilvános keresés nem teljeskörű, nem bizonyíték a hiányra; nincs megkeresés vagy terepi mérés.",
       "decision": "Ha a normál terv elegendő, tábori beruházás stop; ha beltéri fallback hiányzik, azt kell előbb megoldani; különben csak maradó rés."
+    },
+    {
+      "id": "r202-2025-ordinary-stock",
+      "family": "CAMP",
+      "kind": "LOCAL_PLAN",
+      "source": "r202",
+      "locator": "## 2. Original 2025–26 operational record — correct attribution and inventory",
+      "claim": "145/2026 eredeti beszámoló nyomtatott23. oldal: 2026-ra új párakapu és legalább tíz mobil napernyő szerepelt a tervekben.",
+      "limit": "Terv, nem tényleges beszerzés/állapot/kapacitás vagy 2027 leltár.",
+      "decision": "A 2027-re tervezett 4–5 sátor előtt meglévő napernyőleltár ellenőrzése."
+    },
+    {
+      "id": "r202-yard-drainage",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r202",
+      "locator": "## 2. Original 2025–26 operational record — correct attribution and inventory",
+      "claim": "2025 beszámoló p23: udvari eső utáni csatornavíz-átfolyás tartós problémaként, műfüves pálya/tornaterem/bejárat munkái és pedagógus/takarítás szervezési gondok szerepeltek.",
+      "limit": "Nem aktuális 2027 higiéniai vagy műszaki állapot; nincs helyszíni adat.",
+      "decision": "Vízelvezetés/higiénia és jóváhagyott helyszín a szerkezeti beavatkozás előfeltétele; nincs szennyvízhasználat."
+    },
+    {
+      "id": "r202-2025-meal-days",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r202",
+      "locator": "## 2. Original 2025–26 operational record — correct attribution and inventory",
+      "claim": "2025 jelentés p26:4634 tényleges étkezési jelenléti nap,592 teljes és1305 félkedvezményes; személyi és megbízási tételek10 837 913Ft.",
+      "limit": "Nem egyedi gyerek, hőesemény vagy összes tábori költség; 2025 és2026 időtartam/számolás eltérhet.",
+      "decision": "Két történeti szezon alapján értékelni a nagyságrendet."
+    },
+    {
+      "id": "r202-committee-correction",
+      "family": "CAMP",
+      "kind": "RULE",
+      "source": "r202",
+      "locator": "## 2. Original 2025–26 operational record — correct attribution and inventory",
+      "claim": "370/2026 eredeti címlapon és 2026 október13 hivatalos napirendi oldalon Közművelődési Bizottság szerepel, nem Közjóléti.",
+      "limit": "R201 bizottságmegnevezését pontosítja; korábbi jegyzőkönyv közvetlen újranyitása sikertelen.",
+      "decision": "Az eredeti 370/2026 előterjesztés és korrekt bizottság alapján hivatkozni."
+    },
+    {
+      "id": "r202-two-year-compare",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r202",
+      "locator": "## 3. Decision-grade two-year service denominator and stock-first engineering",
+      "claim": "2025 4634 és2026 3807 étkezési jelenléti nap, negyedét és15 perc elkerült utat feltételezve289,625/237,9375 gyermekóra; 410k becsült kerettel1416/1723Ft/óra.",
+      "limit": "Eltérő időrend és kohorsz; nem hőség okozta csökkenés, nem 2027 előrejelzés, érintett napok és út ismeretlen.",
+      "decision": "Annyiban erős, amennyiben az aktuális maradó út tényleg elkerülhető."
+    },
+    {
+      "id": "r202-reuse-challenger",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r202",
+      "locator": "## 3. Decision-grade two-year service denominator and stock-first engineering",
+      "claim": "6m² geometriai terület feltételezésével0/2/5/10 meglévő alkalmas napernyő0/12/30/60m² névleges nem átfedő felső korlát.",
+      "limit": "Nem eszközspecifikáció, leltár, tényleges árnyék, hőmérséklet, kapacitás vagy jóváhagyott telepítés.",
+      "decision": "Helyszín/napidő szerint meglévő eszközök használhatóságának vizsgálata; új szerkezet csak maradó hiánynál."
+    },
+    {
+      "id": "r202-courtyard-funding",
+      "family": "HOME",
+      "kind": "LOCAL_PLAN",
+      "source": "r202",
+      "locator": "## 4. Housing/worker alternatives — actual resource route, avoid timing fiction",
+      "claim": "2026-os Égig Érő Fű kiírás:2027-re40M Ft fővárosi keret,zárt belső udvaros társasház/lakásszövetkezet,0,8–3,5M pályázónként, max90% kivitelezésre,legalább60% támogatás zöldfelületre,utófinanszírozás.",
+      "limit": "Nem nyertes támogatás, iskola/egyéni klíma jogosultság vagy valós hőhatás; nyitott udvari/panel ingatlan nem automatikus.",
+      "decision": "Kiegészítő udvarprogram, nem első nyári beltéri hővédelmi finanszírozás."
+    },
+    {
+      "id": "r202-courtyard-timing",
+      "family": "HOME",
+      "kind": "LOCAL_PLAN",
+      "source": "r202",
+      "locator": "## 4. Housing/worker alternatives — actual resource route, avoid timing fiction",
+      "claim": "Pályázat beadás2027 március4,elbírálás május31,szerződés június30,megvalósítás egy éven belül; több házas tervezési ág későbbi kivitelezési beadást vállal.",
+      "limit": "Nincs helyi nyertes, júniusi vagy nyári kész kivitelezés; a hat hónapos induláshoz nem garantált.",
+      "decision": "Önálló korai forrás nélkül nem a kritikus út."
+    },
+    {
+      "id": "r202-2027-stock-gate",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r202",
+      "locator": "## 5. Revised decision and stop",
+      "claim": "A jelenlegi nyilvános keresés nem igazolta 2027-es tábori teljes HVAC/árnyékkészletet, étkezési és helyszíntervet; alternatíváknál konkrét forró lakott szoba/megoldatlan munkavállalói pihenőrés sem megerősített.",
+      "limit": "Nem a probléma hiányának bizonyítása. Nem történt külső megkeresés; új engine futás nem volt.",
+      "decision": "HŐTÉR feltételes első, meglévő eszköz vagy másik bázis erős ellenjelölt; jelenlegi terv szükséges."
     }
   ]
 }
