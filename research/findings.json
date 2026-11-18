@@ -152,6 +152,11 @@
       "path": "rounds/R202/BASELINE_STOCK_AND_FINANCE_CHALLENGER.md",
       "ref": "32d845a6d87db492f209240aa5fa4d372427ef98",
       "blob": "513bd5d8cefdf6dc4b801be9338632962fe5b261"
+    },
+    "r203": {
+      "path": "rounds/R203/OPERATOR_BASELINE_HANDOFF.md",
+      "ref": "ef22d017c4f958c3852d7a707765c87831d3928a",
+      "blob": "85a7d88afef0af1ca052fefe0b543c2a0c500a65"
     }
   },
   "findings": [
@@ -2344,6 +2349,26 @@
       "claim": "A jelenlegi nyilvános keresés nem igazolta 2027-es tábori teljes HVAC/árnyékkészletet, étkezési és helyszíntervet; alternatíváknál konkrét forró lakott szoba/megoldatlan munkavállalói pihenőrés sem megerősített.",
       "limit": "Nem a probléma hiányának bizonyítása. Nem történt külső megkeresés; új engine futás nem volt.",
       "decision": "HŐTÉR feltételes első, meglévő eszköz vagy másik bázis erős ellenjelölt; jelenlegi terv szükséges."
+    },
+    {
+      "id": "r203-operator-route",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r203",
+      "locator": "## 1. Verified route and limits",
+      "claim": "Kőrösi Kft. hivatalos közérdekű adatlapja szakmai vezetőként Szigeti Mónikát és intézményi e-mail elérhetőségét közli; a 2026-os műsorfüzet 18. oldalán a Janikovszky iskola a Tekergők táborhelyszíne.",
+      "limit": "Nem igazolt tábori döntési jogosultság, 2027-es terv, kapcsolatfelvételi engedély vagy válasz. A döntőre vonatkozó külső megkeresési szabály nem tisztázott.",
+      "decision": "Egyetlen tényszerű kérés előkészítve; hivatalos versenycsatorna elsőbbsége; NO_SEND."
+    },
+    {
+      "id": "r203-baseline-confirmation",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r203",
+      "locator": "## 3. Decision logic without response",
+      "claim": "Az aktuális célzott nyilvános ellenőrzés nem igazolta a 2027-es tábori helyszín, kész klimatizált férőhely, árnyékolóleltár és étkezési útvonal jóváhagyott állapotát.",
+      "limit": "Nem bizonyíték a fejlesztés hiányára; nincs szervezői válasz vagy megkeresés.",
+      "decision": "A HŐTÉR csak maradó hiányra javasolhat beruházást; válasz nélkül feltételes koncepció, nincs téma véglegesítés."
     }
   ]
 }
