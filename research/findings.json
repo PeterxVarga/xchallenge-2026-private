@@ -212,6 +212,11 @@
       "path": "rounds/R214/HOTER_CORE_PERSON_FOCUSED_COOLING.md",
       "ref": "efa9e98996ef916aedc0233fd0b3f8e96b62de0b",
       "blob": "df920b7cb2e2df0e9a981d1417be884335134426"
+    },
+    "r216": {
+      "path": "rounds/R216/HOTER_RADICAL_COOLING_RECOMBINATION.md",
+      "ref": "a2600147121149690ecc774a98f25bb57dbb4d93",
+      "blob": "09f3b51496b51ec535a4222aca909963be0028ec"
     }
   },
   "findings": [
@@ -3154,6 +3159,76 @@
       "claim": "HŐTÉR CORE kisméretű hűtött pihenősziget zárt hűtőkörű ülőfelülettel, opcionális lokális sugárzóhűtéssel; standard passzív/AIR, meglévő beltéri pihenő és indirekt alternatíva külön.",
       "limit": "2027 helyi szükséglet, gyermekintézményi jóváhagyás, teljes ajánlat, teljesítmény és elfogadás UNKNOWN; nincs prototípus, outreach vagy Intelligence újrafuttatás.",
       "decision": "Konkrét beszerezhető/engedélyezhető rendszer és teljes költség falszifikációja, nem újabb öncélú hőmodell."
+    },
+    {
+      "id": "r216-roof-optics",
+      "family": "CAMP",
+      "kind": "FACT",
+      "source": "r216",
+      "locator": "## 2. External evidence",
+      "claim": "Phoenix terepi vizsgálat indexelt absztraktja >3 K nappali MRT-csökkenést közöl hagyományos tetőhöz képest sugárzásos hűtőfóliával.",
+      "limit": "Teljes szöveg 403; nem optimalizált magyar PURE-hoz mért többlet.",
+      "decision": "Passzív optika alap, helyi összehasonlítás szükséges."
+    },
+    {
+      "id": "r216-distinct-optics",
+      "family": "CAMP",
+      "kind": "FACT",
+      "source": "r216",
+      "locator": "## 2. External evidence",
+      "claim": "UCLA kombinált félig átlátszó LW-reflektív falat és hidronikus panelt; Cold Tube IR-áteresztő membránnal csökkentette a kondenzációs korlátot.",
+      "limit": "A két fólia optikai funkciója eltérő; kültéri termékalkalmasság és gyerekbiztonság UNKNOWN.",
+      "decision": "Ne azonos anyagként kezeljük; PRISM opcionális, láthatóság és légáramlás megőrzésével."
+    },
+    {
+      "id": "r216-radiant-sensitivity",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r216",
+      "locator": "## 4. Executed common longwave sensitivity (Python formulas run)",
+      "claim": "35°C/65% RH, 40°C eredeti LW háttér: csupasz panel 1,26K, hipotetikus 3K jobb háttérrel 3,91K; membrános 4,74K, optimista effektív csatolással 5,78K teljes csökkenés.",
+      "limit": "Feltételezett háttérváltozás, tau és F; nincs ray tracing, légáramlás, kondenzáció, energia vagy emberi hőkomfort validálva.",
+      "decision": "Egyenértékű jó árnyékhoz képest csak többletértéket mérni."
+    },
+    {
+      "id": "r216-pcm-storage",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r216",
+      "locator": "## 5. Executed storage and economics bounding",
+      "claim": "4h négy ülőhely proxy 0,72kWh; hibrid 3,36kWh. Víz 6K:103/482L; 250kJ/kg névleges PCM 60% hasznosulással 17,27/80,70kg.",
+      "limit": "Nem beépített tömeg, kapacitásmérés, megengedett érintési hőmérséklet vagy hőátadási teljesítmény.",
+      "decision": "BANK ülőmodul vs teljes hibrid tárolás."
+    },
+    {
+      "id": "r216-sky-sizing",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r216",
+      "locator": "## 5. Executed storage and economics bounding",
+      "claim": "8h, 70% megmaradó energia, 40W/m² nettó fluxus: 3,21m² ülés-only és 15,01m² teljes CORE elméleti gyűjtőfelület.",
+      "limit": "Nem mért helyi fluxus, nem méretezés; éjszakai felhőzet, hőmérséklet és regeneráció UNKNOWN.",
+      "decision": "Éjszakai léghűtő egyszerűbb ellenjelölt; SKY nem alapkövetelmény."
+    },
+    {
+      "id": "r216-energy-ceiling",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r216",
+      "locator": "## 5. Executed storage and economics bounding",
+      "claim": "160h,150Ft/kWh,132/436W modell: öt szezon maximális bruttó elkerülhető áramköltsége 15 840/52 320Ft.",
+      "limit": "100% kiváltás, karbantartás és regenerációs áram nélkül; nem tényleges megtakarítás.",
+      "decision": "Tároló csak CAPEX-kiváltás, szolgáltatási érték vagy reziliencia miatt lehet indokolt."
+    },
+    {
+      "id": "r216-next-gate",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r216",
+      "locator": "## 6. Gates and next ROI",
+      "claim": "PURE-OPT alap, BANK és közvetlen aktív ülés költségverseny, PRISM maximális teljesítmény hipotézis.",
+      "limit": "Nincs helyszín, tényleges időjárási idősor, jóváhagyás, ajánlat, mérés vagy friss Intelligence.",
+      "decision": "Több nyár órás hőmérséklet/pára/felhő/szél idősor és regeneráció; meglévő beltéri szolgáltatás is ellenjelölt. Téma OPEN."
     }
   ]
 }
