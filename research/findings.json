@@ -182,6 +182,11 @@
       "path": "rounds/R208/STRATEGIC_DECISION_DUAL_FINALIST.md",
       "ref": "525456f69b811a2b3ed587d32b48d7cc86be6272",
       "blob": "0cfd5e1ab765c763b82200cfdd7b3e7e14ef1b7b"
+    },
+    "r209": {
+      "path": "rounds/R209/HOTER_THERMAL_ZONE_ARCHITECTURE.md",
+      "ref": "7b919e011ee21727fe720bc3f457c30d5a8dcfd0",
+      "blob": "f5a009b3410fe9d5feb5ab1f84f419e65cec9562"
     }
   },
   "findings": [
@@ -2744,6 +2749,66 @@
       "claim": "Öt egyenként20%-os hivatalos kritérium kvalitatív összevetése: HŐTÉR előnye a közvetlen történeti helyi probléma és konkrét műszaki megkülönböztetési hipotézis; HŐSZOBA tartós lakhatási alternatíva. Megvalósíthatóság, teljes költség és helyi mérhetőség nem eldöntött.",
       "limit": "Nem zsűripontszám vagy nyerési valószínűség; a 2027-es tényleges kapacitás, igény, jóváhagyás, teljes árajánlat és hatás továbbra is UNKNOWN. Nem végleges téma.",
       "decision": "Feltételes HŐTÉR vezető, HŐSZOBA első ellenjelölt. A szokásos fejlesztések elégségessége vagy a valódi többlet hiánya az A beruházási stopja. További ismételt modellezés helyett döntés."
+    },
+    {
+      "id": "r209-whole-zone-design",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r209",
+      "locator": "## 2. Product architecture — one concept, selectable envelope",
+      "claim": "HŐTÉR egy tényleges foglalkozási zóna geometria, passzív fedés, talaj/környezet és megfelelő működés szerinti integrált védelme. Minőségi standard fedés az alap; kompatibilis prémium csak indokolt többlet esetén.",
+      "limit": "Koncepció, nem kiviteli terv; 2027 helyszín, tényleges szükséglet és teljesítmény ismeretlen.",
+      "decision": "A user irányválasztása alapján HŐTÉR továbbfejlesztése, végleges téma nélkül."
+    },
+    {
+      "id": "r209-contextual-shade",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "source": "r209",
+      "locator": "## 3. Targeted public verification",
+      "claim": "50 Grades of Shade kutatás keresési kivonata 1988 érvényes mintán159 helyen a talaj, környezet és térfunkció szerinti árnyékolási hatás jelentőségét emeli ki.",
+      "limit": "Keresési kivonat, nem helyi hőmérés vagy új biztonsági határ; arizonai helyszínek.",
+      "decision": "Ne csak a tetőt, hanem a teljes ténylegesen használt zónát optimalizáljuk."
+    },
+    {
+      "id": "r209-standards-scope",
+      "family": "CAMP",
+      "kind": "RULE",
+      "source": "r209",
+      "locator": "## 3. Targeted public verification",
+      "claim": "MSZT MSZ EN13561:2015 nyilvános hatályleírása nem fedi a nem visszahúzható termékek szélállóságát, illetve a pergola napellenző tartószerkezetét.",
+      "limit": "Hatályleírás, nem teljes szabványszöveg, jogi megfelelés vagy igazolt alkalmazhatóság.",
+      "decision": "A teljes szerkezet képesített tervezése és ellenőrzése szükséges."
+    },
+    {
+      "id": "r209-thermal-balance",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r209",
+      "locator": "## 4. New self-consistent steady-state thermal model",
+      "claim": "324 szintetikus időjáráseset ×6 opak fedési változat hőegyensúlya: új erősen reflektáló hipotetikus fedés299 esetben a legkedvezőbb LW-only érték, kéthéjú25; a jó fehér kontrollhoz képest az új reflexiós változat0,062–0,607K előny, kéthéjú267 esetben rosszabb.",
+      "limit": "Korlátozott szürketest, stacionárius, rögzített környezeti feltételek, egyenlő geometria és opak fedés; nem teljes MRT/komfort vagy időjárási valószínűség, nem konkrét termék.",
+      "decision": "Jó minőségű hagyományos fedés erős ellenjelölt; nem kötelező kéthéjú megoldás."
+    },
+    {
+      "id": "r209-weathering-sensitivity",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r209",
+      "locator": "## 4. New self-consistent steady-state thermal model",
+      "claim": "Feltételezett .05→.15 szoláris elnyelés változás a .10 jó fehér referenciához képest mind324 esetben megfordította a reflektáló változat LW-only előnyét.",
+      "limit": "Nem mért anyagöregedési profil, nem élettartam vagy valós karbantartási előrejelzés.",
+      "decision": "Kezdeti és időjárásnak kitett optikai tulajdonságok és teljes fenntartás legyenek a döntés részei."
+    },
+    {
+      "id": "r209-pilot-performance-gate",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r209",
+      "locator": "## 5. Pilot-scale acceptance and financing",
+      "claim": "Egy pilot használati zóna, megfelelő minden gyermeknek elérhető beltéri alternatíva, illesztett standard referencia, párhuzamos fizikai mérés és valós foglalkozási teljesítmény; opcionális prémium csak tényleges többlet esetén.",
+      "limit": "Nem elfogadott pilot, építési engedély, árajánlat vagy eredmény; 2K példa kutatási cél nem biztonsági küszöb.",
+      "decision": "Műszaki specifikáció azonos funkciójú változatokkal és teljes költséggel; NO_SEND, nincs prototípus."
     }
   ]
 }
