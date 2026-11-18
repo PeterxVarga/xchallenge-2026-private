@@ -112,6 +112,11 @@
       "path": "rounds/R164/SOCIAL_SCALE_AND_THERMAL_ENGINEERING.md",
       "ref": "3b390090733a99ab89d21ac705ebd6d1f41beff6",
       "blob": "c23e99388df38a961928db9617e63915340d4ea7"
+    },
+    "r165": {
+      "path": "rounds/R165/DUAL_FINALIST_ENGINEERING_TOURNAMENT.md",
+      "ref": "dccf7fe49db86e277a643d74b6012cbeddc4d0e3",
+      "blob": "7d45e34fe5c5813b9bac3e55b43dfb411a364cf2"
     }
   },
   "findings": [
@@ -1404,6 +1409,116 @@
       "limit": "Nem bizonyítja a hiány hiányát, és nem jelent 799 garantált résztvevőt vagy 2027 pénzt.",
       "decision": "HŐTÉR első ellenőrzés, HŐOTTHON megerősített skálázási kihívó, HŐJÁTÉK önálló, HŐBIZTOS program-residual tartalék.",
       "source": "r164"
+    },
+    {
+      "id": "r165-jrc-hu",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 2. Új bizonyítékok és korlátok",
+      "claim": "JRC EU-SILC elemzés Table1: magyar háztartások 28,6% (2007), 26,6% (2012), 19,4% (2023) nem tudta kellően hűvösen tartani lakását; 2023-ban a téli fűtési nehézséggel élő magyar csoportban az ábra kb.39%, a többi csoportban kb.18%.",
+      "limit": "Önbeszámolós műszaki/lakáskörülmény proxy, nem teljes pénzügyi szegénység-definíció, nem kerületi prevalencia vagy idősoros hőmérés; csoportarányok leolvasott közelítések.",
+      "decision": "Tényleges forró lakott helyiség és megfizethetőség külön; a szociális csatorna indokolt, nem 799 fő automatikus hőigénye.",
+      "source": "r165"
+    },
+    {
+      "id": "r165-home-procedure",
+      "family": "HOME",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Új bizonyítékok és korlátok",
+      "claim": "A kerületi településképi eljárási tájékoztató a védett érték közterületről látható klíma-kültériegységének elhelyezését nevesíti; az előzetes konzultáció szükségessége a konkrét bejelentésköteles tevékenységtől függ.",
+      "limit": "A 15/2019 rendelet teljes hatályos szövegének megnyitása 502; tájékoztató nem egyedi jogi állásfoglalás, az egyéb épületkategóriák, tulajdonosi és társasházi engedély eltérhet.",
+      "decision": "A telepítési módot a konkrét ingatlan besorolása után kell választani; hordozható split sem automatikus kivétel.",
+      "source": "r165"
+    },
+    {
+      "id": "r165-school-stock",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Új bizonyítékok és korlátok",
+      "claim": "2026. szeptember24-i tankerületi beszámoló felújítási táblázata a Csukás iskola alagsori szellőzését 1 356 360 Ft szerződéses összeggel, december11-i határidővel közli; a történeti Janikovszky táborhely 2027 HVAC-leltárát nem közli.",
+      "limit": "PDF szöveges ellenőrzés; két oldalkép-lekérés hibás; nem tantermi hővisszanyerő ár, elkészült munka vagy teljes kerületi HVAC-leltár.",
+      "decision": "Szellőzési beruházás létező normál tevékenység; nincs igazolt 2027 kapacitáshiány/megoldás.",
+      "source": "r165"
+    },
+    {
+      "id": "r165-poissy",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "locator": "## 2. Új bizonyítékok és korlátok",
+      "claim": "2026 júliusi BUILD UP cikk szerint Poissy 15 iskolában 616 motoros külső árnyékolót szerelt, beszámoló szerint egyes termek akár5,1°C-kal hűvösebbek a régi manuális árnyékolásúaknál.",
+      "limit": "Gyártói szerzők beszámolója; nem független kontrollált kutatás, az éves energiamegtakarítás hipotetikus klímás referenciához viszonyít. Korábbi precedens új forrásminősítése.",
+      "decision": "A jól működő, szabályozható külső árnyékolás erős alap, nem önmagában helyi újdonság.",
+      "source": "r165"
+    },
+    {
+      "id": "r165-hrv-study",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "locator": "## 2. Új bizonyítékok és korlátok",
+      "claim": "2025 olasz iskolai állomány modellje decentralizált hővisszanyerős szellőzést vizsgál azonos légcserével, építészeti és fenntartási korlátokkal; 2026 októberi osztálytermi retrofit tanulmány absztraktja 28% CO2-csökkenést közöl.",
+      "limit": "Első teljes HTML épületállomány-szimuláció, második csak absztrakt/403; nem nyári magyar hőteljesítmény, nem megengedett CO2-határ.",
+      "decision": "Frisslevegő és hűtési terhelés együtt értékelendő; retrofit csak valós hiány és megfelelő működés esetén.",
+      "source": "r165"
+    },
+    {
+      "id": "r165-portable-capacity",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 2. Új bizonyítékok és korlátok",
+      "claim": "Az amerikai DOE 10 CFR Appendix CC1 hordozható AC nettó kapacitásának számításában külön csőhőátadás és infiltráció levonást tartalmaz egy- és kétcsöves egységekre.",
+      "limit": "US tesztmódszer, nem EU termékcímke vagy magyar jog; egyetlen névleges kapacitásból nem következik a tényleges hatás.",
+      "decision": "A szobai megoldásokat azonos nettó hűtési és légminőségi szolgáltatás szerint versenyeztetjük, nem puszta kW-címke.",
+      "source": "r165"
+    },
+    {
+      "id": "r165-camp-load",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "locator": "## 3. HŐTÉR FLEX — hő- és légminőségi mérnöki ellenpróba",
+      "claim": "R161 27 fős példa, 8K és3g/kg különbség: 10,90kW modellterhelés, külső árnyékkal8,43kW, 70% érzékelhető hővisszanyeréssel7,15kW, 55% nedvesség-visszanyerést is feltételezve6,23kW.",
+      "limit": "V=0,189m³/s=680,4m³/h; hipotetikus légáram, hatásfok, teljes csúcsmodell, nem helyi mérés, előírt légcsere vagy berendezésméretezés. Segédenergia külön.",
+      "decision": "Először tényleges légcsere és hőterhelés; meglévő megfelelő hővisszanyerő optimalizálása, új csak igazolt kapacitás/egész éves előny.",
+      "source": "r165"
+    },
+    {
+      "id": "r165-camp-electric",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "locator": "## 3. HŐTÉR FLEX — hő- és légminőségi mérnöki ellenpróba",
+      "claim": "A 8K/3g/kg példában COP3, 150W többlet segédteljesítmény mellett a teljes hő- és nedvesség-visszanyerés nettó0,581kW, csak érzékelhető0,275kW villamos előnyt ad; 240 azonos teljes-terhelésű óra és100Ft/kWh esetén kb13946/6611Ft.",
+      "limit": "Azonos szükséges frisslevegő és hűtés, változó időben nem kalkulált éves fogyasztás; téli nyereség, IAQ, karbantartás, új beruházás külön.",
+      "decision": "Energia önmagában nem igazol drága új gépészetet; valós funkció vagy teljes éves mérleg szükséges.",
+      "source": "r165"
+    },
+    {
+      "id": "r165-portable-load",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 4. HŐOTTHON 365 — azonos nettó hűtés, eltérő telepítési út",
+      "claim": "100/200/300m³/h feltételezett extra kültéri pótlólevegő, 8K és3g/kg különbség esetén 0,513/1,026/1,539kW összes többlethőterhelés.",
+      "limit": "Nem konkrét készülék légszállítása vagy mért lakás; csak tényleges extra kültéri levegőre, már korrigált névleges kapacitásból nem vonjuk le újra.",
+      "decision": "Egycsöves megoldás puszta alacsony ára nem döntő; valós nettó szolgáltatás, zaj és kompatibilitás.",
+      "source": "r165"
+    },
+    {
+      "id": "r165-net-economics",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 4. HŐOTTHON 365 — azonos nettó hűtés, eltérő telepítési út",
+      "claim": "180/360/600kWh szezonális hasznos hűtés, feltételezett nettó1,8 vs3,0 hatásfok,100Ft/kWh és40kFt többletköltség mellett 4000/8000/13333Ft éves megtakarítás és10/5/3 szezon egyszerű megtérülés.",
+      "limit": "Nem termékadat, tarifa, valós árprémium; azonos hasznos hűtés és IAQ, nincs karbantartás/diszkont, energiafedezet külön.",
+      "decision": "A jobb eszköz csak azonos szolgáltatás, engedély és teljes költség mellett nyer; komfort és hozzáférés külön érték.",
+      "source": "r165"
+    },
+    {
+      "id": "r165-finalist-gate",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "locator": "## 5. Döntő feltételek és zsűri-ellenpróba",
+      "claim": "A HŐTÉR 2027-es konkrét tábori ellátás és teremleltár, valamint a HŐOTTHON engedélyezhető lakott forró szobája és benne a hővédelmi hiány továbbra is igazolatlan.",
+      "limit": "A keresés nem teljes, felhasználó nem engedélyezett megkeresést vagy terepmunkát; hipotézis nem elvégzett megvalósítás.",
+      "decision": "Két fő versenyző feltételes, további kutatás csak döntést megváltoztató helyi adat/új mérnöki mechanizmus esetén.",
+      "source": "r165"
     }
   ]
 }
