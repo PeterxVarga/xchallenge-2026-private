@@ -122,6 +122,11 @@
       "path": "rounds/R166/OUTCOME_CAPACITY_AND_BUDGET_RESILIENCE.md",
       "ref": "5c08cb7686c4d527ea57bc5d9a9bafdcd09d7ebb",
       "blob": "571963f05b363509a6e1dc95edede50392f991a9"
+    },
+    "r167": {
+      "path": "rounds/R167/OUTCOME_FIRST_PORTFOLIO_CHALLENGER.md",
+      "ref": "4b1b8982e6edc56b404f35b4bf19986683f1d265",
+      "blob": "9535f823b4227520cb581b9840cfd45c17dbe35f"
     }
   },
   "findings": [
@@ -1584,6 +1589,136 @@
       "limit": "Hipotetikus időszámítás, nem mért hőstressz vagy egészségügyi hatás.",
       "decision": "Valós jelenlét, idő, hely, aktivitás, hő és szolgáltatás teljesítése alapján mérni.",
       "source": "r166"
+    },
+    {
+      "id": "r167-baraka-reach",
+      "family": "CARE",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Stronger local evidence and counterevidence",
+      "claim": "2025 Bárka beszámolóban 145 házi gondozott és 216 év végi étkeztetett, 40 mindkét ellátásban; azonos időpont/populáció feltételezésével 321 egyedi személy.",
+      "limit": "Eredeti 5,7,8. nyomtatott oldal; nem 321 igazolt hővédelmi jogosult vagy egyedi éves résztvevő; a 145 pontos időpontja nem explicit.",
+      "decision": "Önkéntes meglévő elérési csatorna, nem új személyes adatbázis.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-baraka-meals",
+      "family": "CARE",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Stronger local evidence and counterevidence",
+      "claim": "2025 év végén 164 ötnapos és 52 hétnapos étkeztetett; 2025 június–augusztus 14535 kiszállított adag.",
+      "limit": "Adag, nem egyedi személy vagy látogatás; külső ételszállító, nincs automatikus feladatbővítés.",
+      "decision": "Meglévő szervezői tájékoztatás opcionális, ételbiztonság és normál szolgáltatás megőrzendő.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-baraka-staff",
+      "family": "CARE",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Stronger local evidence and counterevidence",
+      "claim": "A 2025 beszámoló szakemberhiány miatt korlátozott házi gondozási kapacitást, teljes intézményben 22,75 betöltetlen álláshelyet mutat; szolgáltatói weboldal munkanapokon 8–16 órás rendelkezésre állást közöl.",
+      "limit": "2025 történeti helyzet, nem minden álláshely a házi gondozásban vagy 2027-es állomány; nem 24 órás hőriasztási szolgáltatás.",
+      "decision": "Külön finanszírozott technikai csapat és minimális egyszeri plusz adminisztráció, nem napi plusz gondozási feladat.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-baraka-cost",
+      "family": "CARE",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Stronger local evidence and counterevidence",
+      "claim": "2025 előterjesztés eredeti 6. oldala: szociális segítés 6271 Ft/óra, személyi gondozás 5959 Ft/óra, nappali idősellátás 3601 Ft/fő/nap önköltség.",
+      "limit": "Számviteli egységköltség, nem marginális bér, 2027 ajánlat vagy programfinanszírozás.",
+      "decision": "Személyzeti terhelés költségérzékenységi proxy.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-camp-upper",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Stronger local evidence and counterevidence",
+      "claim": "370/2026 eredeti tábortájékoztató heti létszámai 137/127/121/164/122/138/121/89, közölt átlag 127; 100–140 gyermek árnyékigény említve; meglévő Kőrösi hűvös terek és déli étkezési gyaloglás.",
+      "limit": "Heti adat nem egyidejű jelenlét; 2027 jóváhagyott hely és HVAC/étkezési terv továbbra ismeretlen; ugyanazon dokumentum mint R161.",
+      "decision": "Kapacitásérzékenység 164 fős scenárióig, helyszíni létszám és étkezés ténylegesen mérendő.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-camp-meal-provider",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Stronger local evidence and counterevidence",
+      "claim": "370/2026 a 2026 étkezési szolgáltató teljesítményét kedvezően értékeli és külön Bárka szakmai hátterű, tábor által foglalkoztatott szakembert javasol 2027-re.",
+      "limit": "Terv nem szerződés; nem a házigondozó személyzet átcsoportosítása, nem hővédelmi teljesítményadat.",
+      "decision": "Étkezési minőség megőrzése, jóváhagyott szolgáltatási helyszín, külön felügyelet.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-centres-review",
+      "family": "CARE",
+      "kind": "UPSTREAM",
+      "locator": "## 2. Stronger local evidence and counterevidence",
+      "claim": "2025 UKHSA/Oxford review 3718 egyedi rekordból 5 tanulmány, valós hűsölőhely-használók egészségkimenetelére nincs közvetlen mérés; szimulált hatás átmeneti.",
+      "limit": "Nem bizonyítja hatástalanságot vagy Kőbányára vonatkozó klinikai hatást.",
+      "decision": "Ne létesítsünk generikus hűsölőt mért hozzáférési rés nélkül.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-unhoused-review",
+      "family": "CARE",
+      "kind": "UPSTREAM",
+      "locator": "## 2. Stronger local evidence and counterevidence",
+      "claim": "2026 októberi hajléktalanság és hővédelem áttekintés 12 vizsgálattal; nem talált bevonható európai tanulmányt, közlekedési/hozzáférési akadályokat említ.",
+      "limit": "Absztrakt, eltérő populációk, klinikai hatás bizonytalan, deklarált szerzői érdekeltségek.",
+      "decision": "HŐPONT ACCESS csak tényleges szolgáltatási rés és hozzáférés esetén.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-fan-condition",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 2. Stronger local evidence and counterevidence",
+      "claim": "Idősebbeknél kb.31°C ágyban végzett vizsgálatban mennyezeti ventilátor mellett 0,2°C kisebb csúcsmaghőmérséklet; külön nagyon meleg száraz vizsgálat és kritikai review óvatosságot indokol.",
+      "limit": "Absztrakt szintű, nem helyi egészségügyi előírás vagy általános biztonsági hőmérséklet.",
+      "decision": "Szükséges aktív hűtést nem helyettesítünk ventilátorral.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-camp-peak",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "locator": "## 3. HŐTÉR FLEX — full capacity and differentiated tasks",
+      "claim": "164 hipotetikus egyidejű gyerek 25 hely/terem mellett 7 terem, egy független teremkieséshez 8, 50 perces étkezéshez ideális két turnussal 4 étkező.",
+      "limit": "Nem 164 igazolt egyidejű gyerek, sem építési előírás; tényleges felügyelet, várakozás, étkeztetés, légcsere és helyettesítő hely külön.",
+      "decision": "Kapacitás a valós igényre, nem automatikus újterem-építés.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-home-admin",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 4. HŐOTTHON 365 ACCESS — strongest combined delivery model without staff burden",
+      "claim": "24 háztartás ×(20+2×30) perc =32 óra, 6271 Ft/óra proxyval 200672 Ft; 40 napon napi 10 perc pedig 160 óra és 1003360 Ft.",
+      "limit": "Nem egyenértékű gondozási szolgáltatások, csak új projekttámogatás időmodellje; utazás, telepítés, exceptions külön; kötelező ellátás nem csökkenthető.",
+      "decision": "Önállóan használható hővédelem, szükséges személyi segítség külön finanszírozva.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-hub-use",
+      "family": "TRANSIT",
+      "kind": "MODEL",
+      "locator": "## 5. HŐPONT ACCESS challenger, plus other families and radical engineering",
+      "claim": "20 hely ×6h ×20 nap=2400 bruttó helyóra; 25/50/75% kihasználással és 50% baseline már ellátással 300/600/900 nettó többlet helyóra.",
+      "limit": "Hipotetikus, nem személyszám, klinikai hatás vagy helyi igény.",
+      "decision": "Már elérhető hűvös helyet használni; új hozzáférési megoldás csak valódi többlet.",
+      "source": "r167"
+    },
+    {
+      "id": "r167-remaining-gap",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "locator": "## 6. Rubric and conditional delivery",
+      "claim": "Nem igazolt a 2027 maradó tábori kapacitáshiány, önkéntes túlmelegedő lakás és jóváhagyott műszaki út, játszóhely hiánya, hűsölő hozzáférési korlát vagy javítás utáni kórházi hiány.",
+      "limit": "Nincs megkeresés/terepmunka, a források csak történeti és tervezési adatok.",
+      "decision": "Feltételes döntési csomag, nincs végleges téma.",
+      "source": "r167"
     }
   ]
 }
