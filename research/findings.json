@@ -217,6 +217,11 @@
       "path": "rounds/R216/HOTER_RADICAL_COOLING_RECOMBINATION.md",
       "ref": "a2600147121149690ecc774a98f25bb57dbb4d93",
       "blob": "09f3b51496b51ec535a4222aca909963be0028ec"
+    },
+    "r217": {
+      "path": "rounds/R217/HOTER_CLIMATE_DRIVEN_COOLING.md",
+      "ref": "a122a85f7f23ceacf38e8570149b3fe9f53d6b59",
+      "blob": "8034db2fea203a6cf453df5adf30ec68cf9779f2"
     }
   },
   "findings": [
@@ -3229,6 +3234,66 @@
       "claim": "PURE-OPT alap, BANK és közvetlen aktív ülés költségverseny, PRISM maximális teljesítmény hipotézis.",
       "limit": "Nincs helyszín, tényleges időjárási idősor, jóváhagyás, ajánlat, mérés vagy friss Intelligence.",
       "decision": "Több nyár órás hőmérséklet/pára/felhő/szél idősor és regeneráció; meglévő beltéri szolgáltatás is ellenjelölt. Téma OPEN."
+    },
+    {
+      "id": "r217-coverage",
+      "family": "CAMP",
+      "kind": "FACT",
+      "source": "r217",
+      "locator": "## 1. Evidence, coverage and corrections",
+      "claim": "ERA5 2022–26, Győr/Budapest/Szeged 15/15 helyszín-szezon, 33120 értékelt órás minta, 6 változó; UTC+2 explicit konverzió.",
+      "limit": "Reanalízis nem helyszíni mérés; nyers válasz nincs archiválva, kanonikus órás hash és kód mentve.",
+      "decision": "Helyi meteorológiai reprezentativitást külön ellenőrizni."
+    },
+    {
+      "id": "r217-demand",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r217",
+      "locator": "## 2. Executed model and limits",
+      "claim": "2026 összesített 30°C feletti vagy egyenlő órás minta 12–16h, 607 helyszín-nap, 233 előző 22–06 intervallum Tmin>=20°C.",
+      "limit": "Nem tényleges igény vagy azonos 2026-os év; 26°C harmatpontküszöb nem biztonsági határ.",
+      "decision": "Egymást követő hőhullámok kritikusak."
+    },
+    {
+      "id": "r217-optimistic",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r217",
+      "locator": "## 3. Results",
+      "claim": "28°C kezdeti tárolóproxy: UA24 74,8%, dupla tároló84,8%, UA48 90,6%, sky94,1% modellenergia-fedezet.",
+      "limit": "Hiányzik véges ülés-tároló hőmérsékletkülönbség, nem kivitelezhető igazolás.",
+      "decision": "Csak optimista érzékenység."
+    },
+    {
+      "id": "r217-gradient",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r217",
+      "locator": "## 3. Results",
+      "claim": "26°C tároló/28°C ülés: UA48 72,4%, UA96 82,0%, sky84,1%, UA48 dupla tároló82,6%; 2024 UA48 59,9%.",
+      "limit": "Névleges 2K mindkét oldalon feltételezett; nincs kvalifikált hőátadási görbe.",
+      "decision": "Tisztán éjszakai BANK nem garantálható."
+    },
+    {
+      "id": "r217-economics",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r217",
+      "locator": "## 4. Candidate technology and lifecycle challenger",
+      "claim": "UA48 oracle 71,6%; 3998/15 nemnulla töltési óra/év, 26,1W szemléltető teljesórás regen-aux break-even; direkt kompresszor-only kb1459Ft/év.",
+      "limit": "Nem mért futásidő, EER és tarifa hipotetikus, közös aux és idle külön.",
+      "decision": "Éjszakai rendszer nem indokolt pusztán áramból."
+    },
+    {
+      "id": "r217-decision",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r217",
+      "locator": "## 5. ROI Challenger and gate",
+      "claim": "CORE-SEAT egyszerű direkt aktív ellenjelölt, BANK-FLEX opcionális autonóm modul, PRISM feltételes. PURE-OPT és beltéri szolgáltatás összevetése kötelező.",
+      "limit": "Fizikai hőkomfort, tényleges igény, ajánlat, elfogadás és teljes E2E UNKNOWN.",
+      "decision": "Azonos szolgáltatás mellett igazolt komforttöbblet/költség vizsgálata; téma OPEN."
     }
   ]
 }
