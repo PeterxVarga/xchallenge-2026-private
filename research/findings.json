@@ -107,6 +107,11 @@
       "path": "rounds/R163/THERMAL_CONTINUITY_FOURTH_CHALLENGER.md",
       "ref": "3aef61b32b8915594fff915fe80ac47efa5e0056",
       "blob": "d067510e6d3bb5117cf5892bf964d18f6bab99c2"
+    },
+    "r164": {
+      "path": "rounds/R164/SOCIAL_SCALE_AND_THERMAL_ENGINEERING.md",
+      "ref": "3b390090733a99ab89d21ac705ebd6d1f41beff6",
+      "blob": "c23e99388df38a961928db9617e63915340d4ea7"
     }
   },
   "findings": [
@@ -1249,6 +1254,156 @@
       "limit": "A 2026-os hiba és ideiglenes váró bizonyítja a történeti helyzetet, nem a projektpartneri elköteleződést vagy fennmaradó műszaki hiányt.",
       "decision": "HŐBIZTOS önálló negyedik challenger; a 2027 residual és jogosult fenntartó nélkül nem nyilvánítható kész vagy első helyű megoldásnak.",
       "source": "r163"
+    },
+    {
+      "id": "r164-hospital-program",
+      "family": "CARE",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Döntést módosító közpolitikai és helyi bizonyíték",
+      "claim": "1191/2026 (VI.11.) kormányhatározat 3,668 milliárd Ft egyszeri 2026-os többletforrást határoz meg a KEF hűtésrekonstrukciójára, illetve 2026. november30-i határidővel 2027–29-es program-előterjesztést kér.",
+      "limit": "Magyar Közlöny eredeti 2890–2891. oldal; országos program, nem helyi finanszírozás vagy elvégzett 2027-es fejlesztés.",
+      "decision": "HŐBIZTOS csak a normál program utáni dokumentált, különálló rendelkezésreállási résre.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-bajcsy-program",
+      "family": "CARE",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Döntést módosító közpolitikai és helyi bizonyíték",
+      "claim": "2026 június11 MTI kormányzati tájékoztatóról szóló tudósítása konkrétan a Bajcsy hőszivattyúinak helyreállítását nevezi meg.",
+      "limit": "Bejelentett scope, nem műszaki átadás vagy bizonyíték ugyanarra az augusztusi váróklímára; az aug6–8 jelentésekben nincs Bajcsy-találat, ami nem javításigazolás.",
+      "decision": "R163 eseményét ne extrapoláljuk, országos/local maintenance erős comparator.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-hospital-progress",
+      "family": "CARE",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Döntést módosító közpolitikai és helyi bizonyíték",
+      "claim": "Július31-i kormányzati jelentés július24-i 32 eredeti helyszín állapotát közli: 18 lezárt, 3 működő hűtés átadás alatt, 11 folyamatban; további 25 helyszín/rendszer bevonva.",
+      "limit": "Országos riport, nem 57 azonos típusú külön intézmény, nem aktuális novemberi vagy helyspecifikus készültség.",
+      "decision": "A meglévő program tényleges aktivitását figyelembe kell venni; nem állítható általános hiány.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-hospital-budget-draft",
+      "family": "CARE",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Döntést módosító közpolitikai és helyi bizonyíték",
+      "claim": "A benyújtott 2027-es költségvetési tervezetről szóló hivatalos közlemény 25 milliárd Ft többletet ismertet a kórházak klimatizálási keretében.",
+      "limit": "Tervezet közleménye, nem elfogadott helyi előirányzat vagy 2027 teljesítés.",
+      "decision": "Ne versenyezzünk párhuzamos országos rekonstrukcióval; HŐBIZTOS feltételes.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-housing-benefit",
+      "family": "HOME",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Döntést módosító közpolitikai és helyi bizonyíték",
+      "claim": "Kőbánya 2026 március2-i tájékoztatója szerint a lakhatási települési támogatás villanyszámlára is kérhető, összeg 10/11/12 ezer Ft havonta, legfeljebb 12 hónap; jövedelmi és lakásjogcím-feltételek.",
+      "limit": "Nem hűtésre elkülönített többlettámogatás, nem minden albérlő jogosult, 2027 feltételek változhatnak; nem egyedi jogi döntés.",
+      "decision": "Meglévő jogosult csatorna ellenőrzése, külön finanszírozott használat ha szükséges, kötelező alapkiadások rovására nem.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-housing-benefit-reach",
+      "family": "HOME",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Döntést módosító közpolitikai és helyi bizonyíték",
+      "claim": "A 2025 évi kerületi beszámoló lakhatási költségekhez nyújtott települési támogatásnál 799 főt és 75 449 ezer Ft kiadást közöl.",
+      "limit": "PDF text reviewed, screenshot DisabledError; nem 799 túlmelegedő lakás, nem egyedi háztartásszám, nem 2027 szabad pénz; 2024 érték 798 fő, 83 897 eFt.",
+      "decision": "A szociális csatorna tényleges névleges mérete jobban ismert; a hőigény és jogosult részhalmaz UNKNOWN.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-wekerle",
+      "family": "HOME",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Döntést módosító közpolitikai és helyi bizonyíték",
+      "claim": "Wekerle Plusz hivatalos tájékoztató 2027 februári családi ház és márciusi társasházi/panel energetikai programelem indulást, árnyékolást, hőszivattyús megoldásokat és 30% tanúsított megtakarítási feltételt ismertet.",
+      "limit": "Bejelentett jövőbeli feltételek; társasházi programban 200k önerő/lakás, D–G/H–I 30/50% előtörlesztési támogatás a leírás szerint; nem egyéni split automatikus jogosultság vagy megnyílt pályázat, részletes jogszabály/kiírás nem auditált.",
+      "decision": "HŐOTTHON kiegészítő, önálló nyári hővédelmi rés, nem új általános energetikai alap.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-clearhp-final",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Terjesztési és műszaki ellenpróba",
+      "claim": "BEUC CLEAR-HP 2026 június30-i végső jelentése 7 kampányt, 23 000+ regisztrációt, 20 tesztelt hőszivattyút és 522 kezdeményezett telepítést közöl; egyes ajánlatok 5–20% kedvezményt és szerelési/szervizfeltételeket tartalmaztak.",
+      "limit": "Végső riport felülírja a februári 424 interim eredményt; eltérő fűtési/hűtési piacok, nem helyi ár vagy 522 mért hővédett otthon; érdeklődők nem azonosak a jogosult pilot cohorttal.",
+      "decision": "Szűk, alkalmas korai cohort, versenyeztetett átlátható csomag, telepítési minőség és elérhető szerviz; érdeklődőszám nem hatás.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-nyc",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Terjesztési és műszaki ellenpróba",
+      "claim": "2026 NYC HEAP Cooling Assistance háztartásonként egy klíma vagy ventilátor vásárlását/szerelését támogatta, ablakos/mobil/ventilátor legfeljebb800 USD, meglévő falnyílásos1000 USD.",
+      "limit": "2026-os jelentkezés lezárult; idegen joghatóság, nem magyar ár vagy támogatás, nincs működési hőhatás mérve a tájékoztatón.",
+      "decision": "Eszköz és teljes telepítés támogatása precedens, helyi rezsi és tényleges hővédelmi eredmény külön.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-precool",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Terjesztési és műszaki ellenpróba",
+      "claim": "2026 előhűtés-szimuláció több mint 3000 modellezett forgatókönyvben; a vizsgált esetben reggeli kiesésnél kb6h, délután kb2h ideig kedvezőbb komfort, hosszabb/későbbi esetekben többletköltség.",
+      "limit": "Szimuláció nem terepkísérlet, más épület és klíma, nem biztonságos időhatár; normál frisslevegő és ellátás nem csökkenthető.",
+      "decision": "Előhűtés csak elegendő hőtárolás és tényleges gazdaságosság mellett, nem outage protection garancia.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-targeting",
+      "family": "ALL",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Terjesztési és műszaki ellenpróba",
+      "claim": "2026 szeptember15-i Budapest elemzés 2013–25 32 nyári, 4 téli Landsat-időpontot használ, 30m felbontással, reggel kb9:30 áthaladással; felszínhő és sérülékeny korcsoport területi eloszlása nem esik teljesen egybe.",
+      "limit": "Már ismert forrás pontosabb módszertani recheck, GIS réteget nem töltöttük le, nem helyi éjszakai vagy szobahő.",
+      "decision": "A lakhatási hővédelemhez az aktuális foglalt szoba és hozzáférés szükséges, nem satellitalone targeting.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-bulk-model",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 4. HŐOTTHON 365 — gazdaságos kohorsz",
+      "claim": "R161 átlagos hipotetikus telepített passzív/aktív mix 237500 Ft/háztartás. 8/24 azonos scope és 5% kedvezmény esetén 95k/285k bruttó, 120k külön koordináció levonásával −25k/+165k nettó.",
+      "limit": "Nem ajánlat; azonos mix, minden háztartás megvalósítható, kedvezmény csak eszköz+szerelés bázisára, plusz munka helyszínfüggő.",
+      "decision": "Nyolc lakásnál külön beszerzési kampány nem biztos hogy megtérül, 24-nél feltételes skálázási előny.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-shared-reserve",
+      "family": "CARE",
+      "kind": "MODEL",
+      "locator": "## 5. Négy döntős, két független stresszteszt",
+      "claim": "Négy egyidejű, egy-egy kompatibilis tartalékegységet igénylő helyszín esetén 1 vagy2 mobil egység legfeljebb25% vagy50% pillanatnyi kapacitást fed; független igényekkel az egy tartalék 4 nem egyidejű esetet kezelhetne.",
+      "limit": "Determinisztikus kapacitáspélda, nem valós kiesési gyakoriság vagy helyi flotta, utazás/üzembehelyezés nulla idealizáció csak felső korlát.",
+      "decision": "Közös hőhullám korrelált igénye miatt nem számoljuk ugyanazt a tartalékot többször.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-precool-model",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 5. Négy döntős, két független stresszteszt",
+      "claim": "4kWh azonos esti hasznos hőelvonás COP2,5-tel 1,6kWh villany; nappali COP3,5 esetén előhűtés 60/80/100% megtartott hasznos hővel 1,90/1,43/1,14kWh. Energiatöréspont 71,4% megtartás.",
+      "limit": "Feltételes, nem helyi COP, szerződés, tarifa vagy tényleges hőtárolás. Azonos teljes szolgáltatás és megengedett komfort kell, nincs kényszerterhelés-csökkentés.",
+      "decision": "A hőtárolás csak mért hasznos időbeli eltolással és normál komfort mellett érték, nem kötelező intelligens vezérlés.",
+      "source": "r164"
+    },
+    {
+      "id": "r164-scale-gap",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "locator": "## 6. Döntés és következő kapu",
+      "claim": "A négy döntősnél továbbra sincs igazolt 2027-es maradó hővédelmi hiány, konkrét engedélyezett pilothely és aktuális teljes költség. Új országos programok tényleges helyi lefedettsége nem ismert.",
+      "limit": "Nem bizonyítja a hiány hiányát, és nem jelent 799 garantált résztvevőt vagy 2027 pénzt.",
+      "decision": "HŐTÉR első ellenőrzés, HŐOTTHON megerősített skálázási kihívó, HŐJÁTÉK önálló, HŐBIZTOS program-residual tartalék.",
+      "source": "r164"
     }
   ]
 }
