@@ -77,6 +77,11 @@
       "path": "rounds/R157/SOURCE_TO_DECISION.md",
       "ref": "869783b21963fd8c0cb45fc6b014a0df1653a5a7",
       "blob": "f1b75055234a259fdaa4f84318d83321c18b6513"
+    },
+    "r158": {
+      "path": "rounds/R158/HEAT_SAFE_PLAY_AND_FINALIST_CHALLENGE.md",
+      "ref": "0732facf093f578a968477557108a7965fecb06c",
+      "blob": "53f641f05039bfcff4400c5d5d082b5effb27c60"
     }
   },
   "findings": [
@@ -479,6 +484,96 @@
       "limit": "A sor nem nevezi meg a fogadó intézményt, egységszámot vagy beszerelést. Nem hozzáférhető új keret és nem a Tekergő/KEÓ átadási bizonyítéka.",
       "decision": "Ne tulajdonítsuk a döntősöknek; további konkrét beruházásazonosító szükséges.",
       "source": "r157"
+    },
+    {
+      "id": "r158-kekvirag-decision",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_PLAN",
+      "locator": "## Helyi bizonyíték: Kékvirág és Zsivaj",
+      "claim": "237/2026 (IX.10.) KÖKT határozat 845 515 Ft vegyes támogatást hagyott jóvá a Kékvirág óvodának; az árnyékoló korábbi ajánlata 697 555 Ft.",
+      "limit": "A támogatás a napvitorlán kívül más eszközt is tartalmaz; nem teljesítés, nem új 2027-es keret. Az árajánlat már szerepel a 78 observation között.",
+      "decision": "Korábbi javaslatból igazolt döntés, de a rendes árnyékolást nem számoljuk új többletnek.",
+      "source": "r158"
+    },
+    {
+      "id": "r158-shade-quote",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## Helyi bizonyíték: Kékvirág és Zsivaj",
+      "claim": "Az eredeti 2026. augusztus 24-i, egy napvitorlára és szerelésre szóló ajánlat bruttó 697 555 Ft, 36 hónap garancia, 30 nap vagy készlet erejéig.",
+      "limit": "Újranézett régi finding; lejárt ajánlat, méret/struktúra nem ismert, nem végszámla.",
+      "decision": "Hagyományos helyi baseline költség, nem low-e termékár.",
+      "source": "r158"
+    },
+    {
+      "id": "r158-zsivaj-plan",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_PLAN",
+      "locator": "## Helyi bizonyíték: Kékvirág és Zsivaj",
+      "claim": "A KEÓ 2025/26 év végi beszámoló nyári felújítási táblájában Kékvirág egy napvitorla, Zsivaj napvitorlák telepítése szerepel.",
+      "limit": "Terv; a két Kékvirág említés nem számolható két független beszerzésnek.",
+      "decision": "Az óvodai kültéri normál baseline-t helyszín szerint ellenőrizni kell.",
+      "source": "r158"
+    },
+    {
+      "id": "r158-playground-plan",
+      "family": "SCHOOL",
+      "kind": "LOCAL_PLAN",
+      "locator": "## Közterületi versenytársak és csatornák",
+      "claim": "2026 szeptemberében megkezdődött a kerületi játszóterek átfogó felülvizsgálata és ötéves fejlesztési koncepciója.",
+      "limit": "Nem kész koncepció vagy hővédelmi jóváhagyás; nyilvános felmérés eredménye nem ismert.",
+      "decision": "A hővédelmi mutató és célzott retrofit csak a rendes programon túli résre.",
+      "source": "r158"
+    },
+    {
+      "id": "r158-sponge-overlap",
+      "family": "TRANSIT",
+      "kind": "LOCAL_PLAN",
+      "locator": "## Közterületi versenytársak és csatornák",
+      "claim": "2026 közösségi költségvetési #284 mobil szivacsbútor és #299 közösségi locsoló/ivókút javaslat.",
+      "limit": "Lakossági javaslat, nem igazolt facsemete-pusztulási adat vagy megvalósult projekt; a döntés november26-ra várt.",
+      "decision": "Ne nevezzük saját újdonságnak a mobil növénytárolót vagy közösségi öntözőkutat.",
+      "source": "r158"
+    },
+    {
+      "id": "r158-child-height",
+      "family": "PRESCHOOL",
+      "kind": "UPSTREAM",
+      "locator": "## HŐJÁTÉK KONTAKT — műszaki ellenpróba",
+      "claim": "2026 japán óvodai terepkutatás 0,1 és 0,5m magasságban is mérte a hőterhelést; az árnyékban is magas talajközeli WBGT fordult elő.",
+      "limit": "Egy intézmény, változó árnyék; nem helyi mérés vagy univerzális küszöb.",
+      "decision": "Gyermekmagasság, érintési felület, sugárzás és UV külön mérendő.",
+      "source": "r158"
+    },
+    {
+      "id": "r158-schoolyard-field",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "locator": "## HŐJÁTÉK KONTAKT — műszaki ellenpróba",
+      "claim": "Nyolc kaliforniai iskola 2026-os publikációja a talajközeli levegőhőmérsékletnél kb.1,2°C, a heat indexnél kb.1,4°C medián árnyékelőnyt közöl.",
+      "limit": "Megfigyelési összehasonlítás, több anyag csak egy szenzor/iskola; nem WBGT, MRT vagy magyar eredmény.",
+      "decision": "Egyszerű árnyék erős comparator, nem szükségszerű high-tech.",
+      "source": "r158"
+    },
+    {
+      "id": "r158-pavilion-field",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "locator": "## HŐJÁTÉK KONTAKT — műszaki ellenpróba",
+      "claim": "2026 októberi pavilonkutatásban 309 páros megfigyelés, becsült 4,1°C WBGT-különbség a napos fűhöz képest.",
+      "limit": "Nagy állandó fémtetős építmény, amerikai sportorvosi szabály, nem a low-e többlete vagy gyermekbiztonsági garancia.",
+      "decision": "A használható programidőt a valódi mikroklímával együtt kell megítélni.",
+      "source": "r158"
+    },
+    {
+      "id": "r158-play-gap",
+      "family": "PRESCHOOL",
+      "kind": "UNKNOWN",
+      "locator": "## Döntő koncepcióverseny",
+      "claim": "Nincs igazolt, rendes árnyékolás után fennmaradó kőbányai játékfelületi hőhiány vagy 2027-re kész pilothely.",
+      "limit": "Nem nulla igény, egyes helyeken már jóváhagyott napvitorla.",
+      "decision": "HŐJÁTÉK KONTAKT feltételes ellenjelölt, nem végleges téma.",
+      "source": "r158"
     }
   ]
 }
