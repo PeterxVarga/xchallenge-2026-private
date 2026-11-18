@@ -117,6 +117,11 @@
       "path": "rounds/R165/DUAL_FINALIST_ENGINEERING_TOURNAMENT.md",
       "ref": "dccf7fe49db86e277a643d74b6012cbeddc4d0e3",
       "blob": "7d45e34fe5c5813b9bac3e55b43dfb411a364cf2"
+    },
+    "r166": {
+      "path": "rounds/R166/OUTCOME_CAPACITY_AND_BUDGET_RESILIENCE.md",
+      "ref": "5c08cb7686c4d527ea57bc5d9a9bafdcd09d7ebb",
+      "blob": "571963f05b363509a6e1dc95edede50392f991a9"
     }
   },
   "findings": [
@@ -1519,6 +1524,66 @@
       "limit": "A keresés nem teljes, felhasználó nem engedélyezett megkeresést vagy terepmunkát; hipotézis nem elvégzett megvalósítás.",
       "decision": "Két fő versenyző feltételes, további kutatás csak döntést megváltoztató helyi adat/új mérnöki mechanizmus esetén.",
       "source": "r165"
+    },
+    {
+      "id": "r166-child-dose",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "locator": "## 1. Decision-changing research, not duplicated R165",
+      "claim": "VUB/Brussels két iskola három mérési napja, modellezett gyermek PET és időbeli-aktivitási kitettség; állás/játék átlagos excess PET 2,91/17,50°C a vizsgált körülmények között.",
+      "limit": "Jövőbeli lapszám 2027 január1, elérhető absztrakt, full403; nem levegőhőmérséklet, helyi hatás vagy biztonsági szabály.",
+      "decision": "Tényleges idő-hely-aktivitás mérés, nem eszközszám.",
+      "source": "r166"
+    },
+    {
+      "id": "r166-pavilion-time",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "locator": "## 1. Decision-changing research, not duplicated R165",
+      "claim": "R158 pavilonforrás teljes szöveg újraolvasva: 309 páros megfigyelés, USA GHSA besorolás 36% vs96% korlátozás nélküli; standard 7 órára vetítve 2,5 vs6,7 óra.",
+      "limit": "Azonos vizsgálat mint r158-pavilion-field, nem független új bizonyíték; eltérő burkolat, helyszín és amerikai sportküszöb; becsült nem tényleges programidő.",
+      "decision": "A szolgáltatási időt közvetlenül mérni, helyi szabály és valós használat szerint.",
+      "source": "r166"
+    },
+    {
+      "id": "r166-home-shade-review",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 1. Decision-changing research, not duplicated R165",
+      "claim": "2026 mérsékelt európai áttekintés: külső és állítható árnyékolók általában kedvezőbbek, de a szakirodalom szimulációdomináns; 76 francia nem klimatizált lakás 2023-as megfigyelése a használati mintákat is mérte.",
+      "limit": "Két külön absztrakt, teljes szöveg 403/500; nem magyar lakáshatás, nem mért intervenciós eredmény.",
+      "decision": "Az eszköz mellett a tényleges használatot és éjszakai hőállapotot ellenőrizni.",
+      "source": "r166"
+    },
+    {
+      "id": "r166-meal-capacity",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "locator": "## 2. HŐTÉR FLEX — room capacity, meal queue and actual protected time",
+      "claim": "120 gyerek, 25 hely/terem, 20 perc étkezés és 5 perc forduló hipotézis: 1/2/3 terem 120/70/45 perc alatt szolgál ki, ideális párhuzamossággal.",
+      "limit": "Nem helyi létszám vagy teremleltár; várakozók felügyelt hővédett helye, személyzet, étkeztetés, logisztika és késés külön; 50 perc hipotézis.",
+      "decision": "Az egyidejű használható kapacitás legyen kemény feltétel; alternatív hely vagy valódi bővítés csak hiány esetén.",
+      "source": "r166"
+    },
+    {
+      "id": "r166-home-reserve",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 3. HŐOTTHON 365 — funding resilience instead of maximizing installed count",
+      "claim": "R161/165 korábbi 1:1 mix költségekkel, 15% illusztratív tartalékkal: 8 alap 2,8612M; energia stressz 3,01024M; energia+aktív árnyék 3,74624M; 6 kombinált stressz esetén 2,86143M Ft.",
+      "limit": "Nem árajánlat, 3M belső stresszteszt nem kötelező keret; állandó közös költség, régi egységárak, valódi mix és eredmény ismeretlen.",
+      "decision": "4 alkalmas pilot, majd +2 vagy +4 teljes működési fedezet és eredmény mellett.",
+      "source": "r166"
+    },
+    {
+      "id": "r166-exposure-accounting",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "locator": "## 2. HŐTÉR FLEX — room capacity, meal queue and actual protected time",
+      "claim": "120 gyermek ×20 forró nap ×15 perc elkerülhető közvetlen kitettség =600 gyermekóra; 60×10×15 perc=150 gyermekóra.",
+      "limit": "Hipotetikus időszámítás, nem mért hőstressz vagy egészségügyi hatás.",
+      "decision": "Valós jelenlét, idő, hely, aktivitás, hő és szolgáltatás teljesítése alapján mérni.",
+      "source": "r166"
     }
   ]
 }
