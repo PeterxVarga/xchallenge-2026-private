@@ -102,6 +102,11 @@
       "path": "rounds/R162/COMPETITIVE_ADVANTAGE_AND_PERFORMANCE_CONTRACT.md",
       "ref": "00092f8af860843e0b0afc0bc5c31b048547b3d1",
       "blob": "d183a80ebede29f86d1feff46506f8a8f628d111"
+    },
+    "r163": {
+      "path": "rounds/R163/THERMAL_CONTINUITY_FOURTH_CHALLENGER.md",
+      "ref": "3aef61b32b8915594fff915fe80ac47efa5e0056",
+      "blob": "d067510e6d3bb5117cf5892bf964d18f6bab99c2"
     }
   },
   "findings": [
@@ -1114,6 +1119,136 @@
       "limit": "Közeli hazai precedens nem Kőbánya pilot vagy partneri hozzájárulás. 2027 terv keresés nem teljes adatlefedettség.",
       "decision": "HŐTÉR FLEX első ellenőrzési prioritás; HOME és PLAY független alternatíva. Az általános újranév/irodalom-körök nem oldják fel a kaput.",
       "source": "r162"
+    },
+    {
+      "id": "r163-bajcsy-fault",
+      "family": "CARE",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Új közvetlen helyi bizonyíték",
+      "claim": "A 2026. augusztus 5-i kormányzati hőségriasztási jelentés a Bajcsy-Zsilinszky Kórház SBO belső betegvárójának nem működő klímáját, valamint egy külön kameraszobai klímahibát rögzít; mindkét javítás folyamatban volt.",
+      "limit": "Egy napi hivatalos állapot, nincs szobahő, beteglétszám, kiesési idő, gyökérok, ellátáskimaradás vagy 2027 maradó hiba bizonyítva. Az utána közölt műtői hibák másik intézményhez tartoznak.",
+      "decision": "HŐBIZTOS hűtési rendelkezésre állás új helyi ellenjelöltje, nem egyszerű új klíma.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-bajcsy-tent",
+      "family": "CARE",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Új közvetlen helyi bizonyíték",
+      "claim": "A kórház 2026. július 10-i saját közleménye szerint a CT-átalakítás idejére közel 40m²-es szigetelt, hűtő-fűtő klímás pneumatikus sátor telepítése és beüzemelése megtörtént; július 13-i közlemény megerősíti az ideiglenes várót.",
+      "limit": "Ugyanaz a júliusi, július9–23-ra tervezett esemény, nem két telepítés; nem az augusztusi klímahiba megoldásának vagy mérésnek bizonyítéka. Nem ismert a berendezés mai rendelkezésre állása vagy tulajdona.",
+      "decision": "Már létező mobil tartalék precedens; új hűtött sátor önmagában nem megkülönböztetés.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-feher-access",
+      "family": "TRANSIT",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 3. Szociális hozzáférés ellenpróbája",
+      "claim": "A Fehér-köz nappali melegedő 2025 szakmai beszámolója a december 13-i járatmegállási változás után jelentős hozzáférési nehézséget jelez; az épület az akkori állapot szerint nem akadálymentes.",
+      "limit": "Történeti, nem 2026/27 utazási idő vagy hőmérés; a busz későbbi visszaállítása külön rekordban szerepel. Nem javaslunk vasúti átvágást.",
+      "decision": "HŐÚT/HŐGONDOZÓ erős hozzáférési problémahipotézis, de hőséghez kötött maradó rés vizsgálandó.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-feher-count",
+      "family": "CARE",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 3. Szociális hozzáférés ellenpróbája",
+      "claim": "A Fehér-köz 2025 beszámoló összesített adata 1524 látogató, 48449 igénybevétel, 356 nyitvatartási nap, 120 engedélyezett férőhely; az összesítés részadat-eltéréseket tartalmaz.",
+      "limit": "Nem nyári hőnek kitett létszám, személyórák vagy egyidejű foglaltság. A nemek szerinti összeg48489, a lakhatási kategóriák összege48415, mindkettő eltér a közölt főösszegtől.",
+      "decision": "Csak jelentett aggregált nevezők történeti szolgáltatási súlyhoz; pontos hőhatás vagy úthasználat nem vezethető le.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-stop-correction",
+      "family": "TRANSIT",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 3. Szociális hozzáférés ellenpróbája",
+      "claim": "BKKInfo #139527: a 85-ös busz újra megáll a Terebesi utcai megállóban; az érvényesség kezdete 2026. április 1., a rekord módosítása május1.",
+      "limit": "A megnyitott közlemény szerint visszavonásig; nem aktuális valós idejű útvonalteszt, 2027 menetrend vagy teljes akadálymentesség.",
+      "decision": "A 2025. decemberi megszüntetést ne kezeljük változatlan 2027-es állapotként. A közlekedési megoldás részben már rendeződött.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-existing-protocol",
+      "family": "CARE",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 3. Szociális hozzáférés ellenpróbája",
+      "claim": "A főváros 2026. június19-i hőségügyi tájékoztatója szerint a hajléktalanellátás külön befogadási protokollt működtetett, pihenéssel és folyadék biztosításával.",
+      "limit": "Városi közlemény, nem konkrét intézményi foglaltság, klimatizálási vagy mindenki számára garantált elérési bizonyíték.",
+      "decision": "Új általános nappali hűsölőhálózat nem automatikus innováció, csak maradó tényleges hozzáférési/hőrés.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-who-resilience",
+      "family": "CARE",
+      "kind": "UPSTREAM",
+      "locator": "## 4. Nemzetközi technológiai ellenpróba",
+      "claim": "A WHO 2026. június11-i második HHAP útmutatója és október16-i egészségügyi reziliencia-cikke az ellátás folytonosságát, intézményi állapotellenőrzést és a hővédelem/fertőzéskontroll együttes kezelését hangsúlyozza.",
+      "limit": "Nem magyar műszaki szabvány, nem a Bajcsy aktuális állapotának bizonyítéka vagy helyi klinikai protokoll.",
+      "decision": "Meglévő egészségügyi felelősök és karbantartás elsődleges, hűtés mellett légtechnikai működés is kell.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-fdd",
+      "family": "CARE",
+      "kind": "UPSTREAM",
+      "locator": "## 4. Nemzetközi technológiai ellenpróba",
+      "claim": "A 2025-ös kórházi HVAC-reziliencia publikáció absztraktja két légkezelőn validált előrejelzési megközelítést ír; a 2026 trópusi kórházi vizsgálat az előrejelzést egyéb fizikai és szervezési intézkedések kiegészítőjeként tárgyalja.",
+      "limit": "Első forrás kiadó403, a második forrás publikációs leírása; nem helyi hibaelőrejelzési pontosság, megtakarítás vagy gyógyászati teljesítmény.",
+      "decision": "Csak meglévő BMS/hibajegy és ellenőrzött, egyszerű állapotfigyelés; nem AI dashboard önmagában, nem automatikus vezérlés.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-thermal-buffer",
+      "family": "CARE",
+      "kind": "MODEL",
+      "locator": "## 5. HŐBIZTOS — negyedik ellenjelölt",
+      "claim": "Egyzónás 36°C külső, 25°C kezdő, H=.2kW/K, C=2 vagy6kWh/K, Q=2 vagy1kW hipotézisben 2K belső növekedés ideje 1,00/3,00 illetve1,34/4,01 óra.",
+      "limit": "Hipotetikus RC modell és analitikai mérföldkő, nem megengedett klinikai hőmérséklet, hőbiztonsági türelmi idő vagy épületmérés.",
+      "decision": "Passzív tehercsökkentés korlátozott időnyereség, tényleges háttérkapacitás és gyors reagálás nélkül nem garantál ellátást.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-thermal-storage",
+      "family": "CARE",
+      "kind": "MODEL",
+      "locator": "## 5. HŐBIZTOS — negyedik ellenjelölt",
+      "claim": "500L víz 5K hőlépcsővel 2,907kWh elméleti hőkapacitás, 4kW terhelés mellett0,727óra; 4kW hűtés 4órára COP2,5 plusz veszteségek mellett kb8,89kWh névleges akkukapacitás (segédenergia nélkül).",
+      "limit": "Nem ajánlott kiviteli méretezés, nem biztonságos használati előírás; nincs csatlakozás, valós energia, veszteség, tartalékáram-jog vagy műszaki ajánlat.",
+      "decision": "Dedikált új tároló nem alapértelmezett; a hibafajtának megfelelő meglévő tartalék, szerviz és normál hűtés erős comparator.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-availability",
+      "family": "CARE",
+      "kind": "MODEL",
+      "locator": "## 5. HŐBIZTOS — negyedik ellenjelölt",
+      "claim": "20 példabeli egyidejű használó, 5h fizikai hűtéskiesés, egy óra múlva 15 használható tartalékhely: 100 érintett emberóra helyett40, hipotetikusan60 többlet védett emberóra/esemény.",
+      "limit": "Nem valós beteglétszám, kiesés, várakozás vagy hatásmérés; csak azonos teljes szolgáltatási és hőfeltételekkel, a többi ellátás biztosításával értelmezhető.",
+      "decision": "A megoldást az elérhető hővédett férőhely és a helyreállítás ideje alapján értékeljük, nem eszközszám szerint.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-reserve-economics",
+      "family": "CARE",
+      "kind": "MODEL",
+      "locator": "## 5. HŐBIZTOS — negyedik ellenjelölt",
+      "claim": "0,45M Ft hipotetikus éves garantált rendelkezésre állás vs1,2M beruházás +0,15M évente: egyszerű nominális költségegyenlőség 4 idény, öt idény 2,25M vs1,95M.",
+      "limit": "Nem beszállítói ajánlat, nem egyenértékű szolgáltatás igazolása; csak azonos kapacitás, válaszidő, működtetés mellett hasonlítható, javítás/pótlás/diszkont külön.",
+      "decision": "Első idényben meglévő/rendelt szolgáltatás és prevenció előbb, saját eszköz csak valódi tartós igény.",
+      "source": "r163"
+    },
+    {
+      "id": "r163-care-gap",
+      "family": "CARE",
+      "kind": "UNKNOWN",
+      "locator": "## 6. Döntősök újraversenyeztetése",
+      "claim": "Bajcsy 2027-es váróüzem, javítás utáni teljesítmény, meglévő tartalék, hiba gyakorisága, klinikai és műszaki engedélyek, tényleges kínálat és költség nem ismertek.",
+      "limit": "A 2026-os hiba és ideiglenes váró bizonyítja a történeti helyzetet, nem a projektpartneri elköteleződést vagy fennmaradó műszaki hiányt.",
+      "decision": "HŐBIZTOS önálló negyedik challenger; a 2027 residual és jogosult fenntartó nélkül nem nyilvánítható kész vagy első helyű megoldásnak.",
+      "source": "r163"
     }
   ]
 }
