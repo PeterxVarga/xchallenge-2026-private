@@ -92,6 +92,11 @@
       "path": "rounds/R160/THERMAL_ACCESS_AND_RECOVERY_TOURNAMENT.md",
       "ref": "a9252456f75e103e122d361e6bf4b91b5029d4ed",
       "blob": "d33c53b28ed6e6477d9c63a3a491b5e03976cbab"
+    },
+    "r161": {
+      "path": "rounds/R161/CREATIVE_ENGINEERING_THREE_FINALISTS.md",
+      "ref": "43b4de8882a78ea14ab78e83ccc138df5309214a",
+      "blob": "cc224ab0499d65b2734a308c3d4a1c7fb0a1ef99"
     }
   },
   "findings": [
@@ -834,6 +839,146 @@
       "limit": "Nem ígért munkáltatói partner és nem munkavédelmi hiány megállapítása.",
       "decision": "HŐPIHENŐ tartalék; meglévő megfelelő pihenő esetén nem új eszközprojekt.",
       "source": "r160"
+    },
+    {
+      "id": "r161-camp-renewed",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Helyi bizonyíték és friss ellenpróba",
+      "claim": "370/2026 eredeti beszámoló 3–7. oldalképe ismét megerősíti a hőség miatt átszervezett programokat, déli gyalogos visszatérést az ebédre, a meglévő párakaput, a javasolt 4–5 sátrat és klimatizálási programot.",
+      "limit": "Korábban R153/R155/R160 ismert, új vizuális ellenőrzés, nem új független helyi probléma vagy 2027 residual.",
+      "decision": "A HŐTÉR rendes 2027-es működésre épül; a hideg beltéri tartalék és teljes ellátás a tervezés kapuja.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-camp-grant",
+      "family": "CAMP",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Helyi bizonyíték és friss ellenpróba",
+      "claim": "43/2026 (II.19.) végleges határozat 9M Ft 2026-os kerület-wide tábor/erdei iskola működési pályázatot hagyott jóvá; anyag/eszköz, utazás, étkezés és egyéb meghatározott programköltségek szerepeltek.",
+      "limit": "A kiírás célcsoportja kerületi fenntartású óvoda és tankerületi iskola; 2026 április20 beadás és november16 elszámolás lejárt; nem a Tekergő külön kerete és nem új 2027-es finanszírozás.",
+      "decision": "A tanévi/egyéb intézményi adaptációhoz külön, ismétlődés esetén vizsgálható finanszírozási precedens, nem bevétel.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-pv-fabric",
+      "family": "CAMP",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Keresztiparági technológiai verseny",
+      "claim": "2026 Liyang terepkísérlet három forgatókönyvében a textil illetve PV árnyék nappali átlagos MRT-csökkenése 22,1 és17,5°C; UTCI -3,5 és -3,1°C a napos referencia ellen.",
+      "limit": "Kínai szubtrópusi helyszín, eltérő tető/felület, három nap/forgatókönyv; nem azonos jó fehér fedéshez mért többlet, nem gyermekbiztonság.",
+      "decision": "A jó árnyék, hőleadás és légmozgás külön követelmény. PV csak hasznos terhelés esetén, nem hővédelmi prémium önmagában.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-tenopy",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Keresztiparági technológiai verseny",
+      "claim": "TENOPY Philadelphia 2024 demonstrátor, 2026 publikáció/digest: árnyék, sugárzó panelek és hűtött ülés; 20 résztvevőből 80% panel és90% hosszabb ülés után semleges vagy annál hűvösebb érzetet jelzett.",
+      "limit": "Kis mintás komfortbeszámoló, nincs bizonyított egészségkimenet, az eredeti folyóirat 403, policy digest nyílt; nem teljes szezonos üzembizonyítás vagy magyar ár.",
+      "decision": "Valós hibrid előzmény, csak felnőtt használatú, megfelelően engedélyezett műszaki ágként tartalék.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-tenopy-energy",
+      "family": "TRANSIT",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Keresztiparági technológiai verseny",
+      "claim": "TENOPY 2026 policy digest a vizsgált csúcsidőszakban 2,4 kWh PV-termelést és1,7 kWh hűtési villamosigényt közöl.",
+      "limit": "Nem napi/éves termelés, nem órás ellátási garancia vagy magyar rendszer méretezés; termelés és igény időbeli profilja ismeretlen.",
+      "decision": "A PV-árnyék és helyi aktív hővédelem együtt is versenyezzen a sima textilárnyék és meglévő beltéri pihenő ellen.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-zonal-watts",
+      "family": "CARE",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Keresztiparági technológiai verseny",
+      "claim": "2026 EPFL publikáció absztraktja: hasonló kb79W/m² érzékelhető hőelvonás mellett a különböző személyi hőátadási módok eltérő komfortválaszt okoztak; a kísérletben konvekció legerősebb szubjektív érzet.",
+      "limit": "Absztrakt, eltérő helyszín és populáció, nem klinikai hatás vagy ventilátor biztonsági ajánlás.",
+      "decision": "Nem váltjuk át a hűtőteljesítményt automatikusan megnyert emberórára; autóülés/személyi hűtés csak kiegészítő.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-poznan",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Keresztiparági technológiai verseny",
+      "claim": "Poznań 2026 kettős teszthelyiséges vizsgálat, 2024 augusztusi mérés: teljes külső redőny a legjobb, részleges leengedés a szerző szerint a termikus teljesítmény 80–90%-át megőrizte és napfényt engedett be.",
+      "limit": "Egy elrendezés/tájolás, egymást követő tesztek; nem lakott hálószoba vagy univerzális százalék; operatív szenzor, nem a kinti levegő 56°C.",
+      "decision": "Állítható normál árnyék a drága okosüveg ellenjelöltje; fényt és tényleges időben használt árnyékot is mérni.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-hungarian-survey",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 3. Keresztiparági technológiai verseny",
+      "claim": "2026 Energy and Buildings országos magyar, kor/nem szerint reprezentatív 1496 fős kérdőívben a panelépületek lakói a legalacsonyabb nyári hőkomfort-elégedettséget jelezték.",
+      "limit": "Kiadói 403, absztrakt plusz szerzői ismeretterjesztő cikk; önbeszámoló, nem hőmérés és nem kőbányai lakásszám.",
+      "decision": "A HOME család hazai relevanciája erősödik; tényleges önkéntes szobamérés és normál beruházási baseline kell.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-room-load",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "locator": "## 4. Döntős A — HŐTÉR FLEX",
+      "claim": "27 fős, 12m² üvegezett szemléltető térben 8K különbség, 7L/s/fő feltételezett légcsere és 3g/kg páratartalom-különbség mellett a teljes állandósult modell 10,90kW, hatásos árnyékolással 8,43kW.",
+      "limit": "Korábbi R86–100 modell konkretizálása, hipotetikus számok, nem épületgépészeti méretezés vagy szabványos légcsereérték.",
+      "decision": "A szoláris terhelés csökkentése nem helyettesítheti az elegendő hűtési kapacitást és frisslevegőt.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-fallback-capacity",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "locator": "## 4. Döntős A — HŐTÉR FLEX",
+      "claim": "120 példabeli gyermek egyidejű 3 órás beltéri igénye 360 gyermekóra; 2×25 fős helyiség csak150 hely-órát ad ugyanebben az ablakban.",
+      "limit": "Fiktív kapacitás és idő, nem 2027 létszám, helyiséghatározat vagy biztonsági minimum; nincs megengedett forró várakozás.",
+      "decision": "Súlyos hőségben a rendes, azonnali elegendő beltéri tartalék kötelező tervezési kapu; rotáció nem oldja fel az egyidejű hiányt.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-home-night-rc",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 5. Döntős B — HŐOTTHON 365",
+      "claim": "Azonos egyzónás H=.12kW/K éjszakai modellben a 2K induló hőmérsékletkülönbség 8h múlva C=2/6kWh/K esetén 1,24/1,70K; az integrált különbség 12,71/14,79 Kh.",
+      "limit": "Nem kalibrált helyiség, azonos zavarás, nincs előhűtés vagy árnyékolás által garantált 2K, nem hőbiztonsági küszöb.",
+      "decision": "Nappali szoláris terhelés és éjszakai védelem együtt; külön hőmérleggel az aktív hűtés elhagyása csak megfelelő eredménynél.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-home-cost",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 5. Döntős B — HŐOTTHON 365",
+      "claim": "4 passzív +4 aktív eltérő háztartás első szezonos költségmodellje 2,488M Ft, aktív négy lakásban további azonos árnyékolás szükséglete esetén 3,128M; öt szezon 3,560M egyszeri 880k aktív pótlás nélkül.",
+      "limit": "Tervezési allowance, nem ajánlat, nem azonos végpont a passzív és aktív ágnál; nincs biztos támogatás. A plusz árnyékolás öt éves upkeep nincs modellezve.",
+      "decision": "A háztartásonkénti ok-specifikus beavatkozás, lakói energiaköltség és fenntartási terv elsődleges.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-node-energy",
+      "family": "TRANSIT",
+      "kind": "MODEL",
+      "locator": "## 6. Döntős C — HŐJÁTÉK / HŐPONT",
+      "claim": "1kWp PV,4 ekvivalens óra és0,75 szorzó mellett 3kWh/nap illusztratív hozam; 0,5/1/2kW teljes hűtési igény, COP2,5,0,1kW segéd és6h esetén 1,8/3/5,4kWh villamosigény.",
+      "limit": "Nem helyi napsugárzási adat, berendezésméret vagy autonómia bizonyítás; nincs órás profil, tároló, standby, üzemeltetési mérés.",
+      "decision": "Az aktív komponens önálló energiamérleg és normal shade comparator nélkül nem kötelező.",
+      "source": "r161"
+    },
+    {
+      "id": "r161-no-new-site",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "locator": "## 7. Zsűri-ellenpróba és döntés",
+      "claim": "A három döntőshez továbbra sincs igazolt 2027-es fogadó hely, tényleges maradó hőhiány, aktuális tételes ajánlat, engedély és nyári mérési alap.",
+      "limit": "A helyi történeti probléma/terv nem azonos a jövőbeni tényleges többlettel.",
+      "decision": "Nyitott koncepcióválasztás; nem építünk prototípust vagy megosztott kutatómotort ebben a lane-ben.",
+      "source": "r161"
     }
   ]
 }
