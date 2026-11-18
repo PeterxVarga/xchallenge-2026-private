@@ -82,6 +82,11 @@
       "path": "rounds/R158/HEAT_SAFE_PLAY_AND_FINALIST_CHALLENGE.md",
       "ref": "0732facf093f578a968477557108a7965fecb06c",
       "blob": "53f641f05039bfcff4400c5d5d082b5effb27c60"
+    },
+    "r159": {
+      "path": "rounds/R159/INNOVATION_AND_PANEL_HEAT_RESILIENCE.md",
+      "ref": "b75bef4b2f51012273809a385a584562b145250a",
+      "blob": "fb74e63fa17ff02d09cb9d847edad3dd1c535349"
     }
   },
   "findings": [
@@ -574,6 +579,136 @@
       "limit": "Nem nulla igény, egyes helyeken már jóváhagyott napvitorla.",
       "decision": "HŐJÁTÉK KONTAKT feltételes ellenjelölt, nem végleges téma.",
       "source": "r158"
+    },
+    {
+      "id": "r159-panel-applicants",
+      "family": "HOME",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 2. Helyi döntési fordulat",
+      "claim": "A 200/2026 hivatali beszámoló táblája szerint négy Kőbányai jelentkezőhöz 60+498+640+22=1220 lakás tartozott; az Állomás utca 1–25. 640 lakásos.",
+      "limit": "2026 március31-ig beérkezett pályázatok, nem lakossági hőterhelés, tényleges részvétel vagy nyertes kivitelezés; az Állomás utcai számon korábbi exportban már szerepelt.",
+      "decision": "Névleges skála és konkrét, igazolt bevezetési csatorna; a tényleges hőigény külön.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-panel-dea",
+      "family": "HOME",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Helyi döntési fordulat",
+      "claim": "BKM X. kerületi hivatalos oldal: BZP-2026-10-003, Állomás u.1–25., 2026.05.29-én DEA elkészítés természetbeni támogatását elnyerte; egy kőbányai nyertes szerepel.",
+      "limit": "Nem a DEA elkészülte vagy kivitelezési pénz, nem projektpartneri jóváhagyás.",
+      "decision": "Feloldja a korábbi pályázói nyertesstátusz UNKNOWNját kizárólag az első szakaszra; konkrét HŐPANEL kapcsolódási lehetőség.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-panel-shade",
+      "family": "HOME",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Helyi döntési fordulat",
+      "claim": "A BZP 2026 szeptemberi v3 kiírás 7.1.1(b), 7.1.2(e) szerint homlokzaton egységes árnyékolás, illetve feltételes nyári szoláris tehercsökkentés (például fehér lapostető) támogatható; új egyedi légkondicionáló beszerzése/beüzemelése nem.",
+      "limit": "Általános, előzetes második fázisú feltételek; konkrét DEA-t és jogosultságot nem ismerjük; téli sugárzási nyereség feltétele fontos.",
+      "decision": "A generikus árnyékolás/cool roof nem megkülönböztető önálló program; csak külön maradó rés, önálló plusz eredmény.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-panel-timing",
+      "family": "HOME",
+      "kind": "LOCAL_PLAN",
+      "locator": "## 2. Helyi döntési fordulat",
+      "claim": "A v3 kiírás szétválasztja a természetbeni DEA-t a második fázistól; legalább 30% számított primerenergia-megtakarítás, a támogatási szerződés utáni max.30 hónap fizikai megvalósítás.",
+      "limit": "Nem 2027 nyári ígéret; feltételek változhatnak; nincs egyedi szerződés vagy részletes dátum.",
+      "decision": "A saját 2027-es pilot nem függhet a teljes panelkivitelezéstől; külön jóváhagyás és finanszírozás.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-kitchen-baseline",
+      "family": "PRESCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "locator": "## 4. HŐCSERE — két hasznos hőoldal",
+      "claim": "A 2025 vagyonkezelői jelentés szerint Apró Csodák, Napsugár, Apraja Falva, Manóvár főzőkonyháiban hűtési lehetőség kialakítása történt.",
+      "limit": "PDF szöveges ellenőrzés, képi lekérés sikertelen; nincs mért hőhiány, melegvízprofil vagy 2027 üzemállapot.",
+      "decision": "A hővisszanyerés csak egyidejű, maradó hűtési igény és hasznos vízmelegítés esetén.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-roof-field",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 3. HŐPANEL 365 — mérnöki design tournament",
+      "claim": "2026 gimcheoni közlakásos publikáció keresési absztraktja: két ötödik emeleti egység, 43 nyári nap, átlagosan 0,86°C beltéri levegő és 3,05°C mennyezeti felületi hőmérséklet-különbség a nagy albedójú burkolat vizsgálatában.",
+      "limit": "Kiadói 403, kivonat; kombinált felületkezelés, nem izolált helyi tetőhatás, nincs teljes éves mérleg.",
+      "decision": "A tetőfelületi fok nem azonos szobahővel; meglévő szigetelés és helyi tetődominancia döntő.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-roof-cost",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 3. HŐPANEL 365 — mérnöki design tournament",
+      "claim": "EEA Reggio Emilia HEROTILE demonstrátor teljes anyaggal 356,33 EUR/m²; további kb.50 EUR/m² járulékos és 40 EUR/m² műszaki költség becsült.",
+      "limit": "Korábban vizsgált EU eset, most a költség részlete ellenőrizve; konkrét tetőátépítés, nem magyar ajánlat, nem fehér bevonat egységára.",
+      "decision": "Nagy új magastető nem gyors, olcsó alapváltozat.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-roof-model",
+      "family": "HOME",
+      "kind": "MODEL",
+      "locator": "## 3. HŐPANEL 365 — mérnöki design tournament",
+      "claim": "50m², elnyeléscsökkenés 0,5, 800 W/m², h=15 W/m²K esetén 0,2/0,5/1,0 W/m²K U mellett ~267/667/1333W állandósult elkerült hőáram.",
+      "limit": "Egyszerű sol-air szűrő, nem dinamikus épületszimuláció, nincs helyi U, geometria, téli mérleg.",
+      "decision": "Jól szigetelt tetőn a normál ablakárnyék erős ellenjelölt.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-dynamic-patent",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 5. Új anyagok és keresztiparági megoldások",
+      "claim": "Bristoli spinout Albotherm első brit szabadalmát 2026 márciusában jelentette be az egyetem, hőmérsékletre reagáló mikro-kapszulás bevonat.",
+      "limit": "Egyetemi közlemény, scale-up/kereskedelmi bevezetés felé; nem magyar készlet, épületgarancia vagy FTO.",
+      "decision": "Adaptív anyag érdekes feltételes ág, normál árnyékoló ellen mérve.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-smart-window",
+      "family": "HOME",
+      "kind": "UPSTREAM",
+      "locator": "## 5. Új anyagok és keresztiparági megoldások",
+      "claim": "2026 novemberi Communications Materials áttekintés a dinamikus spektrális üvegezéseket, sugárzási és evaporatív elemeket elemzi; egyik idézett éves modell ~16–20% elektrokromatikus megtakarítást mutat más klímákban.",
+      "limit": "Áttekintés másodlagos modelljei, nem magyar occupied field proof, más comparatorok.",
+      "decision": "Ne extrapoláljuk új panelprogramra; fény, tartósság és költség mellett kell összevetni.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-recovery-balance",
+      "family": "CARE",
+      "kind": "MODEL",
+      "locator": "## 4. HŐCSERE — két hasznos hőoldal",
+      "claim": "300 liter víz 30K hőlépcsővel 10,465kWh melegvízhő; COP_heat=3 esetén ideális 6,98kWh kivont hő; 4kW×6h hűtéshez ~1032L tényleges napi egyenértékű felvevőkapacitás.",
+      "limit": "Elméleti, nem beállítási előírás vagy helyszíni fogyasztás; veszteség, hőfok, higiénia, időprofil külön.",
+      "decision": "Kis vízigénynél a kombinált gép nem teljes hűtési megoldás; normál klíma és vízmelegítő a comparator.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-panel-gap",
+      "family": "HOME",
+      "kind": "UNKNOWN",
+      "locator": "## 6. Teljes döntős verseny és zsűri-ellenpróba",
+      "claim": "A nyertes DEA tényleges tartalma, nyári hőhiány, ingatlanjóváhagyás, kivitelezési határidő és külön pilot finanszírozása ismeretlen.",
+      "limit": "Első fázisú eredmény nem 640 védett lakás.",
+      "decision": "HŐPANEL 365 csak külön, 2027-re önállóan átadható többlet esetén.",
+      "source": "r159"
+    },
+    {
+      "id": "r159-recovery-gap",
+      "family": "CARE",
+      "kind": "UNKNOWN",
+      "locator": "## 6. Teljes döntős verseny és zsűri-ellenpróba",
+      "claim": "Nincs igazolt, egyidejű helyi maradó foglalt téri hőigény és hasznos melegvízprofil, illetve megfelelő telepítési költség.",
+      "limit": "Nincs kiválasztott konyha vagy bentlakásos helyiség; nem helyettesíti a rendes szellőzést.",
+      "decision": "HŐCSERE műszaki tartalék, nem kötelező hibrid komponens.",
+      "source": "r159"
     }
   ]
 }
