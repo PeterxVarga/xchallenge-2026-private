@@ -1,0 +1,197 @@
+{
+  "schema": 1,
+  "kind": "ILLUSTRATIVE_PLANNING_NOT_QUOTE_OR_FIELD_MEASUREMENT",
+  "currency": "HUF",
+  "prices": "gross planning allowances, constant 2026 HUF, no discounting, no assumed grant or salvage",
+  "plus": {
+    "items_gross_huf": [
+      [
+        "Helyszínfelmérés, tervezés, jóváhagyási dokumentáció",
+        350000
+      ],
+      [
+        "Önálló tartószerkezet, alapozás, rögzítések",
+        1650000
+      ],
+      [
+        "Világos egyrétegű vízzáró tető",
+        850000
+      ],
+      [
+        "Szállítás, szerelés",
+        450000
+      ],
+      [
+        "Mozgatható bútorok, ülőhely",
+        300000
+      ],
+      [
+        "Helyi burkolatjavítás, akadálymentes megközelítés",
+        220000
+      ],
+      [
+        "Eresz, szűrő, zárt 1 m³ tároló, túlfolyó",
+        300000
+      ],
+      [
+        "Növényágy, talaj, mulcs, telepítés",
+        350000
+      ],
+      [
+        "Mérőeszközök",
+        180000
+      ],
+      [
+        "Átadás, dokumentáció, oktatás",
+        100000
+      ]
+    ],
+    "annual_items_gross_huf": [
+      [
+        "Szakmai szemle, karbantartás",
+        90000
+      ],
+      [
+        "Tisztítás",
+        50000
+      ],
+      [
+        "Növénygondozás, víz",
+        50000
+      ],
+      [
+        "Mérés, napló",
+        30000
+      ],
+      [
+        "Kisebb javítás",
+        20000
+      ]
+    ],
+    "direct_huf": 4750000,
+    "contingency_rate": 0.2,
+    "contingency_huf": 950000,
+    "capital_huf": 5700000,
+    "annual_huf": 240000,
+    "first_year_huf": 5940000,
+    "year4_major_repair_huf": 350000,
+    "five_year_huf": 7250000,
+    "first_year_capex_sensitivity_huf": [
+      4800000,
+      7650000
+    ]
+  },
+  "historical_core_reference": {
+    "reuse_first_year_huf": 1135000,
+    "new_first_year_huf": 2127000,
+    "limit": "R221 simpler shade scope; not a quote, not identical PLUS specification or cost denominator."
+  },
+  "impact": {
+    "formula": "children × eligible nonoverlapping days × hours/day × fraction of activity truly additional and institutionally allowed",
+    "cases": [
+      {
+        "name": "óvatos",
+        "camp": [
+          20,
+          10,
+          1,
+          0.25
+        ],
+        "school": [
+          20,
+          10,
+          0.75,
+          0.25
+        ],
+        "camp_hours": 50,
+        "school_hours": 37.5,
+        "total_hours_per_year": 87.5,
+        "year1_huf_per_hour": 67886,
+        "five_year_huf_per_hour": 16571
+      },
+      {
+        "name": "alap",
+        "camp": [
+          20,
+          20,
+          1.5,
+          0.5
+        ],
+        "school": [
+          20,
+          30,
+          1,
+          0.5
+        ],
+        "camp_hours": 300,
+        "school_hours": 300,
+        "total_hours_per_year": 600,
+        "year1_huf_per_hour": 9900,
+        "five_year_huf_per_hour": 2417
+      },
+      {
+        "name": "kedvező",
+        "camp": [
+          20,
+          30,
+          1.5,
+          0.6
+        ],
+        "school": [
+          20,
+          40,
+          1,
+          0.6
+        ],
+        "camp_hours": 540,
+        "school_hours": 480,
+        "total_hours_per_year": 1020,
+        "year1_huf_per_hour": 5824,
+        "five_year_huf_per_hour": 1422
+      }
+    ],
+    "zero_incremental_use": "undefined cost per additional hour",
+    "excluded": "public access, medical outcomes, existing hours, avoided midday travel, adult hours; all school/camp scenarios are assumptions",
+    "capacity": "20 children + 2 adults planning hypothesis; approved layout and coverage determine capacity"
+  },
+  "water": {
+    "roof_horizontal_area_m2": 60,
+    "runoff_coefficient_assumed": 0.8,
+    "storage_liters": 1000,
+    "event_mm": [
+      {
+        "mm": 10,
+        "potential_l": 480,
+        "stored_if_empty_l": 480,
+        "overflow_if_empty_l": 0
+      },
+      {
+        "mm": 20,
+        "potential_l": 960,
+        "stored_if_empty_l": 960,
+        "overflow_if_empty_l": 0
+      },
+      {
+        "mm": 30,
+        "potential_l": 1440,
+        "stored_if_empty_l": 1000,
+        "overflow_if_empty_l": 440
+      }
+    ],
+    "limit": "not annual water savings; roof must actually be water-shedding; approved overflow; nonpotable, closed tank, child-inaccessible; no unapproved infiltration"
+  },
+  "scope_excluded": [
+    "new HVAC",
+    "major underground works",
+    "full yard rebuilding",
+    "additional public opening staff",
+    "new staff for existing school/camp hours; any additional staffing must be priced",
+    "unexpected site-specific requirements"
+  ],
+  "acceptance": "site residual need and signed operating plan > zero-capex or reuse comparator > scope-compatible quote > qualified safety/design review > paired measured outcome",
+  "sources": [
+    "rounds/R219-R221/HOUdVAR_CONCEPT_TOURNAMENT.md",
+    "rounds/R222/SCHOOLYARD_SITE_SCREEN.md",
+    "rounds/R223/GEOSPATIAL_SOLAR_OPTIMIZATION.md"
+  ]
+}
