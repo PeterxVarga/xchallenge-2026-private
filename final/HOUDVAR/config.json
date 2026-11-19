@@ -1,0 +1,264 @@
+{
+  "schema": 1,
+  "version": "R226-competition-lock-v1",
+  "status": "CONDITIONAL_DESIGN_REFERENCE_NOT_CONSTRUCTION_APPROVAL",
+  "public_title": "HŐUDVAR",
+  "reference_variant": "CORE+",
+  "deployment_policy": "Choose zero capex/reuse/optimized ordinary shade if equivalent. CORE+ as competition reference; premium build only if residual need, independently supported added services and quote justify it. Not proven economically superior.",
+  "pilot": {
+    "name": "Janikovszky Éva Általános Iskola",
+    "address": "Budapest X., Kápolna tér 4.",
+    "site_verified": false,
+    "children_hypothesis": 20,
+    "adult_hypothesis": 2,
+    "indoor_fallback_required": true,
+    "community_access_in_base": false
+  },
+  "geometry": {
+    "lat": 47.481733,
+    "lon": 19.139058,
+    "target": {
+      "w": 8,
+      "l": 5,
+      "area": 40,
+      "plane": "ground"
+    },
+    "roof": {
+      "width_m": 10,
+      "depth_m": 6,
+      "projection_m2": 60,
+      "ideal_horizontal_plane_height_m": 3,
+      "local_axis_rotation_ccw_from_east_deg": 0,
+      "center_offset_east_m": -0.5,
+      "center_offset_north_m": -1.7
+    },
+    "samples": 5256,
+    "period": "2027-06-21–2027-08-31 inclusive",
+    "time": "CEST (UTC+2), 10:00–16:00 inclusive each 5 min",
+    "centered": {
+      "min_m2": 17.162562071774257,
+      "mean_m2": 29.212241567518614
+    },
+    "prior_offset": {
+      "min_m2": 25.55063797429467,
+      "mean_m2": 36.708415543849156
+    },
+    "reference": {
+      "min_m2": 26.764883464407852,
+      "mean_m2": 36.76888572154755,
+      "worst": {
+        "day": 243,
+        "h": 10
+      },
+      "minimum_gain_pct": 55.9492303799191,
+      "mean_gain_pct": 25.86807361757286
+    },
+    "geometry_model": "solar_model.js",
+    "results": "solar_results.json",
+    "limitations": "ideal opaque horizontal rectangular roof, no obstacles, co-rotated roof and rectangular target; positive angle CCW from east toward north; x/y in rotated local axes. Not site survey, thermal model or continuous optimum.",
+    "alternatives": [
+      {
+        "w": 8,
+        "l": 6,
+        "H": 3,
+        "angle": 0,
+        "x": -0.5,
+        "y": -1.75,
+        "min": 21.764883464407852,
+        "mean": 32.70008236763501,
+        "worst": {
+          "day": 243,
+          "h": 10
+        }
+      },
+      {
+        "w": 10,
+        "l": 6,
+        "H": 3,
+        "angle": 0,
+        "x": -0.5,
+        "y": -1.75,
+        "min": 26.764883464407852,
+        "mean": 36.72489411377054,
+        "worst": {
+          "day": 243,
+          "h": 10
+        }
+      },
+      {
+        "w": 10,
+        "l": 8,
+        "H": 3,
+        "angle": 15,
+        "x": -1,
+        "y": -1.5,
+        "min": 27.588049664956912,
+        "mean": 37.11263073601846,
+        "worst": {
+          "day": 243,
+          "h": 10
+        }
+      },
+      {
+        "w": 12,
+        "l": 6,
+        "H": 3,
+        "angle": 0,
+        "x": -0.5,
+        "y": -1.75,
+        "min": 31.764883464407852,
+        "mean": 38.95975549575563,
+        "worst": {
+          "day": 243,
+          "h": 10
+        }
+      }
+    ]
+  },
+  "water": {
+    "optional_if_roof_drains": true,
+    "roof_projection_m2": 60,
+    "assumed_coefficient": 0.8,
+    "tank_l": 1000,
+    "example_mm": 20,
+    "potential_l": 960,
+    "not_annual_savings": true
+  },
+  "thermal_proxy": {
+    "assumed_shortwave_W_m2": 800,
+    "opaque_assumed_dark_reflectance": 0.25,
+    "opaque_assumed_light_reflectance": 0.65,
+    "dark_absorbed_W_m2": 600,
+    "light_absorbed_W_m2": 280,
+    "difference_roof_absorbed_W_m2": 320,
+    "difference_total_roof_absorbed_kW": 19.2,
+    "not_air_cooling_or_human_heat_flux": true
+  },
+  "budget": {
+    "currency": "HUF",
+    "basis": "gross constant 2026 HUF, unquoted planning allowances; 1.65M structure+roof optimization unverified; no HVAC or added staffing",
+    "rows": [
+      [
+        "survey_design_permissions",
+        300000
+      ],
+      [
+        "frame_foundation_allowance",
+        1050000
+      ],
+      [
+        "opaque_rain_shedding_roof_allowance",
+        600000
+      ],
+      [
+        "transport_assembly_handover",
+        350000
+      ],
+      [
+        "movable_furniture",
+        250000
+      ],
+      [
+        "access_minor_surfaces",
+        180000
+      ],
+      [
+        "closed_tank_gutter_filter_overflow",
+        180000
+      ],
+      [
+        "planting_tree_protection",
+        220000
+      ],
+      [
+        "measurement",
+        120000
+      ]
+    ],
+    "direct": 3250000,
+    "contingency": 0.2,
+    "capex": 3900000,
+    "annual": 160000,
+    "year4_repair_assumed": 250000,
+    "first": 4060000,
+    "five": 4950000,
+    "stress_first_year": [
+      3280000,
+      5230000
+    ],
+    "legacy_first_year": {
+      "reuse": 1135000,
+      "core": 2127000,
+      "plus": 5940000
+    },
+    "first_year_same_unit_cost_core_plus_vs_core_ratio": 1.9087917254348847,
+    "additional_hours_needed_if_core_600": 1145.275035260931,
+    "core_hours_max_if_core_plus_600": 314.3349753694581
+  },
+  "impact": {
+    "cases": [
+      {
+        "name": "cautious",
+        "camp": [
+          20,
+          10,
+          1,
+          0.25
+        ],
+        "school": [
+          20,
+          10,
+          0.75,
+          0.25
+        ],
+        "annual_additional_child_hours": 87.5,
+        "core_plus_first_huf_per_hour": 46400,
+        "core_plus_five_huf_per_hour": 11314.285714285714
+      },
+      {
+        "name": "base",
+        "camp": [
+          20,
+          20,
+          1.5,
+          0.5
+        ],
+        "school": [
+          20,
+          30,
+          1,
+          0.5
+        ],
+        "annual_additional_child_hours": 600,
+        "core_plus_first_huf_per_hour": 6766.666666666667,
+        "core_plus_five_huf_per_hour": 1650
+      },
+      {
+        "name": "favorable",
+        "camp": [
+          20,
+          30,
+          1.5,
+          0.6
+        ],
+        "school": [
+          20,
+          40,
+          1,
+          0.6
+        ],
+        "annual_additional_child_hours": 1020,
+        "core_plus_first_huf_per_hour": 3980.392156862745,
+        "core_plus_five_huf_per_hour": 970.5882352941177
+      }
+    ],
+    "zero_use": "undefined",
+    "denominator": "incremental child-hours vs best existing safe service, separate school and camp days; not avoided travel or health benefits"
+  },
+  "release": {
+    "canonical_for_competition_material": true,
+    "previous_different_project_lock_unchanged": true,
+    "not_validated_digital_twin": true,
+    "no_field_data": true
+  }
+}
