@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0",
-  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained.",
+  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained. R222 state-school desk site screen and counterevidence appended; not parcel-level GIS.",
   "families": [
     "ALL",
     "CAMP",
@@ -232,6 +232,11 @@
       "path": "rounds/R219-R221/HOUdVAR_CONCEPT_TOURNAMENT.md",
       "ref": "8897208f7e7e87460f7e033f3ba3419db2923b33",
       "blob": "f51855b28a8754faaeb1fb6d8ebb868827ca8abc"
+    },
+    "r222": {
+      "path": "rounds/R222/SCHOOLYARD_SITE_SCREEN.md",
+      "ref": "ad9d77b46e845b14dfc85c34d8358a1c6a12c2a3",
+      "blob": "38b88b2867d13ff90e1e54f73b22511033989e44"
     }
   },
   "findings": [
@@ -3584,6 +3589,106 @@
       "claim": "A már tervezett sátrak vagy HVAC elegendősége megállíthatja a beruházást; biztonságos beltéri alternatíva szükséges.",
       "limit": "Tényleges 2027 állapot és kapacitás nem ismert.",
       "decision": "Nincs duplikáció, nincs veszélyes gyermekteszt; validálni a kiindulási állapotot."
+    },
+    {
+      "id": "r222-janikovszky-asphalt",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r222",
+      "locator": "S4–S5",
+      "claim": "2024-es 6M Ft udvarfejlesztési támogatás teljes összege a sportpálya aszfaltozására ment; 2025 novemberi szakmai beszámoló.",
+      "limit": "Nem bizonyítja, hogy más forrásból nem létesült árnyékolás.",
+      "decision": "Friss pályát megőrizni; külön árnyékhiányt vizsgálni."
+    },
+    {
+      "id": "r222-camp-cross-school",
+      "family": "CAMP",
+      "kind": "FACT",
+      "source": "r222",
+      "locator": "S6 p10",
+      "claim": "1019 heti tábori regisztrációból 90 Janikovszky, 929 más iskola/vendég/egyéb (91,17%).",
+      "limit": "Ismétlődő heti bejegyzések, nem egyedi gyerekek és nem napi jelenlét.",
+      "decision": "Kerületi, nem kizárólag egyiskolás haszon."
+    },
+    {
+      "id": "r222-fekete-installed-shade",
+      "family": "SCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r222",
+      "locator": "S8",
+      "claim": "4 napvitorla telepítése elkészült; 6 179 185 Ft szerződés több udvari eszközzel együtt, 7M támogatás.",
+      "limit": "Nem csak vitorlák ára, nem teljes árnyéklefedettség.",
+      "decision": "Megvalósítási kontroll; duplikációt kerülni."
+    },
+    {
+      "id": "r222-szechenyi-shared-campus",
+      "family": "SCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r222",
+      "locator": "S2–S3",
+      "claim": "Komplex EGYMI óvodai tagozata 2026-ban a Széchenyi egyik szárnyába költözött; tágas iskolaudvar és felújított tornacsarnok.",
+      "limit": "Pontos udvarhasználat és hőhiány UNKNOWN.",
+      "decision": "Külön erős többcélú ellenjelölt."
+    },
+    {
+      "id": "r222-harmat-garden-drainage",
+      "family": "SCHOOL",
+      "kind": "LOCAL_PLAN",
+      "source": "r222",
+      "locator": "S2–S3; S10",
+      "claim": "Harmat: közösségi kert, játszótér, színpad, csarnok; 2026 szikkasztóépítés beázás miatt.",
+      "limit": "Árnyékhiány nem igazolt, vízügyi munka státusza ellenőrizendő.",
+      "decision": "Meglévő eszközök hasznosítása; hidrológiai duplikáció kerülése."
+    },
+    {
+      "id": "r222-szentlaszlo-hub",
+      "family": "SCHOOL",
+      "kind": "UNKNOWN",
+      "source": "r222",
+      "locator": "S3; S10",
+      "claim": "Szent László: több sportudvar, játékudvar, ebédlő, saját táborok; Kőrösi közelsége.",
+      "limit": "Teljes Tekergők befogadóképessége és hőségprobléma nem igazolt.",
+      "decision": "Teljes napi áthelyezés egységköltség-ellenjelölt."
+    },
+    {
+      "id": "r222-kada-drainage",
+      "family": "SCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r222",
+      "locator": "S9",
+      "claim": "Kada korábbi belvizes udvarának vízelvezetése 2023-ban megújult.",
+      "limit": "Nem bizonyítja a jelen állapotot.",
+      "decision": "Ne nevezzük változatlan problémának."
+    },
+    {
+      "id": "r222-site-coverage",
+      "family": "SCHOOL",
+      "kind": "FACT",
+      "source": "r222",
+      "locator": "S1–S13",
+      "claim": "13 tankerületi általános/gyógypedagógiai iskola és két gimnázium dokumentumalapú szűrése; további fenntartók előzetes leadjei.",
+      "limit": "Nincs minden telephelyre hiteles friss ortofotó, lehatárolás vagy hasonló hőmérés.",
+      "decision": "Nem teljes GIS-rangsor."
+    },
+    {
+      "id": "r222-site-decision",
+      "family": "SCHOOL",
+      "kind": "UNKNOWN",
+      "source": "r222",
+      "locator": "Decision",
+      "claim": "Janikovszky első; Széchenyi, Harmat, Szent László ellenjelölt; Fekete megvalósult referencia.",
+      "limit": "2027 alapállapot, m², tájolás, közmű, engedély és baseline hatás UNKNOWN.",
+      "decision": "Csak fennmaradó szükséglet esetén, meglévő sportpályán kívüli legkisebb elegendő pilot."
+    },
+    {
+      "id": "r222-footprint-revision",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r222",
+      "locator": "Decision",
+      "claim": "40–60m² nettó hasznos árnyék első teszthipotézis az előző 80–120m² helyett.",
+      "limit": "Nincs méretezett geometria vagy jóváhagyott férőhely; nem költségajánlat.",
+      "decision": "Azonos funkciójú meglévő, széttagolt árnyékolással összevetni."
     }
   ]
 }
