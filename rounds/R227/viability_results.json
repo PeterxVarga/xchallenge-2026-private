@@ -1,0 +1,327 @@
+{
+  "schema": 1,
+  "kind": "SYNTHETIC_SCENARIO_AND_MARKET_STRESS_NOT_FIELD_OR_QUOTE",
+  "water": {
+    "source": "https://www.met.hu/eghajlat/magyarorszag_eghajlata/varosok_jellemzoi/Budapest/index.php",
+    "normal_period": "1991–2020 Budapest Pestszentlőrinc",
+    "monthly": [
+      {
+        "month": "June",
+        "n": 30,
+        "mm": 66
+      },
+      {
+        "month": "July",
+        "n": 31,
+        "mm": 75
+      },
+      {
+        "month": "August",
+        "n": 31,
+        "mm": 61
+      }
+    ],
+    "annual_normal_mm": 586,
+    "potential_JJA_l": 9696,
+    "potential_annual_l": 28128,
+    "assumptions": "empty initial tank, daily rain once before demand, fixed daily demand even rain days, no extra losses beyond runoff factor, no actual daily weather or plant need measured, synthetic event patterns share identical monthly totals",
+    "results": [
+      {
+        "pattern": "daily_even",
+        "cap_l": 500,
+        "assumed_demand_l_per_day": 40,
+        "received_l": 9695.999999999982,
+        "used_l": 3680,
+        "overflow_l": 5555.999999999985,
+        "shortfall_l": 0,
+        "ending_l": 460,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "daily_even",
+        "cap_l": 500,
+        "assumed_demand_l_per_day": 80,
+        "received_l": 9695.999999999982,
+        "used_l": 7360,
+        "overflow_l": 1916.0000000000005,
+        "shortfall_l": 0,
+        "ending_l": 420,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "daily_even",
+        "cap_l": 1000,
+        "assumed_demand_l_per_day": 40,
+        "received_l": 9695.999999999982,
+        "used_l": 3680,
+        "overflow_l": 5055.999999999989,
+        "shortfall_l": 0,
+        "ending_l": 960,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "daily_even",
+        "cap_l": 1000,
+        "assumed_demand_l_per_day": 80,
+        "received_l": 9695.999999999982,
+        "used_l": 7360,
+        "overflow_l": 1415.9999999999989,
+        "shortfall_l": 0,
+        "ending_l": 920,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "daily_even",
+        "cap_l": 2000,
+        "assumed_demand_l_per_day": 40,
+        "received_l": 9695.999999999982,
+        "used_l": 3680,
+        "overflow_l": 4055.999999999997,
+        "shortfall_l": 0,
+        "ending_l": 1960,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "daily_even",
+        "cap_l": 2000,
+        "assumed_demand_l_per_day": 80,
+        "received_l": 9695.999999999982,
+        "used_l": 7360,
+        "overflow_l": 415.9999999999991,
+        "shortfall_l": 0,
+        "ending_l": 1920,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "four_events_each_month",
+        "cap_l": 500,
+        "assumed_demand_l_per_day": 40,
+        "received_l": 9696,
+        "used_l": 3680,
+        "overflow_l": 5916,
+        "shortfall_l": 0,
+        "ending_l": 100,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "four_events_each_month",
+        "cap_l": 500,
+        "assumed_demand_l_per_day": 80,
+        "received_l": 9696,
+        "used_l": 6000,
+        "overflow_l": 3696,
+        "shortfall_l": 1360,
+        "ending_l": 0,
+        "coverage_pct": 81.52173913043478
+      },
+      {
+        "pattern": "four_events_each_month",
+        "cap_l": 1000,
+        "assumed_demand_l_per_day": 40,
+        "received_l": 9696,
+        "used_l": 3680,
+        "overflow_l": 5416,
+        "shortfall_l": 0,
+        "ending_l": 600,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "four_events_each_month",
+        "cap_l": 1000,
+        "assumed_demand_l_per_day": 80,
+        "received_l": 9696,
+        "used_l": 7360,
+        "overflow_l": 2136,
+        "shortfall_l": 0,
+        "ending_l": 200,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "four_events_each_month",
+        "cap_l": 2000,
+        "assumed_demand_l_per_day": 40,
+        "received_l": 9696,
+        "used_l": 3680,
+        "overflow_l": 4416,
+        "shortfall_l": 0,
+        "ending_l": 1600,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "four_events_each_month",
+        "cap_l": 2000,
+        "assumed_demand_l_per_day": 80,
+        "received_l": 9696,
+        "used_l": 7360,
+        "overflow_l": 1136,
+        "shortfall_l": 0,
+        "ending_l": 1200,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "one_event_each_month",
+        "cap_l": 500,
+        "assumed_demand_l_per_day": 40,
+        "received_l": 9696,
+        "used_l": 1500,
+        "overflow_l": 8196,
+        "shortfall_l": 2180,
+        "ending_l": 0,
+        "coverage_pct": 40.76086956521739
+      },
+      {
+        "pattern": "one_event_each_month",
+        "cap_l": 500,
+        "assumed_demand_l_per_day": 80,
+        "received_l": 9696,
+        "used_l": 1500,
+        "overflow_l": 8196,
+        "shortfall_l": 5860,
+        "ending_l": 0,
+        "coverage_pct": 20.380434782608695
+      },
+      {
+        "pattern": "one_event_each_month",
+        "cap_l": 1000,
+        "assumed_demand_l_per_day": 40,
+        "received_l": 9696,
+        "used_l": 3000,
+        "overflow_l": 6696,
+        "shortfall_l": 680,
+        "ending_l": 0,
+        "coverage_pct": 81.52173913043478
+      },
+      {
+        "pattern": "one_event_each_month",
+        "cap_l": 1000,
+        "assumed_demand_l_per_day": 80,
+        "received_l": 9696,
+        "used_l": 3000,
+        "overflow_l": 6696,
+        "shortfall_l": 4360,
+        "ending_l": 0,
+        "coverage_pct": 40.76086956521739
+      },
+      {
+        "pattern": "one_event_each_month",
+        "cap_l": 2000,
+        "assumed_demand_l_per_day": 40,
+        "received_l": 9696,
+        "used_l": 3680,
+        "overflow_l": 5256,
+        "shortfall_l": 0,
+        "ending_l": 760,
+        "coverage_pct": 100
+      },
+      {
+        "pattern": "one_event_each_month",
+        "cap_l": 2000,
+        "assumed_demand_l_per_day": 80,
+        "received_l": 9696,
+        "used_l": 6000,
+        "overflow_l": 3696,
+        "shortfall_l": 1360,
+        "ending_l": 0,
+        "coverage_pct": 81.52173913043478
+      }
+    ]
+  },
+  "budget": {
+    "benchmark": {
+      "source": "https://mete.hu/kocsibeallo-epites-arak/",
+      "type": "consumer carport contractor published gross indicative rates materials, work and point foundations, different scope; linear extrapolation is stress test only",
+      "steel_per_m2": [
+        88000,
+        96000
+      ],
+      "wood_per_m2": [
+        66000,
+        72000
+      ],
+      "roof_m2": 60,
+      "original_frame_roof_transport_huf": 2000000,
+      "original_other_direct_huf": 1250000,
+      "contingency": 0.2,
+      "annual": 160000
+    },
+    "modes": [
+      {
+        "material": "steel",
+        "installed_analog_huf": [
+          5280000,
+          5760000
+        ],
+        "full_first_year_stress_huf": [
+          7996000,
+          8572000
+        ]
+      },
+      {
+        "material": "wood",
+        "installed_analog_huf": [
+          3960000,
+          4320000
+        ],
+        "full_first_year_stress_huf": [
+          6412000,
+          6844000
+        ]
+      }
+    ],
+    "ratios": [
+      {
+        "material": "steel",
+        "vsCore": [
+          3.759285378467325,
+          4.030089327691584
+        ],
+        "vsReference": [
+          1.9694581280788177,
+          2.111330049261084
+        ]
+      },
+      {
+        "material": "wood",
+        "vsCore": [
+          3.0145745181006114,
+          3.2176774800188057
+        ],
+        "vsReference": [
+          1.5793103448275863,
+          1.6857142857142857
+        ]
+      }
+    ],
+    "original_first_year_huf": 4060000,
+    "baseCore": 2127000,
+    "main_limit": "analog equipment not school pavilion quote; no direct conversion to procurement; original 4.06M target allowance remains unverified and aggressive"
+  },
+  "camp2025": {
+    "weekly_registrations": [
+      111,
+      126,
+      122,
+      138,
+      139,
+      134,
+      127,
+      82
+    ],
+    "host_school_registrations": [
+      9,
+      9,
+      14,
+      15,
+      18,
+      13,
+      13,
+      9
+    ],
+    "total": 979,
+    "others": 879,
+    "other_share_pct": 89.78549540347294,
+    "distinct_children_reported": 287,
+    "daily_average_reported": 119,
+    "limit": "weekly repeats, not unique participants; other includes other schools and category Egyéb"
+  }
+}
