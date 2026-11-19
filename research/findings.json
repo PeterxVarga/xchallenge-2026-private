@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0",
-  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained. R222 state-school desk site screen and counterevidence appended; not parcel-level GIS. R223 archival site constraints and synthetic solar geometry; no current GIS reconstruction. R224 competition master, cost/use/water models, corrective OASIS source and acceptance gates; earlier conflicting 240+ claim superseded by r224-oasis-source-correction. R226 pinned HŐUDVAR competition lock; full-season discrete geometry replaces prior R223 pitch reference; CORE+ conditional cost and investment falsification.",
+  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained. R222 state-school desk site screen and counterevidence appended; not parcel-level GIS. R223 archival site constraints and synthetic solar geometry; no current GIS reconstruction. R224 competition master, cost/use/water models, corrective OASIS source and acceptance gates; earlier conflicting 240+ claim superseded by r224-oasis-source-correction. R226 pinned HŐUDVAR competition lock; full-season discrete geometry replaces prior R223 pitch reference; CORE+ conditional cost and investment falsification. R227 final robustness audit and mandatory pricing/usage caveats; R226 geometric reference unchanged.",
   "families": [
     "ALL",
     "CAMP",
@@ -252,6 +252,11 @@
       "path": "final/HOUDVAR/FINAL_CONCEPT_LOCK.md",
       "ref": "a92bd0e7a9ee063f60debc9ac39ff26ff9bf80ea",
       "blob": "1f22008cd181db64f5a3a70b018d590e6f376d68"
+    },
+    "r227": {
+      "path": "final/HOUDVAR/R227_FINAL_AUDIT.md",
+      "ref": "08a9caeb2cd204993380d7d53e0e5863c80b99a8",
+      "blob": "8712a1c9c1009e1b5fff640cb049c88bc9f3bc7c"
     }
   },
   "findings": [
@@ -3954,6 +3959,86 @@
       "claim": "HŐUDVAR CORE+ conditional competition reference saved as final/HOUDVAR lock + JSON + reproducible solar script/results. QR/design stay separate; previous Délben lock unchanged.",
       "limit": "Not construction approval, site or physical service validation.",
       "decision": "Use pinned reference for presentation and Explorer."
+    },
+    {
+      "id": "r227-drainage-primary",
+      "family": "SCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r227",
+      "locator": "§1",
+      "claim": "2025 Kőrösi report p23–24 visually verified: 287 distinct participants; 119 reported daily average; 979 weekly registrations, 879 other institution or other category; persistent canal-water flow across yard after rain, staffing difficulties, planned 10 portable umbrellas.",
+      "limit": "Historical, not current drainage condition, contaminant status, unique other children, or approved staffing.",
+      "decision": "Prioritize drain and 2027 asset inventory; no unapproved overflow/infiltration."
+    },
+    {
+      "id": "r227-common-fixed-shade",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r227",
+      "locator": "§2",
+      "claim": "R226 ground sample minimum 26.76 reproduced; all 5256 sample shadow intersection 12.22 m², centered 8.71; 11–15 narrower interval 26.75 vs17.71; 9–17 common 0.",
+      "limit": "Synthetic ideal geometry, not safe midday operating time or capacity.",
+      "decision": "Movable seating and time/plane-specific measured layout; never claim 40 m² fixed shade."
+    },
+    {
+      "id": "r227-plane-slope-robustness",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r227",
+      "locator": "§2",
+      "claim": "Across z=0,0.8,1.2,1.6 planes and 5256 samples common footprint 11.09m²; centered 1.6m plane min32.36 vs31.26 offset; N-S ±3/5° slope min25.82–26.96; discrete ±.25m offsets worst24.48.",
+      "limit": "No physical person model, site, permissible construction tolerances or slope design.",
+      "decision": "Ground optimization not universally optimal; field geometry and safe service gate."
+    },
+    {
+      "id": "r227-equal-area-challenger",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r227",
+      "locator": "§3",
+      "claim": "34221 additional candidates; 11×5.45 min29.01/mean36.92, 12×5 min29.46/mean36.25, 13×4.615 min30.27/mean35.34 at 60m² H3.",
+      "limit": "Same projection not equal material/price; axis-aligned discrete range; narrower depth.",
+      "decision": "Keep 10×6 demo for cross-lane stability; 11–12m options in matched offers."
+    },
+    {
+      "id": "r227-textile-upstream",
+      "family": "SCHOOL",
+      "kind": "UPSTREAM",
+      "source": "r227",
+      "locator": "§4",
+      "claim": "Jin et al. 2026 field comparison fabric and PV shading, radiation reduction dominates air temperature; textile had more favorable radiant metrics; extreme heat risk remained.",
+      "limit": "Not rigid pavilion vs textile direct comparison, different climate.",
+      "decision": "Test standard textile ahead of more expensive permanent roof; no guaranteed local °C."
+    },
+    {
+      "id": "r227-market-stress",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r227",
+      "locator": "§5",
+      "claim": "METE gross residential analog 88–96k HUF/m² steel, 66–72k wood, point foundations included; replace original 2M structural group with 60m² analog: full first-year stress 7.996–8.572M steel /6.412–6.844M wood.",
+      "limit": "Not scope-compatible offer; extrapolation stress not forecast, original 4.06M unverified stretch target.",
+      "decision": "CORE/reuse first pilot; permanent pavilion only matched offers/additional value."
+    },
+    {
+      "id": "r227-water-timing",
+      "family": "WATER",
+      "kind": "MODEL",
+      "source": "r227",
+      "locator": "§6",
+      "claim": "HungaroMet 1991–2020 Pestszentlőrinc JJA 202mm, theoretical 9696L; 1m³ tank synthetic 80L/day 7360L evenly or 4 events/month vs3000L monthly concentration, equal monthly totals.",
+      "limit": "Norm not daily series, demand assumed, zero starting stock, capture assumptions, no future guaranteed yield or savings.",
+      "decision": "Water separate go/no-go; drainage and daily balance."
+    },
+    {
+      "id": "r227-final-release",
+      "family": "ALL",
+      "kind": "FACT",
+      "source": "r227",
+      "locator": "§7–8",
+      "claim": "R227 mandatory release caveats saved beside unchanged R226 config and demo geometry; phased implementation reuse/CORE first; CORE+ conditional with aggressive target.",
+      "limit": "No construction, quote, QR deployment or owner approvals; physical readiness unknown.",
+      "decision": "Use audit alongside R226 lock; no further desk ideation before competition."
     }
   ]
 }
