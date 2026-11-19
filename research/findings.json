@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0",
-  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained. R222 state-school desk site screen and counterevidence appended; not parcel-level GIS. R223 archival site constraints and synthetic solar geometry; no current GIS reconstruction.",
+  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained. R222 state-school desk site screen and counterevidence appended; not parcel-level GIS. R223 archival site constraints and synthetic solar geometry; no current GIS reconstruction. R224 competition master, cost/use/water models, corrective OASIS source and acceptance gates; earlier conflicting 240+ claim superseded by r224-oasis-source-correction.",
   "families": [
     "ALL",
     "CAMP",
@@ -242,6 +242,11 @@
       "path": "rounds/R223/GEOSPATIAL_SOLAR_OPTIMIZATION.md",
       "ref": "1dd11fec3141257d07c616e4f5e5ec4b2d775174",
       "blob": "c92155726e478b33b2c2052b26d29a308a1154a8"
+    },
+    "r224": {
+      "path": "rounds/R224/HOUDVAR_COMPETITION_MASTER.md",
+      "ref": "a7a2c08cf52f119431135a4921e86ee5b9525fac",
+      "blob": "52d274757a56b08ae99707a77e2dcbd949f10fd8"
     }
   },
   "findings": [
@@ -3794,6 +3799,86 @@
       "claim": "Janikovszky első dokumentált szükséglet alapján; Széchenyi, Harmat, Szent László sorrend; reuse-first, 10×6m jelölt.",
       "limit": "Nincs valós GIS rangsor; 2027 stock, engedély, baseline UNKNOWN.",
       "decision": "Pontos hely és fizikai konstrukció nem rögzíthető még."
+    },
+    {
+      "id": "r224-oasis-source-correction",
+      "family": "SCHOOL",
+      "kind": "FACT",
+      "source": "r224",
+      "locator": "§10",
+      "claim": "Párizs 2026-11-02 hivatalos adata 203 iskolaudvar + 5 bölcsődei udvar, 360 iskolaudvar 2030 cél; felülírja a r220-paris-oasis 240+ állítását.",
+      "limit": "Nem kőbányai teljesítmény; a régi finding történeti állapotként marad.",
+      "decision": "Pitchben 203+5."
+    },
+    {
+      "id": "r224-plus-spec",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r224",
+      "locator": "§3–4",
+      "claim": "PLUS tervezési jelölt: 60m² vetületű egyrétegű, vízzáró nyitott HŐTÉR, 40m² célzóna; meglévő fa, zárt 1m³ tároló, gondozott növényágy, iskolai és tábori működés.",
+      "limit": "Nem helyszínrajz/kiviteli terv, nincs igazolt telepítési pont vagy férőhely.",
+      "decision": "CORE/reuse első ellenjelölt; PLUS csak külön indokolt többlettel."
+    },
+    {
+      "id": "r224-plus-budget",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r224",
+      "locator": "§5",
+      "claim": "PLUS bruttó modell: 4,75M direkt + 0,95M tartalék + 0,24M első éves fenntartás = 5,94M; öt év 7,25M Ft.",
+      "limit": "Tételes saját allowances, nem árajánlat, konstans árszint, nincs új HVAC, új személyzet vagy nagy közmű.",
+      "decision": "Azonos szolgáltatásra ajánlat és baseline szükséges."
+    },
+    {
+      "id": "r224-water-balance",
+      "family": "WATER",
+      "kind": "MODEL",
+      "source": "r224",
+      "locator": "§4",
+      "claim": "60m² vízgyűjtő × 20mm × feltételezett 0,8 lefolyás = 960L; 30mm esetén üres 1m³ tartályból 440L túlfolyás.",
+      "limit": "Nem éves megtakarítás; vízzáró tető, üres tartály és jóváhagyott elvezetés szükséges.",
+      "decision": "Külön mért nem ivóvizes vízhaszon; nincs párásítás."
+    },
+    {
+      "id": "r224-use-model",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r224",
+      "locator": "§5",
+      "claim": "Éves alap: 300 nyári +300 tanévi feltételezett nettó többlet gyermekóra, összesen 600; 9900 Ft/óra első év, 2417 Ft/óra öt egyforma szezonra.",
+      "limit": "Óvatos 87,5, kedvező 1020; nincs mért kapacitás, közösségi használat vagy egészségnyereség.",
+      "decision": "Csak biztonságos, valóban addicionális, elkülönített programórákat összegezni."
+    },
+    {
+      "id": "r224-local-procurement-reference",
+      "family": "SCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r224",
+      "locator": "§5; §10",
+      "claim": "Fekete 6 179 185 Ft szerződés négy vitorlát és további sport/játékeszközöket; Kékvirág 697 555 Ft bruttó előzetes vitorla+telepítés.",
+      "limit": "Friss forrásellenőrzés; nem azonos scope és nem HŐUDVAR ajánlat.",
+      "decision": "Műszaki megvalósíthatósági referencia, nem árazási egységár."
+    },
+    {
+      "id": "r224-acceptance-gate",
+      "family": "SCHOOL",
+      "kind": "UNKNOWN",
+      "source": "r224",
+      "locator": "§6–7",
+      "claim": "2027 leltár és fennmaradó hiány, nulla-CAPEX/reuse, azonos szolgáltatású költségváltozat, szakági biztonság, mérés és működtetői elfogadás a pilot feltétele.",
+      "limit": "Minden éles helyszíni kapu UNKNOWN; 2026 PDF újraellenőrzés blokkolt, korábbi vizuális adatok.",
+      "decision": "Ne duplikáljunk; kültér nem beltéri menedék helyettesítője."
+    },
+    {
+      "id": "r224-competition-handoff",
+      "family": "ALL",
+      "kind": "FACT",
+      "source": "r224",
+      "locator": "§8–9",
+      "claim": "10 perces pitch tartalom és zsűri Q&A, szerkeszthető elvi rendszerábra és JSON modell mentve, kilépési feltételekkel.",
+      "limit": "Nem elkészült PPT, nem kiviteli terv, nem tulajdonosi koncepciólock felülírás.",
+      "decision": "Vizuális lane közös forrása a HŐUDVAR R224 master."
     }
   ]
 }
