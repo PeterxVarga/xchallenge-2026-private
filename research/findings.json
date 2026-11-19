@@ -222,6 +222,11 @@
       "path": "rounds/R217/HOTER_CLIMATE_DRIVEN_COOLING.md",
       "ref": "a122a85f7f23ceacf38e8570149b3fe9f53d6b59",
       "blob": "8034db2fea203a6cf453df5adf30ec68cf9779f2"
+    },
+    "r218": {
+      "path": "rounds/R218/HOTER_HUMAN_COMFORT_SOCIAL_IMPACT.md",
+      "ref": "88b2624cc4617b25cb431941aefd7499ed101979",
+      "blob": "d7a35c258b819711c890f4a64bf70784de0a5072"
     }
   },
   "findings": [
@@ -3294,6 +3299,86 @@
       "claim": "CORE-SEAT egyszerű direkt aktív ellenjelölt, BANK-FLEX opcionális autonóm modul, PRISM feltételes. PURE-OPT és beltéri szolgáltatás összevetése kötelező.",
       "limit": "Fizikai hőkomfort, tényleges igény, ajánlat, elfogadás és teljes E2E UNKNOWN.",
       "decision": "Azonos szolgáltatás mellett igazolt komforttöbblet/költség vizsgálata; téma OPEN."
+    },
+    {
+      "id": "r218-shade-hungary",
+      "family": "CAMP",
+      "kind": "FACT",
+      "source": "r218",
+      "locator": "## 2. Human evidence ledger (not a meta-analysis)",
+      "claim": "Pécsi nyári vizsgálat indexelt absztraktja 9,0°C faárnyék és 5,8°C alacsony napvitorla átlagos PET-csökkenést közöl 9–16h között.",
+      "limit": "Nem levegőhőmérséklet, teljes szöveg 403, nem optimalizált helyi pavilon.",
+      "decision": "Árnyéklefedettség és meglévő árnyék erős alap."
+    },
+    {
+      "id": "r218-child-activity",
+      "family": "CAMP",
+      "kind": "FACT",
+      "source": "r218",
+      "locator": "## 2. Human evidence ledger (not a meta-analysis)",
+      "claim": "213 texasi 8–10 éves gyermek megfigyelésében a meleghez kevesebb intenzív aktivitás társult; 33°C felett gyengült az árnyék kapcsolata az aktivitással.",
+      "limit": "Megfigyelés, nem okság, nem biztonsági határ vagy magyar nyári adat.",
+      "decision": "Külön játszótér/ülőpihenő szolgáltatás, beltéri alternatíva."
+    },
+    {
+      "id": "r218-seat-duration",
+      "family": "CAMP",
+      "kind": "FACT",
+      "source": "r218",
+      "locator": "## 2. Human evidence ledger (not a meta-analysis)",
+      "claim": "Japán kültéri konferenciakísérletben hűtött ülés javította a hőérzetet egyes résztvevőknél, a hőkomfort felállás után az alaphoz tért.",
+      "limit": "Absztrakt, nem igazolt általános hatás vagy tartós testhűtés.",
+      "decision": "CORE nem helyettesíti a teljes hővédelmet."
+    },
+    {
+      "id": "r218-dry-air-precedent",
+      "family": "CAMP",
+      "kind": "FACT",
+      "source": "r218",
+      "locator": "## 2. Human evidence ledger (not a meta-analysis)",
+      "claim": "Berkeley PCS ventilátoros szék beltéri 29°C-os kísérletben, névleges max3,6W hűtési villamos felvétel; más laborban ülés/háttámla ventilátor 30°C-on komfortot javíthatott.",
+      "limit": "Indexelt absztrakt, kültéri fogyasztás/hatás/kvalifikáció UNKNOWN.",
+      "decision": "BREEZE légáteresztő ülés + célzott szellőzés új ellenjelölt."
+    },
+    {
+      "id": "r218-matched-baseline",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r218",
+      "locator": "## 2. Human evidence ledger (not a meta-analysis)",
+      "claim": "Tenopy 20 fős survey, 80/90% semleges vagy hűvösebb érzet; 35–45% ITS csökkenés árnyékolatlan referenciához; 2026 árnyék+fan vizsgálat PET58→37,8 napsütéshez képest.",
+      "limit": "Nem egyenértékű jó árnyékhoz mért többlet, eltérő MRT/PET/ITS/TSV nem összeadható.",
+      "decision": "Nincs igazolt CORE-vs-AIR helyi matched benefit."
+    },
+    {
+      "id": "r218-climate-strata",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r218",
+      "locator": "## 3. Actual data reuse and heat-band stress screen",
+      "claim": "15/15 újraletöltött ERA5 órás hash egyezik; 2026 összesített forró óra közül 357≥35°C, 2026 nyarán 142/474. 1999/2026 rövidhullám≥500W/m².",
+      "limit": "Reanalízis és analitikus szelekció, nem biztonság vagy igény, lokális szél nem mért.",
+      "decision": "Árnyék univerzális alap, ventilátor nem minden körülményre."
+    },
+    {
+      "id": "r218-service-economics",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r218",
+      "locator": "## 5. Explicit hypothetical matched-service cost boundary",
+      "claim": "Szemléltető öt szezon incremental AIR8 203104Ft, CORE4 673372Ft, hibrid4 1064167Ft; 50% hasznos többletóránál 75/499/788Ft/óra.",
+      "limit": "CAPEX, létszám, szolgáltatási arány hipotetikus; csak azonos releváns szolgáltatás, nem valódi hatás vagy ajánlat.",
+      "decision": "Az egyszerűbb retrofit erős gazdasági ellenjelölt."
+    },
+    {
+      "id": "r218-portfolio-decision",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r218",
+      "locator": "## 6. Acceptance and next decision",
+      "claim": "BREEZE retrofit + meglévő árnyék és beltéri hozzáférés első vizsgálandó, CORE-SEAT+air és PRISM feltételes, BANK csak igazolt off-grid/reziliencia értékkel.",
+      "limit": "Valós helyszíni igény, elfogadás, teljesítmény, költség és E2E UNKNOWN.",
+      "decision": "Következő: use-case és lokalizált tényleges szükséglet, telepítési alternatívák; téma OPEN."
     }
   ]
 }
