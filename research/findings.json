@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0",
-  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained. R222 state-school desk site screen and counterevidence appended; not parcel-level GIS.",
+  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained. R222 state-school desk site screen and counterevidence appended; not parcel-level GIS. R223 archival site constraints and synthetic solar geometry; no current GIS reconstruction.",
   "families": [
     "ALL",
     "CAMP",
@@ -237,6 +237,11 @@
       "path": "rounds/R222/SCHOOLYARD_SITE_SCREEN.md",
       "ref": "ad9d77b46e845b14dfc85c34d8358a1c6a12c2a3",
       "blob": "38b88b2867d13ff90e1e54f73b22511033989e44"
+    },
+    "r223": {
+      "path": "rounds/R223/GEOSPATIAL_SOLAR_OPTIMIZATION.md",
+      "ref": "1dd11fec3141257d07c616e4f5e5ec4b2d775174",
+      "blob": "c92155726e478b33b2c2052b26d29a308a1154a8"
     }
   },
   "findings": [
@@ -3689,6 +3694,106 @@
       "claim": "40–60m² nettó hasznos árnyék első teszthipotézis az előző 80–120m² helyett.",
       "limit": "Nincs méretezett geometria vagy jóváhagyott férőhely; nem költségajánlat.",
       "decision": "Azonos funkciójú meglévő, széttagolt árnyékolással összevetni."
+    },
+    {
+      "id": "r223-janikovszky-cadastral",
+      "family": "SCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r223",
+      "locator": "S1",
+      "claim": "2013 kataszteri helyszínrajz: 41454, iskola és 12×24 m tervezett műfüves pálya.",
+      "limit": "Vizuálisan ellenőrzött régi terv, nem jelenlegi szabad terület.",
+      "decision": "Ne helyezzünk modult sportpályára."
+    },
+    {
+      "id": "r223-existing-pavilion",
+      "family": "CAMP",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r223",
+      "locator": "S2",
+      "claim": "2026/27 tájékoztató udvarfotóján meglévő cserepes fedett pihenő/fapavilon látható.",
+      "limit": "Fotó készítési ideje, mai kapacitás és állapot UNKNOWN.",
+      "decision": "Reuse/extension erős ellenjelölt új pavilonnal szemben."
+    },
+    {
+      "id": "r223-heritage",
+      "family": "SCHOOL",
+      "kind": "FACT",
+      "source": "r223",
+      "locator": "S3",
+      "claim": "Kápolna tér 4., 41454, 1887-es iskola védett egyedi értékként szerepel a 2025-ös mellékletben.",
+      "limit": "Hatályos részletes követelmény és engedély nem ellenőrzött; PDF screenshot hibás.",
+      "decision": "Önálló, jóváhagyott, visszafordítható szerkezetet vizsgálni."
+    },
+    {
+      "id": "r223-harmat-utility",
+      "family": "SCHOOL",
+      "kind": "LOCAL_HISTORICAL",
+      "source": "r223",
+      "locator": "S4",
+      "claim": "2011 tanulmány 11190 m² telket és jelentős telken belüli közműhálózatot ír le.",
+      "limit": "Régi állapot, nem jelenlegi építhető m².",
+      "decision": "Közművizsgálat kötelező kapu."
+    },
+    {
+      "id": "r223-szentlaszlo-overlap",
+      "family": "SCHOOL",
+      "kind": "LOCAL_PLAN",
+      "source": "r223",
+      "locator": "S6",
+      "claim": "39049/1 fejlesztési ingatlanon 2017-ben iskola által is használt 1452 m² szerepelt; 2026 októberben versenyeztetett értékesítés javasolt, korábbi csere elutasítva.",
+      "limit": "Nem az iskola saját telke vagy jóváhagyott 252 lakásos megvalósítás; aktuális végső státusz nem igazolt.",
+      "decision": "Tartós beruházás feltétele az igazolt területhasználat."
+    },
+    {
+      "id": "r223-ortho-coverage",
+      "family": "SCHOOL",
+      "kind": "UNKNOWN",
+      "source": "r223",
+      "locator": "S7",
+      "claim": "2025 közép-magyarországi ortofotó és felszínmodell létezik, előfizetéses WMS/WMTS; aktuális teljes rekonstrukció 0/4.",
+      "limit": "Sandbox DNS és több PDF screenshot hibája; nem mezőmérés.",
+      "decision": "Dátumozott ortofotó, DSM/telek és felmérés szükséges."
+    },
+    {
+      "id": "r223-sun-shift",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r223",
+      "locator": "S8",
+      "claim": "Júl15 10/12/14/16 CEST modellmagasságok 47.45/62.34/60.50/44.00°; 3m tetőárnyék eltolás 2.75/1.57/1.70/3.11m.",
+      "limit": "NOAA közelítés, sík talaj, ideális átlátszatlan vízszintes tető, nem személykomfort.",
+      "decision": "Mért használati zóna alapján árnyékot tervezni."
+    },
+    {
+      "id": "r223-orientation-counterexample",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r223",
+      "locator": "Geometry",
+      "claim": "40m² célzóna, 39 minta; 10×6 H3 opció középen 22.02 min/29.90 átlag m², optimalizálva 28.93/36.67; 6×10 opt18.93/26.74.",
+      "limit": "Geometriai hipotézis, nincs helyszíni szabad terület vagy tetőengedély.",
+      "decision": "Kelet-nyugat hossztengely és déli eltolás erős első comparator."
+    },
+    {
+      "id": "r223-area-counterexample",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r223",
+      "locator": "Geometry",
+      "claim": "10×8 H3 opt28.93/36.74 vs 10×6 opt28.93/36.67; 12×6 opt33.93/39.03.",
+      "limit": "Csak választott minták és céltéglalap; nem általános optimum; nem árajánlat.",
+      "decision": "Nagyobb tetőfelület önmagában nem jobb, azonos funkciót összevetni."
+    },
+    {
+      "id": "r223-site-rank",
+      "family": "SCHOOL",
+      "kind": "UNKNOWN",
+      "source": "r223",
+      "locator": "Decision",
+      "claim": "Janikovszky első dokumentált szükséglet alapján; Széchenyi, Harmat, Szent László sorrend; reuse-first, 10×6m jelölt.",
+      "limit": "Nincs valós GIS rangsor; 2027 stock, engedély, baseline UNKNOWN.",
+      "decision": "Pontos hely és fizikai konstrukció nem rögzíthető még."
     }
   ]
 }
