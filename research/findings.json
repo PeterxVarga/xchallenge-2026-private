@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0",
-  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification.",
+  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained.",
   "families": [
     "ALL",
     "CAMP",
@@ -227,6 +227,11 @@
       "path": "rounds/R218/HOTER_HUMAN_COMFORT_SOCIAL_IMPACT.md",
       "ref": "88b2624cc4617b25cb431941aefd7499ed101979",
       "blob": "d7a35c258b819711c890f4a64bf70784de0a5072"
+    },
+    "r219-r221": {
+      "path": "rounds/R219-R221/HOUdVAR_CONCEPT_TOURNAMENT.md",
+      "ref": "8897208f7e7e87460f7e033f3ba3419db2923b33",
+      "blob": "f51855b28a8754faaeb1fb6d8ebb868827ca8abc"
     }
   },
   "findings": [
@@ -3379,6 +3384,206 @@
       "claim": "BREEZE retrofit + meglévő árnyék és beltéri hozzáférés első vizsgálandó, CORE-SEAT+air és PRISM feltételes, BANK csak igazolt off-grid/reziliencia értékkel.",
       "limit": "Valós helyszíni igény, elfogadás, teljesítmény, költség és E2E UNKNOWN.",
       "decision": "Következő: use-case és lokalizált tényleges szükséglet, telepítési alternatívák; téma OPEN."
+    },
+    {
+      "id": "r219-brief-correction",
+      "family": "ALL",
+      "kind": "RULE",
+      "source": "r219-r221",
+      "locator": "R219",
+      "claim": "Öt azonos súlyú kritérium; ismert technológia helyi alkalmazása, konkrét pilot és indokolt becslés elfogadható; nincs hivatalos 3M Ft plafon.",
+      "limit": "Felhasználói kiírás és korábbi R11/lock alapján; nem új kiírás.",
+      "decision": "Ne kezeljük kötelezőnek a városi léptéket vagy a 3M belső célt."
+    },
+    {
+      "id": "r219-deepseek-independent",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r219-r221",
+      "locator": "R219",
+      "claim": "Külső modell a közterületi hűtőállomást a tábor elé rangsorolta.",
+      "limit": "Vélemény, nem helyszíni adat; régebbi repóállapot, téves merev cap.",
+      "decision": "Ellenjelöltként használható, nem bizonyítékként."
+    },
+    {
+      "id": "r219-delben-unit-cost",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r219-r221",
+      "locator": "R219",
+      "claim": "Délben helyben: 1 064 392 Ft többlet / 64 modellezett gyermekóra = 16 631 Ft/óra; 320 alkalom.",
+      "limit": "Nem mért kitettség, nem egészségnyereség; 5–20 nettó perc érzékenység.",
+      "decision": "Vizsgálni az olcsóbb azonos szolgáltatást; meglévő lock változatlan."
+    },
+    {
+      "id": "r219-transport-overlap",
+      "family": "TRANSIT",
+      "kind": "LOCAL_PLAN",
+      "source": "r219-r221",
+      "locator": "R219; P1",
+      "claim": "Kőbánya-Kispest és Örs vezér tere a 14 kiemelt árnyékolási felmérési helyszín között előzetes fővárosi anyagban.",
+      "limit": "Előzetes munkaanyag; elfogadás és kivitelezés nincs újraigazolva.",
+      "decision": "Duplikációs kockázat ellenőrzése."
+    },
+    {
+      "id": "r219-flex-minimal",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r219-r221",
+      "locator": "R219",
+      "claim": "HŐTÉR FLEX: passzív árnyék, opcionális célzott légáramlás és külön indokolt szolgáltatási modul.",
+      "limit": "Nem igazolt integrált haszon; vízhigiénia és működési függőség.",
+      "decision": "Csak önállóan igazolt értékű modul; párásítás nem core."
+    },
+    {
+      "id": "r220-arithmetic-correction",
+      "family": "ALL",
+      "kind": "FACT",
+      "source": "r219-r221",
+      "locator": "R220",
+      "claim": "Árnyéklugas hat tervezési tétele 6,5M Ft, nem 5,5M (+1M, +18,18%).",
+      "limit": "Forrás a megadott mesterterv; nem ajánlat.",
+      "decision": "Költségmodell korrigálandó."
+    },
+    {
+      "id": "r220-masterplan-falsification",
+      "family": "ALL",
+      "kind": "UNKNOWN",
+      "source": "r219-r221",
+      "locator": "R220",
+      "claim": "Forgalom, 55–58°C helyi burkolat, rögzítési pontok, engedély, garantált hűtés és Legionella kizárása nincs igazolva.",
+      "limit": "Helyszíni és szakértői mérés hiányzik.",
+      "decision": "Nem használható bizonyított állításként."
+    },
+    {
+      "id": "r220-mist-renewal",
+      "family": "WATER",
+      "kind": "LOCAL_PLAN",
+      "source": "r219-r221",
+      "locator": "R220; P2",
+      "claim": "2026 áprilisi önkormányzati hír a Kőrösi sétány meglévő párásításának megújítását jelzi.",
+      "limit": "Terv nem igazolt telepítés; P2 nyilvános kivonat.",
+      "decision": "Meglévő funkció ellenőrzése."
+    },
+    {
+      "id": "r220-cedrus-geography",
+      "family": "ALL",
+      "kind": "FACT",
+      "source": "r219-r221",
+      "locator": "R220; P3",
+      "claim": "Cédrus Piac címe Fehér út 3, Örs vezér tér mellett.",
+      "limit": "A belvárosi Kőrösi sétánnyal közös használati útvonal nem igazolt.",
+      "decision": "Helyszín és forgalom újraazonosítása."
+    },
+    {
+      "id": "r220-paris-oasis",
+      "family": "SCHOOL",
+      "kind": "UPSTREAM",
+      "source": "r219-r221",
+      "locator": "R220; P4",
+      "claim": "Párizs 2026-ban 240-nél több kisgyermekkori és iskolai udvar átalakításáról számol be.",
+      "limit": "Nem magyar helyszín, ár vagy teljesítmény.",
+      "decision": "Többcélú iskolaudvar modell adaptálható."
+    },
+    {
+      "id": "r220-barcelona-schools",
+      "family": "SCHOOL",
+      "kind": "UPSTREAM",
+      "source": "r219-r221",
+      "locator": "R220; P5",
+      "claim": "Barcelonai 11 beavatkozási és 10 összehasonlító iskola vizsgálata javuló észlelt komfortot jelez; közösségi használat külön értékelt.",
+      "limit": "Nem helyi hatásmérés és nem garantált lakossági kereslet.",
+      "decision": "Iskolai/tábori core, közösségi nyitás feltételes."
+    },
+    {
+      "id": "r220-fekete-budget",
+      "family": "SCHOOL",
+      "kind": "LOCAL_PLAN",
+      "source": "r219-r221",
+      "locator": "R220; P6",
+      "claim": "Fekete István iskola udvarfejlesztésére 7M Ft támogatási példa.",
+      "limit": "Másik intézmény és szélesebb scope; nem egységár.",
+      "decision": "Helyi precedens, nem ismétlendő beruházás."
+    },
+    {
+      "id": "r220-houdvar-expanded-budget",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r219-r221",
+      "locator": "R220",
+      "claim": "Új árnyékolás és feltételes lakossági pilot 2 755 360 Ft; meglévő szerkezet reuse esetén 1 763 360 Ft.",
+      "limit": "Hipotetikus; új működési tételekre 15% tartalék; kapacitás és árajánlat nincs.",
+      "decision": "Lakossági pilot önálló jóváhagyással."
+    },
+    {
+      "id": "r220-houdvar-expanded-impact",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r219-r221",
+      "locator": "R220",
+      "claim": "1350 gyermekóra és 432 lakossági óra bruttó; 50% addicionalitás mellett külön 675 és 216 óra.",
+      "limit": "Két eltérő szolgáltatás; nem egyenértékű jóléti egység, nem mért.",
+      "decision": "Külön jelentendő és validálandó."
+    },
+    {
+      "id": "r221-pecs-reuse",
+      "family": "ALL",
+      "kind": "UPSTREAM",
+      "source": "r219-r221",
+      "locator": "R221; P7",
+      "claim": "Pécsi vizsgálat átlagos PET-csökkenés: fa 9,0°C, alacsony napvitorla 5,8°C.",
+      "limit": "R218-ban már szereplő forrás, nem új független bizonyíték; PET nem léghőmérséklet.",
+      "decision": "Árnyékgeometria és fa megóvása, helyi mérés szükséges."
+    },
+    {
+      "id": "r221-poissy-shade",
+      "family": "SCHOOL",
+      "kind": "UPSTREAM",
+      "source": "r219-r221",
+      "locator": "R221; P8",
+      "claim": "Poissy beszállítói esettanulmány max 5,1°C beltéri eltérésre utal.",
+      "limit": "Beszállítói közlés; más épület, feltételek; nem garantált.",
+      "decision": "Külső ablakárnyékolás külön vizsgálandó."
+    },
+    {
+      "id": "r221-houdvar-core-budget",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r219-r221",
+      "locator": "R221",
+      "claim": "Core első év: reuse 1 135 000 Ft, új árnyékolás 2 127 000 Ft; opcionális public 2 755 360 Ft.",
+      "limit": "R117-árnyékmodell és 180k előkészítés +15%; nincs új beltéri kapacitás vagy teljes kertépítés.",
+      "decision": "Azonos funkció mellett legkisebb elegendő beruházás."
+    },
+    {
+      "id": "r221-houdvar-core-impact",
+      "family": "CAMP",
+      "kind": "MODEL",
+      "source": "r219-r221",
+      "locator": "R221",
+      "claim": "30×20×1,5×50%=450 feltételezett többlet gyermek-foglalkozásóra; új 4727, reuse 2522 Ft/óra.",
+      "limit": "Nem mért és nem vethető közvetlenül össze déli elkerült útórával; nulla haszonnál nincs egységár.",
+      "decision": "Mérni a tényleges, megfelelő addicionális használatot."
+    },
+    {
+      "id": "r221-houdvar-recommendation",
+      "family": "SCHOOL",
+      "kind": "UNKNOWN",
+      "source": "r219-r221",
+      "locator": "R221",
+      "claim": "HŐUDVAR ajánlott kutatási irány: passzív árnyék, meglévő fák, független beltéri fallback, tanévi és tábori core, opcionális közösségi nyitás.",
+      "limit": "2027-es maradványigény, helyszín, működtető, engedély és hatás UNKNOWN; nem új kanonikus lock.",
+      "decision": "Csak igazolt hiány esetén továbbtervezés; külön végleges döntés."
+    },
+    {
+      "id": "r221-houdvar-stop-gate",
+      "family": "CAMP",
+      "kind": "UNKNOWN",
+      "source": "r219-r221",
+      "locator": "R221",
+      "claim": "A már tervezett sátrak vagy HVAC elegendősége megállíthatja a beruházást; biztonságos beltéri alternatíva szükséges.",
+      "limit": "Tényleges 2027 állapot és kapacitás nem ismert.",
+      "decision": "Nincs duplikáció, nincs veszélyes gyermekteszt; validálni a kiindulási állapotot."
     }
   ]
 }
