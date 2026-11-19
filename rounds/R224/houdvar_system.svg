@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="HŐUDVAR elvi rendszerábra, nem helyszínrajz">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#638fa2"/></marker></defs>
+<rect width="1600" height="900" fill="#f5f3ed"/>
+<g font-family="Arial, sans-serif" fill="#263b32"><text x="75" y="86" font-size="24" letter-spacing="5">HŐUDVAR / RENDSZER</text><text x="75" y="147" font-size="49" font-weight="700">Egy tető. Több használat.</text><text x="75" y="187" font-size="22" fill="#626d64">60 m² elvi tetővetület · 40 m² elvi célzóna · zárt vízkör nélküli esővíz-hasznosítás</text></g>
+<g stroke-linejoin="round">
+<path d="M220 650L905 650L1260 470L565 470Z" fill="#dcded2"/>
+<path d="M323 628L773 628L1017 505L567 505Z" fill="#c6d4c3" stroke="#62856d" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M215 687L905 687L1300 486" fill="none" stroke="#b0b6a8" stroke-width="3"/>
+<g stroke="#354a43" stroke-width="13" stroke-linecap="round"><path d="M275 606V351M505 606V351M735 606V351M600 452V197M830 452V197M1060 452V197"/></g>
+<path d="M265 349L765 349L1100 177L600 177Z" fill="#e7e4d8" stroke="#7f9286" stroke-width="3"/>
+<path d="M265 349L765 349L765 367L265 367Z" fill="#a9b5a6"/><path d="M765 349L1100 177L1100 195L765 367Z" fill="#839687"/>
+<path d="M275 371L755 371" fill="none" stroke="#638fa2" stroke-width="6"/><path d="M755 371V555H850" stroke="#638fa2" stroke-width="6" fill="none" marker-end="url(#arr)"/>
+<g fill="#ab8a61" stroke="#856e50" stroke-width="2"><path d="M365 551L524 551L583 520L425 520Z"/><path d="M371 555V590M519 555V590M578 524V556" stroke="#60594e" stroke-width="6"/><path d="M585 550L737 550L794 520L643 520Z"/><path d="M591 554V590M731 554V590M788 524V556" stroke="#60594e" stroke-width="6"/></g>
+<rect x="860" y="527" width="70" height="82" rx="10" fill="#9eaba4" stroke="#576f66" stroke-width="3"/><ellipse cx="895" cy="530" rx="33" ry="12" fill="#bdcac4" stroke="#576f66" stroke-width="3"/><path d="M930 590L1037 590" fill="none" stroke="#638fa2" stroke-width="4" stroke-dasharray="8 6" marker-end="url(#arr)"/>
+<path d="M1005 626L1175 626L1260 581L1090 581Z" fill="#ae9f85" stroke="#877d69" stroke-width="2"/>
+<g fill="#718e67"><circle cx="1090" cy="602" r="26"/><circle cx="1145" cy="595" r="25"/><circle cx="1195" cy="589" r="23"/></g>
+<path d="M1220 552V384" stroke="#896e51" stroke-width="13"/><g fill="#78946d"><ellipse cx="1220" cy="385" rx="72" ry="55"/><ellipse cx="1172" cy="420" rx="46" ry="39"/><ellipse cx="1260" cy="420" rx="48" ry="40"/></g>
+</g>
+<g font-family="Arial,sans-serif" fill="#263b32" font-size="22"><path d="M330 305L185 270H76" stroke="#42594a" fill="none" stroke-width="2"/><text x="75" y="245" font-weight="700">HŐTÉR</text><text x="75" y="275" font-size="17">Nyitott, passzív árnyék</text>
+<path d="M580 600L500 732H110" stroke="#42594a" fill="none" stroke-width="2"/><text x="110" y="765" font-weight="700">KÖZÖSSÉG</text><text x="110" y="793" font-size="17">Iskola + nyári tábor</text>
+<path d="M895 620V725H775" stroke="#638fa2" fill="none" stroke-width="2"/><text x="775" y="758" font-weight="700">SZIVACS</text><text x="775" y="786" font-size="17">Zárt 1000 L tároló*</text>
+<path d="M1250 520L1410 450" stroke="#42594a" fill="none" stroke-width="2"/><text x="1330" y="415" font-weight="700">LUGAS</text><text x="1330" y="441" font-size="17">Meglévő fák</text><text x="1330" y="466" font-size="17">és növényágy</text></g>
+<path d="M75 830H1525" stroke="#c4c9bc"/><text x="75" y="863" font-family="Arial,sans-serif" font-size="16" fill="#626d64">Elvi axonometria – nem méretarányos, nem kiviteli terv, nem tényleges Janikovszky udvar. *Nem ivóvíz; jóváhagyott túlfolyó szükséges.</text></svg>
