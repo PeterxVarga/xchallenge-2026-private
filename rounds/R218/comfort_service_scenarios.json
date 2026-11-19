@@ -1,0 +1,349 @@
+{
+  "all": {
+    "hot": 2026,
+    "bands": [
+      790,
+      879,
+      357
+    ],
+    "low_grid_wind": 630,
+    "solar500": 1999
+  },
+  "ann": [
+    {
+      "year": 2022,
+      "hot": 377,
+      "bands": [
+        142,
+        165,
+        70
+      ],
+      "low_grid_wind": 123,
+      "solar500": 370
+    },
+    {
+      "year": 2023,
+      "hot": 315,
+      "bands": [
+        145,
+        137,
+        33
+      ],
+      "low_grid_wind": 76,
+      "solar500": 314
+    },
+    {
+      "year": 2024,
+      "hot": 501,
+      "bands": [
+        186,
+        248,
+        67
+      ],
+      "low_grid_wind": 198,
+      "solar500": 494
+    },
+    {
+      "year": 2025,
+      "hot": 359,
+      "bands": [
+        155,
+        159,
+        45
+      ],
+      "low_grid_wind": 87,
+      "solar500": 357
+    },
+    {
+      "year": 2026,
+      "hot": 474,
+      "bands": [
+        162,
+        170,
+        142
+      ],
+      "low_grid_wind": 146,
+      "solar500": 464
+    }
+  ],
+  "records": [
+    {
+      "year": 2022,
+      "site": "Győr",
+      "hash": "9c3a0d28c7b8b46805c719284ea05a53a69a9afd7c43d9c95148e988c5d19b7f",
+      "hot": 108,
+      "bands": [
+        37,
+        49,
+        22
+      ],
+      "low_grid_wind": 34,
+      "solar500": 104,
+      "maxT": 36.4,
+      "medianRH": 31
+    },
+    {
+      "year": 2022,
+      "site": "Budapest",
+      "hash": "941d4508e8c7dd89ef532eda22feed954009bfa1af7a822fac2779b98cc27fbc",
+      "hot": 122,
+      "bands": [
+        45,
+        54,
+        23
+      ],
+      "low_grid_wind": 40,
+      "solar500": 121,
+      "maxT": 36.8,
+      "medianRH": 31
+    },
+    {
+      "year": 2022,
+      "site": "Szeged",
+      "hash": "4379bdfceffe5e9068eaae1f49990a28d4538e04a57983e947afd3d5af7b47c3",
+      "hot": 147,
+      "bands": [
+        60,
+        62,
+        25
+      ],
+      "low_grid_wind": 49,
+      "solar500": 145,
+      "maxT": 39.3,
+      "medianRH": 31
+    },
+    {
+      "year": 2023,
+      "site": "Győr",
+      "hash": "6c12e6c9d04778911e493b65823ced85f0570e7e734db63be172a09b280a1f95",
+      "hot": 92,
+      "bands": [
+        51,
+        40,
+        1
+      ],
+      "low_grid_wind": 30,
+      "solar500": 92,
+      "maxT": 35.8,
+      "medianRH": 43
+    },
+    {
+      "year": 2023,
+      "site": "Budapest",
+      "hash": "7a52c69e37da346ac797850428d76439d31c6170e815b04862b4d4dd98741bfd",
+      "hot": 84,
+      "bands": [
+        52,
+        32,
+        0
+      ],
+      "low_grid_wind": 22,
+      "solar500": 83,
+      "maxT": 34.6,
+      "medianRH": 45.5
+    },
+    {
+      "year": 2023,
+      "site": "Szeged",
+      "hash": "d8aa726f7da864dfd1f7824cf061730d0366ca38f8b4b23e0f7e7e8be6963176",
+      "hot": 139,
+      "bands": [
+        42,
+        65,
+        32
+      ],
+      "low_grid_wind": 24,
+      "solar500": 139,
+      "maxT": 38.3,
+      "medianRH": 33
+    },
+    {
+      "year": 2024,
+      "site": "Győr",
+      "hash": "b8aa9c2d736a26ac0d76894d9f848638e1a9ca2d171b86b2ecf94326aa96c85d",
+      "hot": 140,
+      "bands": [
+        60,
+        72,
+        8
+      ],
+      "low_grid_wind": 50,
+      "solar500": 139,
+      "maxT": 35.8,
+      "medianRH": 41
+    },
+    {
+      "year": 2024,
+      "site": "Budapest",
+      "hash": "a063bbcafcd0f14d30a01bc552b0391ae84c1cac0a77360bfcebd1c9bcf613bc",
+      "hot": 149,
+      "bands": [
+        64,
+        78,
+        7
+      ],
+      "low_grid_wind": 71,
+      "solar500": 149,
+      "maxT": 35.9,
+      "medianRH": 42
+    },
+    {
+      "year": 2024,
+      "site": "Szeged",
+      "hash": "9b8fa15c56b25d993e97867c61a5ea3f4afffe8130fa303c82faa1bc742a155a",
+      "hot": 212,
+      "bands": [
+        62,
+        98,
+        52
+      ],
+      "low_grid_wind": 77,
+      "solar500": 206,
+      "maxT": 38.3,
+      "medianRH": 34
+    },
+    {
+      "year": 2025,
+      "site": "Győr",
+      "hash": "cb5f129c7de82bbf40a35af29ea1d68195b1df98ad4ebac97595e02ba90d0eee",
+      "hot": 93,
+      "bands": [
+        46,
+        42,
+        5
+      ],
+      "low_grid_wind": 24,
+      "solar500": 93,
+      "maxT": 36.4,
+      "medianRH": 33
+    },
+    {
+      "year": 2025,
+      "site": "Budapest",
+      "hash": "1c92698bce682b84e85dcda12ed80ee94d9326ead1c4cd912993d8d2dfbe2a5b",
+      "hot": 104,
+      "bands": [
+        48,
+        43,
+        13
+      ],
+      "low_grid_wind": 20,
+      "solar500": 103,
+      "maxT": 36.9,
+      "medianRH": 29
+    },
+    {
+      "year": 2025,
+      "site": "Szeged",
+      "hash": "0c51ed390a342986319939499b76c9dfb27f1da3ea22b95e4bb7336cbdb23310",
+      "hot": 162,
+      "bands": [
+        61,
+        74,
+        27
+      ],
+      "low_grid_wind": 43,
+      "solar500": 161,
+      "maxT": 38,
+      "medianRH": 27
+    },
+    {
+      "year": 2026,
+      "site": "Győr",
+      "hash": "14b40477bdffa0987f048ec79884ec12c71a4fb8e35b9bfb35ce9a25811a81cd",
+      "hot": 154,
+      "bands": [
+        50,
+        57,
+        47
+      ],
+      "low_grid_wind": 27,
+      "solar500": 150,
+      "maxT": 39.5,
+      "medianRH": 29
+    },
+    {
+      "year": 2026,
+      "site": "Budapest",
+      "hash": "8703d1aef3ccb5697b131168422d346bb66d1ca62264f2b67fb668baac444844",
+      "hot": 156,
+      "bands": [
+        49,
+        56,
+        51
+      ],
+      "low_grid_wind": 61,
+      "solar500": 153,
+      "maxT": 39.2,
+      "medianRH": 27.5
+    },
+    {
+      "year": 2026,
+      "site": "Szeged",
+      "hash": "89d3e500d5f36e505c62814f476fca1e03e2a5f987952dce10b7f05a29c314ea",
+      "hot": 164,
+      "bands": [
+        63,
+        57,
+        44
+      ],
+      "low_grid_wind": 58,
+      "solar500": 161,
+      "maxT": 38.2,
+      "medianRH": 30
+    }
+  ],
+  "scenario": {
+    "meanHotHours": 135.06666666666666,
+    "tariff": 150,
+    "configs": [
+      {
+        "name": "AIR targeted (8 places)",
+        "places": 8,
+        "cap": 100000,
+        "service": 15000,
+        "power": 80,
+        "annual": 1620.8,
+        "life": 203104,
+        "hours": 5402.666666666666,
+        "costPerAdditionalHourAt": [
+          150.37314906219152,
+          75.18657453109576,
+          50.12438302073051
+        ]
+      },
+      {
+        "name": "CORE-SEAT (4)",
+        "places": 4,
+        "cap": 300000,
+        "service": 60000,
+        "power": 132,
+        "annual": 2674.32,
+        "life": 673371.6,
+        "hours": 2701.333333333333,
+        "costPerAdditionalHourAt": [
+          997.0951628825272,
+          498.5475814412636,
+          332.36505429417576
+        ]
+      },
+      {
+        "name": "PRISM/CORE hybrid (4)",
+        "places": 4,
+        "cap": 600000,
+        "service": 60000,
+        "power": 436,
+        "annual": 8833.36,
+        "life": 1064166.8,
+        "hours": 2701.333333333333,
+        "costPerAdditionalHourAt": [
+          1575.7652517275421,
+          787.8826258637711,
+          525.2550839091807
+        ]
+      }
+    ],
+    "seatVsAirRequiredFractionRatio": 6.63080589254766,
+    "hybridVsSeatRequiredFractionRatio": 1.580355928286848
+  }
+}
