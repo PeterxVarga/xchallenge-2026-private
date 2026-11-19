@@ -1,0 +1,23 @@
+// R227 independent usage-robustness audit; node robustness_model.js
+function run(){
+ const rad=Math.PI/180,lat=47.481733*rad,lon=19.139058,ref={w:10,l:6,H:3,x:-.5,y:-1.7};
+ const date=d=>new Date(Date.UTC(2027,0,d)).toISOString().slice(0,10);
+ function sun(d,h){const g=2*Math.PI/365*(d-1+(h-12)/24),eq=229.18*(.000075+.001868*Math.cos(g)-.032077*Math.sin(g)-.014615*Math.cos(2*g)-.040849*Math.sin(2*g)),dec=.006918-.399912*Math.cos(g)+.070257*Math.sin(g)-.006758*Math.cos(2*g)+.000907*Math.sin(2*g)-.002697*Math.cos(3*g)+.00148*Math.sin(3*g),ha=(h*60+eq+4*lon-120)/4*rad-Math.PI;const e=-Math.cos(dec)*Math.sin(ha),n=Math.cos(lat)*Math.sin(dec)-Math.sin(lat)*Math.cos(dec)*Math.cos(ha),z=Math.sin(lat)*Math.sin(dec)+Math.cos(lat)*Math.cos(dec)*Math.cos(ha);return {d,h,e:e/z,n:n/z};}
+ function samples(d0,d1,h0,h1,step=5){return Array.from({length:d1-d0+1},(_,i)=>d0+i).flatMap(d=>Array.from({length:Math.round((h1-h0)*60/step)+1},(_,i)=>sun(d,h0+i*step/60)));}
+ const summer=samples(172,243,10,16),short=samples(172,243,11,15),extended=samples(152,273,10,16),late=samples(172,243,9,17),term=samples(244,273,10,16);
+ function clip(poly,axis,b,sign){const out=[];for(let i=0;i<poly.length;i++){const a=poly[i],c=poly[(i+1)%poly.length],aa=sign*(a[axis]-b),cc=sign*(c[axis]-b);if(aa>=-1e-10)out.push(a);if((aa>0&&cc<0)||(aa<0&&cc>0)){const t=aa/(aa-cc);out.push([a[0]+t*(c[0]-a[0]),a[1]+t*(c[1]-a[1])]);}}return out;}
+ function polygonArea(p){return Math.abs(p.reduce((sum,v,i)=>sum+v[0]*p[(i+1)%p.length][1]-v[1]*p[(i+1)%p.length][0],0))/2}
+ function evalRoof(r,ss,z=0,slope=0){let min=40,sum=0,counts=[0,0,0],loX=-4,hiX=4,loY=-2.5,hiY=2.5,worst=null;for(const p of ss){let a;if(!slope){const x=r.x-(r.H-z)*p.e,y=r.y-(r.H-z)*p.n;const l=x-r.w/2,u=x+r.w/2,b=y-r.l/2,t=y+r.l/2;loX=Math.max(loX,l);hiX=Math.min(hiX,u);loY=Math.max(loY,b);hiY=Math.min(hiY,t);a=Math.max(0,Math.min(4,u)-Math.max(-4,l))*Math.max(0,Math.min(2.5,t)-Math.max(-2.5,b));}else{let poly=[[-1,-1],[1,-1],[1,1],[-1,1]].map(([i,j])=>{const x=i*r.w/2,y=j*r.l/2,h=r.H+y*Math.tan(slope*rad)-z;return [r.x+x-h*p.e,r.y+y-h*p.n]});poly=clip(clip(clip(clip(poly,0,-4,1),0,4,-1),1,-2.5,1),1,2.5,-1);a=poly.length?polygonArea(poly):0;}if(a<min){min=a;worst={date:date(p.d),h:p.h}}sum+=a;[20,30,36].forEach((v,i)=>{if(a>=v-1e-8)counts[i]++});}return {min,mean:sum/ss.length,worst,n: ss.length,share_ge_20_30_36_pct:counts.map(x=>100*x/ss.length),common:slope?null:{area:Math.max(0,hiX-loX)*Math.max(0,hiY-loY),bounds:[loX,hiX,loY,hiY]},plane_z:z,slope_ns_deg:slope};}
+ const windows=Object.fromEntries([["summer",summer],["midday",short],["extendedJunSep",extended],["longerDay",late],["September",term]].map(([k,ss])=>[k,{optimized:evalRoof(ref,ss),center:evalRoof({...ref,x:0,y:0},ss)}]));
+ const planes=[0,.8,1.2,1.6].map(z=>({reference:evalRoof(ref,summer,z),centered:evalRoof({...ref,x:0,y:0},summer,z)}));
+ const slopes=[-5,-3,3,5].map(deg=>({reference:evalRoof(ref,summer,0,deg),centered:evalRoof({...ref,x:0,y:0},summer,0,deg)}));
+ const offsets=[-.25,0,.25].flatMap(dx=>[-.25,0,.25].map(dy=>({dx,dy,...evalRoof({...ref,x:ref.x+dx,y:ref.y+dy},summer)})));
+ // fixed 60 m2 footprint aspect tournament, axis aligned, exact integer tenth offsets via upper-bound screening
+ const subset=[summer[0],summer[72],summer[summer.length-73],summer[summer.length-1]];
+ let candidates=0,full=0;const shapes=[8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13].map(w=>{let b=null;const l=60/w;for(let i=-30;i<=30;i++)for(let j=-35;j<=15;j++){const rr={w,l,H:3,x:i/10,y:j/10};candidates++;const upper=evalRoof(rr,subset).min;if(b&&upper<b.min-1e-9)continue;full++;const a=evalRoof(rr,summer);if(!b||a.min>b.min+1e-9||(Math.abs(a.min-b.min)<1e-9&&a.mean>b.mean))b={...rr,...a};}return b;});
+ // check common footprint across floor + body-height planes jointly (intersection)
+ const bounds=planes.map(v=>v.reference.common.bounds);const commonBounds=[Math.max(...bounds.map(b=>b[0])),Math.min(...bounds.map(b=>b[1])),Math.max(...bounds.map(b=>b[2])),Math.min(...bounds.map(b=>b[3]))];
+ if(Math.abs(windows.summer.optimized.min-26.7648834644)>1e-7||Math.abs(windows.summer.center.min-17.1625620718)>1e-7||summer.length!==5256)throw Error("R226 mismatch");
+ return {schema:1,reference:ref,method:"R226 NOAA approximate solar vector; axis-aligned target; plane intersection and convex polygon clipping for slope. No buildings, trees, body geometry, diffuse radiation, weather or safety inference.",windows,planes,slopes,offsets,commonAcrossPlanes:{bounds:commonBounds,area:Math.max(0,commonBounds[1]-commonBounds[0])*Math.max(0,commonBounds[3]-commonBounds[2])},sameArea:{candidates,full,shapes,limit:"axis-aligned, 60m², H3, 11 widths, discrete x/y grid; not all shapes" }};
+}
+console.log(JSON.stringify(run(),null,2));
