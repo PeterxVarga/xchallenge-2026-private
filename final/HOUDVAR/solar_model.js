@@ -1,0 +1,20 @@
+// R226, deterministic desk geometry. Run: node solar_model.js > solar_results.json
+function calculate(){
+ const rad=Math.PI/180,lat=47.481733*rad,lon=19.139058;
+ function sun(d,h){const g=2*Math.PI/365*(d-1+(h-12)/24),eq=229.18*(.000075+.001868*Math.cos(g)-.032077*Math.sin(g)-.014615*Math.cos(2*g)-.040849*Math.sin(2*g)),dec=.006918-.399912*Math.cos(g)+.070257*Math.sin(g)-.006758*Math.cos(2*g)+.000907*Math.sin(2*g)-.002697*Math.cos(3*g)+.00148*Math.sin(3*g),ha=(h*60+eq+4*lon-120)/4*rad-Math.PI;const e=-Math.cos(dec)*Math.sin(ha),n=Math.cos(lat)*Math.sin(dec)-Math.sin(lat)*Math.cos(dec)*Math.cos(ha),z=Math.sin(lat)*Math.sin(dec)+Math.cos(lat)*Math.cos(dec)*Math.cos(ha);return {d,h,e:e/z,n:n/z};}
+ const samples=Array.from({length:72},(_,i)=>i+172).flatMap(d=>Array.from({length:73},(_,i)=>sun(d,10+i/12)));
+ const indices=[0,72,71*73,72*73-1,24*73,24*73+72,48*73,48*73+72]; // subset upper bound
+ function rotated(angle){const c=Math.cos(angle*rad),s=Math.sin(angle*rad);return samples.map(p=>({d:p.d,h:p.h,x:p.e*c+p.n*s,y:-p.e*s+p.n*c}));}
+ function area(w,l,H,x,y,p){const u=x-H*p.x,v=y-H*p.y;return Math.max(0,Math.min(4,u+w/2)-Math.max(-4,u-w/2))*Math.max(0,Math.min(2.5,v+l/2)-Math.max(-2.5,v-l/2));}
+ function evaluate(w,l,H,x,y,arr){let min=40,sum=0,worst=null;for(const p of arr){const a=area(w,l,H,x,y,p);sum+=a;if(a<min){min=a;worst={day:p.d,h:p.h}}}return {min,mean:sum/arr.length,worst};}
+ const angles=[0,15,30,45,60,75,90],shapes=[[8,6],[10,6],[10,8],[12,6]],heights=[2.5,3,4];const results=[];let full=0,grid=0;
+ const angleSamples=angles.map(a=>rotated(a));
+ for(const [w,l] of shapes)for(const H of heights){let best=null,bestEW=null;for(let i=0;i<angles.length;i++){const arr=angleSamples[i],subset=indices.map(k=>arr[k]);let local=null;for(let xi=-16;xi<=16;xi++)for(let yi=-16;yi<=16;yi++){grid++;const x=xi/4,y=yi/4;let upper=40;for(const p of subset){upper=Math.min(upper,area(w,l,H,x,y,p));if(local&&upper<local.min-1e-9)break;}if(local&&upper<local.min-1e-9)continue;full++;const z=evaluate(w,l,H,x,y,arr);if(!local||z.min>local.min+1e-9||Math.abs(z.min-local.min)<=1e-9&&z.mean>local.mean)local={w,l,H,angle:angles[i],x,y,...z};}if(i===0)bestEW=local;if(!best||local.min>best.min+1e-9||Math.abs(local.min-best.min)<=1e-9&&local.mean>best.mean)best=local;}results.push({w,l,H,best,bestEW});}
+ const arr=angleSamples[0],center=evaluate(10,6,3,0,0,arr),prior=evaluate(10,6,3,-.3,-1.4,arr);
+ // exact .1 m offset refinement for reference at fixed E-W and H3; subset bound
+ let refined=null;for(let xi=-40;xi<=40;xi++)for(let yi=-40;yi<=40;yi++){grid++;const x=xi/10,y=yi/10;const upper=Math.min(...indices.map(i=>area(10,6,3,x,y,arr[i])));if(refined&&upper<refined.min-1e-9)continue;full++;const z=evaluate(10,6,3,x,y,arr);if(!refined||z.min>refined.min+1e-9||Math.abs(z.min-refined.min)<=1e-9&&z.mean>refined.mean)refined={w:10,l:6,H:3,angle:0,x,y,...z};}
+ const short=[172,196,227].flatMap(d=>Array.from({length:13},(_,i)=>{const p=sun(d,10+i*.5);return {...p,x:p.e,y:p.n}}));const shortCenter=evaluate(10,6,3,0,0,short),shortPrior=evaluate(10,6,3,-.3,-1.4,short);
+ if(samples.length!==5256||Math.abs(center.min-17.16)>.02||Math.abs(prior.min-25.55)>.02||Math.abs(shortPrior.min-28.93)>.02||refined.min<prior.min-1e-9)throw Error("baseline mismatch");
+ return {schema:1,site:{lat:47.481733,lon},dates:"2027-06-21–2027-08-31 inclusive",clock:"CEST (UTC+2), 10:00–16:00 inclusive each 5 min",samples:samples.length,target:{w:8,l:5,area:40,plane:"ground"},scope:"ideal opaque horizontal rectangular roof, no obstacles, co-rotated roof and rectangular target; positive angle CCW from east toward north; x/y in rotated local axes. Not site survey, thermal model or continuous optimum.",grid,full,search:"each shape × height × rotation, 0.25m x/y grid ±4m, maximizes sampled minimum then mean. Safe pruning using upper bound on full minimum from subset, same tolerance. E-W 10×6 H3 separately refined on 0.1m grid ±4m.",center,prior,shortCenter,shortPrior,refined,results};
+}
+console.log(JSON.stringify(calculate(),null,2));
