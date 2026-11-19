@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline": "bc71fb7e17177bb96a616ea32b4841cf98b2bdb0",
-  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained. R222 state-school desk site screen and counterevidence appended; not parcel-level GIS. R223 archival site constraints and synthetic solar geometry; no current GIS reconstruction. R224 competition master, cost/use/water models, corrective OASIS source and acceptance gates; earlier conflicting 240+ claim superseded by r224-oasis-source-correction.",
+  "coverage": "Curated decision-critical subset across 12 verified research records; not all historic findings or fresh external verification. R219–R221 decision-critical archive appended; evidence levels and unresolved claims explicitly retained. R222 state-school desk site screen and counterevidence appended; not parcel-level GIS. R223 archival site constraints and synthetic solar geometry; no current GIS reconstruction. R224 competition master, cost/use/water models, corrective OASIS source and acceptance gates; earlier conflicting 240+ claim superseded by r224-oasis-source-correction. R226 pinned HŐUDVAR competition lock; full-season discrete geometry replaces prior R223 pitch reference; CORE+ conditional cost and investment falsification.",
   "families": [
     "ALL",
     "CAMP",
@@ -247,6 +247,11 @@
       "path": "rounds/R224/HOUDVAR_COMPETITION_MASTER.md",
       "ref": "a7a2c08cf52f119431135a4921e86ee5b9525fac",
       "blob": "52d274757a56b08ae99707a77e2dcbd949f10fd8"
+    },
+    "r226": {
+      "path": "final/HOUDVAR/FINAL_CONCEPT_LOCK.md",
+      "ref": "a92bd0e7a9ee063f60debc9ac39ff26ff9bf80ea",
+      "blob": "1f22008cd181db64f5a3a70b018d590e6f376d68"
     }
   },
   "findings": [
@@ -3879,6 +3884,76 @@
       "claim": "10 perces pitch tartalom és zsűri Q&A, szerkeszthető elvi rendszerábra és JSON modell mentve, kilépési feltételekkel.",
       "limit": "Nem elkészült PPT, nem kiviteli terv, nem tulajdonosi koncepciólock felülírás.",
       "decision": "Vizuális lane közös forrása a HŐUDVAR R224 master."
+    },
+    {
+      "id": "r226-full-season-reproduction",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r226",
+      "locator": "§3",
+      "claim": "5256 full-season samples reproduce independent branch 17.16 centered and 25.55 prior shifted minimum; 39 sample result also reproduced.",
+      "limit": "Same NOAA approximation, synthetic ground plane; not independent metrology.",
+      "decision": "Use final season, not three-day result."
+    },
+    {
+      "id": "r226-discrete-reference-optimum",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r226",
+      "locator": "§3",
+      "claim": "98037 discrete candidates across 4 sizes, 3 heights, 7 co-rotations and translations; refined 10x6 H3 E-W x=-0.5,y=-1.7 returned 26.76/36.77 minimum/mean m² vs centered 17.16/29.21 (+55.95% min).",
+      "limit": "Sampled, not global optimum; co-rotated target and roof, only nonnegative angles, no measured site/thermal effects.",
+      "decision": "Frozen competition geometry, engineering/placement conditional."
+    },
+    {
+      "id": "r226-roof-thermal-proxy",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r226",
+      "locator": "§4",
+      "claim": "At assumed 800 W/m² irradiance and opacity, reflectance .25→.65 reduces absorbed roof flux 600→280 W/m² (19.2 kW over 60m²).",
+      "limit": "Not actual roof temperature, human heat flux, cooling capacity or energy savings; assumed properties.",
+      "decision": "Light opaque documented material, paired field check."
+    },
+    {
+      "id": "r226-wbgt-evidence",
+      "family": "SCHOOL",
+      "kind": "UPSTREAM",
+      "source": "r226",
+      "locator": "§4",
+      "claim": "2026 US study 309 pairs, 7 days, 23×39m open pavilion; adjusted sun-shade WBGT contrast about 4.09°C; air temperature difference about 1°C.",
+      "limit": "Different substrates, one site, model covariates; no direct local effect transfer.",
+      "decision": "Measure matched surfaces, WBGT/other metrics; no guaranteed cooling."
+    },
+    {
+      "id": "r226-core-plus-cost",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r226",
+      "locator": "§6",
+      "claim": "CORE+ direct 3.25M, contingency .65M, CAPEX3.90M, first year4.06M, five years4.95M with annual .16M and year4 repair .25M.",
+      "limit": "Unquoted allowances; 1.65M structure+roof is unverified 34% reduction vs R224; scope exclusions.",
+      "decision": "Use provisional competition envelope; quote before build."
+    },
+    {
+      "id": "r226-economic-falsification",
+      "family": "SCHOOL",
+      "kind": "MODEL",
+      "source": "r226",
+      "locator": "§6",
+      "claim": "4.06M/2.127M=1.90879 first-year equal-unit-cost threshold; if CORE offers 600 incremental hours, CORE+ requires 1145.28; if CORE+600, CORE <=314.33.",
+      "limit": "Different scope; no actual utilization, quote or equivalent CORE lifetime cost; water separately measured.",
+      "decision": "No demonstrated CORE+ economic superiority; select cheaper equivalent actual deployment."
+    },
+    {
+      "id": "r226-lock-and-handoff",
+      "family": "ALL",
+      "kind": "FACT",
+      "source": "r226",
+      "locator": "§1; §8–9",
+      "claim": "HŐUDVAR CORE+ conditional competition reference saved as final/HOUDVAR lock + JSON + reproducible solar script/results. QR/design stay separate; previous Délben lock unchanged.",
+      "limit": "Not construction approval, site or physical service validation.",
+      "decision": "Use pinned reference for presentation and Explorer."
     }
   ]
 }
